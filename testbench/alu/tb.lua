@@ -13,3 +13,7 @@ inputs["tb.select"] = select
 outputs = {}
 outputs["tb.result_y"] = result_y
 os.execute("../makevcd")
+if not sim:apply_vcd("tb.vcd", inputs, outputs, 10, true) then
+	error()
+end
+print("ALU sim matches VCD")
