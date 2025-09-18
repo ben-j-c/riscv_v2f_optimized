@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm tb.vcd 2> /dev/null
+iverilog -o tb tb.v
+vvp tb_obj
