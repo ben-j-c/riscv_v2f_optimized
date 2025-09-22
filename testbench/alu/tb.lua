@@ -1,4 +1,4 @@
-rtl = yosys_load_rtl("../../core/riscv/riscv/riscv_alu.v", "alu")
+rtl = yosys_load_rtl("../../core/riscv/riscv_alu.v", "riscv_alu")
 logd = yosys_map_rtl(rtl)
 
 data_a = logd:find_in_port("alu_a_i") or error()
