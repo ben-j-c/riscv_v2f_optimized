@@ -110,10 +110,9 @@ end
 
 reg [31:0] result_e2_q;
 reg [31:0] result_e3_q;
-reg [64:0] mult_result_w;
-
+wire [64:0] mult_result_w;
+assign mult_result_w = {a_high, a_low} * {b_high, b_low};
 always @(posedge clk_i or posedge rst_i) begin
-    mult_result_w = {a_high, a_low} * {b_high, b_low};
     if (rst_i)
         result_e2_q <= 32'b0;
     else if (~hold_i)
