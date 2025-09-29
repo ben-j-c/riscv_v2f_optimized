@@ -19,8 +19,7 @@ if false then
 		error()
 	end
 	print("ALU sim matches VCD")
-
-	logd:make_svg()
 end
 
+logd:make_svg()
 return logd
