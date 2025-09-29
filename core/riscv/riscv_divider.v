@@ -99,6 +99,8 @@ reg        invert_res_q;
 wire div_start_w    = opcode_valid_i & div_rem_inst_w;
 wire div_complete_w = !(|q_mask_q) & div_busy_q;
 
+// Stage 1
+
 always @(posedge clk_i or posedge rst_i)
 if (rst_i)
 begin
@@ -158,6 +160,8 @@ begin
     else
         div_result_r = invert_res_q ? -dividend_q : dividend_q;
 end
+
+// Stage 2
 
 always @(posedge clk_i or posedge rst_i)
 if (rst_i)

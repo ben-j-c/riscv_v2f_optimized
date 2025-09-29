@@ -1,0 +1,2353 @@
+digraph CheckedDesign {
+  rankdir=LR
+  n0[shape=box,label="rd0_value_i
+0"]
+  n1[shape=box,label="ra0_value_o
+1"]
+  n2[shape=box,label="rb0_value_o
+2"]
+  n3[shape=box,label="ra0_i
+3"]
+  n4[shape=box,label="clk_i
+4"]
+  n5[shape=box,label="rd0_i
+5"]
+  n6[shape=box,label="rb0_i
+6"]
+  n7[shape=box,label="rst_i
+7"]
+  n9[shape=box,label="$4
+v2f_eq
+8"]
+  n10[shape=box,label="$28
+v2f_eq
+9"]
+  n11[shape=box,label="$341
+$sdffe"]
+  n15[shape=box,label="$3
+v2f_eq
+38"]
+  n16[shape=box,label="$311
+$sdffe"]
+  n18[shape=box,label="$74
+v2f_pmux"]
+  n19[shape=box,label="$23
+v2f_eq
+191"]
+  n20[shape=box,label="$317
+$sdffe"]
+  n22[shape=box,label="$335
+$sdffe"]
+  n23[shape=box,label="$9
+v2f_eq
+248"]
+  n25[shape=box,label="$321
+$sdffe"]
+  n29[shape=box,label="$295
+$sdffe"]
+  n31[shape=box,label="$327
+$sdffe"]
+  n32[shape=box,label="$41
+v2f_pmux"]
+  n35[shape=box,label="$353
+$sdffe"]
+  n36[shape=box,label="$293
+$sdffe"]
+  n37[shape=box,label="$24
+v2f_eq
+513"]
+  n40[shape=box,label="$307
+$sdffe"]
+  n44[shape=box,label="$12
+v2f_eq
+542"]
+  n47[shape=box,label="$13
+v2f_eq
+543"]
+  n48[shape=box,label="$319
+$sdffe"]
+  n51[shape=box,label="$31
+v2f_eq
+572"]
+  n53[shape=box,label="$343
+$sdffe"]
+  n55[shape=box,label="$27
+v2f_eq
+601"]
+  n56[shape=box,label="$315
+$sdffe"]
+  n57[shape=box,label="$337
+$sdffe"]
+  n59[shape=box,label="$331
+$sdffe"]
+  n62[shape=box,label="$325
+$sdffe"]
+  n64[shape=box,label="$14
+v2f_eq
+714"]
+  n65[shape=box,label="$21
+v2f_eq
+715"]
+  n68[shape=box,label="$351
+$sdffe"]
+  n71[shape=box,label="$5
+v2f_eq
+744"]
+  n75[shape=box,label="$301
+$sdffe"]
+  n76[shape=box,label="$19
+v2f_eq
+773"]
+  n79[shape=box,label="$15
+v2f_eq
+774"]
+  n80[shape=box,label="$2
+v2f_eq
+775"]
+  n82[shape=box,label="$20
+v2f_eq
+776"]
+  n83[shape=box,label="$25
+v2f_eq
+777"]
+  n84[shape=box,label="$30
+v2f_eq
+778"]
+  n86[shape=box,label="$22
+v2f_eq
+779"]
+  n88[shape=box,label="$345
+$sdffe"]
+  n91[shape=box,label="$18
+v2f_eq
+808"]
+  n92[shape=box,label="$10
+v2f_eq
+809"]
+  n97[shape=box,label="$8
+v2f_eq
+810"]
+  n98[shape=box,label="$313
+$sdffe"]
+  n99[shape=box,label="$339
+$sdffe"]
+  n100[shape=box,label="$349
+$sdffe"]
+  n104[shape=box,label="$333
+$sdffe"]
+  n105[shape=box,label="$299
+$sdffe"]
+  n107[shape=box,label="$323
+$sdffe"]
+  n112[shape=box,label="$297
+$sdffe"]
+  n113[shape=box,label="$11
+v2f_eq
+1007"]
+  n114[shape=box,label="$329
+$sdffe"]
+  n116[shape=box,label="$309
+$sdffe"]
+  n117[shape=box,label="$6
+v2f_eq
+1064"]
+  n118[shape=box,label="$29
+v2f_eq
+1065"]
+  n120[shape=box,label="$303
+$sdffe"]
+  n121[shape=box,label="$32
+v2f_eq
+1094"]
+  n122[shape=box,label="$26
+v2f_eq
+1095"]
+  n124[shape=box,label="$17
+v2f_eq
+1096"]
+  n126[shape=box,label="$305
+$sdffe"]
+  n129[shape=box,label="$16
+v2f_eq
+1125"]
+  n131[shape=box,label="$7
+v2f_eq
+1126"]
+  n133[shape=box,label="$347
+$sdffe"]
+  n134[shape=rarrow,label="rd0_value_i
+0"]
+  n135[shape=larrow,label="ra0_value_o
+1155"]
+  n136[shape=larrow,label="rb0_value_o
+1156"]
+  n137[shape=rarrow,label="ra0_i
+3"]
+  n138[shape=rarrow,label="clk_i
+4"]
+  n139[shape=rarrow,label="rd0_i
+5"]
+  n140[shape=rarrow,label="rb0_i
+6"]
+  n141[shape=rarrow,label="rst_i
+7"]
+  n145[shape=larrow,label="$4
+v2f_eq
+1157
+A"]
+  n146[shape=larrow,label="$4
+v2f_eq
+1158
+B"]
+  n147[shape=rarrow,label="$4
+v2f_eq
+8
+Y"]
+  n148[shape=larrow,label="$28
+v2f_eq
+1159
+A"]
+  n149[shape=larrow,label="$28
+v2f_eq
+1160
+B"]
+  n150[shape=rarrow,label="$28
+v2f_eq
+9
+Y"]
+  n151[shape=larrow,label="$341
+$sdffe
+33
+D"]
+  n152[shape=larrow,label="$341
+$sdffe
+22
+CLK"]
+  n153[shape=larrow,label="$341
+$sdffe
+37
+SRST"]
+  n154[shape=larrow,label="$341
+$sdffe
+31
+EN"]
+  n155[shape=rarrow,label="$341
+$sdffe
+23
+Q"]
+  n165[shape=larrow,label="$3
+v2f_eq
+1161
+A"]
+  n166[shape=larrow,label="$3
+v2f_eq
+1162
+B"]
+  n167[shape=rarrow,label="$3
+v2f_eq
+38
+Y"]
+  n168[shape=larrow,label="$311
+$sdffe
+62
+D"]
+  n169[shape=larrow,label="$311
+$sdffe
+51
+CLK"]
+  n170[shape=larrow,label="$311
+$sdffe
+66
+SRST"]
+  n171[shape=larrow,label="$311
+$sdffe
+60
+EN"]
+  n172[shape=rarrow,label="$311
+$sdffe
+52
+Q"]
+  n176[shape=larrow,label="$74
+v2f_pmux
+68
+B0"]
+  n177[shape=larrow,label="$74
+v2f_pmux
+70
+B1"]
+  n178[shape=larrow,label="$74
+v2f_pmux
+74
+B2"]
+  n179[shape=larrow,label="$74
+v2f_pmux
+78
+B3"]
+  n180[shape=larrow,label="$74
+v2f_pmux
+82
+B4"]
+  n181[shape=larrow,label="$74
+v2f_pmux
+86
+B5"]
+  n182[shape=larrow,label="$74
+v2f_pmux
+90
+B6"]
+  n183[shape=larrow,label="$74
+v2f_pmux
+94
+B7"]
+  n184[shape=larrow,label="$74
+v2f_pmux
+98
+B8"]
+  n185[shape=larrow,label="$74
+v2f_pmux
+102
+B9"]
+  n186[shape=larrow,label="$74
+v2f_pmux
+106
+B10"]
+  n187[shape=larrow,label="$74
+v2f_pmux
+110
+B11"]
+  n188[shape=larrow,label="$74
+v2f_pmux
+114
+B12"]
+  n189[shape=larrow,label="$74
+v2f_pmux
+118
+B13"]
+  n190[shape=larrow,label="$74
+v2f_pmux
+122
+B14"]
+  n191[shape=larrow,label="$74
+v2f_pmux
+126
+B15"]
+  n192[shape=larrow,label="$74
+v2f_pmux
+130
+B16"]
+  n193[shape=larrow,label="$74
+v2f_pmux
+134
+B17"]
+  n194[shape=larrow,label="$74
+v2f_pmux
+138
+B18"]
+  n195[shape=larrow,label="$74
+v2f_pmux
+142
+B19"]
+  n196[shape=larrow,label="$74
+v2f_pmux
+146
+B20"]
+  n197[shape=larrow,label="$74
+v2f_pmux
+150
+B21"]
+  n198[shape=larrow,label="$74
+v2f_pmux
+154
+B22"]
+  n199[shape=larrow,label="$74
+v2f_pmux
+158
+B23"]
+  n200[shape=larrow,label="$74
+v2f_pmux
+162
+B24"]
+  n201[shape=larrow,label="$74
+v2f_pmux
+166
+B25"]
+  n202[shape=larrow,label="$74
+v2f_pmux
+170
+B26"]
+  n203[shape=larrow,label="$74
+v2f_pmux
+174
+B27"]
+  n204[shape=larrow,label="$74
+v2f_pmux
+178
+B28"]
+  n205[shape=larrow,label="$74
+v2f_pmux
+182
+B29"]
+  n206[shape=larrow,label="$74
+v2f_pmux
+186
+B30"]
+  n207[shape=larrow,label="$74
+v2f_pmux
+68
+S0"]
+  n208[shape=larrow,label="$74
+v2f_pmux
+70
+S1"]
+  n209[shape=larrow,label="$74
+v2f_pmux
+74
+S2"]
+  n210[shape=larrow,label="$74
+v2f_pmux
+78
+S3"]
+  n211[shape=larrow,label="$74
+v2f_pmux
+82
+S4"]
+  n212[shape=larrow,label="$74
+v2f_pmux
+86
+S5"]
+  n213[shape=larrow,label="$74
+v2f_pmux
+90
+S6"]
+  n214[shape=larrow,label="$74
+v2f_pmux
+94
+S7"]
+  n215[shape=larrow,label="$74
+v2f_pmux
+98
+S8"]
+  n216[shape=larrow,label="$74
+v2f_pmux
+102
+S9"]
+  n217[shape=larrow,label="$74
+v2f_pmux
+106
+S10"]
+  n218[shape=larrow,label="$74
+v2f_pmux
+110
+S11"]
+  n219[shape=larrow,label="$74
+v2f_pmux
+114
+S12"]
+  n220[shape=larrow,label="$74
+v2f_pmux
+118
+S13"]
+  n221[shape=larrow,label="$74
+v2f_pmux
+122
+S14"]
+  n222[shape=larrow,label="$74
+v2f_pmux
+126
+S15"]
+  n223[shape=larrow,label="$74
+v2f_pmux
+130
+S16"]
+  n224[shape=larrow,label="$74
+v2f_pmux
+134
+S17"]
+  n225[shape=larrow,label="$74
+v2f_pmux
+138
+S18"]
+  n226[shape=larrow,label="$74
+v2f_pmux
+142
+S19"]
+  n227[shape=larrow,label="$74
+v2f_pmux
+146
+S20"]
+  n228[shape=larrow,label="$74
+v2f_pmux
+150
+S21"]
+  n229[shape=larrow,label="$74
+v2f_pmux
+154
+S22"]
+  n230[shape=larrow,label="$74
+v2f_pmux
+158
+S23"]
+  n231[shape=larrow,label="$74
+v2f_pmux
+162
+S24"]
+  n232[shape=larrow,label="$74
+v2f_pmux
+166
+S25"]
+  n233[shape=larrow,label="$74
+v2f_pmux
+170
+S26"]
+  n234[shape=larrow,label="$74
+v2f_pmux
+174
+S27"]
+  n235[shape=larrow,label="$74
+v2f_pmux
+178
+S28"]
+  n236[shape=larrow,label="$74
+v2f_pmux
+182
+S29"]
+  n237[shape=larrow,label="$74
+v2f_pmux
+186
+S30"]
+  n238[shape=rarrow,label="$74
+v2f_pmux
+189
+Y"]
+  n239[shape=larrow,label="$23
+v2f_eq
+1163
+A"]
+  n240[shape=larrow,label="$23
+v2f_eq
+1164
+B"]
+  n241[shape=rarrow,label="$23
+v2f_eq
+191
+Y"]
+  n242[shape=larrow,label="$317
+$sdffe
+215
+D"]
+  n243[shape=larrow,label="$317
+$sdffe
+204
+CLK"]
+  n244[shape=larrow,label="$317
+$sdffe
+219
+SRST"]
+  n245[shape=larrow,label="$317
+$sdffe
+213
+EN"]
+  n246[shape=rarrow,label="$317
+$sdffe
+205
+Q"]
+  n250[shape=larrow,label="$335
+$sdffe
+243
+D"]
+  n251[shape=larrow,label="$335
+$sdffe
+232
+CLK"]
+  n252[shape=larrow,label="$335
+$sdffe
+247
+SRST"]
+  n253[shape=larrow,label="$335
+$sdffe
+241
+EN"]
+  n254[shape=rarrow,label="$335
+$sdffe
+233
+Q"]
+  n255[shape=larrow,label="$9
+v2f_eq
+1165
+A"]
+  n256[shape=larrow,label="$9
+v2f_eq
+1166
+B"]
+  n257[shape=rarrow,label="$9
+v2f_eq
+248
+Y"]
+  n261[shape=larrow,label="$321
+$sdffe
+272
+D"]
+  n262[shape=larrow,label="$321
+$sdffe
+261
+CLK"]
+  n263[shape=larrow,label="$321
+$sdffe
+276
+SRST"]
+  n264[shape=larrow,label="$321
+$sdffe
+270
+EN"]
+  n265[shape=rarrow,label="$321
+$sdffe
+262
+Q"]
+  n275[shape=larrow,label="$295
+$sdffe
+300
+D"]
+  n276[shape=larrow,label="$295
+$sdffe
+289
+CLK"]
+  n277[shape=larrow,label="$295
+$sdffe
+304
+SRST"]
+  n278[shape=larrow,label="$295
+$sdffe
+298
+EN"]
+  n279[shape=rarrow,label="$295
+$sdffe
+290
+Q"]
+  n283[shape=larrow,label="$327
+$sdffe
+328
+D"]
+  n284[shape=larrow,label="$327
+$sdffe
+317
+CLK"]
+  n285[shape=larrow,label="$327
+$sdffe
+332
+SRST"]
+  n286[shape=larrow,label="$327
+$sdffe
+326
+EN"]
+  n287[shape=rarrow,label="$327
+$sdffe
+318
+Q"]
+  n288[shape=larrow,label="$41
+v2f_pmux
+334
+B0"]
+  n289[shape=larrow,label="$41
+v2f_pmux
+336
+B1"]
+  n290[shape=larrow,label="$41
+v2f_pmux
+340
+B2"]
+  n291[shape=larrow,label="$41
+v2f_pmux
+344
+B3"]
+  n292[shape=larrow,label="$41
+v2f_pmux
+348
+B4"]
+  n293[shape=larrow,label="$41
+v2f_pmux
+352
+B5"]
+  n294[shape=larrow,label="$41
+v2f_pmux
+356
+B6"]
+  n295[shape=larrow,label="$41
+v2f_pmux
+360
+B7"]
+  n296[shape=larrow,label="$41
+v2f_pmux
+364
+B8"]
+  n297[shape=larrow,label="$41
+v2f_pmux
+368
+B9"]
+  n298[shape=larrow,label="$41
+v2f_pmux
+372
+B10"]
+  n299[shape=larrow,label="$41
+v2f_pmux
+376
+B11"]
+  n300[shape=larrow,label="$41
+v2f_pmux
+380
+B12"]
+  n301[shape=larrow,label="$41
+v2f_pmux
+384
+B13"]
+  n302[shape=larrow,label="$41
+v2f_pmux
+388
+B14"]
+  n303[shape=larrow,label="$41
+v2f_pmux
+392
+B15"]
+  n304[shape=larrow,label="$41
+v2f_pmux
+396
+B16"]
+  n305[shape=larrow,label="$41
+v2f_pmux
+400
+B17"]
+  n306[shape=larrow,label="$41
+v2f_pmux
+404
+B18"]
+  n307[shape=larrow,label="$41
+v2f_pmux
+408
+B19"]
+  n308[shape=larrow,label="$41
+v2f_pmux
+412
+B20"]
+  n309[shape=larrow,label="$41
+v2f_pmux
+416
+B21"]
+  n310[shape=larrow,label="$41
+v2f_pmux
+420
+B22"]
+  n311[shape=larrow,label="$41
+v2f_pmux
+424
+B23"]
+  n312[shape=larrow,label="$41
+v2f_pmux
+428
+B24"]
+  n313[shape=larrow,label="$41
+v2f_pmux
+432
+B25"]
+  n314[shape=larrow,label="$41
+v2f_pmux
+436
+B26"]
+  n315[shape=larrow,label="$41
+v2f_pmux
+440
+B27"]
+  n316[shape=larrow,label="$41
+v2f_pmux
+444
+B28"]
+  n317[shape=larrow,label="$41
+v2f_pmux
+448
+B29"]
+  n318[shape=larrow,label="$41
+v2f_pmux
+452
+B30"]
+  n319[shape=larrow,label="$41
+v2f_pmux
+334
+S0"]
+  n320[shape=larrow,label="$41
+v2f_pmux
+336
+S1"]
+  n321[shape=larrow,label="$41
+v2f_pmux
+340
+S2"]
+  n322[shape=larrow,label="$41
+v2f_pmux
+344
+S3"]
+  n323[shape=larrow,label="$41
+v2f_pmux
+348
+S4"]
+  n324[shape=larrow,label="$41
+v2f_pmux
+352
+S5"]
+  n325[shape=larrow,label="$41
+v2f_pmux
+356
+S6"]
+  n326[shape=larrow,label="$41
+v2f_pmux
+360
+S7"]
+  n327[shape=larrow,label="$41
+v2f_pmux
+364
+S8"]
+  n328[shape=larrow,label="$41
+v2f_pmux
+368
+S9"]
+  n329[shape=larrow,label="$41
+v2f_pmux
+372
+S10"]
+  n330[shape=larrow,label="$41
+v2f_pmux
+376
+S11"]
+  n331[shape=larrow,label="$41
+v2f_pmux
+380
+S12"]
+  n332[shape=larrow,label="$41
+v2f_pmux
+384
+S13"]
+  n333[shape=larrow,label="$41
+v2f_pmux
+388
+S14"]
+  n334[shape=larrow,label="$41
+v2f_pmux
+392
+S15"]
+  n335[shape=larrow,label="$41
+v2f_pmux
+396
+S16"]
+  n336[shape=larrow,label="$41
+v2f_pmux
+400
+S17"]
+  n337[shape=larrow,label="$41
+v2f_pmux
+404
+S18"]
+  n338[shape=larrow,label="$41
+v2f_pmux
+408
+S19"]
+  n339[shape=larrow,label="$41
+v2f_pmux
+412
+S20"]
+  n340[shape=larrow,label="$41
+v2f_pmux
+416
+S21"]
+  n341[shape=larrow,label="$41
+v2f_pmux
+420
+S22"]
+  n342[shape=larrow,label="$41
+v2f_pmux
+424
+S23"]
+  n343[shape=larrow,label="$41
+v2f_pmux
+428
+S24"]
+  n344[shape=larrow,label="$41
+v2f_pmux
+432
+S25"]
+  n345[shape=larrow,label="$41
+v2f_pmux
+436
+S26"]
+  n346[shape=larrow,label="$41
+v2f_pmux
+440
+S27"]
+  n347[shape=larrow,label="$41
+v2f_pmux
+444
+S28"]
+  n348[shape=larrow,label="$41
+v2f_pmux
+448
+S29"]
+  n349[shape=larrow,label="$41
+v2f_pmux
+452
+S30"]
+  n350[shape=rarrow,label="$41
+v2f_pmux
+455
+Y"]
+  n357[shape=larrow,label="$353
+$sdffe
+480
+D"]
+  n358[shape=larrow,label="$353
+$sdffe
+469
+CLK"]
+  n359[shape=larrow,label="$353
+$sdffe
+484
+SRST"]
+  n360[shape=larrow,label="$353
+$sdffe
+478
+EN"]
+  n361[shape=rarrow,label="$353
+$sdffe
+470
+Q"]
+  n362[shape=larrow,label="$293
+$sdffe
+508
+D"]
+  n363[shape=larrow,label="$293
+$sdffe
+497
+CLK"]
+  n364[shape=larrow,label="$293
+$sdffe
+512
+SRST"]
+  n365[shape=larrow,label="$293
+$sdffe
+506
+EN"]
+  n366[shape=rarrow,label="$293
+$sdffe
+498
+Q"]
+  n367[shape=larrow,label="$24
+v2f_eq
+1167
+A"]
+  n368[shape=larrow,label="$24
+v2f_eq
+1168
+B"]
+  n369[shape=rarrow,label="$24
+v2f_eq
+513
+Y"]
+  n376[shape=larrow,label="$307
+$sdffe
+537
+D"]
+  n377[shape=larrow,label="$307
+$sdffe
+526
+CLK"]
+  n378[shape=larrow,label="$307
+$sdffe
+541
+SRST"]
+  n379[shape=larrow,label="$307
+$sdffe
+535
+EN"]
+  n380[shape=rarrow,label="$307
+$sdffe
+527
+Q"]
+  n390[shape=larrow,label="$12
+v2f_eq
+1169
+A"]
+  n391[shape=larrow,label="$12
+v2f_eq
+1170
+B"]
+  n392[shape=rarrow,label="$12
+v2f_eq
+542
+Y"]
+  n399[shape=larrow,label="$13
+v2f_eq
+1171
+A"]
+  n400[shape=larrow,label="$13
+v2f_eq
+1172
+B"]
+  n401[shape=rarrow,label="$13
+v2f_eq
+543
+Y"]
+  n402[shape=larrow,label="$319
+$sdffe
+567
+D"]
+  n403[shape=larrow,label="$319
+$sdffe
+556
+CLK"]
+  n404[shape=larrow,label="$319
+$sdffe
+571
+SRST"]
+  n405[shape=larrow,label="$319
+$sdffe
+565
+EN"]
+  n406[shape=rarrow,label="$319
+$sdffe
+557
+Q"]
+  n413[shape=larrow,label="$31
+v2f_eq
+1173
+A"]
+  n414[shape=larrow,label="$31
+v2f_eq
+1174
+B"]
+  n415[shape=rarrow,label="$31
+v2f_eq
+572
+Y"]
+  n419[shape=larrow,label="$343
+$sdffe
+596
+D"]
+  n420[shape=larrow,label="$343
+$sdffe
+585
+CLK"]
+  n421[shape=larrow,label="$343
+$sdffe
+600
+SRST"]
+  n422[shape=larrow,label="$343
+$sdffe
+594
+EN"]
+  n423[shape=rarrow,label="$343
+$sdffe
+586
+Q"]
+  n427[shape=larrow,label="$27
+v2f_eq
+1175
+A"]
+  n428[shape=larrow,label="$27
+v2f_eq
+1176
+B"]
+  n429[shape=rarrow,label="$27
+v2f_eq
+601
+Y"]
+  n430[shape=larrow,label="$315
+$sdffe
+625
+D"]
+  n431[shape=larrow,label="$315
+$sdffe
+614
+CLK"]
+  n432[shape=larrow,label="$315
+$sdffe
+629
+SRST"]
+  n433[shape=larrow,label="$315
+$sdffe
+623
+EN"]
+  n434[shape=rarrow,label="$315
+$sdffe
+615
+Q"]
+  n435[shape=larrow,label="$337
+$sdffe
+653
+D"]
+  n436[shape=larrow,label="$337
+$sdffe
+642
+CLK"]
+  n437[shape=larrow,label="$337
+$sdffe
+657
+SRST"]
+  n438[shape=larrow,label="$337
+$sdffe
+651
+EN"]
+  n439[shape=rarrow,label="$337
+$sdffe
+643
+Q"]
+  n443[shape=larrow,label="$331
+$sdffe
+681
+D"]
+  n444[shape=larrow,label="$331
+$sdffe
+670
+CLK"]
+  n445[shape=larrow,label="$331
+$sdffe
+685
+SRST"]
+  n446[shape=larrow,label="$331
+$sdffe
+679
+EN"]
+  n447[shape=rarrow,label="$331
+$sdffe
+671
+Q"]
+  n454[shape=larrow,label="$325
+$sdffe
+709
+D"]
+  n455[shape=larrow,label="$325
+$sdffe
+698
+CLK"]
+  n456[shape=larrow,label="$325
+$sdffe
+713
+SRST"]
+  n457[shape=larrow,label="$325
+$sdffe
+707
+EN"]
+  n458[shape=rarrow,label="$325
+$sdffe
+699
+Q"]
+  n462[shape=larrow,label="$14
+v2f_eq
+1177
+A"]
+  n463[shape=larrow,label="$14
+v2f_eq
+1178
+B"]
+  n464[shape=rarrow,label="$14
+v2f_eq
+714
+Y"]
+  n465[shape=larrow,label="$21
+v2f_eq
+1179
+A"]
+  n466[shape=larrow,label="$21
+v2f_eq
+1180
+B"]
+  n467[shape=rarrow,label="$21
+v2f_eq
+715
+Y"]
+  n474[shape=larrow,label="$351
+$sdffe
+739
+D"]
+  n475[shape=larrow,label="$351
+$sdffe
+728
+CLK"]
+  n476[shape=larrow,label="$351
+$sdffe
+743
+SRST"]
+  n477[shape=larrow,label="$351
+$sdffe
+737
+EN"]
+  n478[shape=rarrow,label="$351
+$sdffe
+729
+Q"]
+  n485[shape=larrow,label="$5
+v2f_eq
+1181
+A"]
+  n486[shape=larrow,label="$5
+v2f_eq
+1182
+B"]
+  n487[shape=rarrow,label="$5
+v2f_eq
+744
+Y"]
+  n497[shape=larrow,label="$301
+$sdffe
+768
+D"]
+  n498[shape=larrow,label="$301
+$sdffe
+757
+CLK"]
+  n499[shape=larrow,label="$301
+$sdffe
+772
+SRST"]
+  n500[shape=larrow,label="$301
+$sdffe
+766
+EN"]
+  n501[shape=rarrow,label="$301
+$sdffe
+758
+Q"]
+  n502[shape=larrow,label="$19
+v2f_eq
+1183
+A"]
+  n503[shape=larrow,label="$19
+v2f_eq
+1184
+B"]
+  n504[shape=rarrow,label="$19
+v2f_eq
+773
+Y"]
+  n511[shape=larrow,label="$15
+v2f_eq
+1185
+A"]
+  n512[shape=larrow,label="$15
+v2f_eq
+1186
+B"]
+  n513[shape=rarrow,label="$15
+v2f_eq
+774
+Y"]
+  n514[shape=larrow,label="$2
+v2f_eq
+1187
+A"]
+  n515[shape=larrow,label="$2
+v2f_eq
+1188
+B"]
+  n516[shape=rarrow,label="$2
+v2f_eq
+775
+Y"]
+  n520[shape=larrow,label="$20
+v2f_eq
+1189
+A"]
+  n521[shape=larrow,label="$20
+v2f_eq
+1190
+B"]
+  n522[shape=rarrow,label="$20
+v2f_eq
+776
+Y"]
+  n523[shape=larrow,label="$25
+v2f_eq
+1191
+A"]
+  n524[shape=larrow,label="$25
+v2f_eq
+1192
+B"]
+  n525[shape=rarrow,label="$25
+v2f_eq
+777
+Y"]
+  n526[shape=larrow,label="$30
+v2f_eq
+1193
+A"]
+  n527[shape=larrow,label="$30
+v2f_eq
+1194
+B"]
+  n528[shape=rarrow,label="$30
+v2f_eq
+778
+Y"]
+  n532[shape=larrow,label="$22
+v2f_eq
+1195
+A"]
+  n533[shape=larrow,label="$22
+v2f_eq
+1196
+B"]
+  n534[shape=rarrow,label="$22
+v2f_eq
+779
+Y"]
+  n538[shape=larrow,label="$345
+$sdffe
+803
+D"]
+  n539[shape=larrow,label="$345
+$sdffe
+792
+CLK"]
+  n540[shape=larrow,label="$345
+$sdffe
+807
+SRST"]
+  n541[shape=larrow,label="$345
+$sdffe
+801
+EN"]
+  n542[shape=rarrow,label="$345
+$sdffe
+793
+Q"]
+  n549[shape=larrow,label="$18
+v2f_eq
+1197
+A"]
+  n550[shape=larrow,label="$18
+v2f_eq
+1198
+B"]
+  n551[shape=rarrow,label="$18
+v2f_eq
+808
+Y"]
+  n552[shape=larrow,label="$10
+v2f_eq
+1199
+A"]
+  n553[shape=larrow,label="$10
+v2f_eq
+1200
+B"]
+  n554[shape=rarrow,label="$10
+v2f_eq
+809
+Y"]
+  n567[shape=larrow,label="$8
+v2f_eq
+1201
+A"]
+  n568[shape=larrow,label="$8
+v2f_eq
+1202
+B"]
+  n569[shape=rarrow,label="$8
+v2f_eq
+810
+Y"]
+  n570[shape=larrow,label="$313
+$sdffe
+834
+D"]
+  n571[shape=larrow,label="$313
+$sdffe
+823
+CLK"]
+  n572[shape=larrow,label="$313
+$sdffe
+838
+SRST"]
+  n573[shape=larrow,label="$313
+$sdffe
+832
+EN"]
+  n574[shape=rarrow,label="$313
+$sdffe
+824
+Q"]
+  n575[shape=larrow,label="$339
+$sdffe
+862
+D"]
+  n576[shape=larrow,label="$339
+$sdffe
+851
+CLK"]
+  n577[shape=larrow,label="$339
+$sdffe
+866
+SRST"]
+  n578[shape=larrow,label="$339
+$sdffe
+860
+EN"]
+  n579[shape=rarrow,label="$339
+$sdffe
+852
+Q"]
+  n580[shape=larrow,label="$349
+$sdffe
+890
+D"]
+  n581[shape=larrow,label="$349
+$sdffe
+879
+CLK"]
+  n582[shape=larrow,label="$349
+$sdffe
+894
+SRST"]
+  n583[shape=larrow,label="$349
+$sdffe
+888
+EN"]
+  n584[shape=rarrow,label="$349
+$sdffe
+880
+Q"]
+  n594[shape=larrow,label="$333
+$sdffe
+918
+D"]
+  n595[shape=larrow,label="$333
+$sdffe
+907
+CLK"]
+  n596[shape=larrow,label="$333
+$sdffe
+922
+SRST"]
+  n597[shape=larrow,label="$333
+$sdffe
+916
+EN"]
+  n598[shape=rarrow,label="$333
+$sdffe
+908
+Q"]
+  n599[shape=larrow,label="$299
+$sdffe
+946
+D"]
+  n600[shape=larrow,label="$299
+$sdffe
+935
+CLK"]
+  n601[shape=larrow,label="$299
+$sdffe
+950
+SRST"]
+  n602[shape=larrow,label="$299
+$sdffe
+944
+EN"]
+  n603[shape=rarrow,label="$299
+$sdffe
+936
+Q"]
+  n607[shape=larrow,label="$323
+$sdffe
+974
+D"]
+  n608[shape=larrow,label="$323
+$sdffe
+963
+CLK"]
+  n609[shape=larrow,label="$323
+$sdffe
+978
+SRST"]
+  n610[shape=larrow,label="$323
+$sdffe
+972
+EN"]
+  n611[shape=rarrow,label="$323
+$sdffe
+964
+Q"]
+  n624[shape=larrow,label="$297
+$sdffe
+1002
+D"]
+  n625[shape=larrow,label="$297
+$sdffe
+991
+CLK"]
+  n626[shape=larrow,label="$297
+$sdffe
+1006
+SRST"]
+  n627[shape=larrow,label="$297
+$sdffe
+1000
+EN"]
+  n628[shape=rarrow,label="$297
+$sdffe
+992
+Q"]
+  n629[shape=larrow,label="$11
+v2f_eq
+1203
+A"]
+  n630[shape=larrow,label="$11
+v2f_eq
+1204
+B"]
+  n631[shape=rarrow,label="$11
+v2f_eq
+1007
+Y"]
+  n632[shape=larrow,label="$329
+$sdffe
+1031
+D"]
+  n633[shape=larrow,label="$329
+$sdffe
+1020
+CLK"]
+  n634[shape=larrow,label="$329
+$sdffe
+1035
+SRST"]
+  n635[shape=larrow,label="$329
+$sdffe
+1029
+EN"]
+  n636[shape=rarrow,label="$329
+$sdffe
+1021
+Q"]
+  n640[shape=larrow,label="$309
+$sdffe
+1059
+D"]
+  n641[shape=larrow,label="$309
+$sdffe
+1048
+CLK"]
+  n642[shape=larrow,label="$309
+$sdffe
+1063
+SRST"]
+  n643[shape=larrow,label="$309
+$sdffe
+1057
+EN"]
+  n644[shape=rarrow,label="$309
+$sdffe
+1049
+Q"]
+  n645[shape=larrow,label="$6
+v2f_eq
+1205
+A"]
+  n646[shape=larrow,label="$6
+v2f_eq
+1206
+B"]
+  n647[shape=rarrow,label="$6
+v2f_eq
+1064
+Y"]
+  n648[shape=larrow,label="$29
+v2f_eq
+1207
+A"]
+  n649[shape=larrow,label="$29
+v2f_eq
+1208
+B"]
+  n650[shape=rarrow,label="$29
+v2f_eq
+1065
+Y"]
+  n654[shape=larrow,label="$303
+$sdffe
+1089
+D"]
+  n655[shape=larrow,label="$303
+$sdffe
+1078
+CLK"]
+  n656[shape=larrow,label="$303
+$sdffe
+1093
+SRST"]
+  n657[shape=larrow,label="$303
+$sdffe
+1087
+EN"]
+  n658[shape=rarrow,label="$303
+$sdffe
+1079
+Q"]
+  n659[shape=larrow,label="$32
+v2f_eq
+1209
+A"]
+  n660[shape=larrow,label="$32
+v2f_eq
+1210
+B"]
+  n661[shape=rarrow,label="$32
+v2f_eq
+1094
+Y"]
+  n662[shape=larrow,label="$26
+v2f_eq
+1211
+A"]
+  n663[shape=larrow,label="$26
+v2f_eq
+1212
+B"]
+  n664[shape=rarrow,label="$26
+v2f_eq
+1095
+Y"]
+  n668[shape=larrow,label="$17
+v2f_eq
+1213
+A"]
+  n669[shape=larrow,label="$17
+v2f_eq
+1214
+B"]
+  n670[shape=rarrow,label="$17
+v2f_eq
+1096
+Y"]
+  n674[shape=larrow,label="$305
+$sdffe
+1120
+D"]
+  n675[shape=larrow,label="$305
+$sdffe
+1109
+CLK"]
+  n676[shape=larrow,label="$305
+$sdffe
+1124
+SRST"]
+  n677[shape=larrow,label="$305
+$sdffe
+1118
+EN"]
+  n678[shape=rarrow,label="$305
+$sdffe
+1110
+Q"]
+  n685[shape=larrow,label="$16
+v2f_eq
+1215
+A"]
+  n686[shape=larrow,label="$16
+v2f_eq
+1216
+B"]
+  n687[shape=rarrow,label="$16
+v2f_eq
+1125
+Y"]
+  n691[shape=larrow,label="$7
+v2f_eq
+1217
+A"]
+  n692[shape=larrow,label="$7
+v2f_eq
+1218
+B"]
+  n693[shape=rarrow,label="$7
+v2f_eq
+1126
+Y"]
+  n697[shape=larrow,label="$347
+$sdffe
+1150
+D"]
+  n698[shape=larrow,label="$347
+$sdffe
+1139
+CLK"]
+  n699[shape=larrow,label="$347
+$sdffe
+1154
+SRST"]
+  n700[shape=larrow,label="$347
+$sdffe
+1148
+EN"]
+  n701[shape=rarrow,label="$347
+$sdffe
+1140
+Q"]
+  n0 -> n134
+  n3 -> n137
+  n4 -> n138
+  n5 -> n139
+  n6 -> n140
+  n7 -> n141
+  n9 -> n147
+  n10 -> n150
+  n11 -> n155
+  n15 -> n167
+  n16 -> n172
+  n18 -> n238
+  n19 -> n241
+  n20 -> n246
+  n22 -> n254
+  n23 -> n257
+  n25 -> n265
+  n29 -> n279
+  n31 -> n287
+  n32 -> n350
+  n35 -> n361
+  n36 -> n366
+  n37 -> n369
+  n40 -> n380
+  n44 -> n392
+  n47 -> n401
+  n48 -> n406
+  n51 -> n415
+  n53 -> n423
+  n55 -> n429
+  n56 -> n434
+  n57 -> n439
+  n59 -> n447
+  n62 -> n458
+  n64 -> n464
+  n65 -> n467
+  n68 -> n478
+  n71 -> n487
+  n75 -> n501
+  n76 -> n504
+  n79 -> n513
+  n80 -> n516
+  n82 -> n522
+  n83 -> n525
+  n84 -> n528
+  n86 -> n534
+  n88 -> n542
+  n91 -> n551
+  n92 -> n554
+  n97 -> n569
+  n98 -> n574
+  n99 -> n579
+  n100 -> n584
+  n104 -> n598
+  n105 -> n603
+  n107 -> n611
+  n112 -> n628
+  n113 -> n631
+  n114 -> n636
+  n116 -> n644
+  n117 -> n647
+  n118 -> n650
+  n120 -> n658
+  n121 -> n661
+  n122 -> n664
+  n124 -> n670
+  n126 -> n678
+  n129 -> n687
+  n131 -> n693
+  n133 -> n701
+  n134 -> n151 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n168 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n242 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n250 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n261 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n275 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n283 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n357 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n362 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n376 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n402 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n419 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n430 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n435 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n443 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n454 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n474 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n497 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n538 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n570 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n575 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n580 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n594 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n599 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n607 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n624 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n632 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n640 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n654 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n674 [label="wooden-chest(0)",syle=bold,color=blue]
+  n134 -> n697 [label="wooden-chest(0)",syle=bold,color=blue]
+  n135 -> n1
+  n136 -> n2
+  n137 -> n207 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n208 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n209 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n210 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n211 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n212 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n213 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n214 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n215 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n216 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n217 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n218 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n219 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n220 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n221 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n222 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n223 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n224 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n225 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n226 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n227 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n228 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n229 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n230 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n231 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n232 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n233 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n234 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n235 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n236 [label="storage-tank(3)",syle=bold,color=blue]
+  n137 -> n237 [label="storage-tank(3)",syle=bold,color=blue]
+  n138 -> n152 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n169 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n243 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n251 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n262 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n276 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n284 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n358 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n363 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n377 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n403 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n420 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n431 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n436 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n444 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n455 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n475 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n498 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n539 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n571 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n576 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n581 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n595 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n600 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n608 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n625 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n633 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n641 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n655 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n675 [label="transport-belt(4)",syle=bold,color=blue]
+  n138 -> n698 [label="transport-belt(4)",syle=bold,color=blue]
+  n139 -> n145 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n148 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n165 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n239 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n255 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n367 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n390 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n399 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n413 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n427 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n462 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n465 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n485 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n502 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n511 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n514 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n520 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n523 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n526 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n532 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n549 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n552 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n567 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n629 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n645 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n648 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n659 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n662 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n668 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n685 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n139 -> n691 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n140 -> n319 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n320 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n321 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n322 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n323 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n324 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n325 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n326 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n327 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n328 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n329 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n330 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n331 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n332 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n333 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n334 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n335 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n336 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n337 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n338 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n339 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n340 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n341 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n342 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n343 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n344 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n345 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n346 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n347 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n348 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n140 -> n349 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n141 -> n153 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n170 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n244 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n252 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n263 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n277 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n285 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n359 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n364 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n378 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n404 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n421 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n432 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n437 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n445 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n456 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n476 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n499 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n540 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n572 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n577 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n582 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n596 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n601 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n609 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n626 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n634 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n642 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n656 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n676 [label="underground-belt(7)",syle=bold,color=blue]
+  n141 -> n699 [label="underground-belt(7)",syle=bold,color=blue]
+  n145 -> n9
+  n146 -> n9
+  n147 -> n583 [label="iron-chest(1)",syle=bold,color=blue]
+  n148 -> n10
+  n149 -> n10
+  n150 -> n500 [label="lab(85)",syle=bold,color=blue]
+  n151 -> n11
+  n152 -> n11
+  n153 -> n11
+  n154 -> n11
+  n155 -> n200 [label="locomotive(29)",syle=bold,color=blue]
+  n155 -> n312 [label="locomotive(29)",syle=bold,color=blue]
+  n165 -> n15
+  n166 -> n15
+  n167 -> n477 [label="assembling-machine-2(80)",syle=bold,color=blue]
+  n168 -> n16
+  n169 -> n16
+  n170 -> n16
+  n171 -> n16
+  n172 -> n185 [label="burner-inserter(13)",syle=bold,color=blue]
+  n172 -> n297 [label="burner-inserter(13)",syle=bold,color=blue]
+  n176 -> n18
+  n177 -> n18
+  n178 -> n18
+  n179 -> n18
+  n180 -> n18
+  n181 -> n18
+  n182 -> n18
+  n183 -> n18
+  n184 -> n18
+  n185 -> n18
+  n186 -> n18
+  n187 -> n18
+  n188 -> n18
+  n189 -> n18
+  n190 -> n18
+  n191 -> n18
+  n192 -> n18
+  n193 -> n18
+  n194 -> n18
+  n195 -> n18
+  n196 -> n18
+  n197 -> n18
+  n198 -> n18
+  n199 -> n18
+  n200 -> n18
+  n201 -> n18
+  n202 -> n18
+  n203 -> n18
+  n204 -> n18
+  n205 -> n18
+  n206 -> n18
+  n207 -> n18
+  n208 -> n18
+  n209 -> n18
+  n210 -> n18
+  n211 -> n18
+  n212 -> n18
+  n213 -> n18
+  n214 -> n18
+  n215 -> n18
+  n216 -> n18
+  n217 -> n18
+  n218 -> n18
+  n219 -> n18
+  n220 -> n18
+  n221 -> n18
+  n222 -> n18
+  n223 -> n18
+  n224 -> n18
+  n225 -> n18
+  n226 -> n18
+  n227 -> n18
+  n228 -> n18
+  n229 -> n18
+  n230 -> n18
+  n231 -> n18
+  n232 -> n18
+  n233 -> n18
+  n234 -> n18
+  n235 -> n18
+  n236 -> n18
+  n237 -> n18
+  n238 -> n135 [label="iron-chest(1)",syle=bold,color=blue]
+  n239 -> n19
+  n240 -> n19
+  n241 -> n171 [label="fast-inserter(16)",syle=bold,color=blue]
+  n242 -> n20
+  n243 -> n20
+  n244 -> n20
+  n245 -> n20
+  n246 -> n188 [label="bulk-inserter(17)",syle=bold,color=blue]
+  n246 -> n300 [label="bulk-inserter(17)",syle=bold,color=blue]
+  n250 -> n22
+  n251 -> n22
+  n252 -> n22
+  n253 -> n22
+  n254 -> n197 [label="train-stop(26)",syle=bold,color=blue]
+  n254 -> n309 [label="train-stop(26)",syle=bold,color=blue]
+  n255 -> n23
+  n256 -> n23
+  n257 -> n578 [label="copper-plate(107)",syle=bold,color=blue]
+  n261 -> n25
+  n262 -> n25
+  n263 -> n25
+  n264 -> n25
+  n265 -> n190 [label="medium-electric-pole(19)",syle=bold,color=blue]
+  n265 -> n302 [label="medium-electric-pole(19)",syle=bold,color=blue]
+  n275 -> n29
+  n276 -> n29
+  n277 -> n29
+  n278 -> n29
+  n279 -> n177 [label="transport-belt(4)",syle=bold,color=blue]
+  n279 -> n289 [label="transport-belt(4)",syle=bold,color=blue]
+  n283 -> n31
+  n284 -> n31
+  n285 -> n31
+  n286 -> n31
+  n287 -> n193 [label="pipe(22)",syle=bold,color=blue]
+  n287 -> n305 [label="pipe(22)",syle=bold,color=blue]
+  n288 -> n32
+  n289 -> n32
+  n290 -> n32
+  n291 -> n32
+  n292 -> n32
+  n293 -> n32
+  n294 -> n32
+  n295 -> n32
+  n296 -> n32
+  n297 -> n32
+  n298 -> n32
+  n299 -> n32
+  n300 -> n32
+  n301 -> n32
+  n302 -> n32
+  n303 -> n32
+  n304 -> n32
+  n305 -> n32
+  n306 -> n32
+  n307 -> n32
+  n308 -> n32
+  n309 -> n32
+  n310 -> n32
+  n311 -> n32
+  n312 -> n32
+  n313 -> n32
+  n314 -> n32
+  n315 -> n32
+  n316 -> n32
+  n317 -> n32
+  n318 -> n32
+  n319 -> n32
+  n320 -> n32
+  n321 -> n32
+  n322 -> n32
+  n323 -> n32
+  n324 -> n32
+  n325 -> n32
+  n326 -> n32
+  n327 -> n32
+  n328 -> n32
+  n329 -> n32
+  n330 -> n32
+  n331 -> n32
+  n332 -> n32
+  n333 -> n32
+  n334 -> n32
+  n335 -> n32
+  n336 -> n32
+  n337 -> n32
+  n338 -> n32
+  n339 -> n32
+  n340 -> n32
+  n341 -> n32
+  n342 -> n32
+  n343 -> n32
+  n344 -> n32
+  n345 -> n32
+  n346 -> n32
+  n347 -> n32
+  n348 -> n32
+  n349 -> n32
+  n350 -> n136 [label="steel-chest(2)",syle=bold,color=blue]
+  n357 -> n35
+  n358 -> n35
+  n359 -> n35
+  n360 -> n35
+  n361 -> n206 [label="spidertron(35)",syle=bold,color=blue]
+  n361 -> n318 [label="spidertron(35)",syle=bold,color=blue]
+  n362 -> n36
+  n363 -> n36
+  n364 -> n36
+  n365 -> n36
+  n366 -> n176 [label="steel-chest(2)",syle=bold,color=blue]
+  n366 -> n288 [label="steel-chest(2)",syle=bold,color=blue]
+  n367 -> n37
+  n368 -> n37
+  n369 -> n643 [label="low-density-structure(138)",syle=bold,color=blue]
+  n376 -> n40
+  n377 -> n40
+  n378 -> n40
+  n379 -> n40
+  n380 -> n183 [label="fast-splitter(11)",syle=bold,color=blue]
+  n380 -> n295 [label="fast-splitter(11)",syle=bold,color=blue]
+  n390 -> n44
+  n391 -> n44
+  n392 -> n597 [label="water-barrel(114)",syle=bold,color=blue]
+  n399 -> n47
+  n400 -> n47
+  n401 -> n446 [label="heat-exchanger(70)",syle=bold,color=blue]
+  n402 -> n48
+  n403 -> n48
+  n404 -> n48
+  n405 -> n48
+  n406 -> n189 [label="small-electric-pole(18)",syle=bold,color=blue]
+  n406 -> n301 [label="small-electric-pole(18)",syle=bold,color=blue]
+  n413 -> n51
+  n414 -> n51
+  n415 -> n278 [label="car(33)",syle=bold,color=blue]
+  n419 -> n53
+  n420 -> n53
+  n421 -> n53
+  n422 -> n53
+  n423 -> n201 [label="fluid-wagon(31)",syle=bold,color=blue]
+  n423 -> n313 [label="fluid-wagon(31)",syle=bold,color=blue]
+  n427 -> n55
+  n428 -> n55
+  n429 -> n657 [label="nuclear-fuel(145)",syle=bold,color=blue]
+  n430 -> n56
+  n431 -> n56
+  n432 -> n56
+  n433 -> n56
+  n434 -> n187 [label="fast-inserter(16)",syle=bold,color=blue]
+  n434 -> n299 [label="fast-inserter(16)",syle=bold,color=blue]
+  n435 -> n57
+  n436 -> n57
+  n437 -> n57
+  n438 -> n57
+  n439 -> n198 [label="rail-signal(27)",syle=bold,color=blue]
+  n439 -> n310 [label="rail-signal(27)",syle=bold,color=blue]
+  n443 -> n59
+  n444 -> n59
+  n445 -> n59
+  n446 -> n59
+  n447 -> n195 [label="pump(24)",syle=bold,color=blue]
+  n447 -> n307 [label="pump(24)",syle=bold,color=blue]
+  n454 -> n62
+  n455 -> n62
+  n456 -> n62
+  n457 -> n62
+  n458 -> n192 [label="substation(21)",syle=bold,color=blue]
+  n458 -> n304 [label="substation(21)",syle=bold,color=blue]
+  n462 -> n64
+  n463 -> n64
+  n464 -> n635 [label="advanced-circuit(133)",syle=bold,color=blue]
+  n465 -> n65
+  n466 -> n65
+  n467 -> n433 [label="upgrade-planner(62)",syle=bold,color=blue]
+  n474 -> n68
+  n475 -> n68
+  n476 -> n68
+  n477 -> n68
+  n478 -> n205 [label="tank(34)",syle=bold,color=blue]
+  n478 -> n317 [label="tank(34)",syle=bold,color=blue]
+  n485 -> n71
+  n486 -> n71
+  n487 -> n700 [label="firearm-magazine(159)",syle=bold,color=blue]
+  n497 -> n75
+  n498 -> n75
+  n499 -> n75
+  n500 -> n75
+  n501 -> n180 [label="fast-underground-belt(8)",syle=bold,color=blue]
+  n501 -> n292 [label="fast-underground-belt(8)",syle=bold,color=blue]
+  n502 -> n76
+  n503 -> n76
+  n504 -> n405 [label="concrete(53)",syle=bold,color=blue]
+  n511 -> n79
+  n512 -> n79
+  n513 -> n286 [label="construction-robot(37)",syle=bold,color=blue]
+  n514 -> n80
+  n515 -> n80
+  n516 -> n360 [label="buffer-chest(41)",syle=bold,color=blue]
+  n520 -> n82
+  n521 -> n82
+  n522 -> n245 [label="substation(21)",syle=bold,color=blue]
+  n523 -> n83
+  n524 -> n83
+  n525 -> n379 [label="power-switch(49)",syle=bold,color=blue]
+  n526 -> n84
+  n527 -> n84
+  n528 -> n627 [label="sulfuric-acid-barrel(127)",syle=bold,color=blue]
+  n532 -> n86
+  n533 -> n86
+  n534 -> n573 [label="iron-ore(102)",syle=bold,color=blue]
+  n538 -> n88
+  n539 -> n88
+  n540 -> n88
+  n541 -> n88
+  n542 -> n202 [label="artillery-wagon(32)",syle=bold,color=blue]
+  n542 -> n314 [label="artillery-wagon(32)",syle=bold,color=blue]
+  n549 -> n91
+  n550 -> n91
+  n551 -> n264 [label="locomotive(29)",syle=bold,color=blue]
+  n552 -> n92
+  n553 -> n92
+  n554 -> n438 [label="solar-panel(66)",syle=bold,color=blue]
+  n567 -> n97
+  n568 -> n97
+  n569 -> n154 [label="express-splitter(12)",syle=bold,color=blue]
+  n570 -> n98
+  n571 -> n98
+  n572 -> n98
+  n573 -> n98
+  n574 -> n186 [label="long-handed-inserter(15)",syle=bold,color=blue]
+  n574 -> n298 [label="long-handed-inserter(15)",syle=bold,color=blue]
+  n575 -> n99
+  n576 -> n99
+  n577 -> n99
+  n578 -> n99
+  n579 -> n199 [label="rail-chain-signal(28)",syle=bold,color=blue]
+  n579 -> n311 [label="rail-chain-signal(28)",syle=bold,color=blue]
+  n580 -> n100
+  n581 -> n100
+  n582 -> n100
+  n583 -> n100
+  n584 -> n204 [label="wooden-chest(0)",syle=bold,color=blue]
+  n584 -> n316 [label="wooden-chest(0)",syle=bold,color=blue]
+  n594 -> n104
+  n595 -> n104
+  n596 -> n104
+  n597 -> n104
+  n598 -> n196 [label="rail(25)",syle=bold,color=blue]
+  n598 -> n308 [label="rail(25)",syle=bold,color=blue]
+  n599 -> n105
+  n600 -> n105
+  n601 -> n105
+  n602 -> n105
+  n603 -> n179 [label="underground-belt(7)",syle=bold,color=blue]
+  n603 -> n291 [label="underground-belt(7)",syle=bold,color=blue]
+  n607 -> n107
+  n608 -> n107
+  n609 -> n107
+  n610 -> n107
+  n611 -> n191 [label="big-electric-pole(20)",syle=bold,color=blue]
+  n611 -> n303 [label="big-electric-pole(20)",syle=bold,color=blue]
+  n624 -> n112
+  n625 -> n112
+  n626 -> n112
+  n627 -> n112
+  n628 -> n178 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n628 -> n290 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n629 -> n113
+  n630 -> n113
+  n631 -> n253 [label="rail(25)",syle=bold,color=blue]
+  n632 -> n114
+  n633 -> n114
+  n634 -> n114
+  n635 -> n114
+  n636 -> n194 [label="pipe-to-ground(23)",syle=bold,color=blue]
+  n636 -> n306 [label="pipe-to-ground(23)",syle=bold,color=blue]
+  n640 -> n116
+  n641 -> n116
+  n642 -> n116
+  n643 -> n116
+  n644 -> n184 [label="express-splitter(12)",syle=bold,color=blue]
+  n644 -> n296 [label="express-splitter(12)",syle=bold,color=blue]
+  n645 -> n117
+  n646 -> n117
+  n647 -> n541 [label="productivity-module-3(95)",syle=bold,color=blue]
+  n648 -> n118
+  n649 -> n118
+  n650 -> n602 [label="lubricant-barrel(119)",syle=bold,color=blue]
+  n654 -> n120
+  n655 -> n120
+  n656 -> n120
+  n657 -> n120
+  n658 -> n181 [label="express-underground-belt(9)",syle=bold,color=blue]
+  n658 -> n293 [label="express-underground-belt(9)",syle=bold,color=blue]
+  n659 -> n121
+  n660 -> n121
+  n661 -> n365 [label="arithmetic-combinator(45)",syle=bold,color=blue]
+  n662 -> n122
+  n663 -> n122
+  n664 -> n677 [label="space-science-pack(152)",syle=bold,color=blue]
+  n668 -> n124
+  n669 -> n124
+  n670 -> n610 [label="petroleum-gas-barrel(123)",syle=bold,color=blue]
+  n674 -> n126
+  n675 -> n126
+  n676 -> n126
+  n677 -> n126
+  n678 -> n182 [label="splitter(10)",syle=bold,color=blue]
+  n678 -> n294 [label="splitter(10)",syle=bold,color=blue]
+  n685 -> n129
+  n686 -> n129
+  n687 -> n457 [label="pumpjack(75)",syle=bold,color=blue]
+  n691 -> n131
+  n692 -> n131
+  n693 -> n422 [label="cliff-explosives(58)",syle=bold,color=blue]
+  n697 -> n133
+  n698 -> n133
+  n699 -> n133
+  n700 -> n133
+  n701 -> n203 [label="car(33)",syle=bold,color=blue]
+  n701 -> n315 [label="car(33)",syle=bold,color=blue]
+}

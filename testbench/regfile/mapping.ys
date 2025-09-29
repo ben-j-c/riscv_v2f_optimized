@@ -1,4 +1,4 @@
-read_json riscv_alu_rtl.json
+read_json riscv_regfile_rtl.json
 techmap -autoproc -map /home/ben/repo/verilog2factorio/techmap/v2f_narrowing.v;;
 techmap -map /home/ben/repo/verilog2factorio/techmap/v2f_techmap.v;;
 techmap -dont_map $adff -dont_map $adffe -dont_map $dff -dont_map $dffe -dont_map $sdff -dont_map $sdffe
@@ -11,5 +11,5 @@ abc -fast -lut 12
 opt -fast
 opt_lut
 opt_clean
-select riscv_alu
-write_json -selected riscv_alu_rtl_map.json
+select riscv_regfile
+write_json -selected riscv_regfile_rtl_map.json
