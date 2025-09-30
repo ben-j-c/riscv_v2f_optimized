@@ -37,7 +37,7 @@ module tb;
 		$dumpvars(1, tb);
 
 		seed = 123;
-		for (i = 0; i < 10; i = i + 1) begin
+		for (i = 0; i < 100; i = i + 1) begin
 			valid_i = $random(seed);
 			fetch_fault_i = $random(seed);
 			enable_muldiv_i = $random(seed);
