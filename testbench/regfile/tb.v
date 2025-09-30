@@ -22,8 +22,24 @@ module tb;
 		.rb0_value_o(rb0_value_o)
 	);
 
+	integer seed;
+	integer i;
 	initial begin
-		
+		$dumpfile("tb.vcd");
+		$dumpvars(1, tb);
+
+		seed = 123;
+		for (i = 0; i < 100; i = i + 1) begin
+			clk_i = 0;
+			rst_i = $random(seed);
+			rd0_i = $random(seed);
+			rd0_value_i = $random(seed);
+			ra0_i = $random(seed);
+			rb0_i = $random(seed);
+			#1;
+			clk_i = 1;
+			#1;
+		end
 		$finish;
 	end
 endmodule
