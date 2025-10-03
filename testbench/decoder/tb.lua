@@ -36,6 +36,7 @@ if not os.execute("../makevcd") then
 end
 sim = logd:new_simulation()
 if not sim:apply_vcd("tb.vcd", inputs, outputs, 10, true) then
+	sim:inspect()
 	error("apply vcd failed")
 end
 print("decoder sim matches VCD")

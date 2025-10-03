@@ -2,7 +2,8 @@ read_json riscv_decoder_rtl.json
 techmap -autoproc -map /home/ben/repo/verilog2factorio/techmap/v2f_narrowing.v;;
 techmap -map /home/ben/repo/verilog2factorio/techmap/v2f_techmap.v;;
 techmap -dont_map $adff -dont_map $adffe -dont_map $dff -dont_map $dffe -dont_map $sdff -dont_map $sdffe
-techmap -map /home/ben/repo/verilog2factorio/yosys/techlibs/common/gate2lut.v -D LUT_WIDTH 12
+# abc -sop
+techmap -map /home/ben/repo/verilog2factorio/yosys/techlibs/common/gate2lut.v -D LUT_WIDTH 10
 clean; opt_lut
 flowmap -maxlut 10
 opt -fast
