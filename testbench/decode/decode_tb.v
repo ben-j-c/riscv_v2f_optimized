@@ -60,10 +60,15 @@ module tb;
 
 		seed = 123;
 		for (i = 0; i < 100; i = i + 1) begin
-			valid_i = $random(seed);
-			fetch_fault_i = $random(seed);
-			enable_muldiv_i = $random(seed);
-			opcode_i = $random(seed);
+			clk_i = $random(seed);
+			rst_i = $random(seed);
+			fetch_in_valid_i = $random(seed);
+			fetch_in_instr_i = $random(seed);
+			fetch_in_pc_i = $random(seed);
+			fetch_in_fault_fetch_i = $random(seed);
+			fetch_in_fault_page_i = $random(seed);
+			fetch_out_accept_i = $random(seed);
+			squash_decode_i = $random(seed);
 			#1;
 		end
 		$finish;

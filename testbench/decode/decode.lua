@@ -10,7 +10,7 @@ fetch_in_pc_i = logd:find_in_port("fetch_in_pc_i") or error()
 fetch_in_fault_fetch_i = logd:find_in_port("fetch_in_fault_fetch_i") or error()
 fetch_in_fault_page_i = logd:find_in_port("fetch_in_fault_page_i") or error()
 fetch_out_accept_i = logd:find_in_port("fetch_out_accept_i") or error()
-squash_decode_i = logd:find_in_port("squash_decode_i") or error()
+--squash_decode_i = logd:find_in_port("squash_decode_i") or error()
 fetch_in_accept_o = logd:find_out_port("fetch_in_accept_o") or error()
 fetch_out_valid_o = logd:find_out_port("fetch_out_valid_o") or error()
 fetch_out_instr_o = logd:find_out_port("fetch_out_instr_o") or error()
@@ -35,7 +35,7 @@ inputs["fetch_in_pc_i"] = fetch_in_pc_i
 inputs["fetch_in_fault_fetch_i"] = fetch_in_fault_fetch_i
 inputs["fetch_in_fault_page_i"] = fetch_in_fault_page_i
 inputs["fetch_out_accept_i"] = fetch_out_accept_i
-inputs["squash_decode_i"] = squash_decode_i
+--inputs["squash_decode_i"] = squash_decode_i
 
 outputs = {}
 outputs["fetch_in_accept_o"] = fetch_in_accept_o
