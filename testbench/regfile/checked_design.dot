@@ -1950,22 +1950,22 @@ Q"]
   n147 -> n583 [label="iron-chest(1)",syle=bold,color=blue]
   n148 -> n10
   n149 -> n10
-  n150 -> n500 [label="lab(85)",syle=bold,color=blue]
+  n150 -> n500 [label="substation(21)",syle=bold,color=blue]
   n151 -> n11
   n152 -> n11
   n153 -> n11
   n154 -> n11
-  n155 -> n200 [label="locomotive(29)",syle=bold,color=blue]
-  n155 -> n312 [label="locomotive(29)",syle=bold,color=blue]
+  n155 -> n200 [label="rail-signal(27)",syle=bold,color=blue]
+  n155 -> n312 [label="rail-signal(27)",syle=bold,color=blue]
   n165 -> n15
   n166 -> n15
-  n167 -> n477 [label="assembling-machine-2(80)",syle=bold,color=blue]
+  n167 -> n477 [label="big-electric-pole(20)",syle=bold,color=blue]
   n168 -> n16
   n169 -> n16
   n170 -> n16
   n171 -> n16
-  n172 -> n185 [label="burner-inserter(13)",syle=bold,color=blue]
-  n172 -> n297 [label="burner-inserter(13)",syle=bold,color=blue]
+  n172 -> n185 [label="express-splitter(12)",syle=bold,color=blue]
+  n172 -> n297 [label="express-splitter(12)",syle=bold,color=blue]
   n176 -> n18
   n177 -> n18
   n178 -> n18
@@ -2031,40 +2031,40 @@ Q"]
   n238 -> n135 [label="iron-chest(1)",syle=bold,color=blue]
   n239 -> n19
   n240 -> n19
-  n241 -> n171 [label="fast-inserter(16)",syle=bold,color=blue]
+  n241 -> n171 [label="storage-tank(3)",syle=bold,color=blue]
   n242 -> n20
   n243 -> n20
   n244 -> n20
   n245 -> n20
-  n246 -> n188 [label="bulk-inserter(17)",syle=bold,color=blue]
-  n246 -> n300 [label="bulk-inserter(17)",syle=bold,color=blue]
+  n246 -> n188 [label="long-handed-inserter(15)",syle=bold,color=blue]
+  n246 -> n300 [label="long-handed-inserter(15)",syle=bold,color=blue]
   n250 -> n22
   n251 -> n22
   n252 -> n22
   n253 -> n22
-  n254 -> n197 [label="train-stop(26)",syle=bold,color=blue]
-  n254 -> n309 [label="train-stop(26)",syle=bold,color=blue]
+  n254 -> n197 [label="pump(24)",syle=bold,color=blue]
+  n254 -> n309 [label="pump(24)",syle=bold,color=blue]
   n255 -> n23
   n256 -> n23
-  n257 -> n578 [label="copper-plate(107)",syle=bold,color=blue]
+  n257 -> n578 [label="pump(24)",syle=bold,color=blue]
   n261 -> n25
   n262 -> n25
   n263 -> n25
   n264 -> n25
-  n265 -> n190 [label="medium-electric-pole(19)",syle=bold,color=blue]
-  n265 -> n302 [label="medium-electric-pole(19)",syle=bold,color=blue]
+  n265 -> n190 [label="bulk-inserter(17)",syle=bold,color=blue]
+  n265 -> n302 [label="bulk-inserter(17)",syle=bold,color=blue]
   n275 -> n29
   n276 -> n29
   n277 -> n29
   n278 -> n29
-  n279 -> n177 [label="transport-belt(4)",syle=bold,color=blue]
-  n279 -> n289 [label="transport-belt(4)",syle=bold,color=blue]
+  n279 -> n177 [label="steel-chest(2)",syle=bold,color=blue]
+  n279 -> n289 [label="steel-chest(2)",syle=bold,color=blue]
   n283 -> n31
   n284 -> n31
   n285 -> n31
   n286 -> n31
-  n287 -> n193 [label="pipe(22)",syle=bold,color=blue]
-  n287 -> n305 [label="pipe(22)",syle=bold,color=blue]
+  n287 -> n193 [label="big-electric-pole(20)",syle=bold,color=blue]
+  n287 -> n305 [label="big-electric-pole(20)",syle=bold,color=blue]
   n288 -> n32
   n289 -> n32
   n290 -> n32
@@ -2132,140 +2132,140 @@ Q"]
   n358 -> n35
   n359 -> n35
   n360 -> n35
-  n361 -> n206 [label="spidertron(35)",syle=bold,color=blue]
-  n361 -> n318 [label="spidertron(35)",syle=bold,color=blue]
+  n361 -> n206 [label="artillery-wagon(32)",syle=bold,color=blue]
+  n361 -> n318 [label="artillery-wagon(32)",syle=bold,color=blue]
   n362 -> n36
   n363 -> n36
   n364 -> n36
   n365 -> n36
-  n366 -> n176 [label="steel-chest(2)",syle=bold,color=blue]
-  n366 -> n288 [label="steel-chest(2)",syle=bold,color=blue]
+  n366 -> n176 [label="iron-chest(1)",syle=bold,color=blue]
+  n366 -> n288 [label="iron-chest(1)",syle=bold,color=blue]
   n367 -> n37
   n368 -> n37
-  n369 -> n643 [label="low-density-structure(138)",syle=bold,color=blue]
+  n369 -> n643 [label="cargo-wagon(30)",syle=bold,color=blue]
   n376 -> n40
   n377 -> n40
   n378 -> n40
   n379 -> n40
-  n380 -> n183 [label="fast-splitter(11)",syle=bold,color=blue]
-  n380 -> n295 [label="fast-splitter(11)",syle=bold,color=blue]
+  n380 -> n183 [label="splitter(10)",syle=bold,color=blue]
+  n380 -> n295 [label="splitter(10)",syle=bold,color=blue]
   n390 -> n44
   n391 -> n44
-  n392 -> n597 [label="water-barrel(114)",syle=bold,color=blue]
+  n392 -> n597 [label="rail(25)",syle=bold,color=blue]
   n399 -> n47
   n400 -> n47
-  n401 -> n446 [label="heat-exchanger(70)",syle=bold,color=blue]
+  n401 -> n446 [label="small-electric-pole(18)",syle=bold,color=blue]
   n402 -> n48
   n403 -> n48
   n404 -> n48
   n405 -> n48
-  n406 -> n189 [label="small-electric-pole(18)",syle=bold,color=blue]
-  n406 -> n301 [label="small-electric-pole(18)",syle=bold,color=blue]
+  n406 -> n189 [label="fast-inserter(16)",syle=bold,color=blue]
+  n406 -> n301 [label="fast-inserter(16)",syle=bold,color=blue]
   n413 -> n51
   n414 -> n51
-  n415 -> n278 [label="car(33)",syle=bold,color=blue]
+  n415 -> n278 [label="express-underground-belt(9)",syle=bold,color=blue]
   n419 -> n53
   n420 -> n53
   n421 -> n53
   n422 -> n53
-  n423 -> n201 [label="fluid-wagon(31)",syle=bold,color=blue]
-  n423 -> n313 [label="fluid-wagon(31)",syle=bold,color=blue]
+  n423 -> n201 [label="rail-chain-signal(28)",syle=bold,color=blue]
+  n423 -> n313 [label="rail-chain-signal(28)",syle=bold,color=blue]
   n427 -> n55
   n428 -> n55
-  n429 -> n657 [label="nuclear-fuel(145)",syle=bold,color=blue]
+  n429 -> n657 [label="fluid-wagon(31)",syle=bold,color=blue]
   n430 -> n56
   n431 -> n56
   n432 -> n56
   n433 -> n56
-  n434 -> n187 [label="fast-inserter(16)",syle=bold,color=blue]
-  n434 -> n299 [label="fast-inserter(16)",syle=bold,color=blue]
+  n434 -> n187 [label="inserter(14)",syle=bold,color=blue]
+  n434 -> n299 [label="inserter(14)",syle=bold,color=blue]
   n435 -> n57
   n436 -> n57
   n437 -> n57
   n438 -> n57
-  n439 -> n198 [label="rail-signal(27)",syle=bold,color=blue]
-  n439 -> n310 [label="rail-signal(27)",syle=bold,color=blue]
+  n439 -> n198 [label="rail(25)",syle=bold,color=blue]
+  n439 -> n310 [label="rail(25)",syle=bold,color=blue]
   n443 -> n59
   n444 -> n59
   n445 -> n59
   n446 -> n59
-  n447 -> n195 [label="pump(24)",syle=bold,color=blue]
-  n447 -> n307 [label="pump(24)",syle=bold,color=blue]
+  n447 -> n195 [label="pipe(22)",syle=bold,color=blue]
+  n447 -> n307 [label="pipe(22)",syle=bold,color=blue]
   n454 -> n62
   n455 -> n62
   n456 -> n62
   n457 -> n62
-  n458 -> n192 [label="substation(21)",syle=bold,color=blue]
-  n458 -> n304 [label="substation(21)",syle=bold,color=blue]
+  n458 -> n192 [label="medium-electric-pole(19)",syle=bold,color=blue]
+  n458 -> n304 [label="medium-electric-pole(19)",syle=bold,color=blue]
   n462 -> n64
   n463 -> n64
-  n464 -> n635 [label="advanced-circuit(133)",syle=bold,color=blue]
+  n464 -> n635 [label="locomotive(29)",syle=bold,color=blue]
   n465 -> n65
   n466 -> n65
-  n467 -> n433 [label="upgrade-planner(62)",syle=bold,color=blue]
+  n467 -> n433 [label="fast-inserter(16)",syle=bold,color=blue]
   n474 -> n68
   n475 -> n68
   n476 -> n68
   n477 -> n68
-  n478 -> n205 [label="tank(34)",syle=bold,color=blue]
-  n478 -> n317 [label="tank(34)",syle=bold,color=blue]
+  n478 -> n205 [label="fluid-wagon(31)",syle=bold,color=blue]
+  n478 -> n317 [label="fluid-wagon(31)",syle=bold,color=blue]
   n485 -> n71
   n486 -> n71
-  n487 -> n700 [label="firearm-magazine(159)",syle=bold,color=blue]
+  n487 -> n700 [label="car(33)",syle=bold,color=blue]
   n497 -> n75
   n498 -> n75
   n499 -> n75
   n500 -> n75
-  n501 -> n180 [label="fast-underground-belt(8)",syle=bold,color=blue]
-  n501 -> n292 [label="fast-underground-belt(8)",syle=bold,color=blue]
+  n501 -> n180 [label="underground-belt(7)",syle=bold,color=blue]
+  n501 -> n292 [label="underground-belt(7)",syle=bold,color=blue]
   n502 -> n76
   n503 -> n76
-  n504 -> n405 [label="concrete(53)",syle=bold,color=blue]
+  n504 -> n405 [label="inserter(14)",syle=bold,color=blue]
   n511 -> n79
   n512 -> n79
-  n513 -> n286 [label="construction-robot(37)",syle=bold,color=blue]
+  n513 -> n286 [label="splitter(10)",syle=bold,color=blue]
   n514 -> n80
   n515 -> n80
-  n516 -> n360 [label="buffer-chest(41)",syle=bold,color=blue]
+  n516 -> n360 [label="fast-splitter(11)",syle=bold,color=blue]
   n520 -> n82
   n521 -> n82
-  n522 -> n245 [label="substation(21)",syle=bold,color=blue]
+  n522 -> n245 [label="fast-transport-belt(5)",syle=bold,color=blue]
   n523 -> n83
   n524 -> n83
-  n525 -> n379 [label="power-switch(49)",syle=bold,color=blue]
+  n525 -> n379 [label="burner-inserter(13)",syle=bold,color=blue]
   n526 -> n84
   n527 -> n84
-  n528 -> n627 [label="sulfuric-acid-barrel(127)",syle=bold,color=blue]
+  n528 -> n627 [label="rail-chain-signal(28)",syle=bold,color=blue]
   n532 -> n86
   n533 -> n86
-  n534 -> n573 [label="iron-ore(102)",syle=bold,color=blue]
+  n534 -> n573 [label="pipe-to-ground(23)",syle=bold,color=blue]
   n538 -> n88
   n539 -> n88
   n540 -> n88
   n541 -> n88
-  n542 -> n202 [label="artillery-wagon(32)",syle=bold,color=blue]
-  n542 -> n314 [label="artillery-wagon(32)",syle=bold,color=blue]
+  n542 -> n202 [label="locomotive(29)",syle=bold,color=blue]
+  n542 -> n314 [label="locomotive(29)",syle=bold,color=blue]
   n549 -> n91
   n550 -> n91
-  n551 -> n264 [label="locomotive(29)",syle=bold,color=blue]
+  n551 -> n264 [label="fast-underground-belt(8)",syle=bold,color=blue]
   n552 -> n92
   n553 -> n92
-  n554 -> n438 [label="solar-panel(66)",syle=bold,color=blue]
+  n554 -> n438 [label="bulk-inserter(17)",syle=bold,color=blue]
   n567 -> n97
   n568 -> n97
-  n569 -> n154 [label="express-splitter(12)",syle=bold,color=blue]
+  n569 -> n154 [label="steel-chest(2)",syle=bold,color=blue]
   n570 -> n98
   n571 -> n98
   n572 -> n98
   n573 -> n98
-  n574 -> n186 [label="long-handed-inserter(15)",syle=bold,color=blue]
-  n574 -> n298 [label="long-handed-inserter(15)",syle=bold,color=blue]
+  n574 -> n186 [label="burner-inserter(13)",syle=bold,color=blue]
+  n574 -> n298 [label="burner-inserter(13)",syle=bold,color=blue]
   n575 -> n99
   n576 -> n99
   n577 -> n99
   n578 -> n99
-  n579 -> n199 [label="rail-chain-signal(28)",syle=bold,color=blue]
-  n579 -> n311 [label="rail-chain-signal(28)",syle=bold,color=blue]
+  n579 -> n199 [label="train-stop(26)",syle=bold,color=blue]
+  n579 -> n311 [label="train-stop(26)",syle=bold,color=blue]
   n580 -> n100
   n581 -> n100
   n582 -> n100
@@ -2276,78 +2276,78 @@ Q"]
   n595 -> n104
   n596 -> n104
   n597 -> n104
-  n598 -> n196 [label="rail(25)",syle=bold,color=blue]
-  n598 -> n308 [label="rail(25)",syle=bold,color=blue]
+  n598 -> n196 [label="pipe-to-ground(23)",syle=bold,color=blue]
+  n598 -> n308 [label="pipe-to-ground(23)",syle=bold,color=blue]
   n599 -> n105
   n600 -> n105
   n601 -> n105
   n602 -> n105
-  n603 -> n179 [label="underground-belt(7)",syle=bold,color=blue]
-  n603 -> n291 [label="underground-belt(7)",syle=bold,color=blue]
+  n603 -> n179 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n603 -> n291 [label="fast-transport-belt(5)",syle=bold,color=blue]
   n607 -> n107
   n608 -> n107
   n609 -> n107
   n610 -> n107
-  n611 -> n191 [label="big-electric-pole(20)",syle=bold,color=blue]
-  n611 -> n303 [label="big-electric-pole(20)",syle=bold,color=blue]
+  n611 -> n191 [label="small-electric-pole(18)",syle=bold,color=blue]
+  n611 -> n303 [label="small-electric-pole(18)",syle=bold,color=blue]
   n624 -> n112
   n625 -> n112
   n626 -> n112
   n627 -> n112
-  n628 -> n178 [label="fast-transport-belt(5)",syle=bold,color=blue]
-  n628 -> n290 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n628 -> n178 [label="transport-belt(4)",syle=bold,color=blue]
+  n628 -> n290 [label="transport-belt(4)",syle=bold,color=blue]
   n629 -> n113
   n630 -> n113
-  n631 -> n253 [label="rail(25)",syle=bold,color=blue]
+  n631 -> n253 [label="express-transport-belt(6)",syle=bold,color=blue]
   n632 -> n114
   n633 -> n114
   n634 -> n114
   n635 -> n114
-  n636 -> n194 [label="pipe-to-ground(23)",syle=bold,color=blue]
-  n636 -> n306 [label="pipe-to-ground(23)",syle=bold,color=blue]
+  n636 -> n194 [label="substation(21)",syle=bold,color=blue]
+  n636 -> n306 [label="substation(21)",syle=bold,color=blue]
   n640 -> n116
   n641 -> n116
   n642 -> n116
   n643 -> n116
-  n644 -> n184 [label="express-splitter(12)",syle=bold,color=blue]
-  n644 -> n296 [label="express-splitter(12)",syle=bold,color=blue]
+  n644 -> n184 [label="fast-splitter(11)",syle=bold,color=blue]
+  n644 -> n296 [label="fast-splitter(11)",syle=bold,color=blue]
   n645 -> n117
   n646 -> n117
-  n647 -> n541 [label="productivity-module-3(95)",syle=bold,color=blue]
+  n647 -> n541 [label="pipe(22)",syle=bold,color=blue]
   n648 -> n118
   n649 -> n118
-  n650 -> n602 [label="lubricant-barrel(119)",syle=bold,color=blue]
+  n650 -> n602 [label="train-stop(26)",syle=bold,color=blue]
   n654 -> n120
   n655 -> n120
   n656 -> n120
   n657 -> n120
-  n658 -> n181 [label="express-underground-belt(9)",syle=bold,color=blue]
-  n658 -> n293 [label="express-underground-belt(9)",syle=bold,color=blue]
+  n658 -> n181 [label="fast-underground-belt(8)",syle=bold,color=blue]
+  n658 -> n293 [label="fast-underground-belt(8)",syle=bold,color=blue]
   n659 -> n121
   n660 -> n121
-  n661 -> n365 [label="arithmetic-combinator(45)",syle=bold,color=blue]
+  n661 -> n365 [label="express-splitter(12)",syle=bold,color=blue]
   n662 -> n122
   n663 -> n122
-  n664 -> n677 [label="space-science-pack(152)",syle=bold,color=blue]
+  n664 -> n677 [label="artillery-wagon(32)",syle=bold,color=blue]
   n668 -> n124
   n669 -> n124
-  n670 -> n610 [label="petroleum-gas-barrel(123)",syle=bold,color=blue]
+  n670 -> n610 [label="rail-signal(27)",syle=bold,color=blue]
   n674 -> n126
   n675 -> n126
   n676 -> n126
   n677 -> n126
-  n678 -> n182 [label="splitter(10)",syle=bold,color=blue]
-  n678 -> n294 [label="splitter(10)",syle=bold,color=blue]
+  n678 -> n182 [label="express-underground-belt(9)",syle=bold,color=blue]
+  n678 -> n294 [label="express-underground-belt(9)",syle=bold,color=blue]
   n685 -> n129
   n686 -> n129
-  n687 -> n457 [label="pumpjack(75)",syle=bold,color=blue]
+  n687 -> n457 [label="medium-electric-pole(19)",syle=bold,color=blue]
   n691 -> n131
   n692 -> n131
-  n693 -> n422 [label="cliff-explosives(58)",syle=bold,color=blue]
+  n693 -> n422 [label="long-handed-inserter(15)",syle=bold,color=blue]
   n697 -> n133
   n698 -> n133
   n699 -> n133
   n700 -> n133
-  n701 -> n203 [label="car(33)",syle=bold,color=blue]
-  n701 -> n315 [label="car(33)",syle=bold,color=blue]
+  n701 -> n203 [label="cargo-wagon(30)",syle=bold,color=blue]
+  n701 -> n315 [label="cargo-wagon(30)",syle=bold,color=blue]
 }
