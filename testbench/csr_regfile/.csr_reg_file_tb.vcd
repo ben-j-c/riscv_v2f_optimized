@@ -1,0 +1,69 @@
+$date
+	Tue Oct  7 01:12:22 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 32 ! status_o [31:0] $end
+$var wire 32 " satp_o [31:0] $end
+$var wire 2 # priv_o [1:0] $end
+$var wire 32 $ interrupt_o [31:0] $end
+$var wire 32 % csr_target_o [31:0] $end
+$var wire 32 & csr_rdata_o [31:0] $end
+$var wire 1 ' csr_branch_o $end
+$var reg 1 ( clk_i $end
+$var reg 32 ) cpu_id_i [31:0] $end
+$var reg 12 * csr_raddr_i [11:0] $end
+$var reg 1 + csr_ren_i $end
+$var reg 12 , csr_waddr_i [11:0] $end
+$var reg 32 - csr_wdata_i [31:0] $end
+$var reg 32 . exception_addr_i [31:0] $end
+$var reg 6 / exception_i [5:0] $end
+$var reg 32 0 exception_pc_i [31:0] $end
+$var reg 1 1 ext_intr_i $end
+$var reg 32 2 misa_i [31:0] $end
+$var reg 1 3 rst_i $end
+$var reg 1 4 timer_intr_i $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+04
+03
+b0 2
+01
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+0+
+b0 *
+b0 )
+0(
+0'
+b0 &
+b0 %
+bx $
+bx #
+bx "
+bx !
+$end
+#1
+b0 $
+b0 "
+b11 #
+b0 !
+13
+#2
+03
+#3
+1(
+#4
