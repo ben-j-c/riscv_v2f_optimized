@@ -17,7 +17,7 @@ if not os.execute("../makevcd") then
 end
 sim = logd:new_simulation()
 --sim:inspect()
-if not sim:apply_vcd(".csr_regfile_tb.vcd", inputs, outputs, 10, true) then
+if not sim:apply_vcd(".csr_regfile_tb.vcd", inputs, outputs, 20, true) then
 	sim:inspect()
 	error("apply vcd failed")
 end
