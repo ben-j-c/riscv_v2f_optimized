@@ -47,7 +47,7 @@ module tb;
 	);
 
 	initial begin
-		$dumpfile(".csr_reg_file_tb.vcd");
+		$dumpfile(".csr_regfile_tb.vcd");
 		$dumpvars(1, tb);
 		clk_i = 0;
 		rst_i = 0;
