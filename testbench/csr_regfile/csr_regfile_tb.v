@@ -66,8 +66,27 @@ module tb;
 		rst_i = 1;
 		#1;
 		rst_i = 0;
-		begin
+
+		integer i;
+		integer seed;
+		clk_i = 0;
+		#1;
+		clk_i = 1;
+		#1;
+		seed = 123;
+		for (i = 0; i < 100; i += 1) begin
 			clk_i = 0;
+			ext_intr_i = $random(seed);
+			timer_intr_i = $random(seed);
+			cpu_id_i = $random(seed);
+			misa_i = $random(seed);
+			exception_i = $random(seed);
+			exception_pc_i = $random(seed);
+			exception_addr_i = $random(seed);
+			csr_ren_i = $random(seed);
+			csr_raddr_i = $random(seed);
+			csr_waddr_i = $random(seed);
+			csr_wdata_i = $random(seed);
 			#1;
 			clk_i = 1;
 			#1;
