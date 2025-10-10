@@ -19,1015 +19,930 @@ v2f_lt
 v2f_mux"]
   n8[shape=box,label="$98
 v2f_mux"]
-  n9[shape=box,label="$24
-v2f_mux"]
-  n11[shape=box,label="$21
-v2f_mux"]
-  n12[shape=box,label="$19
-v2f_xor
-35"]
-  n13[shape=box,label="$111
-v2f_mux"]
-  n14[shape=box,label="$18
-v2f_or
-41"]
-  n16[shape=box,label="$139
-v2f_mux"]
-  n17[shape=box,label="$151
+  n10[shape=box,label="$152
 $sop"]
-  n18[shape=box,label="$59
+  n11[shape=box,label="$19
+v2f_xor
+27"]
+  n12[shape=box,label="$111
 v2f_mux"]
-  n19[shape=box,label="$167
+  n13[shape=box,label="$18
+v2f_or
+33"]
+  n15[shape=box,label="$139
 v2f_mux"]
-  n20[shape=box,label="$17
+  n16[shape=box,label="$151
+$sop"]
+  n17[shape=box,label="$167
+v2f_mux"]
+  n18[shape=box,label="$17
 v2f_and
-59"]
-  n21[shape=box,label="$125
+46"]
+  n19[shape=box,label="$125
 v2f_mux"]
-  n22[shape=box,label="$153
+  n20[shape=box,label="$153
 v2f_mux"]
-  n24[shape=box,label="$23
+  n22[shape=box,label="$59
 v2f_mux"]
-  n25[shape=box,label="$1
+  n23[shape=box,label="$1
 v2f_sub
-75"]
-  n27[shape=box,label="$22
+62"]
+  n24[shape=box,label="$156
+$lut"]
+  n26[shape=box,label="$22
 v2f_ne
-76"]
-  n29[shape=box,label="$33
-v2f_mux"]
-  n31[shape=box,label="$194_ANY
+65"]
+  n29[shape=box,label="$194_ANY
 v2f_reduce_or"]
-  n33[shape=box,label="$46
+  n31[shape=box,label="$46
 v2f_mux"]
-  n34[shape=box,label="$9
+  n32[shape=box,label="$9
 v2f_eq
-89"]
-  n35[shape=box,label="$186
+73"]
+  n33[shape=box,label="$186
 v2f_pmux"]
-  n36[shape=box,label="$101_CMP0
+  n34[shape=box,label="$155
+$sop"]
+  n35[shape=box,label="$101_CMP0
 v2f_eq
-126"]
-  n38[shape=box,label="$16
+112"]
+  n37[shape=box,label="$16
 v2f_add
-127"]
-  n39[shape=rarrow,label="alu_a_i
+113"]
+  n38[shape=rarrow,label="alu_a_i
 0"]
-  n40[shape=rarrow,label="alu_b_i
+  n39[shape=rarrow,label="alu_b_i
 1"]
-  n41[shape=rarrow,label="alu_op_i
+  n40[shape=rarrow,label="alu_op_i
 2"]
-  n42[shape=larrow,label="alu_p_o
-128"]
+  n41[shape=larrow,label="alu_p_o
+114"]
+  n42[shape=larrow,label="$181
+v2f_mux
+6
+A"]
   n43[shape=larrow,label="$181
 v2f_mux
 6
-A"]
+B"]
   n44[shape=larrow,label="$181
 v2f_mux
 6
-B"]
-  n45[shape=larrow,label="$181
-v2f_mux
-6
 S"]
-  n46[shape=rarrow,label="$181
+  n45[shape=rarrow,label="$181
 v2f_mux
 7
 Y"]
+  n46[shape=larrow,label="$72
+v2f_mux
+11
+A"]
   n47[shape=larrow,label="$72
 v2f_mux
 11
-A"]
+B"]
   n48[shape=larrow,label="$72
 v2f_mux
 11
-B"]
-  n49[shape=larrow,label="$72
-v2f_mux
-11
 S"]
-  n50[shape=rarrow,label="$72
+  n49[shape=rarrow,label="$72
 v2f_mux
 12
 Y"]
+  n50[shape=larrow,label="$20
+v2f_lt
+115
+A"]
   n51[shape=larrow,label="$20
 v2f_lt
-129
-A"]
-  n52[shape=larrow,label="$20
-v2f_lt
-130
+116
 B"]
-  n53[shape=rarrow,label="$20
+  n52[shape=rarrow,label="$20
 v2f_lt
 14
 Y"]
+  n53[shape=larrow,label="$85
+v2f_mux
+17
+A"]
   n54[shape=larrow,label="$85
 v2f_mux
 17
-A"]
+B"]
   n55[shape=larrow,label="$85
 v2f_mux
 17
-B"]
-  n56[shape=larrow,label="$85
-v2f_mux
-17
 S"]
-  n57[shape=rarrow,label="$85
+  n56[shape=rarrow,label="$85
 v2f_mux
 18
 Y"]
+  n57[shape=larrow,label="$98
+v2f_mux
+22
+A"]
   n58[shape=larrow,label="$98
 v2f_mux
 22
-A"]
+B"]
   n59[shape=larrow,label="$98
 v2f_mux
 22
-B"]
-  n60[shape=larrow,label="$98
-v2f_mux
-22
 S"]
-  n61[shape=rarrow,label="$98
+  n60[shape=rarrow,label="$98
 v2f_mux
 23
 Y"]
-  n62[shape=larrow,label="$24
-v2f_mux
-27
-A"]
-  n63[shape=larrow,label="$24
-v2f_mux
-27
-B"]
-  n64[shape=larrow,label="$24
-v2f_mux
-27
-S"]
-  n65[shape=rarrow,label="$24
-v2f_mux
-28
+  n64[shape=larrow,label="$152
+$sop
+26
+A0"]
+  n65[shape=larrow,label="$152
+$sop
+26
+A1"]
+  n66[shape=larrow,label="$152
+$sop
+26
+A2"]
+  n67[shape=rarrow,label="$152
+$sop
+25
 Y"]
-  n69[shape=larrow,label="$21
-v2f_mux
-32
+  n68[shape=larrow,label="$19
+v2f_xor
+117
 A"]
-  n70[shape=larrow,label="$21
-v2f_mux
-32
+  n69[shape=larrow,label="$19
+v2f_xor
+118
 B"]
-  n71[shape=larrow,label="$21
+  n70[shape=rarrow,label="$19
+v2f_xor
+27
+Y"]
+  n71[shape=larrow,label="$111
 v2f_mux
-32
+30
+A"]
+  n72[shape=larrow,label="$111
+v2f_mux
+30
+B"]
+  n73[shape=larrow,label="$111
+v2f_mux
+30
 S"]
-  n72[shape=rarrow,label="$21
+  n74[shape=rarrow,label="$111
 v2f_mux
+31
+Y"]
+  n75[shape=larrow,label="$18
+v2f_or
+119
+A"]
+  n76[shape=larrow,label="$18
+v2f_or
+120
+B"]
+  n77[shape=rarrow,label="$18
+v2f_or
 33
 Y"]
-  n73[shape=larrow,label="$19
-v2f_xor
-131
+  n81[shape=larrow,label="$139
+v2f_mux
+36
 A"]
-  n74[shape=larrow,label="$19
-v2f_xor
-132
+  n82[shape=larrow,label="$139
+v2f_mux
+36
 B"]
-  n75[shape=rarrow,label="$19
-v2f_xor
-35
-Y"]
-  n76[shape=larrow,label="$111
+  n83[shape=larrow,label="$139
 v2f_mux
-38
-A"]
-  n77[shape=larrow,label="$111
-v2f_mux
-38
-B"]
-  n78[shape=larrow,label="$111
-v2f_mux
-38
+36
 S"]
-  n79[shape=rarrow,label="$111
+  n84[shape=rarrow,label="$139
 v2f_mux
+37
+Y"]
+  n85[shape=larrow,label="$151
+$sop
+40
+A0"]
+  n86[shape=larrow,label="$151
+$sop
+40
+A1"]
+  n87[shape=rarrow,label="$151
+$sop
 39
 Y"]
-  n80[shape=larrow,label="$18
-v2f_or
-133
+  n88[shape=larrow,label="$167
+v2f_mux
+43
 A"]
-  n81[shape=larrow,label="$18
-v2f_or
-134
+  n89[shape=larrow,label="$167
+v2f_mux
+43
 B"]
-  n82[shape=rarrow,label="$18
-v2f_or
-41
-Y"]
-  n86[shape=larrow,label="$139
+  n90[shape=larrow,label="$167
+v2f_mux
+43
+S"]
+  n91[shape=rarrow,label="$167
 v2f_mux
 44
-A"]
-  n87[shape=larrow,label="$139
-v2f_mux
-44
-B"]
-  n88[shape=larrow,label="$139
-v2f_mux
-44
-S"]
-  n89[shape=rarrow,label="$139
-v2f_mux
-45
 Y"]
-  n90[shape=larrow,label="$151
-$sop
-48
-A0"]
-  n91[shape=larrow,label="$151
-$sop
-48
-A1"]
-  n92[shape=rarrow,label="$151
-$sop
-47
-Y"]
-  n93[shape=larrow,label="$59
-v2f_mux
-51
-A"]
-  n94[shape=larrow,label="$59
-v2f_mux
-51
-B"]
-  n95[shape=larrow,label="$59
-v2f_mux
-51
-S"]
-  n96[shape=rarrow,label="$59
-v2f_mux
-52
-Y"]
-  n97[shape=larrow,label="$167
-v2f_mux
-56
-A"]
-  n98[shape=larrow,label="$167
-v2f_mux
-56
-B"]
-  n99[shape=larrow,label="$167
-v2f_mux
-56
-S"]
-  n100[shape=rarrow,label="$167
-v2f_mux
-57
-Y"]
-  n101[shape=larrow,label="$17
+  n92[shape=larrow,label="$17
 v2f_and
-135
+121
 A"]
-  n102[shape=larrow,label="$17
+  n93[shape=larrow,label="$17
 v2f_and
-136
+122
 B"]
-  n103[shape=rarrow,label="$17
+  n94[shape=rarrow,label="$17
 v2f_and
+46
+Y"]
+  n95[shape=larrow,label="$125
+v2f_mux
+49
+A"]
+  n96[shape=larrow,label="$125
+v2f_mux
+49
+B"]
+  n97[shape=larrow,label="$125
+v2f_mux
+49
+S"]
+  n98[shape=rarrow,label="$125
+v2f_mux
+50
+Y"]
+  n99[shape=larrow,label="$153
+v2f_mux
+54
+A"]
+  n100[shape=larrow,label="$153
+v2f_mux
+54
+B"]
+  n101[shape=larrow,label="$153
+v2f_mux
+54
+S"]
+  n102[shape=rarrow,label="$153
+v2f_mux
+55
+Y"]
+  n106[shape=larrow,label="$59
+v2f_mux
 59
-Y"]
-  n104[shape=larrow,label="$125
-v2f_mux
-62
 A"]
-  n105[shape=larrow,label="$125
+  n107[shape=larrow,label="$59
 v2f_mux
-62
+59
 B"]
-  n106[shape=larrow,label="$125
+  n108[shape=larrow,label="$59
 v2f_mux
-62
+59
 S"]
-  n107[shape=rarrow,label="$125
+  n109[shape=rarrow,label="$59
 v2f_mux
+60
+Y"]
+  n110[shape=larrow,label="$1
+v2f_sub
+123
+A"]
+  n111[shape=larrow,label="$1
+v2f_sub
+124
+B"]
+  n112[shape=rarrow,label="$1
+v2f_sub
+62
+Y"]
+  n113[shape=larrow,label="$156
+$lut
+64
+A0"]
+  n114[shape=rarrow,label="$156
+$lut
 63
 Y"]
-  n108[shape=larrow,label="$153
-v2f_mux
-67
+  n118[shape=larrow,label="$22
+v2f_ne
+125
 A"]
-  n109[shape=larrow,label="$153
-v2f_mux
-67
+  n119[shape=larrow,label="$22
+v2f_ne
+126
 B"]
-  n110[shape=larrow,label="$153
-v2f_mux
-67
-S"]
-  n111[shape=rarrow,label="$153
-v2f_mux
-68
+  n120[shape=rarrow,label="$22
+v2f_ne
+65
 Y"]
-  n115[shape=larrow,label="$23
+  n127[shape=larrow,label="$194_ANY
+v2f_reduce_or
+67
+A0"]
+  n128[shape=larrow,label="$194_ANY
+v2f_reduce_or
+67
+A1"]
+  n129[shape=rarrow,label="$194_ANY
+v2f_reduce_or
+66
+Y"]
+  n133[shape=larrow,label="$46
 v2f_mux
-72
+70
 A"]
-  n116[shape=larrow,label="$23
+  n134[shape=larrow,label="$46
 v2f_mux
-72
+70
 B"]
-  n117[shape=larrow,label="$23
+  n135[shape=larrow,label="$46
 v2f_mux
-72
+70
 S"]
-  n118[shape=rarrow,label="$23
+  n136[shape=rarrow,label="$46
 v2f_mux
+71
+Y"]
+  n137[shape=larrow,label="$9
+v2f_eq
+127
+A"]
+  n138[shape=larrow,label="$9
+v2f_eq
+128
+B"]
+  n139[shape=rarrow,label="$9
+v2f_eq
 73
 Y"]
-  n119[shape=larrow,label="$1
-v2f_sub
-137
-A"]
-  n120[shape=larrow,label="$1
-v2f_sub
-138
-B"]
-  n121[shape=rarrow,label="$1
-v2f_sub
+  n140[shape=larrow,label="$186
+v2f_pmux
 75
-Y"]
-  n125[shape=larrow,label="$22
-v2f_ne
-139
-A"]
-  n126[shape=larrow,label="$22
-v2f_ne
-140
-B"]
-  n127[shape=rarrow,label="$22
-v2f_ne
-76
-Y"]
-  n131[shape=larrow,label="$33
-v2f_mux
-79
-A"]
-  n132[shape=larrow,label="$33
-v2f_mux
-79
-B"]
-  n133[shape=larrow,label="$33
-v2f_mux
-79
-S"]
-  n134[shape=rarrow,label="$33
-v2f_mux
-80
-Y"]
-  n138[shape=larrow,label="$194_ANY
-v2f_reduce_or
-83
-A0"]
-  n139[shape=larrow,label="$194_ANY
-v2f_reduce_or
-83
-A1"]
-  n140[shape=rarrow,label="$194_ANY
-v2f_reduce_or
-82
-Y"]
-  n144[shape=larrow,label="$46
-v2f_mux
-86
-A"]
-  n145[shape=larrow,label="$46
-v2f_mux
-86
-B"]
-  n146[shape=larrow,label="$46
-v2f_mux
-86
-S"]
-  n147[shape=rarrow,label="$46
-v2f_mux
-87
-Y"]
-  n148[shape=larrow,label="$9
-v2f_eq
-141
-A"]
-  n149[shape=larrow,label="$9
-v2f_eq
-142
-B"]
-  n150[shape=rarrow,label="$9
-v2f_eq
+B0"]
+  n141[shape=larrow,label="$186
+v2f_pmux
+77
+B1"]
+  n142[shape=larrow,label="$186
+v2f_pmux
+81
+B2"]
+  n143[shape=larrow,label="$186
+v2f_pmux
+85
+B3"]
+  n144[shape=larrow,label="$186
+v2f_pmux
 89
-Y"]
+B4"]
+  n145[shape=larrow,label="$186
+v2f_pmux
+93
+B5"]
+  n146[shape=larrow,label="$186
+v2f_pmux
+97
+B6"]
+  n147[shape=larrow,label="$186
+v2f_pmux
+101
+B7"]
+  n148[shape=larrow,label="$186
+v2f_pmux
+105
+B8"]
+  n149[shape=larrow,label="$186
+v2f_pmux
+75
+S0"]
+  n150[shape=larrow,label="$186
+v2f_pmux
+77
+S1"]
   n151[shape=larrow,label="$186
 v2f_pmux
-91
-B0"]
+81
+S2"]
   n152[shape=larrow,label="$186
 v2f_pmux
-93
-B1"]
+85
+S3"]
   n153[shape=larrow,label="$186
 v2f_pmux
-97
-B2"]
+89
+S4"]
   n154[shape=larrow,label="$186
 v2f_pmux
-101
-B3"]
+93
+S5"]
   n155[shape=larrow,label="$186
 v2f_pmux
-105
-B4"]
+97
+S6"]
   n156[shape=larrow,label="$186
 v2f_pmux
-109
-B5"]
+101
+S7"]
   n157[shape=larrow,label="$186
 v2f_pmux
-113
-B6"]
-  n158[shape=larrow,label="$186
-v2f_pmux
-117
-B7"]
-  n159[shape=larrow,label="$186
-v2f_pmux
-121
-B8"]
-  n160[shape=larrow,label="$186
-v2f_pmux
-91
-S0"]
-  n161[shape=larrow,label="$186
-v2f_pmux
-93
-S1"]
-  n162[shape=larrow,label="$186
-v2f_pmux
-97
-S2"]
-  n163[shape=larrow,label="$186
-v2f_pmux
-101
-S3"]
-  n164[shape=larrow,label="$186
-v2f_pmux
 105
-S4"]
-  n165[shape=larrow,label="$186
-v2f_pmux
-109
-S5"]
-  n166[shape=larrow,label="$186
-v2f_pmux
-113
-S6"]
-  n167[shape=larrow,label="$186
-v2f_pmux
-117
-S7"]
-  n168[shape=larrow,label="$186
-v2f_pmux
-121
 S8"]
-  n169[shape=rarrow,label="$186
+  n158[shape=rarrow,label="$186
 v2f_pmux
-124
+108
 Y"]
-  n170[shape=larrow,label="$101_CMP0
+  n159[shape=larrow,label="$155
+$sop
+111
+A0"]
+  n160[shape=rarrow,label="$155
+$sop
+110
+Y"]
+  n161[shape=larrow,label="$101_CMP0
 v2f_eq
-143
+129
 A"]
-  n171[shape=larrow,label="$101_CMP0
+  n162[shape=larrow,label="$101_CMP0
 v2f_eq
+130
+B"]
+  n163[shape=rarrow,label="$101_CMP0
+v2f_eq
+112
+Y"]
+  n167[shape=larrow,label="$16
+v2f_add
+131
+A"]
+  n168[shape=larrow,label="$16
+v2f_add
+132
+B"]
+  n169[shape=rarrow,label="$16
+v2f_add
+113
+Y"]
+  n170[shape=box,label="$swizzle"]
+  n171[shape=rarrow,label="$swizzle
+133
+Y"]
+  n172[shape=larrow,label="$swizzle
+136
+A0"]
+  n173[shape=box,label="$swizzle"]
+  n174[shape=rarrow,label="$swizzle
+141
+Y"]
+  n175[shape=larrow,label="$swizzle
+140
+A0"]
+  n176[shape=larrow,label="$swizzle
 144
-B"]
-  n172[shape=rarrow,label="$101_CMP0
-v2f_eq
-126
-Y"]
-  n176[shape=larrow,label="$16
-v2f_add
-145
-A"]
-  n177[shape=larrow,label="$16
-v2f_add
-146
-B"]
-  n178[shape=rarrow,label="$16
-v2f_add
-127
-Y"]
-  n179[shape=box,label="$swizzle"]
-  n180[shape=rarrow,label="$swizzle
-147
-Y"]
-  n181[shape=larrow,label="$swizzle
-150
-A0"]
-  n182[shape=box,label="$swizzle"]
-  n183[shape=rarrow,label="$swizzle
-155
-Y"]
-  n184[shape=larrow,label="$swizzle
-154
-A0"]
-  n185[shape=larrow,label="$swizzle
-158
 A1"]
-  n186[shape=box,label="$swizzle"]
-  n187[shape=rarrow,label="$swizzle
-160
+  n177[shape=box,label="$swizzle"]
+  n178[shape=rarrow,label="$swizzle
+146
 Y"]
-  n188[shape=larrow,label="$swizzle
-163
+  n179[shape=larrow,label="$swizzle
+149
 A"]
-  n189[shape=box,label="$swizzle"]
-  n190[shape=rarrow,label="$swizzle
-168
+  n180[shape=box,label="$swizzle"]
+  n181[shape=rarrow,label="$swizzle
+154
 Y"]
-  n191[shape=larrow,label="$swizzle
-167
+  n182[shape=larrow,label="$swizzle
+153
 A0"]
-  n192[shape=larrow,label="$swizzle
-171
+  n183[shape=larrow,label="$swizzle
+157
+A1"]
+  n184[shape=box,label="$swizzle"]
+  n185[shape=rarrow,label="$swizzle
+159
+Y"]
+  n186[shape=larrow,label="$swizzle
+162
+A"]
+  n187[shape=box,label="$swizzle"]
+  n188[shape=rarrow,label="$swizzle
+167
+Y"]
+  n189[shape=larrow,label="$swizzle
+166
+A0"]
+  n190[shape=larrow,label="$swizzle
+170
 A1"]
   n193[shape=box,label="$swizzle"]
   n194[shape=rarrow,label="$swizzle
-173
+172
 Y"]
   n195[shape=larrow,label="$swizzle
-176
+175
 A"]
   n196[shape=box,label="$swizzle"]
   n197[shape=rarrow,label="$swizzle
-181
+176
 Y"]
   n198[shape=larrow,label="$swizzle
+179
+A"]
+  n199[shape=box,label="$constant
+180"]
+  n200[shape=rarrow,label="$constant
 180
+Y"]
+  n201[shape=box,label="$constant
+181"]
+  n202[shape=rarrow,label="$constant
+181
+Y"]
+  n205[shape=box,label="$swizzle"]
+  n206[shape=rarrow,label="$swizzle
+182
+Y"]
+  n207[shape=larrow,label="$swizzle
+185
 A0"]
-  n199[shape=larrow,label="$swizzle
-184
-A1"]
-  n200[shape=box,label="$constant
-186"]
-  n201[shape=rarrow,label="$constant
+  n208[shape=box,label="$swizzle"]
+  n209[shape=rarrow,label="$swizzle
 186
 Y"]
-  n202[shape=box,label="$constant
-187"]
-  n203[shape=rarrow,label="$constant
-187
-Y"]
-  n204[shape=box,label="$swizzle"]
-  n205[shape=rarrow,label="$swizzle
-188
-Y"]
-  n206[shape=larrow,label="$swizzle
-191
+  n210[shape=larrow,label="$swizzle
+189
 A"]
-  n209[shape=box,label="$constant
-192"]
-  n210[shape=rarrow,label="$constant
-192
+  n211[shape=box,label="$swizzle"]
+  n212[shape=rarrow,label="$swizzle
+190
 Y"]
-  n211[shape=box,label="$constant
-193"]
-  n212[shape=rarrow,label="$constant
+  n213[shape=larrow,label="$swizzle
 193
-Y"]
-  n213[shape=box,label="$constant
-194"]
-  n214[shape=rarrow,label="$constant
+A"]
+  n214[shape=box,label="$swizzle"]
+  n215[shape=rarrow,label="$swizzle
 194
 Y"]
-  n215[shape=box,label="$constant
-195"]
-  n216[shape=rarrow,label="$constant
-195
-Y"]
-  n219[shape=box,label="$swizzle"]
-  n220[shape=rarrow,label="$swizzle
-196
-Y"]
-  n221[shape=larrow,label="$swizzle
-199
+  n216[shape=larrow,label="$swizzle
+197
 A0"]
-  n222[shape=box,label="$swizzle"]
-  n223[shape=rarrow,label="$swizzle
-200
+  n217[shape=box,label="$swizzle"]
+  n218[shape=rarrow,label="$swizzle
+198
 Y"]
-  n224[shape=larrow,label="$swizzle
-203
+  n219[shape=larrow,label="$swizzle
+201
 A"]
-  n225[shape=box,label="$swizzle"]
-  n226[shape=rarrow,label="$swizzle
-204
+  n220[shape=box,label="$swizzle"]
+  n221[shape=rarrow,label="$swizzle
+202
 Y"]
-  n227[shape=larrow,label="$swizzle
-207
-A"]
-  n228[shape=box,label="$swizzle"]
-  n229[shape=rarrow,label="$swizzle
-212
-Y"]
-  n230[shape=larrow,label="$swizzle
-211
+  n222[shape=larrow,label="$swizzle
+205
 A0"]
+  n223[shape=box,label="$swizzle"]
+  n224[shape=rarrow,label="$swizzle
+206
+Y"]
+  n225[shape=larrow,label="$swizzle
+209
+A"]
+  n226[shape=box,label="$swizzle"]
+  n227[shape=rarrow,label="$swizzle
+210
+Y"]
+  n228[shape=larrow,label="$swizzle
+213
+A0"]
+  n229[shape=box,label="$swizzle"]
+  n230[shape=rarrow,label="$swizzle
+214
+Y"]
   n231[shape=larrow,label="$swizzle
-215
-A1"]
-  n232[shape=box,label="$swizzle"]
-  n233[shape=rarrow,label="$swizzle
 217
-Y"]
-  n234[shape=larrow,label="$swizzle
-220
 A"]
-  n235[shape=box,label="$swizzle"]
-  n236[shape=rarrow,label="$swizzle
-221
+  n234[shape=box,label="$swizzle"]
+  n235[shape=rarrow,label="$swizzle
+222
 Y"]
-  n237[shape=larrow,label="$swizzle
-224
+  n236[shape=larrow,label="$swizzle
+221
 A0"]
+  n237[shape=larrow,label="$swizzle
+225
+A1"]
   n238[shape=box,label="$swizzle"]
   n239[shape=rarrow,label="$swizzle
-225
+227
 Y"]
   n240[shape=larrow,label="$swizzle
-228
+230
 A"]
-  n241[shape=box,label="$swizzle"]
-  n242[shape=rarrow,label="$swizzle
-229
+  n243[shape=box,label="$swizzle"]
+  n244[shape=rarrow,label="$swizzle
+231
 Y"]
-  n243[shape=larrow,label="$swizzle
-232
+  n245[shape=larrow,label="$swizzle
+234
+A"]
+  n246[shape=box,label="$swizzle"]
+  n247[shape=rarrow,label="$swizzle
+235
+Y"]
+  n248[shape=larrow,label="$swizzle
+238
+A"]
+  n255[shape=box,label="$swizzle"]
+  n256[shape=rarrow,label="$swizzle
+243
+Y"]
+  n257[shape=larrow,label="$swizzle
+242
 A0"]
-  n244[shape=box,label="$swizzle"]
-  n245[shape=rarrow,label="$swizzle
-233
-Y"]
-  n246[shape=larrow,label="$swizzle
-236
-A"]
-  n247[shape=box,label="$swizzle"]
-  n248[shape=rarrow,label="$swizzle
-237
-Y"]
-  n249[shape=larrow,label="$swizzle
-240
-A0"]
-  n250[shape=box,label="$swizzle"]
-  n251[shape=rarrow,label="$swizzle
-241
-Y"]
-  n252[shape=larrow,label="$swizzle
-244
-A"]
-  n255[shape=box,label="$constant
-245"]
-  n256[shape=rarrow,label="$constant
-245
-Y"]
-  n257[shape=box,label="$constant
-246"]
-  n258[shape=rarrow,label="$constant
+  n258[shape=larrow,label="$swizzle
 246
-Y"]
+A1"]
   n259[shape=box,label="$swizzle"]
   n260[shape=rarrow,label="$swizzle
-247
+248
 Y"]
   n261[shape=larrow,label="$swizzle
-250
-A"]
-  n264[shape=box,label="$swizzle"]
-  n265[shape=rarrow,label="$swizzle
 251
-Y"]
-  n266[shape=larrow,label="$swizzle
-254
 A"]
-  n267[shape=box,label="$swizzle"]
-  n268[shape=rarrow,label="$swizzle
-255
-Y"]
-  n269[shape=larrow,label="$swizzle
-258
-A"]
-  n276[shape=box,label="$swizzle"]
-  n277[shape=rarrow,label="$swizzle
-263
-Y"]
-  n278[shape=larrow,label="$swizzle
-262
-A0"]
-  n279[shape=larrow,label="$swizzle
-266
-A1"]
-  n280[shape=box,label="$swizzle"]
-  n281[shape=rarrow,label="$swizzle
-268
-Y"]
-  n282[shape=larrow,label="$swizzle
-271
-A"]
-  n0 -> n39
-  n1 -> n40
-  n2 -> n41
-  n4 -> n46
-  n5 -> n50
-  n6 -> n53
-  n7 -> n57
-  n8 -> n61
-  n9 -> n65
-  n11 -> n72
-  n12 -> n75
-  n13 -> n79
-  n14 -> n82
-  n16 -> n89
-  n17 -> n92
-  n18 -> n96
-  n19 -> n100
-  n20 -> n103
-  n21 -> n107
-  n22 -> n111
-  n24 -> n118
-  n25 -> n121
-  n27 -> n127
-  n29 -> n134
-  n31 -> n140
-  n33 -> n147
-  n34 -> n150
-  n35 -> n169
-  n36 -> n172
-  n38 -> n178
-  n39 -> n43 [label="wooden-chest(0)",syle=bold,color=blue]
-  n39 -> n51 [label="wooden-chest(0)",syle=bold,color=blue]
-  n39 -> n58 [label="wooden-chest(0)",syle=bold,color=blue]
-  n39 -> n73 [label="wooden-chest(0)",syle=bold,color=blue]
-  n39 -> n80 [label="wooden-chest(0)",syle=bold,color=blue]
-  n39 -> n101 [label="wooden-chest(0)",syle=bold,color=blue]
-  n39 -> n119 [label="wooden-chest(0)",syle=bold,color=blue]
-  n39 -> n176 [label="wooden-chest(0)",syle=bold,color=blue]
-  n39 -> n181 [label="wooden-chest(0)",syle=bold,color=blue]
-  n39 -> n198 [label="wooden-chest(0)",syle=bold,color=blue]
-  n39 -> n227 [label="wooden-chest(0)",syle=bold,color=blue]
-  n39 -> n261 [label="wooden-chest(0)",syle=bold,color=blue]
-  n39 -> n266 [label="wooden-chest(0)",syle=bold,color=blue]
-  n40 -> n52 [label="iron-chest(1)",syle=bold,color=blue]
-  n40 -> n74 [label="iron-chest(1)",syle=bold,color=blue]
-  n40 -> n81 [label="iron-chest(1)",syle=bold,color=blue]
-  n40 -> n102 [label="iron-chest(1)",syle=bold,color=blue]
-  n40 -> n120 [label="iron-chest(1)",syle=bold,color=blue]
-  n40 -> n177 [label="iron-chest(1)",syle=bold,color=blue]
-  n40 -> n45 [label="iron-chest(1)",syle=bold,color=blue]
-  n40 -> n60 [label="iron-chest(1)",syle=bold,color=blue]
-  n40 -> n188 [label="iron-chest(1)",syle=bold,color=blue]
-  n40 -> n195 [label="iron-chest(1)",syle=bold,color=blue]
-  n40 -> n224 [label="iron-chest(1)",syle=bold,color=blue]
-  n40 -> n234 [label="iron-chest(1)",syle=bold,color=blue]
-  n40 -> n240 [label="iron-chest(1)",syle=bold,color=blue]
-  n40 -> n246 [label="iron-chest(1)",syle=bold,color=blue]
-  n40 -> n252 [label="iron-chest(1)",syle=bold,color=blue]
-  n40 -> n269 [label="iron-chest(1)",syle=bold,color=blue]
-  n40 -> n282 [label="iron-chest(1)",syle=bold,color=blue]
-  n41 -> n148 [label="steel-chest(2)",syle=bold,color=blue]
-  n41 -> n170 [label="steel-chest(2)",syle=bold,color=blue]
-  n41 -> n91 [label="steel-chest(2)",syle=bold,color=blue]
-  n41 -> n160 [label="steel-chest(2)",syle=bold,color=blue]
-  n41 -> n161 [label="steel-chest(2)",syle=bold,color=blue]
-  n41 -> n162 [label="steel-chest(2)",syle=bold,color=blue]
-  n41 -> n163 [label="steel-chest(2)",syle=bold,color=blue]
-  n41 -> n164 [label="steel-chest(2)",syle=bold,color=blue]
-  n41 -> n165 [label="steel-chest(2)",syle=bold,color=blue]
-  n41 -> n166 [label="steel-chest(2)",syle=bold,color=blue]
-  n41 -> n168 [label="steel-chest(2)",syle=bold,color=blue]
-  n42 -> n3
+  n0 -> n38
+  n1 -> n39
+  n2 -> n40
+  n4 -> n45
+  n5 -> n49
+  n6 -> n52
+  n7 -> n56
+  n8 -> n60
+  n10 -> n67
+  n11 -> n70
+  n12 -> n74
+  n13 -> n77
+  n15 -> n84
+  n16 -> n87
+  n17 -> n91
+  n18 -> n94
+  n19 -> n98
+  n20 -> n102
+  n22 -> n109
+  n23 -> n112
+  n24 -> n114
+  n26 -> n120
+  n29 -> n129
+  n31 -> n136
+  n32 -> n139
+  n33 -> n158
+  n34 -> n160
+  n35 -> n163
+  n37 -> n169
+  n38 -> n42 [label="wooden-chest(0)",syle=bold,color=blue]
+  n38 -> n50 [label="wooden-chest(0)",syle=bold,color=blue]
+  n38 -> n57 [label="wooden-chest(0)",syle=bold,color=blue]
+  n38 -> n68 [label="wooden-chest(0)",syle=bold,color=blue]
+  n38 -> n75 [label="wooden-chest(0)",syle=bold,color=blue]
+  n38 -> n92 [label="wooden-chest(0)",syle=bold,color=blue]
+  n38 -> n110 [label="wooden-chest(0)",syle=bold,color=blue]
+  n38 -> n167 [label="wooden-chest(0)",syle=bold,color=blue]
+  n38 -> n172 [label="wooden-chest(0)",syle=bold,color=blue]
+  n38 -> n189 [label="wooden-chest(0)",syle=bold,color=blue]
+  n38 -> n195 [label="wooden-chest(0)",syle=bold,color=blue]
+  n38 -> n213 [label="wooden-chest(0)",syle=bold,color=blue]
+  n38 -> n245 [label="wooden-chest(0)",syle=bold,color=blue]
+  n39 -> n51 [label="iron-chest(1)",syle=bold,color=blue]
+  n39 -> n69 [label="iron-chest(1)",syle=bold,color=blue]
+  n39 -> n76 [label="iron-chest(1)",syle=bold,color=blue]
+  n39 -> n93 [label="iron-chest(1)",syle=bold,color=blue]
+  n39 -> n111 [label="iron-chest(1)",syle=bold,color=blue]
+  n39 -> n168 [label="iron-chest(1)",syle=bold,color=blue]
+  n39 -> n44 [label="iron-chest(1)",syle=bold,color=blue]
+  n39 -> n59 [label="iron-chest(1)",syle=bold,color=blue]
+  n39 -> n179 [label="iron-chest(1)",syle=bold,color=blue]
+  n39 -> n186 [label="iron-chest(1)",syle=bold,color=blue]
+  n39 -> n210 [label="iron-chest(1)",syle=bold,color=blue]
+  n39 -> n219 [label="iron-chest(1)",syle=bold,color=blue]
+  n39 -> n225 [label="iron-chest(1)",syle=bold,color=blue]
+  n39 -> n231 [label="iron-chest(1)",syle=bold,color=blue]
+  n39 -> n240 [label="iron-chest(1)",syle=bold,color=blue]
+  n39 -> n248 [label="iron-chest(1)",syle=bold,color=blue]
+  n39 -> n261 [label="iron-chest(1)",syle=bold,color=blue]
+  n40 -> n137 [label="steel-chest(2)",syle=bold,color=blue]
+  n40 -> n161 [label="steel-chest(2)",syle=bold,color=blue]
+  n40 -> n86 [label="steel-chest(2)",syle=bold,color=blue]
+  n40 -> n149 [label="steel-chest(2)",syle=bold,color=blue]
+  n40 -> n150 [label="steel-chest(2)",syle=bold,color=blue]
+  n40 -> n151 [label="steel-chest(2)",syle=bold,color=blue]
+  n40 -> n152 [label="steel-chest(2)",syle=bold,color=blue]
+  n40 -> n153 [label="steel-chest(2)",syle=bold,color=blue]
+  n40 -> n154 [label="steel-chest(2)",syle=bold,color=blue]
+  n40 -> n155 [label="steel-chest(2)",syle=bold,color=blue]
+  n40 -> n157 [label="steel-chest(2)",syle=bold,color=blue]
+  n41 -> n3
+  n42 -> n4
   n43 -> n4
   n44 -> n4
-  n45 -> n4
-  n46 -> n97 [label="iron-chest(1)",syle=bold,color=blue]
-  n46 -> n237 [label="iron-chest(1)",syle=bold,color=blue]
+  n45 -> n88 [label="iron-chest(1)",syle=bold,color=blue]
+  n45 -> n216 [label="iron-chest(1)",syle=bold,color=blue]
+  n46 -> n5
   n47 -> n5
   n48 -> n5
-  n49 -> n5
-  n50 -> n93 [label="fast-splitter(11)",syle=bold,color=blue]
-  n50 -> n230 [label="fast-splitter(11)",syle=bold,color=blue]
+  n49 -> n106 [label="fast-splitter(11)",syle=bold,color=blue]
+  n49 -> n236 [label="fast-splitter(11)",syle=bold,color=blue]
+  n50 -> n6
   n51 -> n6
-  n52 -> n6
-  n53 -> n71 [label="steel-chest(2)",syle=bold,color=blue]
+  n52 -> n159 [label="wooden-chest(0)",syle=bold,color=blue]
+  n53 -> n7
   n54 -> n7
   n55 -> n7
-  n56 -> n7
-  n57 -> n47 [label="fast-transport-belt(5)",syle=bold,color=blue]
-  n57 -> n184 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n56 -> n46 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n56 -> n175 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n57 -> n8
   n58 -> n8
   n59 -> n8
-  n60 -> n8
-  n61 -> n54 [label="fast-underground-belt(8)",syle=bold,color=blue]
-  n61 -> n191 [label="fast-underground-belt(8)",syle=bold,color=blue]
-  n62 -> n9
-  n63 -> n9
-  n64 -> n9
-  n65 -> n131 [label="iron-chest(1)",syle=bold,color=blue]
+  n60 -> n53 [label="fast-underground-belt(8)",syle=bold,color=blue]
+  n60 -> n182 [label="fast-underground-belt(8)",syle=bold,color=blue]
+  n64 -> n10
+  n65 -> n10
+  n66 -> n10
+  n67 -> n113 [label="wooden-chest(0)",syle=bold,color=blue]
+  n68 -> n11
   n69 -> n11
-  n70 -> n11
-  n71 -> n11
-  n72 -> n152 [label="storage-tank(3)",syle=bold,color=blue]
+  n70 -> n142 [label="transport-belt(4)",syle=bold,color=blue]
+  n71 -> n12
+  n72 -> n12
   n73 -> n12
-  n74 -> n12
-  n75 -> n153 [label="transport-belt(4)",syle=bold,color=blue]
+  n74 -> n176 [label="transport-belt(4)",syle=bold,color=blue]
+  n74 -> n183 [label="transport-belt(4)",syle=bold,color=blue]
+  n74 -> n190 [label="transport-belt(4)",syle=bold,color=blue]
+  n74 -> n237 [label="transport-belt(4)",syle=bold,color=blue]
+  n74 -> n258 [label="transport-belt(4)",syle=bold,color=blue]
+  n75 -> n13
   n76 -> n13
-  n77 -> n13
-  n78 -> n13
-  n79 -> n185 [label="transport-belt(4)",syle=bold,color=blue]
-  n79 -> n192 [label="transport-belt(4)",syle=bold,color=blue]
-  n79 -> n199 [label="transport-belt(4)",syle=bold,color=blue]
-  n79 -> n231 [label="transport-belt(4)",syle=bold,color=blue]
-  n79 -> n279 [label="transport-belt(4)",syle=bold,color=blue]
-  n80 -> n14
-  n81 -> n14
-  n82 -> n154 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n77 -> n143 [label="fast-transport-belt(5)",syle=bold,color=blue]
+  n81 -> n15
+  n82 -> n15
+  n83 -> n15
+  n84 -> n95 [label="iron-chest(1)",syle=bold,color=blue]
+  n84 -> n222 [label="iron-chest(1)",syle=bold,color=blue]
+  n85 -> n16
   n86 -> n16
-  n87 -> n16
-  n88 -> n16
-  n89 -> n104 [label="iron-chest(1)",syle=bold,color=blue]
-  n89 -> n243 [label="iron-chest(1)",syle=bold,color=blue]
+  n87 -> n73 [label="steel-chest(2)",syle=bold,color=blue]
+  n88 -> n17
+  n89 -> n17
   n90 -> n17
-  n91 -> n17
-  n92 -> n78 [label="steel-chest(2)",syle=bold,color=blue]
+  n91 -> n99 [label="iron-chest(1)",syle=bold,color=blue]
+  n91 -> n228 [label="iron-chest(1)",syle=bold,color=blue]
+  n92 -> n18
   n93 -> n18
-  n94 -> n18
-  n95 -> n18
-  n96 -> n144 [label="inserter(14)",syle=bold,color=blue]
-  n96 -> n278 [label="inserter(14)",syle=bold,color=blue]
+  n94 -> n144 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n95 -> n19
+  n96 -> n19
   n97 -> n19
-  n98 -> n19
-  n99 -> n19
-  n100 -> n108 [label="iron-chest(1)",syle=bold,color=blue]
-  n100 -> n249 [label="iron-chest(1)",syle=bold,color=blue]
+  n98 -> n148 [label="splitter(10)",syle=bold,color=blue]
+  n99 -> n20
+  n100 -> n20
   n101 -> n20
-  n102 -> n20
-  n103 -> n155 [label="express-transport-belt(6)",syle=bold,color=blue]
-  n104 -> n21
-  n105 -> n21
-  n106 -> n21
-  n107 -> n159 [label="splitter(10)",syle=bold,color=blue]
+  n102 -> n81 [label="iron-chest(1)",syle=bold,color=blue]
+  n102 -> n207 [label="iron-chest(1)",syle=bold,color=blue]
+  n106 -> n22
+  n107 -> n22
   n108 -> n22
-  n109 -> n22
-  n110 -> n22
-  n111 -> n86 [label="iron-chest(1)",syle=bold,color=blue]
-  n111 -> n221 [label="iron-chest(1)",syle=bold,color=blue]
-  n115 -> n24
-  n116 -> n24
-  n117 -> n24
-  n118 -> n132 [label="wooden-chest(0)",syle=bold,color=blue]
-  n119 -> n25
-  n120 -> n25
-  n121 -> n156 [label="underground-belt(7)",syle=bold,color=blue]
-  n121 -> n206 [label="underground-belt(7)",syle=bold,color=blue]
-  n125 -> n27
-  n126 -> n27
-  n127 -> n133 [label="steel-chest(2)",syle=bold,color=blue]
-  n131 -> n29
-  n132 -> n29
-  n133 -> n29
-  n134 -> n151 [label="iron-chest(1)",syle=bold,color=blue]
-  n138 -> n31
-  n139 -> n31
-  n140 -> n167 [label="fast-splitter(11)",syle=bold,color=blue]
+  n109 -> n133 [label="inserter(14)",syle=bold,color=blue]
+  n109 -> n257 [label="inserter(14)",syle=bold,color=blue]
+  n110 -> n23
+  n111 -> n23
+  n112 -> n145 [label="underground-belt(7)",syle=bold,color=blue]
+  n112 -> n198 [label="underground-belt(7)",syle=bold,color=blue]
+  n113 -> n24
+  n114 -> n140 [label="iron-chest(1)",syle=bold,color=blue]
+  n118 -> n26
+  n119 -> n26
+  n120 -> n65 [label="iron-chest(1)",syle=bold,color=blue]
+  n127 -> n29
+  n128 -> n29
+  n129 -> n156 [label="fast-splitter(11)",syle=bold,color=blue]
+  n133 -> n31
+  n134 -> n31
+  n135 -> n31
+  n136 -> n147 [label="express-underground-belt(9)",syle=bold,color=blue]
+  n137 -> n32
+  n138 -> n32
+  n139 -> n127 [label="wooden-chest(0)",syle=bold,color=blue]
+  n140 -> n33
+  n141 -> n33
+  n142 -> n33
+  n143 -> n33
   n144 -> n33
   n145 -> n33
   n146 -> n33
-  n147 -> n158 [label="express-underground-belt(9)",syle=bold,color=blue]
-  n148 -> n34
-  n149 -> n34
-  n150 -> n138 [label="wooden-chest(0)",syle=bold,color=blue]
-  n151 -> n35
-  n152 -> n35
-  n153 -> n35
-  n154 -> n35
-  n155 -> n35
-  n156 -> n35
-  n157 -> n35
-  n158 -> n35
-  n159 -> n35
-  n160 -> n35
+  n147 -> n33
+  n148 -> n33
+  n149 -> n33
+  n150 -> n33
+  n151 -> n33
+  n152 -> n33
+  n153 -> n33
+  n154 -> n33
+  n155 -> n33
+  n156 -> n33
+  n157 -> n33
+  n158 -> n41 [label="storage-tank(3)",syle=bold,color=blue]
+  n159 -> n34
+  n160 -> n141 [label="storage-tank(3)",syle=bold,color=blue]
   n161 -> n35
   n162 -> n35
-  n163 -> n35
-  n164 -> n35
-  n165 -> n35
-  n166 -> n35
-  n167 -> n35
-  n168 -> n35
-  n169 -> n42 [label="storage-tank(3)",syle=bold,color=blue]
-  n170 -> n36
-  n171 -> n36
-  n172 -> n139 [label="iron-chest(1)",syle=bold,color=blue]
-  n176 -> n38
-  n177 -> n38
-  n178 -> n157 [label="fast-underground-belt(8)",syle=bold,color=blue]
-  n179 -> n180
-  n180 -> n44 [label="steel-chest(2)",syle=bold,color=blue]
-  n181 -> n179
-  n182 -> n183
-  n183 -> n48 [label="express-transport-belt(6)",syle=bold,color=blue]
-  n184 -> n182
-  n185 -> n182
-  n186 -> n187
-  n187 -> n49 [label="underground-belt(7)",syle=bold,color=blue]
-  n188 -> n186
-  n189 -> n190
-  n190 -> n55 [label="express-underground-belt(9)",syle=bold,color=blue]
-  n191 -> n189
-  n192 -> n189
+  n163 -> n128 [label="iron-chest(1)",syle=bold,color=blue]
+  n167 -> n37
+  n168 -> n37
+  n169 -> n146 [label="fast-underground-belt(8)",syle=bold,color=blue]
+  n170 -> n171
+  n171 -> n43 [label="steel-chest(2)",syle=bold,color=blue]
+  n172 -> n170
+  n173 -> n174
+  n174 -> n47 [label="express-transport-belt(6)",syle=bold,color=blue]
+  n175 -> n173
+  n176 -> n173
+  n177 -> n178
+  n178 -> n48 [label="underground-belt(7)",syle=bold,color=blue]
+  n179 -> n177
+  n180 -> n181
+  n181 -> n54 [label="express-underground-belt(9)",syle=bold,color=blue]
+  n182 -> n180
+  n183 -> n180
+  n184 -> n185
+  n185 -> n55 [label="splitter(10)",syle=bold,color=blue]
+  n186 -> n184
+  n187 -> n188
+  n188 -> n58 [label="storage-tank(3)",syle=bold,color=blue]
+  n189 -> n187
+  n190 -> n187
   n193 -> n194
-  n194 -> n56 [label="splitter(10)",syle=bold,color=blue]
+  n194 -> n64 [label="wooden-chest(0)",syle=bold,color=blue]
   n195 -> n193
   n196 -> n197
-  n197 -> n59 [label="storage-tank(3)",syle=bold,color=blue]
+  n197 -> n66 [label="steel-chest(2)",syle=bold,color=blue]
   n198 -> n196
-  n199 -> n196
-  n200 -> n201
-  n201 -> n62 [label="wooden-chest(0)",syle=bold,color=blue]
-  n202 -> n203
-  n203 -> n63 [label="iron-chest(1)",syle=bold,color=blue]
-  n204 -> n205
-  n205 -> n64 [label="steel-chest(2)",syle=bold,color=blue]
-  n206 -> n204
-  n209 -> n210
-  n210 -> n69 [label="wooden-chest(0)",syle=bold,color=blue]
+  n199 -> n200
+  n200 -> n71 [label="wooden-chest(0)",syle=bold,color=blue]
+  n201 -> n202
+  n202 -> n72 [label="iron-chest(1)",syle=bold,color=blue]
+  n205 -> n206
+  n206 -> n82 [label="steel-chest(2)",syle=bold,color=blue]
+  n207 -> n205
+  n208 -> n209
+  n209 -> n83 [label="wooden-chest(0)",syle=bold,color=blue]
+  n210 -> n208
   n211 -> n212
-  n212 -> n70 [label="iron-chest(1)",syle=bold,color=blue]
-  n213 -> n214
-  n214 -> n76 [label="wooden-chest(0)",syle=bold,color=blue]
-  n215 -> n216
-  n216 -> n77 [label="iron-chest(1)",syle=bold,color=blue]
-  n219 -> n220
-  n220 -> n87 [label="steel-chest(2)",syle=bold,color=blue]
-  n221 -> n219
-  n222 -> n223
-  n223 -> n88 [label="wooden-chest(0)",syle=bold,color=blue]
-  n224 -> n222
-  n225 -> n226
-  n226 -> n90 [label="wooden-chest(0)",syle=bold,color=blue]
-  n227 -> n225
-  n228 -> n229
-  n229 -> n94 [label="express-splitter(12)",syle=bold,color=blue]
-  n230 -> n228
-  n231 -> n228
-  n232 -> n233
-  n233 -> n95 [label="burner-inserter(13)",syle=bold,color=blue]
-  n234 -> n232
-  n235 -> n236
-  n236 -> n98 [label="steel-chest(2)",syle=bold,color=blue]
-  n237 -> n235
+  n212 -> n85 [label="wooden-chest(0)",syle=bold,color=blue]
+  n213 -> n211
+  n214 -> n215
+  n215 -> n89 [label="steel-chest(2)",syle=bold,color=blue]
+  n216 -> n214
+  n217 -> n218
+  n218 -> n90 [label="wooden-chest(0)",syle=bold,color=blue]
+  n219 -> n217
+  n220 -> n221
+  n221 -> n96 [label="steel-chest(2)",syle=bold,color=blue]
+  n222 -> n220
+  n223 -> n224
+  n224 -> n97 [label="wooden-chest(0)",syle=bold,color=blue]
+  n225 -> n223
+  n226 -> n227
+  n227 -> n100 [label="steel-chest(2)",syle=bold,color=blue]
+  n228 -> n226
+  n229 -> n230
+  n230 -> n101 [label="wooden-chest(0)",syle=bold,color=blue]
+  n231 -> n229
+  n234 -> n235
+  n235 -> n107 [label="express-splitter(12)",syle=bold,color=blue]
+  n236 -> n234
+  n237 -> n234
   n238 -> n239
-  n239 -> n99 [label="wooden-chest(0)",syle=bold,color=blue]
+  n239 -> n108 [label="burner-inserter(13)",syle=bold,color=blue]
   n240 -> n238
-  n241 -> n242
-  n242 -> n105 [label="steel-chest(2)",syle=bold,color=blue]
-  n243 -> n241
-  n244 -> n245
-  n245 -> n106 [label="wooden-chest(0)",syle=bold,color=blue]
-  n246 -> n244
-  n247 -> n248
-  n248 -> n109 [label="steel-chest(2)",syle=bold,color=blue]
-  n249 -> n247
-  n250 -> n251
-  n251 -> n110 [label="wooden-chest(0)",syle=bold,color=blue]
-  n252 -> n250
+  n243 -> n244
+  n244 -> n118 [label="wooden-chest(0)",syle=bold,color=blue]
+  n245 -> n243
+  n246 -> n247
+  n247 -> n119 [label="iron-chest(1)",syle=bold,color=blue]
+  n248 -> n246
   n255 -> n256
-  n256 -> n115 [label="wooden-chest(0)",syle=bold,color=blue]
-  n257 -> n258
-  n258 -> n116 [label="iron-chest(1)",syle=bold,color=blue]
+  n256 -> n134 [label="long-handed-inserter(15)",syle=bold,color=blue]
+  n257 -> n255
+  n258 -> n255
   n259 -> n260
-  n260 -> n117 [label="steel-chest(2)",syle=bold,color=blue]
+  n260 -> n135 [label="fast-inserter(16)",syle=bold,color=blue]
   n261 -> n259
-  n264 -> n265
-  n265 -> n125 [label="wooden-chest(0)",syle=bold,color=blue]
-  n266 -> n264
-  n267 -> n268
-  n268 -> n126 [label="iron-chest(1)",syle=bold,color=blue]
-  n269 -> n267
-  n276 -> n277
-  n277 -> n145 [label="long-handed-inserter(15)",syle=bold,color=blue]
-  n278 -> n276
-  n279 -> n276
-  n280 -> n281
-  n281 -> n146 [label="fast-inserter(16)",syle=bold,color=blue]
-  n282 -> n280
 }

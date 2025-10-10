@@ -1955,8 +1955,8 @@ Q"]
   n152 -> n11
   n153 -> n11
   n154 -> n11
-  n155 -> n200 [label="rail-signal(27)",syle=bold,color=blue]
-  n155 -> n312 [label="rail-signal(27)",syle=bold,color=blue]
+  n155 -> n200 [label="wooden-chest(0)",syle=bold,color=blue]
+  n155 -> n312 [label="wooden-chest(0)",syle=bold,color=blue]
   n165 -> n15
   n166 -> n15
   n167 -> n477 [label="big-electric-pole(20)",syle=bold,color=blue]
@@ -2168,8 +2168,8 @@ Q"]
   n420 -> n53
   n421 -> n53
   n422 -> n53
-  n423 -> n201 [label="rail-chain-signal(28)",syle=bold,color=blue]
-  n423 -> n313 [label="rail-chain-signal(28)",syle=bold,color=blue]
+  n423 -> n201 [label="rail-signal(27)",syle=bold,color=blue]
+  n423 -> n313 [label="rail-signal(27)",syle=bold,color=blue]
   n427 -> n55
   n428 -> n55
   n429 -> n657 [label="fluid-wagon(31)",syle=bold,color=blue]
@@ -2243,8 +2243,8 @@ Q"]
   n539 -> n88
   n540 -> n88
   n541 -> n88
-  n542 -> n202 [label="locomotive(29)",syle=bold,color=blue]
-  n542 -> n314 [label="locomotive(29)",syle=bold,color=blue]
+  n542 -> n202 [label="rail-chain-signal(28)",syle=bold,color=blue]
+  n542 -> n314 [label="rail-chain-signal(28)",syle=bold,color=blue]
   n549 -> n91
   n550 -> n91
   n551 -> n264 [label="fast-underground-belt(8)",syle=bold,color=blue]
@@ -2270,8 +2270,8 @@ Q"]
   n581 -> n100
   n582 -> n100
   n583 -> n100
-  n584 -> n204 [label="wooden-chest(0)",syle=bold,color=blue]
-  n584 -> n316 [label="wooden-chest(0)",syle=bold,color=blue]
+  n584 -> n204 [label="cargo-wagon(30)",syle=bold,color=blue]
+  n584 -> n316 [label="cargo-wagon(30)",syle=bold,color=blue]
   n594 -> n104
   n595 -> n104
   n596 -> n104
@@ -2348,6 +2348,6 @@ Q"]
   n698 -> n133
   n699 -> n133
   n700 -> n133
-  n701 -> n203 [label="cargo-wagon(30)",syle=bold,color=blue]
-  n701 -> n315 [label="cargo-wagon(30)",syle=bold,color=blue]
+  n701 -> n203 [label="locomotive(29)",syle=bold,color=blue]
+  n701 -> n315 [label="locomotive(29)",syle=bold,color=blue]
 }

@@ -816,7 +816,7 @@
         "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:39.1-50.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:48.1-59.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -854,7 +854,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:46.22-46.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:55.22-55.23"
           }
         },
         "B": {
@@ -863,7 +863,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:47.22-47.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:56.22-56.23"
           }
         },
         "Y": {
@@ -872,7 +872,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:48.23-48.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:57.23-57.24"
           }
         }
       }
@@ -882,7 +882,7 @@
         "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:104.1-115.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:113.1-124.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -920,7 +920,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:111.22-111.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:120.22-120.23"
           }
         },
         "B": {
@@ -929,7 +929,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:112.22-112.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:121.22-121.23"
           }
         },
         "Y": {
@@ -938,7 +938,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:113.23-113.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:122.23-122.24"
           }
         }
       }
@@ -948,7 +948,7 @@
         "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:52.1-63.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:61.1-72.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -986,7 +986,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:59.22-59.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:68.22-68.23"
           }
         },
         "B": {
@@ -995,7 +995,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:60.22-60.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:69.22-69.23"
           }
         },
         "Y": {
@@ -1004,7 +1004,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:61.23-61.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:70.23-70.24"
           }
         }
       }
@@ -1014,7 +1014,7 @@
         "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:240.1-251.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:249.1-260.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -1052,7 +1052,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:247.22-247.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:256.22-256.23"
           }
         },
         "B": {
@@ -1061,7 +1061,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:248.22-248.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:257.22-257.23"
           }
         },
         "Y": {
@@ -1070,7 +1070,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:249.23-249.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:258.23-258.24"
           }
         }
       }
@@ -1080,7 +1080,7 @@
         "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:213.1-224.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:222.1-233.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -1118,7 +1118,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:220.22-220.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:229.22-229.23"
           }
         },
         "B": {
@@ -1127,7 +1127,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:221.22-221.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:230.22-230.23"
           }
         },
         "Y": {
@@ -1136,7 +1136,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:222.23-222.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:231.23-231.24"
           }
         }
       }
@@ -1146,7 +1146,7 @@
         "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:187.1-198.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:196.1-207.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -1184,7 +1184,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:194.22-194.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:203.22-203.23"
           }
         },
         "B": {
@@ -1193,7 +1193,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:195.22-195.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:204.22-204.23"
           }
         },
         "Y": {
@@ -1202,7 +1202,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:196.23-196.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:205.23-205.24"
           }
         }
       }
@@ -1212,7 +1212,7 @@
         "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:226.1-237.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:235.1-246.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -1250,7 +1250,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:233.22-233.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:242.22-242.23"
           }
         },
         "B": {
@@ -1259,7 +1259,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:234.22-234.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:243.22-243.23"
           }
         },
         "Y": {
@@ -1268,7 +1268,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:235.23-235.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:244.23-244.24"
           }
         }
       }
@@ -1278,7 +1278,7 @@
         "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:200.1-211.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:209.1-220.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -1316,7 +1316,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:207.22-207.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:216.22-216.23"
           }
         },
         "B": {
@@ -1325,7 +1325,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:208.22-208.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:217.22-217.23"
           }
         },
         "Y": {
@@ -1334,7 +1334,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:209.23-209.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:218.23-218.24"
           }
         }
       }
@@ -1344,7 +1344,7 @@
         "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:78.1-89.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:87.1-98.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -1382,7 +1382,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:85.22-85.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:94.22-94.23"
           }
         },
         "B": {
@@ -1391,7 +1391,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:86.22-86.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:95.22-95.23"
           }
         },
         "Y": {
@@ -1400,7 +1400,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:87.23-87.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:96.23-96.24"
           }
         }
       }
@@ -1410,7 +1410,7 @@
         "whitebox": "00000000000000000000000000000001",
         "dynports": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:29.1-37.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:38.1-46.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -1434,7 +1434,7 @@
         }
       },
       "cells": {
-        "$mul$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:36$23": {
+        "$mul$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:45$23": {
           "hide_name": 1,
           "type": "$mul",
           "parameters": {
@@ -1445,7 +1445,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:36.13-36.16"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:45.13-45.16"
           },
           "port_directions": {
             "A": "input",
@@ -1460,32 +1460,32 @@
         }
       },
       "netnames": {
-        "$mul$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:36$23_Y": {
+        "$mul$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:45$23_Y": {
           "hide_name": 1,
           "bits": [ 4 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:36.13-36.16"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:45.13-45.16"
           }
         },
         "A": {
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:30.22-30.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:39.22-39.23"
           }
         },
         "B": {
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:31.22-31.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:40.22-40.23"
           }
         },
         "Y": {
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:32.23-32.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:41.23-41.24"
           }
         }
       }
@@ -1495,7 +1495,7 @@
         "whitebox": "00000000000000000000000000000001",
         "dynports": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:278.1-286.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:287.1-295.10"
       },
       "parameter_default_values": {
         "WIDTH": "00000000000000000000000000000000"
@@ -1525,14 +1525,14 @@
         }
       },
       "cells": {
-        "$ternary$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:285$28": {
+        "$ternary$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:294$28": {
           "hide_name": 1,
           "type": "$mux",
           "parameters": {
             "WIDTH": "00000000000000000000000000000010"
           },
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:285.13-285.22"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:294.13-294.22"
           },
           "port_directions": {
             "A": "input",
@@ -1549,11 +1549,11 @@
         }
       },
       "netnames": {
-        "$ternary$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:285$28_Y": {
+        "$ternary$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:294$28_Y": {
           "hide_name": 1,
           "bits": [ 7, 8 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:285.13-285.22"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:294.13-294.22"
           }
         },
         "A": {
@@ -1562,7 +1562,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:281.20-281.21"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:290.20-290.21"
           }
         },
         "B": {
@@ -1571,14 +1571,14 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:282.20-282.21"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:291.20-291.21"
           }
         },
         "S": {
           "hide_name": 0,
           "bits": [ 6 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:283.8-283.9"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:292.8-292.9"
           }
         },
         "Y": {
@@ -1587,7 +1587,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:284.21-284.22"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:293.21-293.22"
           }
         }
       }
@@ -1597,7 +1597,7 @@
         "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:253.1-264.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:262.1-273.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -1635,7 +1635,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:260.22-260.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:269.22-269.23"
           }
         },
         "B": {
@@ -1644,7 +1644,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:261.22-261.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:270.22-270.23"
           }
         },
         "Y": {
@@ -1653,7 +1653,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:262.23-262.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:271.23-271.24"
           }
         }
       }
@@ -1707,262 +1707,7 @@
         }
       }
     },
-    "v2f_or": {
-      "attributes": {
-        "dynports": "00000000000000000000000000000001",
-        "blackbox": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:117.1-128.10"
-      },
-      "parameter_default_values": {
-        "A_SIGNED": "00000000000000000000000000000000",
-        "A_WIDTH": "00000000000000000000000000000000",
-        "B_SIGNED": "00000000000000000000000000000000",
-        "B_WIDTH": "00000000000000000000000000000000",
-        "Y_WIDTH": "00000000000000000000000000000000"
-      },
-      "ports": {
-        "A": {
-          "direction": "input",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 2, 3 ]
-        },
-        "B": {
-          "direction": "input",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 4, 5 ]
-        },
-        "Y": {
-          "direction": "output",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 6, 7 ]
-        }
-      },
-      "cells": {
-      },
-      "netnames": {
-        "A": {
-          "hide_name": 0,
-          "bits": [ 2, 3 ],
-          "offset": -1,
-          "upto": 1,
-          "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:124.22-124.23"
-          }
-        },
-        "B": {
-          "hide_name": 0,
-          "bits": [ 4, 5 ],
-          "offset": -1,
-          "upto": 1,
-          "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:125.22-125.23"
-          }
-        },
-        "Y": {
-          "hide_name": 0,
-          "bits": [ 6, 7 ],
-          "offset": -1,
-          "upto": 1,
-          "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:126.23-126.24"
-          }
-        }
-      }
-    },
-    "v2f_pmux": {
-      "attributes": {
-        "dynports": "00000000000000000000000000000001",
-        "blackbox": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:266.1-275.10"
-      },
-      "parameter_default_values": {
-        "S_WIDTH": "00000000000000000000000000000000",
-        "WIDTH": "00000000000000000000000000000000"
-      },
-      "ports": {
-        "A": {
-          "direction": "input",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 2, 3 ]
-        },
-        "B": {
-          "direction": "input",
-          "bits": [ 4 ]
-        },
-        "S": {
-          "direction": "input",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 5, 6 ]
-        },
-        "Y": {
-          "direction": "output",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 7, 8 ]
-        }
-      },
-      "cells": {
-      },
-      "netnames": {
-        "A": {
-          "hide_name": 0,
-          "bits": [ 2, 3 ],
-          "offset": -1,
-          "upto": 1,
-          "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:270.20-270.21"
-          }
-        },
-        "B": {
-          "hide_name": 0,
-          "bits": [ 4 ],
-          "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:271.29-271.30"
-          }
-        },
-        "S": {
-          "hide_name": 0,
-          "bits": [ 5, 6 ],
-          "offset": -1,
-          "upto": 1,
-          "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:272.22-272.23"
-          }
-        },
-        "Y": {
-          "hide_name": 0,
-          "bits": [ 7, 8 ],
-          "offset": -1,
-          "upto": 1,
-          "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:273.21-273.22"
-          }
-        }
-      }
-    },
-    "v2f_pow": {
-      "attributes": {
-        "dynports": "00000000000000000000000000000001",
-        "blackbox": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:130.1-141.10"
-      },
-      "parameter_default_values": {
-        "A_SIGNED": "00000000000000000000000000000000",
-        "A_WIDTH": "00000000000000000000000000000000",
-        "B_SIGNED": "00000000000000000000000000000000",
-        "B_WIDTH": "00000000000000000000000000000000",
-        "Y_WIDTH": "00000000000000000000000000000000"
-      },
-      "ports": {
-        "A": {
-          "direction": "input",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 2, 3 ]
-        },
-        "B": {
-          "direction": "input",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 4, 5 ]
-        },
-        "Y": {
-          "direction": "output",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 6, 7 ]
-        }
-      },
-      "cells": {
-      },
-      "netnames": {
-        "A": {
-          "hide_name": 0,
-          "bits": [ 2, 3 ],
-          "offset": -1,
-          "upto": 1,
-          "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:137.22-137.23"
-          }
-        },
-        "B": {
-          "hide_name": 0,
-          "bits": [ 4, 5 ],
-          "offset": -1,
-          "upto": 1,
-          "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:138.22-138.23"
-          }
-        },
-        "Y": {
-          "hide_name": 0,
-          "bits": [ 6, 7 ],
-          "offset": -1,
-          "upto": 1,
-          "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:139.23-139.24"
-          }
-        }
-      }
-    },
-    "v2f_reduce_and": {
-      "attributes": {
-        "dynports": "00000000000000000000000000000001",
-        "blackbox": "00000000000000000000000000000001",
-        "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:19.1-26.10"
-      },
-      "parameter_default_values": {
-        "A_SIGNED": "00000000000000000000000000000000",
-        "A_WIDTH": "00000000000000000000000000000000",
-        "Y_WIDTH": "00000000000000000000000000000000"
-      },
-      "ports": {
-        "A": {
-          "direction": "input",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 2, 3 ]
-        },
-        "Y": {
-          "direction": "output",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 4, 5 ]
-        }
-      },
-      "cells": {
-      },
-      "netnames": {
-        "A": {
-          "hide_name": 0,
-          "bits": [ 2, 3 ],
-          "offset": -1,
-          "upto": 1,
-          "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:23.22-23.23"
-          }
-        },
-        "Y": {
-          "hide_name": 0,
-          "bits": [ 4, 5 ],
-          "offset": -1,
-          "upto": 1,
-          "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:24.23-24.24"
-          }
-        }
-      }
-    },
-    "v2f_reduce_or": {
+    "v2f_not": {
       "attributes": {
         "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
@@ -2011,12 +1756,316 @@
         }
       }
     },
+    "v2f_or": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:126.1-137.10"
+      },
+      "parameter_default_values": {
+        "A_SIGNED": "00000000000000000000000000000000",
+        "A_WIDTH": "00000000000000000000000000000000",
+        "B_SIGNED": "00000000000000000000000000000000",
+        "B_WIDTH": "00000000000000000000000000000000",
+        "Y_WIDTH": "00000000000000000000000000000000"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "offset": -1,
+          "upto": 1,
+          "bits": [ 2, 3 ]
+        },
+        "B": {
+          "direction": "input",
+          "offset": -1,
+          "upto": 1,
+          "bits": [ 4, 5 ]
+        },
+        "Y": {
+          "direction": "output",
+          "offset": -1,
+          "upto": 1,
+          "bits": [ 6, 7 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2, 3 ],
+          "offset": -1,
+          "upto": 1,
+          "attributes": {
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:133.22-133.23"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 4, 5 ],
+          "offset": -1,
+          "upto": 1,
+          "attributes": {
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:134.22-134.23"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 6, 7 ],
+          "offset": -1,
+          "upto": 1,
+          "attributes": {
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:135.23-135.24"
+          }
+        }
+      }
+    },
+    "v2f_pmux": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:275.1-284.10"
+      },
+      "parameter_default_values": {
+        "S_WIDTH": "00000000000000000000000000000000",
+        "WIDTH": "00000000000000000000000000000000"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "offset": -1,
+          "upto": 1,
+          "bits": [ 2, 3 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "S": {
+          "direction": "input",
+          "offset": -1,
+          "upto": 1,
+          "bits": [ 5, 6 ]
+        },
+        "Y": {
+          "direction": "output",
+          "offset": -1,
+          "upto": 1,
+          "bits": [ 7, 8 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2, 3 ],
+          "offset": -1,
+          "upto": 1,
+          "attributes": {
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:279.20-279.21"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:280.29-280.30"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [ 5, 6 ],
+          "offset": -1,
+          "upto": 1,
+          "attributes": {
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:281.22-281.23"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 7, 8 ],
+          "offset": -1,
+          "upto": 1,
+          "attributes": {
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:282.21-282.22"
+          }
+        }
+      }
+    },
+    "v2f_pow": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:139.1-150.10"
+      },
+      "parameter_default_values": {
+        "A_SIGNED": "00000000000000000000000000000000",
+        "A_WIDTH": "00000000000000000000000000000000",
+        "B_SIGNED": "00000000000000000000000000000000",
+        "B_WIDTH": "00000000000000000000000000000000",
+        "Y_WIDTH": "00000000000000000000000000000000"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "offset": -1,
+          "upto": 1,
+          "bits": [ 2, 3 ]
+        },
+        "B": {
+          "direction": "input",
+          "offset": -1,
+          "upto": 1,
+          "bits": [ 4, 5 ]
+        },
+        "Y": {
+          "direction": "output",
+          "offset": -1,
+          "upto": 1,
+          "bits": [ 6, 7 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2, 3 ],
+          "offset": -1,
+          "upto": 1,
+          "attributes": {
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:146.22-146.23"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 4, 5 ],
+          "offset": -1,
+          "upto": 1,
+          "attributes": {
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:147.22-147.23"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 6, 7 ],
+          "offset": -1,
+          "upto": 1,
+          "attributes": {
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:148.23-148.24"
+          }
+        }
+      }
+    },
+    "v2f_reduce_and": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:28.1-35.10"
+      },
+      "parameter_default_values": {
+        "A_SIGNED": "00000000000000000000000000000000",
+        "A_WIDTH": "00000000000000000000000000000000",
+        "Y_WIDTH": "00000000000000000000000000000000"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "offset": -1,
+          "upto": 1,
+          "bits": [ 2, 3 ]
+        },
+        "Y": {
+          "direction": "output",
+          "offset": -1,
+          "upto": 1,
+          "bits": [ 4, 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2, 3 ],
+          "offset": -1,
+          "upto": 1,
+          "attributes": {
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:32.22-32.23"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 4, 5 ],
+          "offset": -1,
+          "upto": 1,
+          "attributes": {
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:33.23-33.24"
+          }
+        }
+      }
+    },
+    "v2f_reduce_or": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:19.1-26.10"
+      },
+      "parameter_default_values": {
+        "A_SIGNED": "00000000000000000000000000000000",
+        "A_WIDTH": "00000000000000000000000000000000",
+        "Y_WIDTH": "00000000000000000000000000000000"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "offset": -1,
+          "upto": 1,
+          "bits": [ 2, 3 ]
+        },
+        "Y": {
+          "direction": "output",
+          "offset": -1,
+          "upto": 1,
+          "bits": [ 4, 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2, 3 ],
+          "offset": -1,
+          "upto": 1,
+          "attributes": {
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:23.22-23.23"
+          }
+        },
+        "Y": {
+          "hide_name": 0,
+          "bits": [ 4, 5 ],
+          "offset": -1,
+          "upto": 1,
+          "attributes": {
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:24.23-24.24"
+          }
+        }
+      }
+    },
     "v2f_shl": {
       "attributes": {
         "whitebox": "00000000000000000000000000000001",
         "dynports": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:144.1-152.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:153.1-161.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -2040,7 +2089,7 @@
         }
       },
       "cells": {
-        "$shl$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:151$24": {
+        "$shl$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:160$24": {
           "hide_name": 1,
           "type": "$shl",
           "parameters": {
@@ -2051,7 +2100,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:151.13-151.19"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:160.13-160.19"
           },
           "port_directions": {
             "A": "input",
@@ -2066,32 +2115,32 @@
         }
       },
       "netnames": {
-        "$shl$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:151$24_Y": {
+        "$shl$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:160$24_Y": {
           "hide_name": 1,
           "bits": [ 4 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:151.13-151.19"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:160.13-160.19"
           }
         },
         "A": {
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:145.22-145.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:154.22-154.23"
           }
         },
         "B": {
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:146.22-146.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:155.22-155.23"
           }
         },
         "Y": {
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:147.23-147.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:156.23-156.24"
           }
         }
       }
@@ -2101,7 +2150,7 @@
         "whitebox": "00000000000000000000000000000001",
         "dynports": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:177.1-185.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:186.1-194.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -2125,7 +2174,7 @@
         }
       },
       "cells": {
-        "$shr$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:184$27": {
+        "$shr$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:193$27": {
           "hide_name": 1,
           "type": "$shr",
           "parameters": {
@@ -2136,7 +2185,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:184.13-184.19"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:193.13-193.19"
           },
           "port_directions": {
             "A": "input",
@@ -2151,32 +2200,32 @@
         }
       },
       "netnames": {
-        "$shr$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:184$27_Y": {
+        "$shr$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:193$27_Y": {
           "hide_name": 1,
           "bits": [ 4 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:184.13-184.19"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:193.13-193.19"
           }
         },
         "A": {
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:178.22-178.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:187.22-187.23"
           }
         },
         "B": {
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:179.22-179.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:188.22-188.23"
           }
         },
         "Y": {
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:180.23-180.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:189.23-189.24"
           }
         }
       }
@@ -2186,7 +2235,7 @@
         "whitebox": "00000000000000000000000000000001",
         "dynports": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:155.1-163.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:164.1-172.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -2210,7 +2259,7 @@
         }
       },
       "cells": {
-        "$sshl$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:162$25": {
+        "$sshl$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:171$25": {
           "hide_name": 1,
           "type": "$sshl",
           "parameters": {
@@ -2221,7 +2270,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:162.13-162.20"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:171.13-171.20"
           },
           "port_directions": {
             "A": "input",
@@ -2236,32 +2285,32 @@
         }
       },
       "netnames": {
-        "$sshl$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:162$25_Y": {
+        "$sshl$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:171$25_Y": {
           "hide_name": 1,
           "bits": [ 4 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:162.13-162.20"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:171.13-171.20"
           }
         },
         "A": {
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:156.22-156.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:165.22-165.23"
           }
         },
         "B": {
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:157.22-157.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:166.22-166.23"
           }
         },
         "Y": {
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:158.23-158.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:167.23-167.24"
           }
         }
       }
@@ -2271,7 +2320,7 @@
         "whitebox": "00000000000000000000000000000001",
         "dynports": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:166.1-174.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:175.1-183.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -2295,7 +2344,7 @@
         }
       },
       "cells": {
-        "$sshr$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:173$26": {
+        "$sshr$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:182$26": {
           "hide_name": 1,
           "type": "$sshr",
           "parameters": {
@@ -2306,7 +2355,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:173.13-173.20"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:182.13-182.20"
           },
           "port_directions": {
             "A": "input",
@@ -2321,32 +2370,32 @@
         }
       },
       "netnames": {
-        "$sshr$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:173$26_Y": {
+        "$sshr$/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:182$26_Y": {
           "hide_name": 1,
           "bits": [ 4 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:173.13-173.20"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:182.13-182.20"
           }
         },
         "A": {
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:167.22-167.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:176.22-176.23"
           }
         },
         "B": {
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:168.22-168.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:177.22-177.23"
           }
         },
         "Y": {
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:169.23-169.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:178.23-178.24"
           }
         }
       }
@@ -2356,7 +2405,7 @@
         "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:65.1-76.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:74.1-85.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -2394,7 +2443,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:72.22-72.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:81.22-81.23"
           }
         },
         "B": {
@@ -2403,7 +2452,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:73.22-73.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:82.22-82.23"
           }
         },
         "Y": {
@@ -2412,7 +2461,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:74.23-74.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:83.23-83.24"
           }
         }
       }
@@ -2422,7 +2471,7 @@
         "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
-        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:91.1-102.10"
+        "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:100.1-111.10"
       },
       "parameter_default_values": {
         "A_SIGNED": "00000000000000000000000000000000",
@@ -2460,7 +2509,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:98.22-98.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:107.22-107.23"
           }
         },
         "B": {
@@ -2469,7 +2518,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:99.22-99.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:108.22-108.23"
           }
         },
         "Y": {
@@ -2478,7 +2527,7 @@
           "offset": -1,
           "upto": 1,
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:100.23-100.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:109.23-109.24"
           }
         }
       }
