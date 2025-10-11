@@ -139,7 +139,7 @@ module tb;
 		.squash_wb_i(squash_wb_i)
 	);
 	initial begin
-		$dumpfile(".pipe_ctrl.vcd");
+		$dumpfile(".pipe_ctrl_tb.vcd");
 		$dumpvars(1, tb);
 		clk_i = 0;
 		rst_i = 1;

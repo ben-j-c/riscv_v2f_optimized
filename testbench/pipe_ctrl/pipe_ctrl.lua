@@ -1,8 +1,3 @@
--- disable for now
-if true then
-	return true
-end
-
 name = "pipe_ctrl"
 module = "riscv_" .. name
 module_file = "../../core/riscv/" .. module .. ".v"
