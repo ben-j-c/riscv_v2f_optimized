@@ -59,7 +59,7 @@ module tb;
 		$dumpvars(1, tb);
 
 		seed = 123;
-		for (i = 0; i < 100; i = i + 1) begin
+		for (i = 0; i < 10000; i = i + 1) begin
 			clk_i = $random(seed);
 			rst_i = $random(seed);
 			fetch_in_valid_i = $random(seed);

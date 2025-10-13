@@ -15,6 +15,7 @@ outputs["tb.result_y"] = result_y
 os.execute("../makevcd")
 sim = logd:new_simulation()
 if not sim:apply_vcd("tb.vcd", inputs, outputs, 10, true) then
+	sim:inspect()
 	error()
 end
 print("ALU sim matches VCD")

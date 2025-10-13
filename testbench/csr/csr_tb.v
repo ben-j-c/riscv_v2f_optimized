@@ -75,7 +75,8 @@ module tb;
 		.mmu_flush_o(mmu_flush_o),
 		.mmu_satp_o(mmu_satp_o)
 	);
-
+	integer seed;
+	integer i;
 	initial begin
 		$dumpfile(".csr_tb.vcd");
 		$dumpvars(1, tb);
@@ -108,6 +109,30 @@ module tb;
 		#1;
 		rst_i = 0;
 		clk_i = 0;
+
+		for (i = 0; i < 10000; i+= 1) begin
+			intr_i = $random(seed);
+			opcode_valid_i = $random(seed);
+			opcode_opcode_i = $random(seed);
+			opcode_pc_i = $random(seed);
+			opcode_invalid_i = $random(seed);
+			opcode_rd_idx_i = $random(seed);
+			opcode_ra_idx_i = $random(seed);
+			opcode_rb_idx_i = $random(seed);
+			opcode_ra_operand_i = $random(seed);
+			opcode_rb_operand_i = $random(seed);
+			csr_writeback_write_i = $random(seed);
+			csr_writeback_waddr_i = $random(seed);
+			csr_writeback_wdata_i = $random(seed);
+			csr_writeback_exception_i = $random(seed);
+			csr_writeback_exception_pc_i = $random(seed);
+			csr_writeback_exception_addr_i = $random(seed);
+			cpu_id_i = $random(seed);
+			reset_vector_i = $random(seed);
+			interrupt_inhibit_i = $random(seed);
+			clk_i = ~clk_i;
+			#1;
+		end
 	end
 
 endmodule

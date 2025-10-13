@@ -138,12 +138,52 @@ module tb;
 		.squash_e1_e2_i(squash_e1_e2_i),
 		.squash_wb_i(squash_wb_i)
 	);
+	integer i;
+	integer seed;
 	initial begin
+		seed = 123;
 		$dumpfile(".pipe_ctrl_tb.vcd");
 		$dumpvars(1, tb);
 		clk_i = 0;
 		rst_i = 1;
 		#1;
 		clk_i = 1;
+		for (i = 0; i < 10000 ; i += 1 ) begin
+			// For all reg, $random(seed)
+			issue_valid_i = $random(seed);
+			issue_accept_i = $random(seed);
+			issue_stall_i = $random(seed);
+			issue_lsu_i = $random(seed);
+			issue_csr_i = $random(seed);
+			issue_div_i = $random(seed);
+			issue_mul_i = $random(seed);
+			issue_branch_i = $random(seed);
+			issue_rd_valid_i = $random(seed);
+			issue_rd_i = $random(seed);
+			issue_exception_i = $random(seed);
+			take_interrupt_i = $random(seed);
+			issue_branch_taken_i = $random(seed);
+			issue_branch_target_i = $random(seed);
+			issue_pc_i = $random(seed);
+			issue_opcode_i = $random(seed);
+			issue_operand_ra_i = $random(seed);
+			issue_operand_rb_i = $random(seed);
+			alu_result_e1_i = $random(seed);
+			csr_result_value_e1_i = $random(seed);
+			csr_result_write_e1_i = $random(seed);
+			csr_result_wdata_e1_i = $random(seed);
+			csr_result_exception_e1_i = $random(seed);
+			mem_complete_i = $random(seed);
+			mem_result_e2_i = $random(seed);
+			mem_exception_e2_i = $random(seed);
+			mul_result_e2_i = $random(seed);
+			div_complete_i = $random(seed);
+			div_result_i = $random(seed);
+			squash_e1_e2_i = $random(seed);
+			squash_wb_i = $random(seed);
+			#1;
+			clk_i = ~clk_i;
+			rst_i = 0;
+		end
 	end
 endmodule
