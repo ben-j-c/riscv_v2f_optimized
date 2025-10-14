@@ -46,6 +46,9 @@ module tb;
 		.interrupt_o(interrupt_o)
 	);
 
+	integer i;
+	integer seed;
+
 	initial begin
 		$dumpfile(".csr_regfile_tb.vcd");
 		$dumpvars(1, tb);
@@ -67,14 +70,12 @@ module tb;
 		#1;
 		rst_i = 0;
 
-		integer i;
-		integer seed;
 		clk_i = 0;
 		#1;
 		clk_i = 1;
 		#1;
 		seed = 123;
-		for (i = 0; i < 100; i += 1) begin
+		for (i = 0; i < 4000; i += 1) begin
 			clk_i = 0;
 			ext_intr_i = $random(seed);
 			timer_intr_i = $random(seed);

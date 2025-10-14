@@ -921,7 +921,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:201.18-201.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:201.18-201.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -946,7 +946,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:202.18-202.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:202.18-202.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -971,7 +971,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:203.18-203.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:203.18-203.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -996,7 +996,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:204.18-204.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:204.18-204.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1021,7 +1021,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:205.18-205.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:205.18-205.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1046,7 +1046,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:206.18-206.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:206.18-206.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1071,7 +1071,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:207.18-207.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:207.18-207.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1096,7 +1096,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:208.18-208.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:208.18-208.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1121,7 +1121,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:209.18-209.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:209.18-209.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1146,7 +1146,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:210.18-210.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:210.18-210.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1171,7 +1171,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:211.18-211.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:211.18-211.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1196,7 +1196,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:212.18-212.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:212.18-212.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1221,7 +1221,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:213.18-213.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:213.18-213.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1246,7 +1246,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:214.18-214.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:214.18-214.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1271,7 +1271,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:215.18-215.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:215.18-215.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1296,7 +1296,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:216.18-216.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:216.18-216.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1321,7 +1321,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:217.18-217.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:217.18-217.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1346,7 +1346,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:218.18-218.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:218.18-218.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1371,7 +1371,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:219.18-219.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:219.18-219.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1396,7 +1396,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:220.18-220.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:220.18-220.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1421,7 +1421,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:221.18-221.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:221.18-221.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1446,7 +1446,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:222.18-222.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:222.18-222.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1471,7 +1471,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:223.18-223.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:223.18-223.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1496,7 +1496,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:224.18-224.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:224.18-224.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1521,7 +1521,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:225.18-225.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:225.18-225.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1546,7 +1546,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:226.18-226.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:226.18-226.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1571,7 +1571,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:227.18-227.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:227.18-227.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1596,7 +1596,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:228.18-228.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:228.18-228.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1621,7 +1621,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:229.18-229.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:229.18-229.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1646,7 +1646,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:230.18-230.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:230.18-230.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1671,7 +1671,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:231.18-231.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:231.18-231.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1697,7 +1697,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1723,7 +1723,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1749,7 +1749,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1775,7 +1775,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1801,7 +1801,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1827,7 +1827,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1850,7 +1850,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:370.3-370.48"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:382.3-382.48"
           },
           "port_directions": {
             "A": "input",
@@ -1878,7 +1878,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1904,7 +1904,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1930,7 +1930,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1956,7 +1956,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -1982,7 +1982,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2008,7 +2008,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2034,7 +2034,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2060,7 +2060,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2086,7 +2086,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2112,7 +2112,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2138,7 +2138,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2164,7 +2164,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2190,7 +2190,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2216,7 +2216,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2242,7 +2242,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2268,7 +2268,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2294,7 +2294,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2320,7 +2320,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2346,7 +2346,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2372,7 +2372,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2398,7 +2398,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2424,7 +2424,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2450,7 +2450,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2476,7 +2476,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2502,7 +2502,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2528,7 +2528,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2554,7 +2554,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2580,7 +2580,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2606,7 +2606,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2632,7 +2632,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2658,7 +2658,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:276.9-309.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2681,7 +2681,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:370.3-370.48"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:382.3-382.48"
           },
           "port_directions": {
             "A": "input",
@@ -2709,7 +2709,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2735,7 +2735,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2761,7 +2761,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2787,7 +2787,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2813,7 +2813,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2839,7 +2839,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2865,7 +2865,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2891,7 +2891,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2917,7 +2917,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2943,7 +2943,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2969,7 +2969,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -2995,7 +2995,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -3021,7 +3021,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -3047,7 +3047,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -3073,7 +3073,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -3099,7 +3099,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -3125,7 +3125,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -3151,7 +3151,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -3177,7 +3177,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -3203,7 +3203,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -3229,7 +3229,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -3255,7 +3255,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -3281,7 +3281,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -3307,7 +3307,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
@@ -3333,7 +3333,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:356.3-356.41"
+            "src": "../../core/riscv/riscv_regfile.v:0.0-0.0|../../core/riscv/riscv_regfile.v:241.9-274.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
           },
           "port_directions": {
             "A": "input",
