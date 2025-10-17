@@ -1,7 +1,3 @@
-if true then
-	return "Turned off this for now"
-end
-
 name = "divider"
 module = "riscv_" .. name
 module_file = "../../core/riscv/" .. module .. ".v"
@@ -26,7 +22,7 @@ if not os.execute("../makevcd") then
 	error("makevcd failed")
 end
 sim = logd:new_simulation()
-if not sim:apply_vcd(vcd_file, inputs, outputs, 20, true) then
+if not sim:apply_vcd(vcd_file, inputs, outputs, delay, true) then
 	sim:inspect()
 	error("apply vcd failed")
 end

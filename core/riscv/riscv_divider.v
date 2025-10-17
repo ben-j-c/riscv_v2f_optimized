@@ -66,45 +66,57 @@ module riscv_divider
 //-----------------------------------------------------------------
 `include "riscv_defs.v"
 
-//-------------------------------------------------------------
-// Registers / Wires
-//-------------------------------------------------------------
+// Stage 1
+
+reg [31:0] opcode_ra_operand_q_s1;
+reg [31:0] opcode_rb_operand_q_s1;
+reg valid_q_s1;
+reg [31:0] opcode_opcode_q_s1;
+
+always @ (posedge clk_i or posedge rst_i) begin
+    if (rst_i) begin
+        opcode_ra_operand_q_s1 <= 0;
+        opcode_rb_operand_q_s1 <= 0;
+        valid_q_s1 <= 0;
+        opcode_opcode_q_s1 <= 0;
+    end else begin
+        valid_q_s1 <= opcode_valid_i;
+        opcode_ra_operand_q_s1 <= opcode_ra_operand_i;
+        opcode_rb_operand_q_s1 <= opcode_rb_operand_i;
+        opcode_opcode_q_s1 <= opcode_opcode_i;
+    end
+end
+
+// Stage 2
+
 reg          valid_q;
 reg  [31:0]  wb_result_q;
 
-//-------------------------------------------------------------
-// Divider
-//-------------------------------------------------------------
-wire inst_div_w         = (opcode_opcode_i & `INST_DIV_MASK) == `INST_DIV;
-wire inst_divu_w        = (opcode_opcode_i & `INST_DIVU_MASK) == `INST_DIVU;
-wire inst_rem_w         = (opcode_opcode_i & `INST_REM_MASK) == `INST_REM;
-wire inst_remu_w        = (opcode_opcode_i & `INST_REMU_MASK) == `INST_REMU;
+wire div_rem_inst_w     = ((opcode_opcode_q_s1 & `INST_DIV_MASK) == `INST_DIV)  || 
+                          ((opcode_opcode_q_s1 & `INST_DIVU_MASK) == `INST_DIVU) ||
+                          ((opcode_opcode_q_s1 & `INST_REM_MASK) == `INST_REM)  ||
+                          ((opcode_opcode_q_s1 & `INST_REMU_MASK) == `INST_REMU);
 
-wire div_rem_inst_w     = ((opcode_opcode_i & `INST_DIV_MASK) == `INST_DIV)  || 
-                          ((opcode_opcode_i & `INST_DIVU_MASK) == `INST_DIVU) ||
-                          ((opcode_opcode_i & `INST_REM_MASK) == `INST_REM)  ||
-                          ((opcode_opcode_i & `INST_REMU_MASK) == `INST_REMU);
-
-wire signed_operation_w = ((opcode_opcode_i & `INST_DIV_MASK) == `INST_DIV) || ((opcode_opcode_i & `INST_REM_MASK) == `INST_REM);
-wire div_operation_w    = ((opcode_opcode_i & `INST_DIV_MASK) == `INST_DIV) || ((opcode_opcode_i & `INST_DIVU_MASK) == `INST_DIVU);
+wire signed_operation_w = ((opcode_opcode_q_s1 & `INST_DIV_MASK) == `INST_DIV) || ((opcode_opcode_q_s1 & `INST_REM_MASK) == `INST_REM);
+wire div_operation_w    = ((opcode_opcode_q_s1 & `INST_DIV_MASK) == `INST_DIV) || ((opcode_opcode_q_s1 & `INST_DIVU_MASK) == `INST_DIVU);
 
 always @ (posedge clk_i or posedge rst_i) begin
     if (rst_i) begin
         valid_q <= 0;
         wb_result_q <= 0;
     end else begin
-        valid_q <= opcode_valid_i && div_rem_inst_w;
+        valid_q <= valid_q_s1 && div_rem_inst_w;
         if (div_operation_w) begin
             if (signed_operation_w) begin
-                wb_result_q <= $signed(opcode_ra_operand_i) / $signed(opcode_rb_operand_i);
+                wb_result_q <= $signed(opcode_ra_operand_q_s1) / $signed(opcode_rb_operand_q_s1);
             end else begin
-                wb_result_q <= $unsigned(opcode_ra_operand_i) / $unsigned(opcode_rb_operand_i);
+                wb_result_q <= $unsigned(opcode_ra_operand_q_s1) / $unsigned(opcode_rb_operand_q_s1);
             end
         end else begin
             if (signed_operation_w) begin
-                wb_result_q <= $signed(opcode_ra_operand_i) % $signed(opcode_rb_operand_i);
+                wb_result_q <= $signed(opcode_ra_operand_q_s1) % $signed(opcode_rb_operand_q_s1);
             end else begin
-                wb_result_q <= $unsigned(opcode_ra_operand_i) % $unsigned(opcode_rb_operand_i);
+                wb_result_q <= $unsigned(opcode_ra_operand_q_s1) % $unsigned(opcode_rb_operand_q_s1);
             end
         end
     end

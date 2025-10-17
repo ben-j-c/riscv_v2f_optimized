@@ -40,10 +40,21 @@ module tb;
 		$dumpvars(1, tb);
 
 		clk_i = 0;
-		rst_i = 0;
+		rst_i = 1;
 		opcode_valid_i = 0;
 		opcode_opcode_i = 0;
 		opcode_pc_i = 0;
+		opcode_invalid_i = 0;
+		opcode_rd_idx_i = 0;
+		opcode_ra_idx_i = 0;
+		opcode_rb_idx_i = 0;
+		opcode_ra_operand_i = 0;
+		opcode_rb_operand_i = 0;
+		#1;
+		for (i = 0; i < 1000; i += 1) begin
+			clk_i = !clk_i;
+			#1;
+		end
 	end
 
 endmodule
