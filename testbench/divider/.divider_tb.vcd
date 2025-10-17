@@ -1,0 +1,44 @@
+$date
+	Thu Oct 16 00:31:31 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 32 ! writeback_value_o [31:0] $end
+$var wire 1 " writeback_valid_o $end
+$var reg 1 # clk_i $end
+$var reg 1 $ opcode_invalid_i $end
+$var reg 32 % opcode_opcode_i [31:0] $end
+$var reg 32 & opcode_pc_i [31:0] $end
+$var reg 5 ' opcode_ra_idx_i [4:0] $end
+$var reg 32 ( opcode_ra_operand_i [31:0] $end
+$var reg 5 ) opcode_rb_idx_i [4:0] $end
+$var reg 32 * opcode_rb_operand_i [31:0] $end
+$var reg 5 + opcode_rd_idx_i [4:0] $end
+$var reg 1 , opcode_valid_i $end
+$var reg 1 - rst_i $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0-
+0,
+bx +
+bx *
+bx )
+bx (
+bx '
+b0 &
+b0 %
+x$
+0#
+x"
+bx !
+$end
