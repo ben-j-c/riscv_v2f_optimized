@@ -2,7 +2,7 @@ name = "divider"
 module = "riscv_" .. name
 module_file = "../../core/riscv/" .. module .. ".v"
 vcd_file = "." .. name .. "_tb.vcd"
-delay = 20
+delay = 5
 
 rtl = yosys_load_rtl(module_file, module, "../../core/riscv")
 logd = yosys_map_rtl(rtl)

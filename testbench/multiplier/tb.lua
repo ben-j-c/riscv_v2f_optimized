@@ -34,7 +34,7 @@ outputs = {}
 outputs["tb.writeback_value_o"] = writeback_value_o
 os.execute("../makevcd")
 sim = logd:new_simulation()
-if not sim:apply_vcd("tb.vcd", inputs, outputs, 10, true) then
+if not sim:apply_vcd("tb.vcd", inputs, outputs, 5, true) then
 	error()
 end
 print("riscv_multiplier sim matches VCD")

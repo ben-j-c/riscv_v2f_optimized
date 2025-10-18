@@ -2,7 +2,7 @@ name = "decode"
 module = "riscv_" .. name
 module_file = "../../core/riscv/" .. module .. ".v"
 vcd_file = "." .. name .. "_tb.vcd"
-delay = 10
+delay = 15
 
 rtl = yosys_load_rtl(module_file, module, "../../core/riscv")
 logd = yosys_map_rtl(rtl)
@@ -21,7 +21,7 @@ if not os.execute("../makevcd") then
 	error("makevcd failed")
 end
 sim = logd:new_simulation()
-if not sim:apply_vcd(vcd_file, inputs, outputs, 20, true) then
+if not sim:apply_vcd(vcd_file, inputs, outputs, delay, true) then
 	sim:inspect()
 	error("apply vcd failed")
 end
