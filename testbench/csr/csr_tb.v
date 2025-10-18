@@ -78,6 +78,7 @@ module tb;
 	integer seed;
 	integer i;
 	initial begin
+		seed = 123;
 		$dumpfile(".csr_tb.vcd");
 		$dumpvars(1, tb);
 		clk_i = 0;

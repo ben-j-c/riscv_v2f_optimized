@@ -101,7 +101,7 @@
         }
       },
       "cells": {
-        "$abc$314$auto$blifparse.cc:519:parse_blif$315": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$341": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -120,7 +120,7 @@
             "Y": [ 119 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$316": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$342": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -139,7 +139,7 @@
             "Y": [ 128 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$317": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$343": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -158,7 +158,7 @@
             "Y": [ 136 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$318": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$344": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -177,7 +177,7 @@
             "Y": [ 137 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$319": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$345": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -196,7 +196,7 @@
             "Y": [ 146 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$320": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$346": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -215,7 +215,7 @@
             "Y": [ 151 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$321": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$347": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -234,7 +234,7 @@
             "Y": [ 156 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$322": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$348": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -253,7 +253,7 @@
             "Y": [ 163 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$323": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$349": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -272,7 +272,7 @@
             "Y": [ 167 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$324": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$350": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -291,7 +291,7 @@
             "Y": [ 174 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$325": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$351": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -310,7 +310,7 @@
             "Y": [ 182 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$326": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$352": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -329,7 +329,7 @@
             "Y": [ 183 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$327": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$353": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -348,7 +348,7 @@
             "Y": [ 112 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$328": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$354": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -367,7 +367,7 @@
             "Y": [ 184 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$329": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$355": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -386,7 +386,7 @@
             "Y": [ 185 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$332": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$358": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -405,7 +405,7 @@
             "Y": [ 105 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$333": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$359": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -424,7 +424,7 @@
             "Y": [ 186 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$334": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$360": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -443,7 +443,7 @@
             "Y": [ 106 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$335": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$361": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -462,7 +462,7 @@
             "Y": [ 107 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$336": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$362": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -481,7 +481,7 @@
             "Y": [ 187 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$337": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$363": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -500,7 +500,7 @@
             "Y": [ 108 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$338": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$364": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -519,7 +519,7 @@
             "Y": [ 109 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$339": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$365": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -538,7 +538,7 @@
             "Y": [ 188 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$340": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$366": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -557,7 +557,7 @@
             "Y": [ 189 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$341": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$367": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -576,7 +576,7 @@
             "Y": [ 190 ]
           }
         },
-        "$abc$314$auto$blifparse.cc:519:parse_blif$342": {
+        "$abc$340$auto$blifparse.cc:519:parse_blif$368": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -595,7 +595,7 @@
             "Y": [ 191 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$345": {
+        "$auto$flowmap.cc:1414:pack_cells$371": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -613,7 +613,7 @@
             "Y": [ 110 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$346": {
+        "$auto$flowmap.cc:1414:pack_cells$372": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -2131,528 +2131,528 @@
         }
       },
       "netnames": {
-        "$abc$314$auto$blifparse.cc:586:parse_blif$330": {
+        "$abc$340$auto$blifparse.cc:586:parse_blif$356": {
           "hide_name": 1,
           "bits": [ 185 ],
           "attributes": {
           }
         },
-        "$abc$314$auto$blifparse.cc:586:parse_blif$343": {
+        "$abc$340$auto$blifparse.cc:586:parse_blif$369": {
           "hide_name": 1,
           "bits": [ 191 ],
           "attributes": {
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:100$115_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:100$115_Y": {
           "hide_name": 1,
           "bits": [ 175 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:100.22-100.57"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:101$118_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:101$118_Y": {
           "hide_name": 1,
           "bits": [ 176 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:101.22-101.61"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:102$121_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:102$121_Y": {
           "hide_name": 1,
           "bits": [ 177 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:102.22-102.61"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:103$124_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:103$124_Y": {
           "hide_name": 1,
           "bits": [ 168 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:103.22-103.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:104$127_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:104$127_Y": {
           "hide_name": 1,
           "bits": [ 169 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:104.22-104.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:105$130_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:105$130_Y": {
           "hide_name": 1,
           "bits": [ 170 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:105.22-105.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:106$133_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:106$133_Y": {
           "hide_name": 1,
           "bits": [ 171 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:106.22-106.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:107$136_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:107$136_Y": {
           "hide_name": 1,
           "bits": [ 172 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:107.22-107.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:108$139_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:108$139_Y": {
           "hide_name": 1,
           "bits": [ 173 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:108.22-108.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:109$142_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:109$142_Y": {
           "hide_name": 1,
           "bits": [ 178 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:109.22-109.63"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:110$145_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:110$145_Y": {
           "hide_name": 1,
           "bits": [ 179 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:110.22-110.52"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:111$148_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:111$148_Y": {
           "hide_name": 1,
           "bits": [ 180 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:111.22-111.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:112$151_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:112$151_Y": {
           "hide_name": 1,
           "bits": [ 181 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:112.22-112.63"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:113$154_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:113$154_Y": {
           "hide_name": 1,
           "bits": [ 152 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:113.41-113.81"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:114$158_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:114$158_Y": {
           "hide_name": 1,
           "bits": [ 153 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:114.41-114.81"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:115$162_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:115$162_Y": {
           "hide_name": 1,
           "bits": [ 154 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:115.41-115.81"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:116$166_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:116$166_Y": {
           "hide_name": 1,
           "bits": [ 155 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:116.41-116.81"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:117$170_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:117$170_Y": {
           "hide_name": 1,
           "bits": [ 147 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:117.41-117.81"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:118$174_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:118$174_Y": {
           "hide_name": 1,
           "bits": [ 148 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:118.41-118.81"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:119$178_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:119$178_Y": {
           "hide_name": 1,
           "bits": [ 149 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:119.41-119.81"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:120$182_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:120$182_Y": {
           "hide_name": 1,
           "bits": [ 150 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:120.41-120.81"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:124$188_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:124$188_Y": {
           "hide_name": 1,
           "bits": [ 138 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:124.22-124.53"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:125$190_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:125$190_Y": {
           "hide_name": 1,
           "bits": [ 139 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:125.22-125.51"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:126$193_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:126$193_Y": {
           "hide_name": 1,
           "bits": [ 113 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:126.22-126.51"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:127$196_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:127$196_Y": {
           "hide_name": 1,
           "bits": [ 114 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:127.22-127.51"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:128$199_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:128$199_Y": {
           "hide_name": 1,
           "bits": [ 115 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:128.22-128.53"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:129$202_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:129$202_Y": {
           "hide_name": 1,
           "bits": [ 116 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:129.22-129.59"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:130$205_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:130$205_Y": {
           "hide_name": 1,
           "bits": [ 117 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:130.22-130.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:131$208_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:131$208_Y": {
           "hide_name": 1,
           "bits": [ 118 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:131.22-131.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:132$211_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:132$211_Y": {
           "hide_name": 1,
           "bits": [ 120 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:132.22-132.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:133$214_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:133$214_Y": {
           "hide_name": 1,
           "bits": [ 121 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:133.22-133.59"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:134$217_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:134$217_Y": {
           "hide_name": 1,
           "bits": [ 122 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:134.22-134.63"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:135$220_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:135$220_Y": {
           "hide_name": 1,
           "bits": [ 123 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:135.22-135.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:136$223_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:136$223_Y": {
           "hide_name": 1,
           "bits": [ 124 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:136.22-136.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:137$226_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:137$226_Y": {
           "hide_name": 1,
           "bits": [ 125 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:137.22-137.57"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:138$229_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:138$229_Y": {
           "hide_name": 1,
           "bits": [ 126 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:138.22-138.63"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:139$232_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:139$232_Y": {
           "hide_name": 1,
           "bits": [ 127 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:139.22-139.59"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:140$235_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:140$235_Y": {
           "hide_name": 1,
           "bits": [ 129 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:140.22-140.59"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:141$238_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:141$238_Y": {
           "hide_name": 1,
           "bits": [ 130 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:141.22-141.59"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:142$241_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:142$241_Y": {
           "hide_name": 1,
           "bits": [ 131 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:142.22-142.59"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:143$244_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:143$244_Y": {
           "hide_name": 1,
           "bits": [ 132 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:143.22-143.59"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:144$247_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:144$247_Y": {
           "hide_name": 1,
           "bits": [ 133 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:144.22-144.63"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:145$250_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:145$250_Y": {
           "hide_name": 1,
           "bits": [ 134 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:145.22-145.59"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:146$253_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:146$253_Y": {
           "hide_name": 1,
           "bits": [ 135 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:146.22-146.59"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:147$256_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:147$256_Y": {
           "hide_name": 1,
           "bits": [ 157 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:147.22-147.52"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:148$259_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:148$259_Y": {
           "hide_name": 1,
           "bits": [ 158 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:148.22-148.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:149$262_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:149$262_Y": {
           "hide_name": 1,
           "bits": [ 159 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:149.22-149.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:150$265_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:150$265_Y": {
           "hide_name": 1,
           "bits": [ 160 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:150.22-150.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:151$268_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:151$268_Y": {
           "hide_name": 1,
           "bits": [ 161 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:151.22-151.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:152$271_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:152$271_Y": {
           "hide_name": 1,
           "bits": [ 162 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:152.22-152.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:196$395_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:196$395_Y": {
           "hide_name": 1,
           "bits": [ 164 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:196.22-196.53"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:197$398_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:197$398_Y": {
           "hide_name": 1,
           "bits": [ 165 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:197.22-197.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:198$401_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:198$401_Y": {
           "hide_name": 1,
           "bits": [ 166 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:198.22-198.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:202$409_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:202$409_Y": {
           "hide_name": 1,
           "bits": [ 140 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:202.22-202.53"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:203$412_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:203$412_Y": {
           "hide_name": 1,
           "bits": [ 141 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:203.22-203.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:204$415_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:204$415_Y": {
           "hide_name": 1,
           "bits": [ 142 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:204.22-204.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:205$418_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:205$418_Y": {
           "hide_name": 1,
           "bits": [ 143 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:205.22-205.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:206$421_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:206$421_Y": {
           "hide_name": 1,
           "bits": [ 144 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:206.22-206.55"
           }
         },
-        "$abc$314$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:207$424_Y": {
+        "$abc$340$flatten\\genblk1.u_dec.$eq$../../core/riscv/riscv_decoder.v:207$424_Y": {
           "hide_name": 1,
           "bits": [ 145 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decode.v:138.5-153.6|../../core/riscv/riscv_decoder.v:207.22-207.55"
           }
         },
-        "$abc$314$new_n72": {
+        "$abc$340$new_n72": {
           "hide_name": 1,
           "bits": [ 119 ],
           "attributes": {
           }
         },
-        "$abc$314$new_n73": {
+        "$abc$340$new_n73": {
           "hide_name": 1,
           "bits": [ 128 ],
           "attributes": {
           }
         },
-        "$abc$314$new_n74": {
+        "$abc$340$new_n74": {
           "hide_name": 1,
           "bits": [ 136 ],
           "attributes": {
           }
         },
-        "$abc$314$new_n75": {
+        "$abc$340$new_n75": {
           "hide_name": 1,
           "bits": [ 137 ],
           "attributes": {
           }
         },
-        "$abc$314$new_n76": {
+        "$abc$340$new_n76": {
           "hide_name": 1,
           "bits": [ 146 ],
           "attributes": {
           }
         },
-        "$abc$314$new_n77": {
+        "$abc$340$new_n77": {
           "hide_name": 1,
           "bits": [ 151 ],
           "attributes": {
           }
         },
-        "$abc$314$new_n78": {
+        "$abc$340$new_n78": {
           "hide_name": 1,
           "bits": [ 156 ],
           "attributes": {
           }
         },
-        "$abc$314$new_n79": {
+        "$abc$340$new_n79": {
           "hide_name": 1,
           "bits": [ 163 ],
           "attributes": {
           }
         },
-        "$abc$314$new_n80": {
+        "$abc$340$new_n80": {
           "hide_name": 1,
           "bits": [ 167 ],
           "attributes": {
           }
         },
-        "$abc$314$new_n81": {
+        "$abc$340$new_n81": {
           "hide_name": 1,
           "bits": [ 174 ],
           "attributes": {
           }
         },
-        "$abc$314$new_n82": {
+        "$abc$340$new_n82": {
           "hide_name": 1,
           "bits": [ 182 ],
           "attributes": {
           }
         },
-        "$abc$314$new_n83": {
+        "$abc$340$new_n83": {
           "hide_name": 1,
           "bits": [ 183 ],
           "attributes": {
           }
         },
-        "$abc$314$new_n85": {
+        "$abc$340$new_n85": {
           "hide_name": 1,
           "bits": [ 184 ],
           "attributes": {
           }
         },
-        "$abc$314$new_n88": {
+        "$abc$340$new_n88": {
           "hide_name": 1,
           "bits": [ 186 ],
           "attributes": {
           }
         },
-        "$abc$314$new_n91": {
+        "$abc$340$new_n91": {
           "hide_name": 1,
           "bits": [ 187 ],
           "attributes": {
           }
         },
-        "$abc$314$new_n94": {
+        "$abc$340$new_n94": {
           "hide_name": 1,
           "bits": [ 188 ],
           "attributes": {
           }
         },
-        "$abc$314$new_n96": {
+        "$abc$340$new_n96": {
           "hide_name": 1,
           "bits": [ 190 ],
           "attributes": {

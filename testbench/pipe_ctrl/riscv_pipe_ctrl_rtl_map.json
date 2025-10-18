@@ -249,7 +249,7 @@
         }
       },
       "cells": {
-        "$abc$262$auto$blifparse.cc:519:parse_blif$263": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$289": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -268,7 +268,7 @@
             "Y": [ 569 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$264": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$290": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -287,7 +287,7 @@
             "Y": [ 570 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$265": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$291": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -306,7 +306,7 @@
             "Y": [ 781 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$266": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$292": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -325,7 +325,7 @@
             "Y": [ 784 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$267": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$293": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -344,7 +344,7 @@
             "Y": [ 787 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$268": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$294": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -363,7 +363,7 @@
             "Y": [ 788 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$269": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$295": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -382,7 +382,7 @@
             "Y": [ 791 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$270": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$296": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -401,7 +401,7 @@
             "Y": [ 792 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$271": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$297": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -420,7 +420,7 @@
             "Y": [ 794 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$272": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$298": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -439,7 +439,7 @@
             "Y": [ 795 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$273": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$299": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -458,7 +458,7 @@
             "Y": [ 776 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$274": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$300": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -477,7 +477,7 @@
             "Y": [ 796 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$275": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$301": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -496,7 +496,7 @@
             "Y": [ 797 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$276": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$302": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -515,7 +515,7 @@
             "Y": [ 798 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$279": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$305": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -534,7 +534,7 @@
             "Y": [ 775 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$280": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$306": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -553,7 +553,7 @@
             "Y": [ 801 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$281": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$307": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -572,7 +572,7 @@
             "Y": [ 803 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$282": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$308": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -591,7 +591,7 @@
             "Y": [ 804 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$283": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$309": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -610,7 +610,7 @@
             "Y": [ 808 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$284": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$310": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -629,7 +629,7 @@
             "Y": [ 809 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$285": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$311": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -648,7 +648,7 @@
             "Y": [ 810 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$286": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$312": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -667,7 +667,7 @@
             "Y": [ 811 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$287": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$313": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -686,7 +686,7 @@
             "Y": [ 812 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$288": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$314": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -705,7 +705,7 @@
             "Y": [ 813 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$289": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$315": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -724,7 +724,7 @@
             "Y": [ 814 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$290": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$316": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -743,7 +743,7 @@
             "Y": [ 815 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$291": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$317": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -762,7 +762,7 @@
             "Y": [ 816 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$292": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$318": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -781,7 +781,7 @@
             "Y": [ 817 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$293": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$319": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -800,7 +800,7 @@
             "Y": [ 818 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$294": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$320": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -819,7 +819,7 @@
             "Y": [ 819 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$295": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$321": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -838,7 +838,7 @@
             "Y": [ 820 ]
           }
         },
-        "$abc$262$auto$blifparse.cc:519:parse_blif$296": {
+        "$abc$288$auto$blifparse.cc:519:parse_blif$322": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1716,7 +1716,7 @@
             "Q": [ 779 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$297": {
+        "$auto$flowmap.cc:1414:pack_cells$323": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -2774,190 +2774,190 @@
             "src": "../../core/riscv/riscv_pipe_ctrl.v:314.1-323.4"
           }
         },
-        "$abc$262$auto$blifparse.cc:586:parse_blif$277": {
+        "$abc$288$auto$blifparse.cc:586:parse_blif$303": {
           "hide_name": 1,
           "bits": [ 798 ],
           "attributes": {
           }
         },
-        "$abc$262$logic_and$../../core/riscv/riscv_pipe_ctrl.v:181$7_Y": {
+        "$abc$288$logic_and$../../core/riscv/riscv_pipe_ctrl.v:181$7_Y": {
           "hide_name": 1,
           "bits": [ 784 ],
           "attributes": {
             "src": "../../core/riscv/riscv_pipe_ctrl.v:181.10-181.82"
           }
         },
-        "$abc$262$logic_and$../../core/riscv/riscv_pipe_ctrl.v:319$43_Y": {
+        "$abc$288$logic_and$../../core/riscv/riscv_pipe_ctrl.v:319$43_Y": {
           "hide_name": 1,
           "bits": [ 787 ],
           "attributes": {
             "src": "../../core/riscv/riscv_pipe_ctrl.v:319.9-319.76"
           }
         },
-        "$abc$262$logic_and$../../core/riscv/riscv_pipe_ctrl.v:321$45_Y": {
+        "$abc$288$logic_and$../../core/riscv/riscv_pipe_ctrl.v:321$45_Y": {
           "hide_name": 1,
           "bits": [ 788 ],
           "attributes": {
             "src": "../../core/riscv/riscv_pipe_ctrl.v:321.14-321.62"
           }
         },
-        "$abc$262$logic_and$../../core/riscv/riscv_pipe_ctrl.v:328$49_Y": {
+        "$abc$288$logic_and$../../core/riscv/riscv_pipe_ctrl.v:328$49_Y": {
           "hide_name": 1,
           "bits": [ 791 ],
           "attributes": {
             "src": "../../core/riscv/riscv_pipe_ctrl.v:328.30-328.68"
           }
         },
-        "$abc$262$logic_and$../../core/riscv/riscv_pipe_ctrl.v:337$60_Y": {
+        "$abc$288$logic_and$../../core/riscv/riscv_pipe_ctrl.v:337$60_Y": {
           "hide_name": 1,
           "bits": [ 792 ],
           "attributes": {
             "src": "../../core/riscv/riscv_pipe_ctrl.v:337.9-337.71"
           }
         },
-        "$abc$262$logic_and$../../core/riscv/riscv_pipe_ctrl.v:433$69_Y": {
+        "$abc$288$logic_and$../../core/riscv/riscv_pipe_ctrl.v:433$69_Y": {
           "hide_name": 1,
           "bits": [ 819 ],
           "attributes": {
             "src": "../../core/riscv/riscv_pipe_ctrl.v:433.9-433.53"
           }
         },
-        "$abc$262$logic_and$../../core/riscv/riscv_pipe_ctrl.v:435$70_Y": {
+        "$abc$288$logic_and$../../core/riscv/riscv_pipe_ctrl.v:435$70_Y": {
           "hide_name": 1,
           "bits": [ 820 ],
           "attributes": {
             "src": "../../core/riscv/riscv_pipe_ctrl.v:435.14-435.40"
           }
         },
-        "$abc$262$logic_and$../../core/riscv/riscv_pipe_ctrl.v:446$79_Y": {
+        "$abc$288$logic_and$../../core/riscv/riscv_pipe_ctrl.v:446$79_Y": {
           "hide_name": 1,
           "bits": [ 794 ],
           "attributes": {
             "src": "../../core/riscv/riscv_pipe_ctrl.v:446.30-446.68"
           }
         },
-        "$abc$262$logic_or$../../core/riscv/riscv_pipe_ctrl.v:181$5_Y": {
+        "$abc$288$logic_or$../../core/riscv/riscv_pipe_ctrl.v:181$5_Y": {
           "hide_name": 1,
           "bits": [ 797 ],
           "attributes": {
             "src": "../../core/riscv/riscv_pipe_ctrl.v:181.49-181.81"
           }
         },
-        "$abc$262$new_n72": {
+        "$abc$288$new_n72": {
           "hide_name": 1,
           "bits": [ 795 ],
           "attributes": {
           }
         },
-        "$abc$262$new_n74": {
+        "$abc$288$new_n74": {
           "hide_name": 1,
           "bits": [ 796 ],
           "attributes": {
           }
         },
-        "$abc$262$new_n76": {
+        "$abc$288$new_n76": {
           "hide_name": 1,
           "bits": [ 799 ],
           "attributes": {
           }
         },
-        "$abc$262$new_n89": {
+        "$abc$288$new_n89": {
           "hide_name": 1,
           "bits": [ 816 ],
           "attributes": {
           }
         },
-        "$abc$262$procmux$142_Y": {
+        "$abc$288$procmux$142_Y": {
           "hide_name": 1,
           "bits": [ 801 ],
           "attributes": {
           }
         },
-        "$abc$262$procmux$158_CTRL": {
+        "$abc$288$procmux$158_CTRL": {
           "hide_name": 1,
           "bits": [ 802 ],
           "attributes": {
           }
         },
-        "$abc$262$procmux$160_Y": {
+        "$abc$288$procmux$160_Y": {
           "hide_name": 1,
           "bits": [ 803 ],
           "attributes": {
           }
         },
-        "$abc$262$procmux$181_CMP": {
+        "$abc$288$procmux$181_CMP": {
           "hide_name": 1,
           "bits": [ 806 ],
           "attributes": {
           }
         },
-        "$abc$262$procmux$240_Y": {
+        "$abc$288$procmux$240_Y": {
           "hide_name": 1,
           "bits": [ 804 ],
           "attributes": {
           }
         },
-        "$abc$262$procmux$258_Y": {
+        "$abc$288$procmux$258_Y": {
           "hide_name": 1,
           "bits": [ 808 ],
           "attributes": {
           }
         },
-        "$abc$262$procmux$264_Y": {
+        "$abc$288$procmux$264_Y": {
           "hide_name": 1,
           "bits": [ 821 ],
           "attributes": {
           }
         },
-        "$abc$262$procmux$270_Y": {
+        "$abc$288$procmux$270_Y": {
           "hide_name": 1,
           "bits": [ 809 ],
           "attributes": {
           }
         },
-        "$abc$262$procmux$276_Y": {
+        "$abc$288$procmux$276_Y": {
           "hide_name": 1,
           "bits": [ 810 ],
           "attributes": {
           }
         },
-        "$abc$262$procmux$282_Y": {
+        "$abc$288$procmux$282_Y": {
           "hide_name": 1,
           "bits": [ 811 ],
           "attributes": {
           }
         },
-        "$abc$262$procmux$288_Y": {
+        "$abc$288$procmux$288_Y": {
           "hide_name": 1,
           "bits": [ 812 ],
           "attributes": {
           }
         },
-        "$abc$262$procmux$294_Y": {
+        "$abc$288$procmux$294_Y": {
           "hide_name": 1,
           "bits": [ 813 ],
           "attributes": {
           }
         },
-        "$abc$262$procmux$300_Y": {
+        "$abc$288$procmux$300_Y": {
           "hide_name": 1,
           "bits": [ 814 ],
           "attributes": {
           }
         },
-        "$abc$262$procmux$306_Y": {
+        "$abc$288$procmux$306_Y": {
           "hide_name": 1,
           "bits": [ 815 ],
           "attributes": {
           }
         },
-        "$abc$262$procmux$312_Y": {
+        "$abc$288$procmux$312_Y": {
           "hide_name": 1,
           "bits": [ 817 ],
           "attributes": {
           }
         },
-        "$abc$262$procmux$318_Y": {
+        "$abc$288$procmux$318_Y": {
           "hide_name": 1,
           "bits": [ 818 ],
           "attributes": {

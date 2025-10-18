@@ -89,7 +89,7 @@
         }
       },
       "cells": {
-        "$abc$351$auto$blifparse.cc:519:parse_blif$352": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$382": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -108,7 +108,7 @@
             "Y": [ 328 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$353": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$383": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -127,7 +127,7 @@
             "Y": [ 332 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$356": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$386": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -146,7 +146,7 @@
             "Y": [ 335 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$359": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$389": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -165,7 +165,7 @@
             "Y": [ 341 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$362": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$392": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -184,7 +184,7 @@
             "Y": [ 344 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$365": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$395": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -203,7 +203,7 @@
             "Y": [ 346 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$368": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$398": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -222,7 +222,7 @@
             "Y": [ 349 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$371": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$401": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -241,7 +241,7 @@
             "Y": [ 352 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$374": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$404": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -260,7 +260,7 @@
             "Y": [ 353 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$375": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$405": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -279,7 +279,7 @@
             "Y": [ 354 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$376": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$406": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -298,7 +298,7 @@
             "Y": [ 355 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$377": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$407": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -317,7 +317,7 @@
             "Y": [ 357 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$380": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$410": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -336,7 +336,7 @@
             "Y": [ 359 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$383": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$413": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -355,7 +355,7 @@
             "Y": [ 360 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$384": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$414": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -374,7 +374,7 @@
             "Y": [ 361 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$385": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$415": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -393,7 +393,7 @@
             "Y": [ 363 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$388": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$418": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -412,7 +412,7 @@
             "Y": [ 365 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$391": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$421": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -431,7 +431,7 @@
             "Y": [ 367 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$392": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$422": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -450,7 +450,7 @@
             "Y": [ 369 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$393": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$423": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -469,7 +469,7 @@
             "Y": [ 371 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$394": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$424": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -488,7 +488,7 @@
             "Y": [ 373 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$395": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$425": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -507,7 +507,7 @@
             "Y": [ 374 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$396": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$426": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -526,7 +526,7 @@
             "Y": [ 377 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$399": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$429": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -545,7 +545,7 @@
             "Y": [ 378 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$400": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$430": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -564,7 +564,7 @@
             "Y": [ 381 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$403": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$433": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -583,7 +583,7 @@
             "Y": [ 383 ]
           }
         },
-        "$abc$351$auto$blifparse.cc:519:parse_blif$406": {
+        "$abc$381$auto$blifparse.cc:519:parse_blif$436": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1116,7 +1116,7 @@
             "Q": [ 545, 546, 547, 548, 549, 550 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$407": {
+        "$auto$flowmap.cc:1414:pack_cells$437": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -1134,7 +1134,7 @@
             "Y": [ 878 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$408": {
+        "$auto$flowmap.cc:1414:pack_cells$438": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -1152,7 +1152,7 @@
             "Y": [ 879 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$409": {
+        "$auto$flowmap.cc:1414:pack_cells$439": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -1170,7 +1170,7 @@
             "Y": [ 229 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$410": {
+        "$auto$flowmap.cc:1414:pack_cells$440": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -1188,7 +1188,7 @@
             "Y": [ 761 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$411": {
+        "$auto$flowmap.cc:1414:pack_cells$441": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -1206,7 +1206,7 @@
             "Y": [ 880 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$412": {
+        "$auto$flowmap.cc:1414:pack_cells$442": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -1224,7 +1224,7 @@
             "Y": [ 881 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$413": {
+        "$auto$flowmap.cc:1414:pack_cells$443": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -1242,7 +1242,7 @@
             "Y": [ 882 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$414": {
+        "$auto$flowmap.cc:1414:pack_cells$444": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -1260,7 +1260,7 @@
             "Y": [ 883 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$415": {
+        "$auto$flowmap.cc:1414:pack_cells$445": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -1278,7 +1278,7 @@
             "Y": [ 884 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$416": {
+        "$auto$flowmap.cc:1414:pack_cells$446": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -1296,7 +1296,7 @@
             "Y": [ 885 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$417": {
+        "$auto$flowmap.cc:1414:pack_cells$447": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -1314,7 +1314,7 @@
             "Y": [ 886 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$418": {
+        "$auto$flowmap.cc:1414:pack_cells$448": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -1332,7 +1332,7 @@
             "Y": [ 589 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$419": {
+        "$auto$flowmap.cc:1414:pack_cells$449": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -1350,7 +1350,7 @@
             "Y": [ 759 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$420": {
+        "$auto$flowmap.cc:1414:pack_cells$450": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -4095,302 +4095,302 @@
             "src": "../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
-        "$abc$351$auto$blifparse.cc:586:parse_blif$354": {
+        "$abc$381$auto$blifparse.cc:586:parse_blif$384": {
           "hide_name": 1,
           "bits": [ 332 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$blifparse.cc:586:parse_blif$357": {
+        "$abc$381$auto$blifparse.cc:586:parse_blif$387": {
           "hide_name": 1,
           "bits": [ 335 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$blifparse.cc:586:parse_blif$360": {
+        "$abc$381$auto$blifparse.cc:586:parse_blif$390": {
           "hide_name": 1,
           "bits": [ 341 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$blifparse.cc:586:parse_blif$363": {
+        "$abc$381$auto$blifparse.cc:586:parse_blif$393": {
           "hide_name": 1,
           "bits": [ 344 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$blifparse.cc:586:parse_blif$366": {
+        "$abc$381$auto$blifparse.cc:586:parse_blif$396": {
           "hide_name": 1,
           "bits": [ 346 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$blifparse.cc:586:parse_blif$369": {
+        "$abc$381$auto$blifparse.cc:586:parse_blif$399": {
           "hide_name": 1,
           "bits": [ 349 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$blifparse.cc:586:parse_blif$372": {
+        "$abc$381$auto$blifparse.cc:586:parse_blif$402": {
           "hide_name": 1,
           "bits": [ 352 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$blifparse.cc:586:parse_blif$378": {
+        "$abc$381$auto$blifparse.cc:586:parse_blif$408": {
           "hide_name": 1,
           "bits": [ 357 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$blifparse.cc:586:parse_blif$381": {
+        "$abc$381$auto$blifparse.cc:586:parse_blif$411": {
           "hide_name": 1,
           "bits": [ 359 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$blifparse.cc:586:parse_blif$386": {
+        "$abc$381$auto$blifparse.cc:586:parse_blif$416": {
           "hide_name": 1,
           "bits": [ 363 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$blifparse.cc:586:parse_blif$389": {
+        "$abc$381$auto$blifparse.cc:586:parse_blif$419": {
           "hide_name": 1,
           "bits": [ 365 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$blifparse.cc:586:parse_blif$397": {
+        "$abc$381$auto$blifparse.cc:586:parse_blif$427": {
           "hide_name": 1,
           "bits": [ 377 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$blifparse.cc:586:parse_blif$401": {
+        "$abc$381$auto$blifparse.cc:586:parse_blif$431": {
           "hide_name": 1,
           "bits": [ 381 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$blifparse.cc:586:parse_blif$404": {
+        "$abc$381$auto$blifparse.cc:586:parse_blif$434": {
           "hide_name": 1,
           "bits": [ 383 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$opt_dff.cc:194:make_patterns_logic$1811": {
+        "$abc$381$auto$opt_dff.cc:194:make_patterns_logic$1811": {
           "hide_name": 1,
           "bits": [ 589 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$opt_dff.cc:194:make_patterns_logic$1816": {
+        "$abc$381$auto$opt_dff.cc:194:make_patterns_logic$1816": {
           "hide_name": 1,
           "bits": [ 886 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$opt_dff.cc:194:make_patterns_logic$1836": {
+        "$abc$381$auto$opt_dff.cc:194:make_patterns_logic$1836": {
           "hide_name": 1,
           "bits": [ 885 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$opt_dff.cc:194:make_patterns_logic$1855": {
+        "$abc$381$auto$opt_dff.cc:194:make_patterns_logic$1855": {
           "hide_name": 1,
           "bits": [ 884 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$opt_dff.cc:194:make_patterns_logic$1875": {
+        "$abc$381$auto$opt_dff.cc:194:make_patterns_logic$1875": {
           "hide_name": 1,
           "bits": [ 883 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$opt_dff.cc:194:make_patterns_logic$1881": {
+        "$abc$381$auto$opt_dff.cc:194:make_patterns_logic$1881": {
           "hide_name": 1,
           "bits": [ 353 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$opt_dff.cc:194:make_patterns_logic$1895": {
+        "$abc$381$auto$opt_dff.cc:194:make_patterns_logic$1895": {
           "hide_name": 1,
           "bits": [ 355 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$opt_dff.cc:194:make_patterns_logic$1908": {
+        "$abc$381$auto$opt_dff.cc:194:make_patterns_logic$1908": {
           "hide_name": 1,
           "bits": [ 882 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$opt_dff.cc:194:make_patterns_logic$1917": {
+        "$abc$381$auto$opt_dff.cc:194:make_patterns_logic$1917": {
           "hide_name": 1,
           "bits": [ 881 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$rtlil.cc:2779:Not$1828": {
+        "$abc$381$auto$rtlil.cc:2779:Not$1828": {
           "hide_name": 1,
           "bits": [ 360 ],
           "attributes": {
           }
         },
-        "$abc$351$auto$rtlil.cc:2779:Not$1832": {
+        "$abc$381$auto$rtlil.cc:2779:Not$1832": {
           "hide_name": 1,
           "bits": [ 361 ],
           "attributes": {
           }
         },
-        "$abc$351$eq$../../core/riscv/riscv_csr_regfile.v:167$7_Y": {
+        "$abc$381$eq$../../core/riscv/riscv_csr_regfile.v:167$7_Y": {
           "hide_name": 1,
           "bits": [ 337 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile.v:167.24-167.46"
           }
         },
-        "$abc$351$eq$../../core/riscv/riscv_csr_regfile.v:167$9_Y": {
+        "$abc$381$eq$../../core/riscv/riscv_csr_regfile.v:167$9_Y": {
           "hide_name": 1,
           "bits": [ 336 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile.v:167.65-167.87"
           }
         },
-        "$abc$351$eq$../../core/riscv/riscv_csr_regfile.v:169$12_Y": {
+        "$abc$381$eq$../../core/riscv/riscv_csr_regfile.v:169$12_Y": {
           "hide_name": 1,
           "bits": [ 338 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile.v:169.10-169.32"
           }
         },
-        "$abc$351$eq$../../core/riscv/riscv_csr_regfile.v:169$13_Y": {
+        "$abc$381$eq$../../core/riscv/riscv_csr_regfile.v:169$13_Y": {
           "hide_name": 1,
           "bits": [ 339 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile.v:169.36-169.58"
           }
         },
-        "$abc$351$eq$../../core/riscv/riscv_csr_regfile.v:281$37_Y": {
+        "$abc$381$eq$../../core/riscv/riscv_csr_regfile.v:281$37_Y": {
           "hide_name": 1,
           "bits": [ 330 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile.v:281.9-281.39"
           }
         },
-        "$abc$351$eq$../../core/riscv/riscv_csr_regfile.v:338$43_Y": {
+        "$abc$381$eq$../../core/riscv/riscv_csr_regfile.v:338$43_Y": {
           "hide_name": 1,
           "bits": [ 333 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile.v:338.13-338.37"
           }
         },
-        "$abc$351$eq$../../core/riscv/riscv_csr_regfile.v:475$79_Y": {
+        "$abc$381$eq$../../core/riscv/riscv_csr_regfile.v:475$79_Y": {
           "hide_name": 1,
           "bits": [ 343 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile.v:475.29-475.59"
           }
         },
-        "$abc$351$eq$../../core/riscv/riscv_csr_regfile.v:591$87_Y": {
+        "$abc$381$eq$../../core/riscv/riscv_csr_regfile.v:591$87_Y": {
           "hide_name": 1,
           "bits": [ 376 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile.v:591.9-591.29"
           }
         },
-        "$abc$351$eq$../../core/riscv/riscv_csr_regfile.v:625$95_Y": {
+        "$abc$381$eq$../../core/riscv/riscv_csr_regfile.v:625$95_Y": {
           "hide_name": 1,
           "bits": [ 375 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile.v:625.14-625.34"
           }
         },
-        "$abc$351$ge$../../core/riscv/riscv_csr_regfile.v:335$40_Y": {
+        "$abc$381$ge$../../core/riscv/riscv_csr_regfile.v:335$40_Y": {
           "hide_name": 1,
           "bits": [ 326 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile.v:335.14-335.34"
           }
         },
-        "$abc$351$le$../../core/riscv/riscv_csr_regfile.v:335$41_Y": {
+        "$abc$381$le$../../core/riscv/riscv_csr_regfile.v:335$41_Y": {
           "hide_name": 1,
           "bits": [ 327 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile.v:335.38-335.58"
           }
         },
-        "$abc$351$logic_and$../../core/riscv/riscv_csr_regfile.v:335$42_Y": {
+        "$abc$381$logic_and$../../core/riscv/riscv_csr_regfile.v:335$42_Y": {
           "hide_name": 1,
           "bits": [ 328 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile.v:335.14-335.58"
           }
         },
-        "$abc$351$logic_and$../../core/riscv/riscv_csr_regfile.v:475$80_Y": {
+        "$abc$381$logic_and$../../core/riscv/riscv_csr_regfile.v:475$80_Y": {
           "hide_name": 1,
           "bits": [ 384 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile.v:475.9-475.59"
           }
         },
-        "$abc$351$new_n78": {
+        "$abc$381$new_n78": {
           "hide_name": 1,
           "bits": [ 354 ],
           "attributes": {
           }
         },
-        "$abc$351$procmux$464_CMP": {
+        "$abc$381$procmux$464_CMP": {
           "hide_name": 1,
           "bits": [ 342 ],
           "attributes": {
           }
         },
-        "$abc$351$procmux$503_CMP": {
+        "$abc$381$procmux$503_CMP": {
           "hide_name": 1,
           "bits": [ 347 ],
           "attributes": {
           }
         },
-        "$abc$351$procmux$504_CMP": {
+        "$abc$381$procmux$504_CMP": {
           "hide_name": 1,
           "bits": [ 348 ],
           "attributes": {
           }
         },
-        "$abc$351$procmux$570_CMP": {
+        "$abc$381$procmux$570_CMP": {
           "hide_name": 1,
           "bits": [ 350 ],
           "attributes": {
           }
         },
-        "$abc$351$procmux$571_CMP": {
+        "$abc$381$procmux$571_CMP": {
           "hide_name": 1,
           "bits": [ 351 ],
           "attributes": {
           }
         },
-        "$abc$351$procmux$601_CMP": {
+        "$abc$381$procmux$601_CMP": {
           "hide_name": 1,
           "bits": [ 345 ],
           "attributes": {
           }
         },
-        "$abc$351$procmux$632_CMP": {
+        "$abc$381$procmux$632_CMP": {
           "hide_name": 1,
           "bits": [ 356 ],
           "attributes": {
           }
         },
-        "$abc$351$procmux$665_CMP": {
+        "$abc$381$procmux$665_CMP": {
           "hide_name": 1,
           "bits": [ 358 ],
           "attributes": {
           }
         },
-        "$abc$351$reduce_or$../../core/riscv/riscv_csr_regfile.v:169$15_Y": {
+        "$abc$381$reduce_or$../../core/riscv/riscv_csr_regfile.v:169$15_Y": {
           "hide_name": 1,
           "bits": [ 340 ],
           "attributes": {

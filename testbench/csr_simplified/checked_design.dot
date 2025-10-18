@@ -1,0 +1,236 @@
+digraph CheckedDesign {
+  rankdir=LR
+  n0[shape=box,label="opcode_ra_operand_i
+0"]
+  n1[shape=box,label="rst_i
+1"]
+  n2[shape=box,label="csr_writeback_exception_addr_i
+2"]
+  n3[shape=box,label="opcode_opcode_i
+3"]
+  n4[shape=box,label="intr_i
+4"]
+  n5[shape=box,label="opcode_rb_idx_i
+5"]
+  n6[shape=box,label="opcode_valid_i
+6"]
+  n7[shape=box,label="clk_i
+9"]
+  n8[shape=box,label="opcode_invalid_i
+12"]
+  n9[shape=box,label="csr_writeback_write_i
+13"]
+  n10[shape=box,label="csr_writeback_wdata_i
+14"]
+  n11[shape=box,label="csr_writeback_exception_i
+15"]
+  n12[shape=box,label="csr_writeback_exception_pc_i
+16"]
+  n13[shape=box,label="cpu_id_i
+17"]
+  n14[shape=box,label="opcode_rb_operand_i
+18"]
+  n15[shape=box,label="reset_vector_i
+19"]
+  n16[shape=box,label="opcode_pc_i
+20"]
+  n17[shape=box,label="interrupt_inhibit_i
+21"]
+  n18[shape=box,label="opcode_ra_idx_i
+22"]
+  n19[shape=box,label="csr_writeback_waddr_i
+23"]
+  n20[shape=box,label="branch_csr_request_o
+24"]
+  n21[shape=box,label="opcode_rd_idx_i
+25"]
+  n22[shape=box,label="$644
+$lut"]
+  n24[shape=box,label="$2024
+$adff"]
+  n28[shape=box,label="$640
+$sop"]
+  n30[shape=box,label="$2030
+$adff"]
+  n31[shape=rarrow,label="opcode_ra_operand_i
+0"]
+  n32[shape=rarrow,label="rst_i
+1"]
+  n33[shape=rarrow,label="csr_writeback_exception_addr_i
+2"]
+  n34[shape=rarrow,label="opcode_opcode_i
+3"]
+  n35[shape=rarrow,label="intr_i
+4"]
+  n36[shape=rarrow,label="opcode_rb_idx_i
+5"]
+  n37[shape=rarrow,label="opcode_valid_i
+6"]
+  n38[shape=rarrow,label="clk_i
+9"]
+  n39[shape=rarrow,label="opcode_invalid_i
+12"]
+  n40[shape=rarrow,label="csr_writeback_write_i
+13"]
+  n41[shape=rarrow,label="csr_writeback_wdata_i
+14"]
+  n42[shape=rarrow,label="csr_writeback_exception_i
+15"]
+  n43[shape=rarrow,label="csr_writeback_exception_pc_i
+16"]
+  n44[shape=rarrow,label="cpu_id_i
+17"]
+  n45[shape=rarrow,label="opcode_rb_operand_i
+18"]
+  n46[shape=rarrow,label="reset_vector_i
+19"]
+  n47[shape=rarrow,label="opcode_pc_i
+20"]
+  n48[shape=rarrow,label="interrupt_inhibit_i
+21"]
+  n49[shape=rarrow,label="opcode_ra_idx_i
+22"]
+  n50[shape=rarrow,label="csr_writeback_waddr_i
+23"]
+  n51[shape=larrow,label="branch_csr_request_o
+66"]
+  n52[shape=rarrow,label="opcode_rd_idx_i
+25"]
+  n53[shape=larrow,label="$644
+$lut
+27
+A0"]
+  n54[shape=rarrow,label="$644
+$lut
+26
+Y"]
+  n58[shape=larrow,label="$2024
+$adff
+36
+D"]
+  n59[shape=larrow,label="$2024
+$adff
+42
+CLK"]
+  n60[shape=larrow,label="$2024
+$adff
+43
+ARST"]
+  n61[shape=rarrow,label="$2024
+$adff
+44
+Q"]
+  n71[shape=larrow,label="$640
+$sop
+47
+A0"]
+  n72[shape=larrow,label="$640
+$sop
+47
+A1"]
+  n73[shape=larrow,label="$640
+$sop
+47
+A2"]
+  n74[shape=larrow,label="$640
+$sop
+47
+A3"]
+  n75[shape=larrow,label="$640
+$sop
+47
+A4"]
+  n76[shape=larrow,label="$640
+$sop
+47
+A5"]
+  n77[shape=rarrow,label="$640
+$sop
+46
+Y"]
+  n81[shape=larrow,label="$2030
+$adff
+56
+D"]
+  n82[shape=larrow,label="$2030
+$adff
+62
+CLK"]
+  n83[shape=larrow,label="$2030
+$adff
+63
+ARST"]
+  n84[shape=rarrow,label="$2030
+$adff
+64
+Q"]
+  n87[shape=box,label="$swizzle"]
+  n88[shape=rarrow,label="$swizzle
+67
+Y"]
+  n89[shape=larrow,label="$swizzle
+70
+A"]
+  n98[shape=box,label="$constant
+71"]
+  n99[shape=rarrow,label="$constant
+71
+Y"]
+  n0 -> n31
+  n1 -> n32
+  n2 -> n33
+  n3 -> n34
+  n4 -> n35
+  n5 -> n36
+  n6 -> n37
+  n7 -> n38
+  n8 -> n39
+  n9 -> n40
+  n10 -> n41
+  n11 -> n42
+  n12 -> n43
+  n13 -> n44
+  n14 -> n45
+  n15 -> n46
+  n16 -> n47
+  n17 -> n48
+  n18 -> n49
+  n19 -> n50
+  n21 -> n52
+  n22 -> n54
+  n24 -> n61
+  n28 -> n77
+  n30 -> n84
+  n32 -> n60 [label="iron-chest(1)",syle=bold,color=blue]
+  n32 -> n83 [label="iron-chest(1)",syle=bold,color=blue]
+  n38 -> n59 [label="underground-belt(7)",syle=bold,color=blue]
+  n38 -> n82 [label="underground-belt(7)",syle=bold,color=blue]
+  n42 -> n89 [label="fast-splitter(11)",syle=bold,color=blue]
+  n42 -> n72 [label="fast-splitter(11)",syle=bold,color=blue]
+  n42 -> n73 [label="fast-splitter(11)",syle=bold,color=blue]
+  n42 -> n74 [label="fast-splitter(11)",syle=bold,color=blue]
+  n42 -> n75 [label="fast-splitter(11)",syle=bold,color=blue]
+  n51 -> n20
+  n53 -> n22
+  n54 -> n58 [label="steel-chest(2)",syle=bold,color=blue]
+  n58 -> n24
+  n59 -> n24
+  n60 -> n24
+  n61 -> n51 [label="big-electric-pole(20)",syle=bold,color=blue]
+  n71 -> n28
+  n72 -> n28
+  n73 -> n28
+  n74 -> n28
+  n75 -> n28
+  n76 -> n28
+  n77 -> n53 [label="wooden-chest(0)",syle=bold,color=blue]
+  n81 -> n30
+  n82 -> n30
+  n83 -> n30
+  n84 -> n76 [label="wooden-chest(0)",syle=bold,color=blue]
+  n87 -> n88
+  n88 -> n71 [label="iron-chest(1)",syle=bold,color=blue]
+  n89 -> n87
+  n98 -> n99
+  n99 -> n81 [label="wooden-chest(0)",syle=bold,color=blue]
+}

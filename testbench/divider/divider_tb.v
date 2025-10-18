@@ -51,9 +51,25 @@ module tb;
 		opcode_ra_operand_i = 0;
 		opcode_rb_operand_i = 0;
 		#1;
-		for (i = 0; i < 1000; i += 1) begin
-			clk_i = !clk_i;
+		rst_i = 0;
+		opcode_valid_i = 1;
+		for (i = 0; i < 10000; i += 1) begin
+			if (i % 4 == 0) begin
+				opcode_opcode_i = `INST_DIV;
+			end else if (i % 4 == 1) begin
+				opcode_opcode_i = `INST_DIVU;
+			end else if (i % 4 == 2) begin
+				opcode_opcode_i = `INST_REM;
+			end else if (i % 4 == 3) begin
+				opcode_opcode_i = `INST_REMU;
+			end
+			clk_i = 0;
+			opcode_ra_operand_i = $random(seed);
+			opcode_rb_operand_i = $random(seed);
 			#1;
+			clk_i = 1;
+			#1;
+			
 		end
 	end
 
