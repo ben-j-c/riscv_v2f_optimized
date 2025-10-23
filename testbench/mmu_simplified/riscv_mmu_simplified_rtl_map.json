@@ -1,0 +1,3792 @@
+{
+  "creator": "Yosys 0.52 (git sha1 fee39a328, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)",
+  "modules": {
+    "riscv_mmu_simplified": {
+      "attributes": {
+        "top": "00000000000000000000000000000001",
+        "src": "../../core/riscv/riscv_mmu_simplified.v:42.1-606.10"
+      },
+      "ports": {
+        "clk_i": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "rst_i": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "priv_d_i": {
+          "direction": "input",
+          "bits": [ 4, 5 ]
+        },
+        "sum_i": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "mxr_i": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "flush_i": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "satp_i": {
+          "direction": "input",
+          "bits": [ 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ]
+        },
+        "fetch_in_rd_i": {
+          "direction": "input",
+          "bits": [ 41 ]
+        },
+        "fetch_in_flush_i": {
+          "direction": "input",
+          "bits": [ 42 ]
+        },
+        "fetch_in_invalidate_i": {
+          "direction": "input",
+          "bits": [ 43 ]
+        },
+        "fetch_in_pc_i": {
+          "direction": "input",
+          "bits": [ 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75 ]
+        },
+        "fetch_in_priv_i": {
+          "direction": "input",
+          "bits": [ 76, 77 ]
+        },
+        "fetch_out_accept_i": {
+          "direction": "input",
+          "bits": [ 78 ]
+        },
+        "fetch_out_valid_i": {
+          "direction": "input",
+          "bits": [ 79 ]
+        },
+        "fetch_out_error_i": {
+          "direction": "input",
+          "bits": [ 80 ]
+        },
+        "fetch_out_inst_i": {
+          "direction": "input",
+          "bits": [ 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112 ]
+        },
+        "lsu_in_addr_i": {
+          "direction": "input",
+          "bits": [ 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144 ]
+        },
+        "lsu_in_data_wr_i": {
+          "direction": "input",
+          "bits": [ 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176 ]
+        },
+        "lsu_in_rd_i": {
+          "direction": "input",
+          "bits": [ 177 ]
+        },
+        "lsu_in_wr_i": {
+          "direction": "input",
+          "bits": [ 178, 179, 180, 181 ]
+        },
+        "lsu_in_cacheable_i": {
+          "direction": "input",
+          "bits": [ 182 ]
+        },
+        "lsu_in_req_tag_i": {
+          "direction": "input",
+          "bits": [ 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193 ]
+        },
+        "lsu_in_invalidate_i": {
+          "direction": "input",
+          "bits": [ 194 ]
+        },
+        "lsu_in_writeback_i": {
+          "direction": "input",
+          "bits": [ 195 ]
+        },
+        "lsu_in_flush_i": {
+          "direction": "input",
+          "bits": [ 196 ]
+        },
+        "lsu_out_data_rd_i": {
+          "direction": "input",
+          "bits": [ 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228 ]
+        },
+        "lsu_out_accept_i": {
+          "direction": "input",
+          "bits": [ 229 ]
+        },
+        "lsu_out_ack_i": {
+          "direction": "input",
+          "bits": [ 230 ]
+        },
+        "lsu_out_error_i": {
+          "direction": "input",
+          "bits": [ 231 ]
+        },
+        "lsu_out_resp_tag_i": {
+          "direction": "input",
+          "bits": [ 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242 ]
+        },
+        "lsu_out_invalidate_o": {
+          "direction": "output",
+          "bits": [ 243 ]
+        }
+      },
+      "cells": {
+        "$abc$305$auto$blifparse.cc:519:parse_blif$306": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "101010",
+            "WIDTH": "00000000000000000000000000000011"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 244, 230, 245 ],
+            "Y": [ 246 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$307": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "0101",
+            "WIDTH": "00000000000000000000000000000010"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 247, 248 ],
+            "Y": [ 249 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$308": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000100",
+            "TABLE": "01010100000000000000101000000000000000100100000000000100",
+            "WIDTH": "00000000000000000000000000000111"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 40, 250, 251, 252, 253, 177, 254 ],
+            "Y": [ 255 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$311": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "0100101000011010",
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 41, 256, 257, 258 ],
+            "Y": [ 259 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$312": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "100010001010",
+            "WIDTH": "00000000000000000000000000000011"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 249, 260, 259 ],
+            "Y": [ 261 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$313": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "101010",
+            "WIDTH": "00000000000000000000000000000011"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 244, 230, 262 ],
+            "Y": [ 263 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$314": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "0110",
+            "WIDTH": "00000000000000000000000000000010"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 264, 265 ],
+            "Y": [ 266 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$315": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "1010001001001010",
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 229, 267, 268, 269 ],
+            "Y": [ 270 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$316": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "1000101000101010",
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 244, 230, 262, 245 ],
+            "Y": [ 271 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$319": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "0101011010011010",
+            "WIDTH": "00000000000000000000000000001000"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 244, 230, 231, 262, 197, 198, 199, 200 ],
+            "Y": [ 272 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$320": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000011",
+            "TABLE": "000001101001010000000000100010",
+            "WIDTH": "00000000000000000000000000000101"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 249, 260, 259, 273, 272 ],
+            "Y": [ 274 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$321": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "1010",
+            "WIDTH": "00000000000000000000000000000010"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 40, 250 ],
+            "Y": [ 275 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$322": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "010101",
+            "WIDTH": "00000000000000000000000000000011"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 253, 177, 254 ],
+            "Y": [ 276 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$323": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 276 ],
+            "Y": [ 277 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$324": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "1010",
+            "WIDTH": "00000000000000000000000000000010"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 251, 252 ],
+            "Y": [ 278 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$325": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000011",
+            "TABLE": "001010101010101000010110100010",
+            "WIDTH": "00000000000000000000000000000101"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 279, 6, 280, 281, 282 ],
+            "Y": [ 283 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$326": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "1010101010",
+            "WIDTH": "00000000000000000000000000000101"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 40, 250, 251, 252, 253 ],
+            "Y": [ 284 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$327": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "010010001010",
+            "WIDTH": "00000000000000000000000000000011"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 278, 283, 284 ],
+            "Y": [ 285 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$328": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "010001100100",
+            "WIDTH": "00000000000000000000000000000011"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 267, 268, 269 ],
+            "Y": [ 286 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$329": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 286 ],
+            "Y": [ 287 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$330": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 273 ],
+            "Y": [ 288 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$331": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "0101010001000001",
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 249, 260, 259, 263 ],
+            "Y": [ 289 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$334": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000011",
+            "TABLE": "010100000100000110010000000101",
+            "WIDTH": "00000000000000000000000000000101"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 264, 244, 230, 262, 245 ],
+            "Y": [ 290 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$335": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "1001010010000001",
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 249, 260, 259, 290 ],
+            "Y": [ 291 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$338": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "00010101011000000100",
+            "WIDTH": "00000000000000000000000000000101"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 264, 8, 247, 248, 265 ],
+            "Y": [ 292 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$341": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "1010",
+            "WIDTH": "00000000000000000000000000000010"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 264, 265 ],
+            "Y": [ 293 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$342": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "010100000101",
+            "WIDTH": "00000000000000000000000000000011"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 264, 8, 265 ],
+            "Y": [ 294 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$345": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "01010101000101000001",
+            "WIDTH": "00000000000000000000000000000101"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 249, 260, 259, 270, 272 ],
+            "Y": [ 295 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$348": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "1010",
+            "WIDTH": "00000000000000000000000000000010"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 268, 269 ],
+            "Y": [ 296 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$349": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "100100100001",
+            "WIDTH": "00000000000000000000000000000011"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 40, 250, 177 ],
+            "Y": [ 297 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$350": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "100010101010001010101010",
+            "WIDTH": "00000000000000000000000000000110"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 40, 250, 251, 252, 177, 254 ],
+            "Y": [ 298 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$351": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000101",
+            "TABLE": "100001011010101010100000100010001010011000100000101000010000",
+            "WIDTH": "00000000000000000000000000000110"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7, 299, 279, 6, 280, 282 ],
+            "Y": [ 300 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$352": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "1001000100000101",
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 301, 267, 268, 269 ],
+            "Y": [ 302 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$353": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000011",
+            "TABLE": "001010000101000000100101010000000001",
+            "WIDTH": "00000000000000000000000000000110"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 229, 296, 297, 298, 300, 302 ],
+            "Y": [ 303 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$354": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000011",
+            "TABLE": "101001010001100100010001100000001001",
+            "WIDTH": "00000000000000000000000000000110"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 229, 296, 297, 298, 300, 302 ],
+            "Y": [ 304 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$357": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 261 ],
+            "Y": [ 305 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$358": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "010101",
+            "WIDTH": "00000000000000000000000000000011"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 198, 199, 200 ],
+            "Y": [ 306 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$359": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 306 ],
+            "Y": [ 307 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$360": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "100100100001",
+            "WIDTH": "00000000000000000000000000000011"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 244, 231, 197 ],
+            "Y": [ 308 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$361": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 308 ],
+            "Y": [ 309 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$362": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000101",
+            "TABLE": "00000000011010100000000000011010101000000000000001001000000000000000000100000000",
+            "WIDTH": "00000000000000000000000000001000"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 40, 250, 251, 252, 229, 267, 268, 269 ],
+            "Y": [ 310 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$365": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000011",
+            "TABLE": "000110000000000010011000000000",
+            "WIDTH": "00000000000000000000000000000101"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 283, 284, 298, 300, 311 ],
+            "Y": [ 312 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$368": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 313 ],
+            "Y": [ 314 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$369": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "0101010001000001",
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 249, 260, 259, 272 ],
+            "Y": [ 315 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$370": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 315 ],
+            "Y": [ 316 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$371": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "100110",
+            "WIDTH": "00000000000000000000000000000011"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 264, 8, 265 ],
+            "Y": [ 317 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$372": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "01100110",
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 264, 8, 258, 265 ],
+            "Y": [ 318 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$373": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "0101010001000001",
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 249, 260, 259, 273 ],
+            "Y": [ 319 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$374": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000010",
+            "TABLE": "1010010010010001",
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 267, 268, 269, 194 ],
+            "Y": [ 243 ]
+          }
+        },
+        "$abc$305$auto$blifparse.cc:519:parse_blif$375": {
+          "hide_name": 1,
+          "type": "$sop",
+          "parameters": {
+            "DEPTH": "00000000000000000000000000000001",
+            "TABLE": "10",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 303 ],
+            "Y": [ 320 ]
+          }
+        },
+        "$add$../../core/riscv/riscv_mmu_simplified.v:265$38": {
+          "hide_name": 1,
+          "type": "v2f_add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000100000",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000001100",
+            "Y_WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:265.28-265.73|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:67.3-67.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28 ],
+            "B": [ "0", "0", 321, 322, 323, 324, 325, 326, 327, 328, 329, 330 ],
+            "Y": [ 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362 ]
+          }
+        },
+        "$add$../../core/riscv/riscv_mmu_simplified.v:283$46": {
+          "hide_name": 1,
+          "type": "v2f_add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000100000",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000001100",
+            "Y_WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:283.32-283.98|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:67.3-67.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226 ],
+            "B": [ "0", "0", 363, 364, 365, 366, 367, 368, 369, 370, 371, 372 ],
+            "Y": [ 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404 ]
+          }
+        },
+        "$and$../../core/riscv/riscv_mmu_simplified.v:481$132": {
+          "hide_name": 1,
+          "type": "v2f_and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000100",
+            "Y_WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:481.57-481.99|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:152.3-152.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 405, 406, 407, 408 ],
+            "B": [ 285, 285, 285, 285 ],
+            "Y": [ 409, 410, 411, 412 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$407": {
+          "hide_name": 1,
+          "type": "$adffe",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000001",
+            "ARST_VALUE": "0",
+            "CLK_POLARITY": "00000000000000000000000000000001",
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:186.5-190.36"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 313 ],
+            "EN": [ 177 ],
+            "Q": [ 254 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$408": {
+          "hide_name": 1,
+          "type": "$adffe",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000001",
+            "ARST_VALUE": "0000",
+            "CLK_POLARITY": "00000000000000000000000000000001",
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:192.5-196.57"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 413, 414, 415, 416 ],
+            "EN": [ 417 ],
+            "Q": [ 418, 419, 420, 421 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$409": {
+          "hide_name": 1,
+          "type": "$adffe",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000001",
+            "ARST_VALUE": "00000000000000000000000000000000",
+            "CLK_POLARITY": "00000000000000000000000000000001",
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:251.5-313.8"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330 ],
+            "EN": [ 261 ],
+            "Q": [ 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$428": {
+          "hide_name": 1,
+          "type": "$adffe",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000001",
+            "ARST_VALUE": "0",
+            "CLK_POLARITY": "00000000000000000000000000000001",
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:251.5-313.8"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 260 ],
+            "EN": [ 261 ],
+            "Q": [ 265 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$429": {
+          "hide_name": 1,
+          "type": "$adffe",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000001",
+            "ARST_VALUE": "00",
+            "CLK_POLARITY": "00000000000000000000000000000001",
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:251.5-313.8"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 274, 319 ],
+            "EN": [ 466 ],
+            "Q": [ 247, 248 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$432": {
+          "hide_name": 1,
+          "type": "$adffe",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000001",
+            "ARST_VALUE": "0",
+            "CLK_POLARITY": "00000000000000000000000000000001",
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:322.5-330.30"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 318 ],
+            "EN": [ 467 ],
+            "Q": [ 257 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$435": {
+          "hide_name": 1,
+          "type": "$adffe",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000001",
+            "ARST_VALUE": "00000000000000000000",
+            "CLK_POLARITY": "00000000000000000000000000000001",
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000010100"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:332.5-342.8"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465 ],
+            "EN": [ 266 ],
+            "Q": [ 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$436": {
+          "hide_name": 1,
+          "type": "$adffe",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000001",
+            "ARST_VALUE": "0",
+            "CLK_POLARITY": "00000000000000000000000000000001",
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:396.5-402.30"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 317 ],
+            "EN": [ 488 ],
+            "Q": [ 251 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$439": {
+          "hide_name": 1,
+          "type": "$adffe",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000001",
+            "ARST_VALUE": "00000",
+            "CLK_POLARITY": "00000000000000000000000000000001",
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000101"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:404.5-414.8"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 489, 490, 491, 492, 493 ],
+            "EN": [ 293 ],
+            "Q": [ 494, 280, 281, 299, 279 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$440": {
+          "hide_name": 1,
+          "type": "$adffe",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000001",
+            "ARST_VALUE": "00000000000000000000",
+            "CLK_POLARITY": "00000000000000000000000000000001",
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000010100"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:404.5-414.8"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465 ],
+            "EN": [ 293 ],
+            "Q": [ 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$441": {
+          "hide_name": 1,
+          "type": "$adffe",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000001",
+            "ARST_VALUE": "0",
+            "CLK_POLARITY": "00000000000000000000000000000001",
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:521.5-529.27"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 316 ],
+            "EN": [ 515 ],
+            "Q": [ 267 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$444": {
+          "hide_name": 1,
+          "type": "$adffe",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000001",
+            "ARST_VALUE": "0",
+            "CLK_POLARITY": "00000000000000000000000000000001",
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:541.5-553.30"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 287 ],
+            "EN": [ 303 ],
+            "Q": [ 268 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$445": {
+          "hide_name": 1,
+          "type": "$adffe",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000001",
+            "ARST_VALUE": "0",
+            "CLK_POLARITY": "00000000000000000000000000000001",
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:541.5-553.30"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 320 ],
+            "EN": [ 516 ],
+            "Q": [ 269 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$453": {
+          "hide_name": 1,
+          "type": "$adffe",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000001",
+            "ARST_VALUE": "000000000000000000000000000000",
+            "CLK_POLARITY": "00000000000000000000000000000001",
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000011110"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:251.5-313.8"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546 ],
+            "EN": [ 547 ],
+            "Q": [ 489, 490, 491, 492, 493, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$454": {
+          "hide_name": 1,
+          "type": "$adffe",
+          "parameters": {
+            "ARST_POLARITY": "00000000000000000000000000000001",
+            "ARST_VALUE": "000000000000000000000000000000",
+            "CLK_POLARITY": "00000000000000000000000000000001",
+            "EN_POLARITY": "00000000000000000000000000000001",
+            "WIDTH": "00000000000000000000000000011110"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:251.5-313.8"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602 ],
+            "EN": [ 603 ],
+            "Q": [ 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633 ]
+          }
+        },
+        "$auto$flowmap.cc:1414:pack_cells$376": {
+          "hide_name": 1,
+          "type": "$lut",
+          "parameters": {
+            "LUT": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 312 ],
+            "Y": [ 313 ]
+          }
+        },
+        "$auto$flowmap.cc:1414:pack_cells$377": {
+          "hide_name": 1,
+          "type": "$lut",
+          "parameters": {
+            "LUT": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 310 ],
+            "Y": [ 311 ]
+          }
+        },
+        "$auto$flowmap.cc:1414:pack_cells$378": {
+          "hide_name": 1,
+          "type": "$lut",
+          "parameters": {
+            "LUT": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 304 ],
+            "Y": [ 516 ]
+          }
+        },
+        "$auto$flowmap.cc:1414:pack_cells$379": {
+          "hide_name": 1,
+          "type": "$lut",
+          "parameters": {
+            "LUT": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 295 ],
+            "Y": [ 515 ]
+          }
+        },
+        "$auto$flowmap.cc:1414:pack_cells$380": {
+          "hide_name": 1,
+          "type": "$lut",
+          "parameters": {
+            "LUT": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 294 ],
+            "Y": [ 488 ]
+          }
+        },
+        "$auto$flowmap.cc:1414:pack_cells$381": {
+          "hide_name": 1,
+          "type": "$lut",
+          "parameters": {
+            "LUT": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 292 ],
+            "Y": [ 467 ]
+          }
+        },
+        "$auto$flowmap.cc:1414:pack_cells$382": {
+          "hide_name": 1,
+          "type": "$lut",
+          "parameters": {
+            "LUT": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 291 ],
+            "Y": [ 466 ]
+          }
+        },
+        "$auto$flowmap.cc:1414:pack_cells$383": {
+          "hide_name": 1,
+          "type": "$lut",
+          "parameters": {
+            "LUT": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 289 ],
+            "Y": [ 634 ]
+          }
+        },
+        "$auto$flowmap.cc:1414:pack_cells$384": {
+          "hide_name": 1,
+          "type": "$lut",
+          "parameters": {
+            "LUT": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 271 ],
+            "Y": [ 273 ]
+          }
+        },
+        "$auto$flowmap.cc:1414:pack_cells$385": {
+          "hide_name": 1,
+          "type": "$lut",
+          "parameters": {
+            "LUT": "01",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 255 ],
+            "Y": [ 260 ]
+          }
+        },
+        "$auto$opt_dff.cc:195:make_patterns_logic$414": {
+          "hide_name": 1,
+          "type": "v2f_ne",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000011",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:351.3-351.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 263, 309, 307 ],
+            "B": [ "1" ],
+            "Y": [ 635 ]
+          }
+        },
+        "$auto$opt_dff.cc:195:make_patterns_logic$423": {
+          "hide_name": 1,
+          "type": "v2f_ne",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000100",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:351.3-351.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 261, 263, 309, 307 ],
+            "B": [ "0", "1", "0", "1" ],
+            "Y": [ 636 ]
+          }
+        },
+        "$auto$opt_dff.cc:195:make_patterns_logic$425": {
+          "hide_name": 1,
+          "type": "v2f_ne",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000011",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000011",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:351.3-351.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 261, 263, 309 ],
+            "B": [ "0", "1", "1" ],
+            "Y": [ 637 ]
+          }
+        },
+        "$auto$opt_dff.cc:220:make_patterns_logic$418": {
+          "hide_name": 1,
+          "type": "v2f_reduce_and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000011",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:38.3-38.34"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 288, 635, 305 ],
+            "Y": [ 547 ]
+          }
+        },
+        "$auto$opt_dff.cc:220:make_patterns_logic$427": {
+          "hide_name": 1,
+          "type": "v2f_reduce_and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000011",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:38.3-38.34"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 636, 637, 634 ],
+            "Y": [ 603 ]
+          }
+        },
+        "$eq$../../core/riscv/riscv_mmu_simplified.v:172$2": {
+          "hide_name": 1,
+          "type": "v2f_eq",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000011",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000011",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:172.33-172.66|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 239, 240, 241 ],
+            "B": [ "1", "1", "1" ],
+            "Y": [ 244 ]
+          }
+        },
+        "$eq$../../core/riscv/riscv_mmu_simplified.v:227$21": {
+          "hide_name": 1,
+          "type": "v2f_eq",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000010",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:227.35-227.51|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4, 5 ],
+            "B": [ "1" ],
+            "Y": [ 282 ]
+          }
+        },
+        "$eq$../../core/riscv/riscv_mmu_simplified.v:272$39": {
+          "hide_name": 1,
+          "type": "v2f_eq",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000010",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:272.18-272.46|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 247, 248 ],
+            "B": [ "1" ],
+            "Y": [ 262 ]
+          }
+        },
+        "$eq$../../core/riscv/riscv_mmu_simplified.v:294$50": {
+          "hide_name": 1,
+          "type": "v2f_eq",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000010",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000010",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:294.18-294.47|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 247, 248 ],
+            "B": [ "0", "1" ],
+            "Y": [ 245 ]
+          }
+        },
+        "$eq$../../core/riscv/riscv_mmu_simplified.v:309$54": {
+          "hide_name": 1,
+          "type": "v2f_eq",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000010",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000010",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:309.18-309.41|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 247, 248 ],
+            "B": [ "1", "1" ],
+            "Y": [ 264 ]
+          }
+        },
+        "$eq$../../core/riscv/riscv_mmu_simplified.v:328$59": {
+          "hide_name": 1,
+          "type": "v2f_eq",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000010100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000010100",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:328.26-328.64|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487 ],
+            "B": [ 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75 ],
+            "Y": [ 258 ]
+          }
+        },
+        "$eq$../../core/riscv/riscv_mmu_simplified.v:417$97": {
+          "hide_name": 1,
+          "type": "v2f_eq",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000010100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000010100",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:417.43-417.78|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514 ],
+            "B": [ 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657 ],
+            "Y": [ 252 ]
+          }
+        },
+        "$ne$../../core/riscv/riscv_mmu_simplified.v:223$18": {
+          "hide_name": 1,
+          "type": "v2f_ne",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000010",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000010",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:223.32-223.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:351.3-351.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 76, 77 ],
+            "B": [ "1", "1" ],
+            "Y": [ 256 ]
+          }
+        },
+        "$ne$../../core/riscv/riscv_mmu_simplified.v:224$19": {
+          "hide_name": 1,
+          "type": "v2f_ne",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000010",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000010",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:224.32-224.48|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:351.3-351.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4, 5 ],
+            "B": [ "1", "1" ],
+            "Y": [ 250 ]
+          }
+        },
+        "$or$../../core/riscv/riscv_mmu_simplified.v:199$11": {
+          "hide_name": 1,
+          "type": "v2f_or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000100",
+            "Y_WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:199.26-199.47|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:169.3-169.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 178, 179, 180, 181 ],
+            "B": [ 418, 419, 420, 421 ],
+            "Y": [ 405, 406, 407, 408 ]
+          }
+        },
+        "$or$../../core/riscv/riscv_mmu_simplified.v:289$47": {
+          "hide_name": 1,
+          "type": "v2f_or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000010100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000001010",
+            "Y_WIDTH": "00000000000000000000000000010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:289.34-289.76|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:169.3-169.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226 ],
+            "B": [ 363, 364, 365, 366, 367, 368, 369, 370, 371, 372 ],
+            "Y": [ 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677 ]
+          }
+        },
+        "$or$../../core/riscv/riscv_mmu_simplified.v:289$49": {
+          "hide_name": 1,
+          "type": "v2f_or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000100000",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000001010",
+            "Y_WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:289.32-289.113|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:169.3-169.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677 ],
+            "B": [ 197, 198, 199, 200, 201, 202, 203, 204, 205, 206 ],
+            "Y": [ 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709 ]
+          }
+        },
+        "$or$../../core/riscv/riscv_mmu_simplified.v:299$53": {
+          "hide_name": 1,
+          "type": "v2f_or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000100000",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000001010",
+            "Y_WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:299.32-299.78|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:169.3-169.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226 ],
+            "B": [ 197, 198, 199, 200, 201, 202, 203, 204, 205, 206 ],
+            "Y": [ 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741 ]
+          }
+        },
+        "$procdff$400": {
+          "hide_name": 1,
+          "type": "$adff",
+          "parameters": {
+            "ARST_POLARITY": "1",
+            "ARST_VALUE": "00000000000000000000000000000000",
+            "CLK_POLARITY": "1",
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:203.5-207.40"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657 ],
+            "Q": [ 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785 ]
+          }
+        },
+        "$procmux$291": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:297.17-297.31|../../core/riscv/riscv_mmu_simplified.v:297.13-307.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:396.3-396.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "B": [ 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741 ],
+            "S": [ 197 ],
+            "Y": [ 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817 ]
+          }
+        },
+        "$procmux$293": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:294.18-294.63|../../core/riscv/riscv_mmu_simplified.v:294.14-312.12|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:396.3-396.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
+            "B": [ 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817 ],
+            "S": [ 246 ],
+            "Y": [ 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849 ]
+          }
+        },
+        "$procmux$297": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:281.22-281.75|../../core/riscv/riscv_mmu_simplified.v:281.18-291.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:396.3-396.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
+            "B": [ 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709 ],
+            "S": [ 307 ],
+            "Y": [ 850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881 ]
+          }
+        },
+        "$procmux$300": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:275.17-275.48|../../core/riscv/riscv_mmu_simplified.v:275.13-291.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:396.3-396.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881 ],
+            "B": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "S": [ 309 ],
+            "Y": [ 882, 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909, 910, 911, 912, 913 ]
+          }
+        },
+        "$procmux$302": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:272.18-272.62|../../core/riscv/riscv_mmu_simplified.v:272.14-312.12|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:396.3-396.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849 ],
+            "B": [ 882, 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909, 910, 911, 912, 913 ],
+            "S": [ 263 ],
+            "Y": [ 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 914, 915, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546 ]
+          }
+        },
+        "$procmux$309": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:281.22-281.75|../../core/riscv/riscv_mmu_simplified.v:281.18-291.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:396.3-396.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404 ],
+            "B": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
+            "S": [ 307 ],
+            "Y": [ 916, 917, 918, 919, 920, 921, 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 944, 945, 946, 947 ]
+          }
+        },
+        "$procmux$312": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:275.17-275.48|../../core/riscv/riscv_mmu_simplified.v:275.13-291.16|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:396.3-396.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 916, 917, 918, 919, 920, 921, 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 944, 945, 946, 947 ],
+            "B": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
+            "S": [ 309 ],
+            "Y": [ 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 976, 977, 978, 979 ]
+          }
+        },
+        "$procmux$314": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:272.18-272.62|../../core/riscv/riscv_mmu_simplified.v:272.14-312.12|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:396.3-396.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
+            "B": [ 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 976, 977, 978, 979 ],
+            "S": [ 263 ],
+            "Y": [ 980, 981, 982, 983, 984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011 ]
+          }
+        },
+        "$procmux$317": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:263.13-263.66|../../core/riscv/riscv_mmu_simplified.v:263.9-312.12|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:396.3-396.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 980, 981, 982, 983, 984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011 ],
+            "B": [ 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362 ],
+            "S": [ 261 ],
+            "Y": [ 1012, 1013, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602 ]
+          }
+        },
+        "$procmux$341": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:206.14-206.34|../../core/riscv/riscv_mmu_simplified.v:206.10-207.40|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:396.3-396.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785 ],
+            "B": [ 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144 ],
+            "S": [ 277 ],
+            "Y": [ 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657 ]
+          }
+        },
+        "$reduce_or$../../core/riscv/riscv_mmu_simplified.v:195$8": {
+          "hide_name": 1,
+          "type": "v2f_reduce_or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000100",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:195.14-195.26|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:50.3-50.34"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 178, 179, 180, 181 ],
+            "Y": [ 417 ]
+          }
+        },
+        "$reduce_or$../../core/riscv/riscv_mmu_simplified.v:206$13": {
+          "hide_name": 1,
+          "type": "v2f_reduce_or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000100",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:206.25-206.33|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:50.3-50.34"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 405, 406, 407, 408 ],
+            "Y": [ 253 ]
+          }
+        },
+        "$reduce_or$../../core/riscv/riscv_mmu_simplified.v:539$170": {
+          "hide_name": 1,
+          "type": "v2f_reduce_or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000100",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:539.37-539.50|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:50.3-50.34"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 1014, 1015, 1016, 1017 ],
+            "Y": [ 301 ]
+          }
+        },
+        "$ternary$../../core/riscv/riscv_mmu_simplified.v:196$9": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:196.20-196.56|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:396.3-396.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 178, 179, 180, 181 ],
+            "B": [ "0", "0", "0", "0" ],
+            "S": [ 314 ],
+            "Y": [ 413, 414, 415, 416 ]
+          }
+        },
+        "$ternary$../../core/riscv/riscv_mmu_simplified.v:237$33": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:237.34-239.73|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:396.3-396.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030, 1031, 1032, 1033, 1034, 1035, 1036, 1037, 1038, 1039, 1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049 ],
+            "B": [ 1050, 1051, 1052, 1053, 1054, 1055, 1056, 1057, 1058, 1059, 1060, 1061, 1062, 1063, 1064, 1065, 1066, 1067, 1068, 1069, 1070, 1071, 1072, 1073, 1074, 1075, 1076, 1077, 1078, 1079, 1080, 1081 ],
+            "S": [ 249 ],
+            "Y": [ 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330 ]
+          }
+        },
+        "$ternary$../../core/riscv/riscv_mmu_simplified.v:238$31": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:238.34-238.74|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:396.3-396.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75 ],
+            "B": [ 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657 ],
+            "S": [ 260 ],
+            "Y": [ 1050, 1051, 1052, 1053, 1054, 1055, 1056, 1057, 1058, 1059, 1060, 1061, 1062, 1063, 1064, 1065, 1066, 1067, 1068, 1069, 1070, 1071, 1072, 1073, 1074, 1075, 1076, 1077, 1078, 1079, 1080, 1081 ]
+          }
+        },
+        "$ternary$../../core/riscv/riscv_mmu_simplified.v:239$32": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:239.34-239.73|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:396.3-396.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75 ],
+            "B": [ 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657 ],
+            "S": [ 265 ],
+            "Y": [ 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030, 1031, 1032, 1033, 1034, 1035, 1036, 1037, 1038, 1039, 1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049 ]
+          }
+        },
+        "$ternary$../../core/riscv/riscv_mmu_simplified.v:481$133": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:481.40-481.114|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:396.3-396.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 178, 179, 180, 181 ],
+            "B": [ 409, 410, 411, 412 ],
+            "S": [ 275 ],
+            "Y": [ 1082, 1083, 1084, 1085 ]
+          }
+        },
+        "$ternary$../../core/riscv/riscv_mmu_simplified.v:559$179": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:559.35-559.72|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:396.3-396.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 1082, 1083, 1084, 1085 ],
+            "B": [ "0", "0", "0", "0" ],
+            "S": [ 287 ],
+            "Y": [ 1014, 1015, 1016, 1017 ]
+          }
+        }
+      },
+      "netnames": {
+        "$0\\genblk1.dtlb_valid_q[0:0]": {
+          "hide_name": 1,
+          "bits": [ 317 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:396.5-402.30"
+          }
+        },
+        "$0\\genblk1.itlb_valid_q[0:0]": {
+          "hide_name": 1,
+          "bits": [ 318 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:322.5-330.30"
+          }
+        },
+        "$0\\genblk1.mem_req_q[0:0]": {
+          "hide_name": 1,
+          "bits": [ 316 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:521.5-529.27"
+          }
+        },
+        "$0\\genblk1.pte_addr_q[31:0]": {
+          "hide_name": 1,
+          "bits": [ 1012, 1013, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:251.5-313.8",
+            "unused_bits": "0 1"
+          }
+        },
+        "$0\\genblk1.read_hold_q[0:0]": {
+          "hide_name": 1,
+          "bits": [ 320 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:541.5-553.30"
+          }
+        },
+        "$0\\genblk1.state_q[1:0]": {
+          "hide_name": 1,
+          "bits": [ 274, 319 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:251.5-313.8"
+          }
+        },
+        "$abc$305$and$../../core/riscv/riscv_mmu_simplified.v:481$131_Y": {
+          "hide_name": 1,
+          "bits": [ 285 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:481.70-481.97"
+          }
+        },
+        "$abc$305$auto$blifparse.cc:586:parse_blif$309": {
+          "hide_name": 1,
+          "bits": [ 255 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$blifparse.cc:586:parse_blif$317": {
+          "hide_name": 1,
+          "bits": [ 271 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$blifparse.cc:586:parse_blif$332": {
+          "hide_name": 1,
+          "bits": [ 289 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$blifparse.cc:586:parse_blif$336": {
+          "hide_name": 1,
+          "bits": [ 291 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$blifparse.cc:586:parse_blif$339": {
+          "hide_name": 1,
+          "bits": [ 292 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$blifparse.cc:586:parse_blif$343": {
+          "hide_name": 1,
+          "bits": [ 294 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$blifparse.cc:586:parse_blif$346": {
+          "hide_name": 1,
+          "bits": [ 295 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$blifparse.cc:586:parse_blif$355": {
+          "hide_name": 1,
+          "bits": [ 304 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$blifparse.cc:586:parse_blif$363": {
+          "hide_name": 1,
+          "bits": [ 310 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$blifparse.cc:586:parse_blif$366": {
+          "hide_name": 1,
+          "bits": [ 312 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$opt_dff.cc:194:make_patterns_logic$411": {
+          "hide_name": 1,
+          "bits": [ 288 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$opt_dff.cc:194:make_patterns_logic$420": {
+          "hide_name": 1,
+          "bits": [ 634 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$opt_dff.cc:194:make_patterns_logic$430": {
+          "hide_name": 1,
+          "bits": [ 466 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$opt_dff.cc:194:make_patterns_logic$433": {
+          "hide_name": 1,
+          "bits": [ 467 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$opt_dff.cc:194:make_patterns_logic$437": {
+          "hide_name": 1,
+          "bits": [ 488 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$opt_dff.cc:194:make_patterns_logic$442": {
+          "hide_name": 1,
+          "bits": [ 515 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$opt_dff.cc:194:make_patterns_logic$446": {
+          "hide_name": 1,
+          "bits": [ 516 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$auto$rtlil.cc:2779:Not$416": {
+          "hide_name": 1,
+          "bits": [ 305 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$eq$../../core/riscv/riscv_mmu_simplified.v:272$39_Y": {
+          "hide_name": 1,
+          "bits": [ 262 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:272.18-272.46"
+          }
+        },
+        "$abc$305$eq$../../core/riscv/riscv_mmu_simplified.v:294$50_Y": {
+          "hide_name": 1,
+          "bits": [ 245 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:294.18-294.47"
+          }
+        },
+        "$abc$305$eq$../../core/riscv/riscv_mmu_simplified.v:309$54_Y": {
+          "hide_name": 1,
+          "bits": [ 264 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:309.18-309.41"
+          }
+        },
+        "$abc$305$eq$../../core/riscv/riscv_mmu_simplified.v:328$59_Y": {
+          "hide_name": 1,
+          "bits": [ 258 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:328.26-328.64"
+          }
+        },
+        "$abc$305$eq$../../core/riscv/riscv_mmu_simplified.v:417$97_Y": {
+          "hide_name": 1,
+          "bits": [ 252 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:417.43-417.78"
+          }
+        },
+        "$abc$305$logic_and$../../core/riscv/riscv_mmu_simplified.v:263$37_Y": {
+          "hide_name": 1,
+          "bits": [ 261 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:263.13-263.66"
+          }
+        },
+        "$abc$305$logic_and$../../core/riscv/riscv_mmu_simplified.v:272$40_Y": {
+          "hide_name": 1,
+          "bits": [ 263 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:272.18-272.62"
+          }
+        },
+        "$abc$305$logic_and$../../core/riscv/riscv_mmu_simplified.v:294$51_Y": {
+          "hide_name": 1,
+          "bits": [ 246 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:294.18-294.63"
+          }
+        },
+        "$abc$305$logic_and$../../core/riscv/riscv_mmu_simplified.v:327$58_Y": {
+          "hide_name": 1,
+          "bits": [ 266 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:327.14-327.52"
+          }
+        },
+        "$abc$305$logic_and$../../core/riscv/riscv_mmu_simplified.v:401$93_Y": {
+          "hide_name": 1,
+          "bits": [ 293 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:401.14-401.51"
+          }
+        },
+        "$abc$305$logic_or$../../core/riscv/riscv_mmu_simplified.v:206$14_Y": {
+          "hide_name": 1,
+          "bits": [ 277 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:206.14-206.34"
+          }
+        },
+        "$abc$305$logic_or$../../core/riscv/riscv_mmu_simplified.v:275$42_Y": {
+          "hide_name": 1,
+          "bits": [ 309 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:275.17-275.48"
+          }
+        },
+        "$abc$305$logic_or$../../core/riscv/riscv_mmu_simplified.v:281$44_Y": {
+          "hide_name": 1,
+          "bits": [ 307 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:281.24-281.74"
+          }
+        },
+        "$abc$305$new_n100": {
+          "hide_name": 1,
+          "bits": [ 297 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n101": {
+          "hide_name": 1,
+          "bits": [ 298 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n102": {
+          "hide_name": 1,
+          "bits": [ 300 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n103": {
+          "hide_name": 1,
+          "bits": [ 302 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n107": {
+          "hide_name": 1,
+          "bits": [ 306 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n109": {
+          "hide_name": 1,
+          "bits": [ 308 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n111": {
+          "hide_name": 1,
+          "bits": [ 311 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n114": {
+          "hide_name": 1,
+          "bits": [ 315 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n74": {
+          "hide_name": 1,
+          "bits": [ 259 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n79": {
+          "hide_name": 1,
+          "bits": [ 273 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n80": {
+          "hide_name": 1,
+          "bits": [ 272 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n83": {
+          "hide_name": 1,
+          "bits": [ 276 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n85": {
+          "hide_name": 1,
+          "bits": [ 278 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n86": {
+          "hide_name": 1,
+          "bits": [ 283 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n87": {
+          "hide_name": 1,
+          "bits": [ 284 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n89": {
+          "hide_name": 1,
+          "bits": [ 286 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n93": {
+          "hide_name": 1,
+          "bits": [ 290 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$new_n99": {
+          "hide_name": 1,
+          "bits": [ 296 ],
+          "attributes": {
+          }
+        },
+        "$abc$305$not$../../core/riscv/riscv_mmu_simplified.v:190$6_Y": {
+          "hide_name": 1,
+          "bits": [ 313 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:190.19-190.35"
+          }
+        },
+        "$abc$305$reduce_or$../../core/riscv/riscv_mmu_simplified.v:206$13_Y": {
+          "hide_name": 1,
+          "bits": [ 253 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:206.25-206.33"
+          }
+        },
+        "$abc$305$reduce_or$../../core/riscv/riscv_mmu_simplified.v:539$170_Y": {
+          "hide_name": 1,
+          "bits": [ 301 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:539.37-539.50"
+          }
+        },
+        "$add$../../core/riscv/riscv_mmu_simplified.v:265$38_Y": {
+          "hide_name": 1,
+          "bits": [ 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:265.28-265.73"
+          }
+        },
+        "$add$../../core/riscv/riscv_mmu_simplified.v:283$46_Y": {
+          "hide_name": 1,
+          "bits": [ 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:283.32-283.98"
+          }
+        },
+        "$and$../../core/riscv/riscv_mmu_simplified.v:481$132_Y": {
+          "hide_name": 1,
+          "bits": [ 409, 410, 411, 412 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:481.57-481.99"
+          }
+        },
+        "$auto$opt_dff.cc:194:make_patterns_logic$413": {
+          "hide_name": 1,
+          "bits": [ 635 ],
+          "attributes": {
+          }
+        },
+        "$auto$opt_dff.cc:194:make_patterns_logic$422": {
+          "hide_name": 1,
+          "bits": [ 636 ],
+          "attributes": {
+          }
+        },
+        "$auto$opt_dff.cc:194:make_patterns_logic$424": {
+          "hide_name": 1,
+          "bits": [ 637 ],
+          "attributes": {
+          }
+        },
+        "$auto$opt_dff.cc:219:make_patterns_logic$417": {
+          "hide_name": 1,
+          "bits": [ 547 ],
+          "attributes": {
+          }
+        },
+        "$auto$opt_dff.cc:219:make_patterns_logic$426": {
+          "hide_name": 1,
+          "bits": [ 603 ],
+          "attributes": {
+          }
+        },
+        "$auto$wreduce.cc:514:run$448": {
+          "hide_name": 1,
+          "bits": [ 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 1086, 1087, 1088, 1089, 1090, 1091, 1092, 1093, 1094, 1095, 1096, 1097 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:289.34-289.76",
+            "unused_bits": "20 21 22 23 24 25 26 27 28 29 30 31"
+          }
+        },
+        "$or$../../core/riscv/riscv_mmu_simplified.v:289$49_Y": {
+          "hide_name": 1,
+          "bits": [ 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:289.32-289.113"
+          }
+        },
+        "$or$../../core/riscv/riscv_mmu_simplified.v:299$53_Y": {
+          "hide_name": 1,
+          "bits": [ 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:299.32-299.78"
+          }
+        },
+        "$procmux$291_Y": {
+          "hide_name": 1,
+          "bits": [ 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817 ],
+          "attributes": {
+          }
+        },
+        "$procmux$293_Y": {
+          "hide_name": 1,
+          "bits": [ 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849 ],
+          "attributes": {
+          }
+        },
+        "$procmux$297_Y": {
+          "hide_name": 1,
+          "bits": [ 850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881 ],
+          "attributes": {
+          }
+        },
+        "$procmux$300_Y": {
+          "hide_name": 1,
+          "bits": [ 882, 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909, 910, 911, 912, 913 ],
+          "attributes": {
+          }
+        },
+        "$procmux$302_Y": {
+          "hide_name": 1,
+          "bits": [ 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 914, 915, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546 ],
+          "attributes": {
+            "unused_bits": "10 11"
+          }
+        },
+        "$procmux$309_Y": {
+          "hide_name": 1,
+          "bits": [ 916, 917, 918, 919, 920, 921, 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 944, 945, 946, 947 ],
+          "attributes": {
+          }
+        },
+        "$procmux$312_Y": {
+          "hide_name": 1,
+          "bits": [ 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 976, 977, 978, 979 ],
+          "attributes": {
+          }
+        },
+        "$procmux$314_Y": {
+          "hide_name": 1,
+          "bits": [ 980, 981, 982, 983, 984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011 ],
+          "attributes": {
+          }
+        },
+        "$procmux$344_CMP": {
+          "hide_name": 1,
+          "bits": [ 417 ],
+          "attributes": {
+          }
+        },
+        "$ternary$../../core/riscv/riscv_mmu_simplified.v:196$9_Y": {
+          "hide_name": 1,
+          "bits": [ 413, 414, 415, 416 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:196.20-196.56"
+          }
+        },
+        "$ternary$../../core/riscv/riscv_mmu_simplified.v:238$31_Y": {
+          "hide_name": 1,
+          "bits": [ 1050, 1051, 1052, 1053, 1054, 1055, 1056, 1057, 1058, 1059, 1060, 1061, 1062, 1063, 1064, 1065, 1066, 1067, 1068, 1069, 1070, 1071, 1072, 1073, 1074, 1075, 1076, 1077, 1078, 1079, 1080, 1081 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:238.34-238.74"
+          }
+        },
+        "$ternary$../../core/riscv/riscv_mmu_simplified.v:239$32_Y": {
+          "hide_name": 1,
+          "bits": [ 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030, 1031, 1032, 1033, 1034, 1035, 1036, 1037, 1038, 1039, 1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:239.34-239.73"
+          }
+        },
+        "clk_i": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:56.22-56.27"
+          }
+        },
+        "fetch_in_flush_i": {
+          "hide_name": 0,
+          "bits": [ 42 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:64.22-64.38"
+          }
+        },
+        "fetch_in_inst_o": {
+          "hide_name": 0,
+          "bits": [ 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:118.15-118.30",
+            "unused_bits": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
+          }
+        },
+        "fetch_in_invalidate_i": {
+          "hide_name": 0,
+          "bits": [ 43 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:65.22-65.43"
+          }
+        },
+        "fetch_in_pc_i": {
+          "hide_name": 0,
+          "bits": [ 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:66.22-66.35"
+          }
+        },
+        "fetch_in_priv_i": {
+          "hide_name": 0,
+          "bits": [ 76, 77 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:67.22-67.37"
+          }
+        },
+        "fetch_in_rd_i": {
+          "hide_name": 0,
+          "bits": [ 41 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:63.22-63.35"
+          }
+        },
+        "fetch_out_accept_i": {
+          "hide_name": 0,
+          "bits": [ 78 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:68.22-68.40"
+          }
+        },
+        "fetch_out_error_i": {
+          "hide_name": 0,
+          "bits": [ 80 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:70.22-70.39"
+          }
+        },
+        "fetch_out_flush_o": {
+          "hide_name": 0,
+          "bits": [ 42 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:120.15-120.32",
+            "unused_bits": "0 "
+          }
+        },
+        "fetch_out_inst_i": {
+          "hide_name": 0,
+          "bits": [ 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:71.22-71.38"
+          }
+        },
+        "fetch_out_invalidate_o": {
+          "hide_name": 0,
+          "bits": [ 43 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:121.15-121.37",
+            "unused_bits": "0 "
+          }
+        },
+        "fetch_out_valid_i": {
+          "hide_name": 0,
+          "bits": [ 79 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:69.22-69.39"
+          }
+        },
+        "flush_i": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:61.22-61.29"
+          }
+        },
+        "genblk1.dfetch_vm_w": {
+          "hide_name": 0,
+          "bits": [ 250 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:224.17-224.28"
+          }
+        },
+        "genblk1.dtlb_entry_q": {
+          "hide_name": 0,
+          "bits": [ 494, 280, 281, 299, 279 ],
+          "attributes": {
+            "unused_bits": "0 "
+          }
+        },
+        "genblk1.dtlb_miss_w": {
+          "hide_name": 0,
+          "bits": [ 260 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:234.17-234.28"
+          }
+        },
+        "genblk1.dtlb_req_q": {
+          "hide_name": 0,
+          "bits": [ 265 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:217.17-217.27"
+          }
+        },
+        "genblk1.dtlb_va_addr_q": {
+          "hide_name": 0,
+          "bits": [ 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514 ],
+          "offset": 12,
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:393.17-393.31"
+          }
+        },
+        "genblk1.dtlb_valid_q": {
+          "hide_name": 0,
+          "bits": [ 251 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:392.17-392.29"
+          }
+        },
+        "genblk1.idle_w": {
+          "hide_name": 0,
+          "bits": [ 249 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:168.23-168.29"
+          }
+        },
+        "genblk1.ifetch_vm_w": {
+          "hide_name": 0,
+          "bits": [ 256 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:223.17-223.28"
+          }
+        },
+        "genblk1.itlb_va_addr_q": {
+          "hide_name": 0,
+          "bits": [ 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487 ],
+          "offset": 12,
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:319.17-319.31"
+          }
+        },
+        "genblk1.itlb_valid_q": {
+          "hide_name": 0,
+          "bits": [ 257 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:318.17-318.29"
+          }
+        },
+        "genblk1.load_q": {
+          "hide_name": 0,
+          "bits": [ 254 ],
+          "attributes": {
+            "keep": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:183.15-183.21"
+          }
+        },
+        "genblk1.lsu_addr_w": {
+          "hide_name": 0,
+          "bits": [ 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:209.17-209.27"
+          }
+        },
+        "genblk1.lsu_in_addr_q": {
+          "hide_name": 0,
+          "bits": [ 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:201.16-201.29"
+          }
+        },
+        "genblk1.lsu_out_data_wr_w": {
+          "hide_name": 0,
+          "bits": [ 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:483.17-483.34",
+            "unused_bits": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
+          }
+        },
+        "genblk1.lsu_out_flush_w": {
+          "hide_name": 0,
+          "bits": [ 196 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:502.17-502.32",
+            "unused_bits": "0 "
+          }
+        },
+        "genblk1.lsu_out_invalidate_w": {
+          "hide_name": 0,
+          "bits": [ 194 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:485.17-485.37"
+          }
+        },
+        "genblk1.lsu_out_req_tag_w": {
+          "hide_name": 0,
+          "bits": [ 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:501.17-501.34",
+            "unused_bits": "0 1 2 3 4 5 6 7 8 9 10"
+          }
+        },
+        "genblk1.lsu_out_wr_w": {
+          "hide_name": 0,
+          "bits": [ 1082, 1083, 1084, 1085 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:481.17-481.29"
+          }
+        },
+        "genblk1.lsu_out_writeback_w": {
+          "hide_name": 0,
+          "bits": [ 195 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:486.17-486.36",
+            "unused_bits": "0 "
+          }
+        },
+        "genblk1.mem_req_q": {
+          "hide_name": 0,
+          "bits": [ 267 ],
+          "attributes": {
+            "keep": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:517.9-517.18"
+          }
+        },
+        "genblk1.mmu_accept_w": {
+          "hide_name": 0,
+          "bits": [ 270 ],
+          "attributes": {
+            "keep": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:519.10-519.22"
+          }
+        },
+        "genblk1.ptbr_w": {
+          "hide_name": 0,
+          "bits": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:221.17-221.23"
+          }
+        },
+        "genblk1.pte_addr_q": {
+          "hide_name": 0,
+          "bits": [ "0", "0", 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633 ],
+          "attributes": {
+            "keep": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:242.17-242.27",
+            "unused_bits": "2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
+          }
+        },
+        "genblk1.pte_entry_q": {
+          "hide_name": 0,
+          "bits": [ 489, 490, 491, 492, 493, 548, 549, 550, 551, 552, "0", "0", 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572 ],
+          "attributes": {
+            "keep": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:244.17-244.28",
+            "unused_bits": "5 6 7 8 9 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
+          }
+        },
+        "genblk1.pte_flags_w": {
+          "hide_name": 0,
+          "bits": [ 197, 198, 199, 200, 201, 202, 203, 204, 205, 206 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:249.17-249.28"
+          }
+        },
+        "genblk1.pte_ppn_w": {
+          "hide_name": 0,
+          "bits": [ 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228 ],
+          "attributes": {
+            "unused_bits": "20 21"
+          }
+        },
+        "genblk1.read_hold_q": {
+          "hide_name": 0,
+          "bits": [ 269 ],
+          "attributes": {
+            "keep": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:535.9-535.20"
+          }
+        },
+        "genblk1.request_addr_w": {
+          "hide_name": 0,
+          "bits": [ 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:237.17-237.31"
+          }
+        },
+        "genblk1.resp_data_w": {
+          "hide_name": 0,
+          "bits": [ 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:175.17-175.28",
+            "unused_bits": "30 31"
+          }
+        },
+        "genblk1.resp_mmu_w": {
+          "hide_name": 0,
+          "bits": [ 244 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:172.17-172.27"
+          }
+        },
+        "genblk1.src_mmu_q": {
+          "hide_name": 0,
+          "bits": [ 268 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:536.10-536.19"
+          }
+        },
+        "genblk1.src_mmu_w": {
+          "hide_name": 0,
+          "bits": [ 287 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:537.10-537.19"
+          }
+        },
+        "genblk1.state_q": {
+          "hide_name": 0,
+          "bits": [ 247, 248 ],
+          "attributes": {
+            "keep": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:167.23-167.30"
+          }
+        },
+        "genblk1.state_q_w": {
+          "hide_name": 0,
+          "bits": [ 247 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:169.10-169.19"
+          }
+        },
+        "genblk1.store_q": {
+          "hide_name": 0,
+          "bits": [ 418, 419, 420, 421 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:184.15-184.22"
+          }
+        },
+        "genblk1.store_w": {
+          "hide_name": 0,
+          "bits": [ 405, 406, 407, 408 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:199.16-199.23"
+          }
+        },
+        "genblk1.supervisor_d_w": {
+          "hide_name": 0,
+          "bits": [ 282 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:227.17-227.31"
+          }
+        },
+        "genblk1.virt_addr_q": {
+          "hide_name": 0,
+          "bits": [ 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465 ],
+          "attributes": {
+            "keep": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:246.17-246.28",
+            "unused_bits": "0 1 2 3 4 5 6 7 8 9 10 11"
+          }
+        },
+        "genblk1.vm_d_enable_w": {
+          "hide_name": 0,
+          "bits": [ 275 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:230.17-230.30"
+          }
+        },
+        "genblk1.vm_enable_w": {
+          "hide_name": 0,
+          "bits": [ 40 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:220.17-220.28"
+          }
+        },
+        "genblk1.vm_i_enable_w": {
+          "hide_name": 0,
+          "bits": [ 256 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:229.17-229.30"
+          }
+        },
+        "genblk1.xx_tmp": {
+          "hide_name": 0,
+          "bits": [ 303 ],
+          "attributes": {
+            "keep": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_mmu_simplified.v:539.10-539.16"
+          }
+        },
+        "lsu_in_accept_o": {
+          "hide_name": 0,
+          "bits": [ 314 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:125.15-125.30"
+          }
+        },
+        "lsu_in_addr_i": {
+          "hide_name": 0,
+          "bits": [ 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:72.22-72.35"
+          }
+        },
+        "lsu_in_cacheable_i": {
+          "hide_name": 0,
+          "bits": [ 182 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:76.22-76.40"
+          }
+        },
+        "lsu_in_data_rd_o": {
+          "hide_name": 0,
+          "bits": [ 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:124.15-124.31",
+            "unused_bits": "30 31"
+          }
+        },
+        "lsu_in_data_wr_i": {
+          "hide_name": 0,
+          "bits": [ 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:73.22-73.38"
+          }
+        },
+        "lsu_in_flush_i": {
+          "hide_name": 0,
+          "bits": [ 196 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:80.22-80.36"
+          }
+        },
+        "lsu_in_invalidate_i": {
+          "hide_name": 0,
+          "bits": [ 194 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:78.22-78.41"
+          }
+        },
+        "lsu_in_rd_i": {
+          "hide_name": 0,
+          "bits": [ 177 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:74.22-74.33"
+          }
+        },
+        "lsu_in_req_tag_i": {
+          "hide_name": 0,
+          "bits": [ 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:77.22-77.38"
+          }
+        },
+        "lsu_in_resp_tag_o": {
+          "hide_name": 0,
+          "bits": [ 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:128.15-128.32",
+            "unused_bits": "0 1 2 3 4 5 6 10"
+          }
+        },
+        "lsu_in_wr_i": {
+          "hide_name": 0,
+          "bits": [ 178, 179, 180, 181 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:75.22-75.33"
+          }
+        },
+        "lsu_in_writeback_i": {
+          "hide_name": 0,
+          "bits": [ 195 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:79.22-79.40"
+          }
+        },
+        "lsu_out_accept_i": {
+          "hide_name": 0,
+          "bits": [ 229 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:82.22-82.38"
+          }
+        },
+        "lsu_out_ack_i": {
+          "hide_name": 0,
+          "bits": [ 230 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:83.22-83.35"
+          }
+        },
+        "lsu_out_data_rd_i": {
+          "hide_name": 0,
+          "bits": [ 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:81.22-81.39"
+          }
+        },
+        "lsu_out_data_wr_o": {
+          "hide_name": 0,
+          "bits": [ 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:130.15-130.32",
+            "unused_bits": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
+          }
+        },
+        "lsu_out_error_i": {
+          "hide_name": 0,
+          "bits": [ 231 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:84.22-84.37"
+          }
+        },
+        "lsu_out_invalidate_o": {
+          "hide_name": 0,
+          "bits": [ 243 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:108.22-108.42"
+          }
+        },
+        "lsu_out_resp_tag_i": {
+          "hide_name": 0,
+          "bits": [ 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:85.22-85.40"
+          }
+        },
+        "lsu_out_wr_o": {
+          "hide_name": 0,
+          "bits": [ 1014, 1015, 1016, 1017 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:132.15-132.27"
+          }
+        },
+        "mxr_i": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:60.22-60.27"
+          }
+        },
+        "priv_d_i": {
+          "hide_name": 0,
+          "bits": [ 4, 5 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:58.22-58.30"
+          }
+        },
+        "rst_i": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:57.22-57.27"
+          }
+        },
+        "satp_i": {
+          "hide_name": 0,
+          "bits": [ 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:62.22-62.28"
+          }
+        },
+        "sum_i": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_mmu_simplified.v:59.22-59.27"
+          }
+        }
+      }
+    }
+  }
+}
