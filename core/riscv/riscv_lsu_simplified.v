@@ -487,9 +487,9 @@ module riscv_lsu_fifo
 // Params
 //-----------------------------------------------------------------
 #(
-    parameter WIDTH   = 8,
-    parameter DEPTH   = 4,
-    parameter ADDR_W  = 2
+    parameter WIDTH   = 36,
+    parameter DEPTH   = 2,
+    parameter ADDR_W  = 1
 )
 //-----------------------------------------------------------------
 // Ports
@@ -523,6 +523,15 @@ reg [ADDR_W-1:0]  rd_ptr_q;
 reg [ADDR_W-1:0]  wr_ptr_q;
 (*keep*)
 reg [COUNT_W-1:0] count_q;
+
+//(*keep*)
+//wire [31:0] ram_q_w0 = ram_q[0][31:0];
+//(*keep*)
+//wire [31:0] ram_q_w1 = ram_q[1][31:0];
+//(*keep*)
+//wire [3:0]ram_q_w2 = ram_q[0][35:32];
+//(*keep*)
+//wire [3:0]ram_q_w3 = ram_q[1][35:32];
 
 integer i;
 
