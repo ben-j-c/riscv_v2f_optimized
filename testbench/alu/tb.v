@@ -2,16 +2,16 @@
 `include "../../core/riscv/riscv_alu.v"
 
 module tb;
-	reg signed [31:0] data_a;
-	reg signed [31:0] data_b;
-	reg [31:0] select;
-	wire signed [31:0] result_y;
+	reg signed [31:0] alu_a_i;
+	reg signed [31:0] alu_b_i;
+	reg [31:0] alu_op_i;
+	wire signed [31:0] alu_p_o;
 
 	riscv_alu dut (
-		.alu_a_i(data_a),
-		.alu_b_i(data_b),
-		.alu_op_i(select[3:0]),
-		.alu_p_o(result_y)
+		.alu_a_i(alu_a_i),
+		.alu_b_i(alu_b_i),
+		.alu_op_i(alu_op_i[3:0]),
+		.alu_p_o(alu_p_o)
 	);
 
 	integer i;
@@ -19,15 +19,15 @@ module tb;
 	integer seed;
 	initial begin
 		seed = 123;
-		$dumpfile("tb.vcd");
-		$dumpvars(1, tb);
+		$dumpfile(".alu_tb.vcd");
+		$dumpvars(0, tb);
 
 		for (i = 0; i < 50; i = i + 1) begin
-			data_a = $random(seed);
-			data_b = $random(seed);
+			alu_a_i = $random(seed);
+			alu_b_i = $random(seed);
 
 			for (op_select = 0; op_select < 16; op_select = op_select + 1) begin
-				select = op_select;
+				alu_op_i = op_select;
 				#1;
 			end
 		end

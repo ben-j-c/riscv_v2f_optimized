@@ -134,6 +134,7 @@ module riscv_pipe_ctrl
 //-------------------------------------------------------------
 `include "riscv_defs.v"
 
+(*keep*)
 wire squash_e1_e2_w;
 wire branch_misaligned_w = (issue_branch_taken_i && issue_branch_target_i[1:0] != 2'b0);
 
@@ -154,13 +155,21 @@ wire branch_misaligned_w = (issue_branch_taken_i && issue_branch_target_i[1:0] !
 
 `define RD_IDX_R    11:7
 
+(*keep*)
 reg                     valid_e1_q;
+(*keep*)
 reg [`PCINFO_W-1:0]     ctrl_e1_q;
+(*keep*)
 reg [31:0]              pc_e1_q;
+(*keep*)
 reg [31:0]              npc_e1_q;
+(*keep*)
 reg [31:0]              opcode_e1_q;
+(*keep*)
 reg [31:0]              operand_ra_e1_q;
+(*keep*)
 reg [31:0]              operand_rb_e1_q;
+(*keep*)
 reg [`EXCEPTION_W-1:0]  exception_e1_q;
 
 always @ (posedge clk_i or posedge rst_i)
@@ -213,10 +222,13 @@ begin
     exception_e1_q  <= `EXCEPTION_W'b0;
 end
 
+(*keep*)
 wire   alu_e1_w        = ctrl_e1_q[`PCINFO_ALU];
 assign load_e1_o       = ctrl_e1_q[`PCINFO_LOAD];
 assign store_e1_o      = ctrl_e1_q[`PCINFO_STORE];
+(*keep*)
 wire   csr_e1_w        = ctrl_e1_q[`PCINFO_CSR];
+(*keep*)
 wire   div_e1_w        = ctrl_e1_q[`PCINFO_DIV];
 assign mul_e1_o        = ctrl_e1_q[`PCINFO_MUL];
 assign branch_e1_o     = ctrl_e1_q[`PCINFO_BRANCH];
@@ -229,16 +241,27 @@ assign operand_rb_e1_o = operand_rb_e1_q;
 //-------------------------------------------------------------
 // E2 / Mem result
 //------------------------------------------------------------- 
+(*keep*)
 reg                     valid_e2_q;
+(*keep*)
 reg [`PCINFO_W-1:0]     ctrl_e2_q;
+(*keep*)
 reg                     csr_wr_e2_q;
+(*keep*)
 reg [31:0]              csr_wdata_e2_q;
+(*keep*)
 reg [31:0]              result_e2_q;
+(*keep*)
 reg [31:0]              pc_e2_q;
+(*keep*)
 reg [31:0]              npc_e2_q;
+(*keep*)
 reg [31:0]              opcode_e2_q;
+(*keep*)
 reg [31:0]              operand_ra_e2_q;
+(*keep*)
 reg [31:0]              operand_rb_e2_q;
+(*keep*)
 reg [`EXCEPTION_W-1:0]  exception_e2_q;
 
 always @ (posedge clk_i or posedge rst_i)
@@ -331,6 +354,7 @@ assign result_e2_o     = result_e2_r;
 // Load store result not ready when reaching E2
 assign stall_o         = (ctrl_e1_q[`PCINFO_DIV] && ~div_complete_i) || ((ctrl_e2_q[`PCINFO_LOAD] | ctrl_e2_q[`PCINFO_STORE]) & ~mem_complete_i);
 
+(*keep*)
 reg [`EXCEPTION_W-1:0] exception_e2_r;
 always @ *
 begin
@@ -342,6 +366,7 @@ end
 
 assign squash_e1_e2_w = |exception_e2_r;
 
+(*keep*)
 reg squash_e1_e2_q;
 
 always @ (posedge clk_i or posedge rst_i)

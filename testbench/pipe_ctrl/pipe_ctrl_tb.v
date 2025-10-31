@@ -143,7 +143,7 @@ module tb;
 	initial begin
 		seed = 123;
 		$dumpfile(".pipe_ctrl_tb.vcd");
-		$dumpvars(1, tb);
+		$dumpvars(0, tb);
 		clk_i = 0;
 		rst_i = 1;
 		#1;

@@ -100,6 +100,7 @@ reg [31:0]  csr_mtvec_q;
 reg [31:0]  csr_mip_q;
 reg [31:0]  csr_mie_q;
 reg [1:0]   csr_mpriv_q;
+(*keep*)
 reg [31:0]  csr_mcycle_q;
 reg [31:0]  csr_mcycle_h_q;
 reg [31:0]  csr_mscratch_q;
@@ -229,6 +230,7 @@ reg [31:0]  csr_mtvec_r;
 reg [31:0]  csr_mip_r;
 reg [31:0]  csr_mie_r;
 reg [1:0]   csr_mpriv_r;
+(*keep*)
 reg [31:0]  csr_mcycle_r;
 reg [31:0]  csr_mscratch_r;
 reg [31:0]  csr_mtimecmp_r;

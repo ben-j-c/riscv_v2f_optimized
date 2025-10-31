@@ -1,0 +1,95 @@
+`include "../../core/riscv/riscv_defs.v"
+`include "../../core/riscv/riscv_csr_regfile_simplified.v"
+
+module tb;
+	reg clk_i;
+	reg rst_i;
+	reg ext_intr_i;
+	reg timer_intr_i;
+	reg [31:0] cpu_id_i;
+	reg [31:0] misa_i;
+	reg [5:0] exception_i;
+	reg [31:0] exception_pc_i;
+	reg [31:0] exception_addr_i;
+	reg csr_ren_i;
+	reg [11:0] csr_raddr_i;
+	reg [11:0] csr_waddr_i;
+	reg [31:0] csr_wdata_i;
+	wire [31:0] csr_rdata_o;
+	wire csr_branch_o;
+	wire [31:0] csr_target_o;
+	wire [1:0] priv_o;
+	wire [31:0] status_o;
+	wire [31:0] satp_o;
+	wire [31:0] interrupt_o;
+	wire [31:0] csr_mcycle_q;
+	wire tmp; 
+
+	riscv_csr_regfile_simplified dut (
+		.clk_i(clk_i),
+		.rst_i(rst_i),
+		.ext_intr_i(ext_intr_i),
+		.timer_intr_i(timer_intr_i),
+		.cpu_id_i(cpu_id_i),
+		.misa_i(misa_i),
+		.exception_i(exception_i),
+		.exception_pc_i(exception_pc_i),
+		.exception_addr_i(exception_addr_i),
+		.csr_ren_i(csr_ren_i),
+		.csr_raddr_i(csr_raddr_i),
+		.csr_waddr_i(csr_waddr_i),
+		.csr_wdata_i(csr_wdata_i),
+		//.csr_rdata_o(csr_rdata_o),
+		//.csr_branch_o(csr_branch_o),
+		//.csr_target_o(csr_target_o),
+		//.priv_o(priv_o),
+		//.status_o(status_o),
+		//.satp_o(satp_o)
+		//.interrupt_o(interrupt_o)
+		//csr_mcycle_q(csr_mcycle_q)
+		.tmp(tmp)
+	);
+
+	integer i;
+	integer seed;
+
+	initial begin
+		$dumpfile(".csr_regfile_simplified_tb.vcd");
+		$dumpvars(0, tb);
+		clk_i = 0;
+		rst_i = 1;
+		ext_intr_i = 0;
+		timer_intr_i = 0;
+		cpu_id_i = 0;
+		misa_i = 0;
+		exception_i = 0;
+		exception_pc_i = 0;
+		exception_addr_i = 0;
+		csr_ren_i = 0;
+		csr_raddr_i = 0;
+		csr_waddr_i = 0;
+		csr_wdata_i = 0;
+		#1;
+		rst_i = 0;
+		#1;
+
+		seed = 123;
+		for (i = 0; i < 10000; i += 1) begin
+			clk_i = 0;
+			ext_intr_i = $random(seed);
+			timer_intr_i = $random(seed);
+			cpu_id_i = $random(seed);
+			misa_i = $random(seed);
+			exception_i = $random(seed);
+			exception_pc_i = $random(seed);
+			exception_addr_i = $random(seed);
+			csr_ren_i = $random(seed);
+			csr_raddr_i = $random(seed);
+			csr_waddr_i = $random(seed);
+			csr_wdata_i = $random(seed);
+			#1;
+			clk_i = 1;
+			#1;
+		end
+	end
+endmodule

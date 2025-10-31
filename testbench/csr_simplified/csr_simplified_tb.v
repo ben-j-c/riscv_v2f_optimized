@@ -27,10 +27,10 @@ module tb;
 	//wire          csr_result_e1_write_o;
 	//wire [ 31:0]  csr_result_e1_wdata_o;
 	//wire [  5:0]  csr_result_e1_exception_o;
-	wire          branch_csr_request_o;
+	//wire          branch_csr_request_o;
 	//wire [ 31:0]  branch_csr_pc_o;
 	//wire [  1:0]  branch_csr_priv_o;
-	//wire          take_interrupt_o;
+	wire          take_interrupt_o;
 	//wire          ifence_o;
 	//wire [  1:0]  mmu_priv_d_o;
 	//wire          mmu_sum_o;
@@ -64,10 +64,10 @@ module tb;
 		//.csr_result_e1_write_o(csr_result_e1_write_o),
 		//.csr_result_e1_wdata_o(csr_result_e1_wdata_o),
 		//.csr_result_e1_exception_o(csr_result_e1_exception_o),
-		.branch_csr_request_o(branch_csr_request_o)
+		//.branch_csr_request_o(branch_csr_request_o)
 		//.branch_csr_pc_o(branch_csr_pc_o),
 		//.branch_csr_priv_o(branch_csr_priv_o),
-		//.take_interrupt_o(take_interrupt_o),
+		.take_interrupt_o(take_interrupt_o),
 		//.ifence_o(ifence_o),
 		//.mmu_priv_d_o(mmu_priv_d_o),
 		//.mmu_sum_o(mmu_sum_o),
@@ -80,9 +80,9 @@ module tb;
 	initial begin
 		seed = 123;
 		$dumpfile(".csr_simplified_tb.vcd");
-		$dumpvars(1, tb);
+		$dumpvars(0, tb);
 		clk_i = 0;
-		rst_i = 0;
+		rst_i = 1;
 		intr_i = 0;
 		opcode_valid_i = 0;
 		opcode_opcode_i = 0;
@@ -104,12 +104,8 @@ module tb;
 		interrupt_inhibit_i = 0;
 
 		#1;
-		rst_i = 1;
-		#1;
-		clk_i = 1;
-		#1;
 		rst_i = 0;
-		clk_i = 0;
+		#1;
 
 		for (i = 0; i < 10000; i+= 1) begin
 			intr_i = $random(seed);
@@ -131,7 +127,9 @@ module tb;
 			cpu_id_i = $random(seed);
 			reset_vector_i = $random(seed);
 			interrupt_inhibit_i = $random(seed);
-			clk_i = ~clk_i;
+			clk_i = 0;
+			#1;
+			clk_i = 1;
 			#1;
 		end
 	end

@@ -15,7 +15,7 @@ end
 
 outputs = {}
 for index, value in pairs(logd:out_ports()) do
-	outputs["tb." .. index] = value
+	outputs["tb.dut." .. index] = value
 end
 
 if not os.execute("../makevcd") then

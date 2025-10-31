@@ -2,7 +2,7 @@ name = "pipe_ctrl"
 module = "riscv_" .. name
 module_file = "../../core/riscv/" .. module .. ".v"
 vcd_file = "." .. name .. "_tb.vcd"
-delay = 10
+delay = 40
 
 rtl = yosys_load_rtl(module_file, module, "../../core/riscv")
 logd = yosys_map_rtl(rtl)
@@ -15,7 +15,7 @@ end
 
 outputs = {}
 for index, value in pairs(logd:out_ports()) do
-	outputs["tb." .. index] = value
+	outputs["tb.dut." .. index] = value
 end
 
 if not os.execute("../makevcd") then

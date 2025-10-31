@@ -156,7 +156,7 @@ module tb;
 		#1;
 		rst_i = 0;
 
-		for (i = 0; i < 1000; i+= 1) begin
+		for (i = 0; i < 5000; i+= 1) begin
 			priv_d_i = $random(seed);
 			sum_i = $random(seed);
 			mxr_i = $random(seed);

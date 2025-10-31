@@ -86,10 +86,10 @@ module riscv_csr_simplified
     //,output          csr_result_e1_write_o
     //,output [ 31:0]  csr_result_e1_wdata_o
     //,output [  5:0]  csr_result_e1_exception_o
-    ,output          branch_csr_request_o
+    //,output          branch_csr_request_o
     //,output [ 31:0]  branch_csr_pc_o
     //,output [  1:0]  branch_csr_priv_o
-    //,output          take_interrupt_o
+    ,output          take_interrupt_o
     //,output          ifence_o
     //,output [  1:0]  mmu_priv_d_o
     //,output          mmu_sum_o
@@ -102,10 +102,10 @@ wire [ 31:0]  csr_result_e1_value_o;
 wire          csr_result_e1_write_o;
 wire [ 31:0]  csr_result_e1_wdata_o;
 wire [  5:0]  csr_result_e1_exception_o;
-//wire          branch_csr_request_o;
+wire          branch_csr_request_o;
 wire [ 31:0]  branch_csr_pc_o;
 wire [  1:0]  branch_csr_priv_o;
-wire          take_interrupt_o;
+//wire          take_interrupt_o;
 wire          ifence_o;
 wire [  1:0]  mmu_priv_d_o;
 wire          mmu_sum_o;

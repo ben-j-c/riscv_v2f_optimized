@@ -104,13 +104,13 @@ module tb;
 		//.lsu_in_ack_o(lsu_in_ack_o),
 		//.lsu_in_error_o(lsu_in_error_o),
 		//.lsu_in_resp_tag_o(lsu_in_resp_tag_o),
-		//.lsu_out_addr_o(lsu_out_addr_o),
+		.lsu_out_addr_o(lsu_out_addr_o)
 		//.lsu_out_data_wr_o(lsu_out_data_wr_o),
 		//.lsu_out_rd_o(lsu_out_rd_o),
 		//.lsu_out_wr_o(lsu_out_wr_o),
 		//.lsu_out_cacheable_o(lsu_out_cacheable_o),
 		//.lsu_out_req_tag_o(lsu_out_req_tag_o),
-		.lsu_out_invalidate_o(lsu_out_invalidate_o)//,
+		//.lsu_out_invalidate_o(lsu_out_invalidate_o)//,
 		//.lsu_out_writeback_o(lsu_out_writeback_o),
 		//.lsu_out_flush_o(lsu_out_flush_o),
 		//.lsu_in_load_fault_o(lsu_in_load_fault_o),
@@ -156,7 +156,7 @@ module tb;
 		#1;
 		rst_i = 0;
 
-		for (i = 0; i < 1000; i+= 1) begin
+		for (i = 0; i < 10000; i+= 1) begin
 			priv_d_i = $random(seed);
 			sum_i = $random(seed);
 			mxr_i = $random(seed);

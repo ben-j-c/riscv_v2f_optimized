@@ -99,13 +99,13 @@ module riscv_mmu_simplified
     //,output          lsu_in_ack_o
     //,output          lsu_in_error_o
     //,output [ 10:0]  lsu_in_resp_tag_o
-    //,output [ 31:0]  lsu_out_addr_o
+    ,output [ 31:0]  lsu_out_addr_o
     //,output [ 31:0]  lsu_out_data_wr_o
     //,output          lsu_out_rd_o
     //,output [  3:0]  lsu_out_wr_o
     //,output          lsu_out_cacheable_o
     //,output [ 10:0]  lsu_out_req_tag_o
-    ,output          lsu_out_invalidate_o
+    //,output          lsu_out_invalidate_o
     //,output          lsu_out_writeback_o
     //,output          lsu_out_flush_o
     //,output          lsu_in_load_fault_o
@@ -126,13 +126,13 @@ wire          lsu_in_accept_o;
 wire          lsu_in_ack_o;
 wire          lsu_in_error_o;
 wire [ 10:0]  lsu_in_resp_tag_o;
-wire [ 31:0]  lsu_out_addr_o;
+//wire [ 31:0]  lsu_out_addr_o;
 wire [ 31:0]  lsu_out_data_wr_o;
 wire          lsu_out_rd_o;
 wire [  3:0]  lsu_out_wr_o;
 wire          lsu_out_cacheable_o;
 wire [ 10:0]  lsu_out_req_tag_o;
-//wire          lsu_out_invalidate_o;
+wire          lsu_out_invalidate_o;
 wire          lsu_out_writeback_o;
 wire          lsu_out_flush_o;
 wire          lsu_in_load_fault_o;
@@ -163,8 +163,8 @@ begin
     //-----------------------------------------------------------------
     // Registers
     //-----------------------------------------------------------------
-    (*keep*)
-    reg [STATE_W-1:0] state_q;
+    
+    (*keep*)reg [STATE_W-1:0] state_q;
     wire              idle_w = (state_q == STATE_IDLE);
     wire state_q_w = state_q;
 
@@ -179,7 +179,7 @@ begin
     //-----------------------------------------------------------------
     // Load / Store
     //-----------------------------------------------------------------
-    (*keep*)
+    
     reg       load_q;
     reg [3:0] store_q;
 
@@ -206,7 +206,7 @@ begin
     else if (load_w || (|store_w))
         lsu_in_addr_q <= lsu_in_addr_i;
 
-    wire [31:0] lsu_addr_w = (load_w || (|store_w)) ? lsu_in_addr_i : lsu_in_addr_q;
+    (*keep*)wire [31:0] lsu_addr_w = (load_w || (|store_w)) ? lsu_in_addr_i : lsu_in_addr_q;
 
     //-----------------------------------------------------------------
     // Page table walker
@@ -227,26 +227,26 @@ begin
     wire        supervisor_d_w = (priv_d_i == `PRIV_SUPER);
 
     wire        vm_i_enable_w = (ifetch_vm_w);
-    wire        vm_d_enable_w = (vm_enable_w & dfetch_vm_w);
+    (*keep*)wire        vm_d_enable_w = (vm_enable_w & dfetch_vm_w);
 
     // TLB entry does not match request address
     wire        itlb_miss_w = fetch_in_rd_i & vm_i_enable_w & ~itlb_hit_w;
     wire        dtlb_miss_w = (load_w || (|store_w)) & vm_d_enable_w & ~dtlb_hit_w;
 
     // Data miss is higher priority than instruction...
-    wire [31:0] request_addr_w = idle_w ? 
+    (*keep*)wire [31:0] request_addr_w = idle_w ? 
                                 (dtlb_miss_w ? lsu_addr_w : fetch_in_pc_i) :
                                  dtlb_req_q ? lsu_addr_w : fetch_in_pc_i;
 
-    (*keep*)
-    reg [31:0]  pte_addr_q;
-    (*keep*)
-    reg [31:0]  pte_entry_q;
-    (*keep*)
+    
+    (*keep*)reg [31:0]  pte_addr_q;
+    
+    (*keep*)reg [31:0]  pte_entry_q;
+    
     reg [31:0]  virt_addr_q;
 
     wire [31:0] pte_ppn_w   = {`PAGE_PFN_SHIFT'b0, resp_data_w[31:`PAGE_PFN_SHIFT]};
-    wire [9:0]  pte_flags_w = resp_data_w[9:0];
+    (*keep*) wire [9:0]  pte_flags_w = resp_data_w[9:0];
 
     always @ (posedge clk_i or posedge rst_i)
     if (rst_i)
@@ -391,7 +391,7 @@ begin
     //-----------------------------------------------------------------
     reg         dtlb_valid_q;
     reg [31:12] dtlb_va_addr_q;
-    reg [31:0]  dtlb_entry_q;
+    (*keep*)reg [31:0]  dtlb_entry_q;
 
     always @ (posedge clk_i or posedge rst_i)
     if (rst_i)
@@ -479,7 +479,7 @@ begin
 
     wire        lsu_out_rd_w         = vm_d_enable_w ? (load_w  & dtlb_hit_w & ~load_fault_r)       : lsu_in_rd_i;
     wire [3:0]  lsu_out_wr_w         = vm_d_enable_w ? (store_w & {4{dtlb_hit_w & ~store_fault_r}}) : lsu_in_wr_i;
-    wire [31:0] lsu_out_addr_w       = vm_d_enable_w ? {dtlb_entry_q[31:12], lsu_addr_w[11:0]}      : lsu_addr_w;
+    (*keep*)wire [31:0] lsu_out_addr_w       = vm_d_enable_w ? {dtlb_entry_q[31:12], lsu_addr_w[11:0]}      : lsu_addr_w;
     wire [31:0] lsu_out_data_wr_w    = lsu_in_data_wr_i;
 
     wire        lsu_out_invalidate_w = lsu_in_invalidate_i;
@@ -513,9 +513,9 @@ begin
     //-----------------------------------------------------------------
     // PTE Fetch Port
     //-----------------------------------------------------------------
-    (*keep*)
+    
     reg mem_req_q;
-    (*keep*)
+    
     wire mmu_accept_w;
 
     always @ (posedge clk_i or posedge rst_i)
@@ -531,11 +531,11 @@ begin
     //-----------------------------------------------------------------
     // Request Muxing
     //-----------------------------------------------------------------
-    (*keep*)
+    
     reg read_hold_q;
     reg  src_mmu_q;
-    wire src_mmu_w = read_hold_q ? src_mmu_q : mem_req_q;
-    (*keep*)
+    (*keep*) wire src_mmu_w = read_hold_q ? src_mmu_q : mem_req_q;
+    
     wire xx_tmp = (lsu_out_rd_o || (|lsu_out_wr_o)) && !lsu_out_accept_i;
 
     always @ (posedge clk_i or posedge rst_i)

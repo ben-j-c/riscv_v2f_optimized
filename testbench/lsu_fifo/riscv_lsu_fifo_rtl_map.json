@@ -42,7 +42,7 @@
         }
       },
       "cells": {
-        "$abc$183$auto$blifparse.cc:519:parse_blif$184": {
+        "$abc$190$auto$blifparse.cc:519:parse_blif$191": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -61,7 +61,7 @@
             "Y": [ 76 ]
           }
         },
-        "$abc$183$auto$blifparse.cc:519:parse_blif$185": {
+        "$abc$190$auto$blifparse.cc:519:parse_blif$192": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -80,7 +80,7 @@
             "Y": [ 77 ]
           }
         },
-        "$abc$183$auto$blifparse.cc:519:parse_blif$186": {
+        "$abc$190$auto$blifparse.cc:519:parse_blif$193": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -99,7 +99,7 @@
             "Y": [ 78 ]
           }
         },
-        "$abc$183$auto$blifparse.cc:519:parse_blif$187": {
+        "$abc$190$auto$blifparse.cc:519:parse_blif$194": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -118,7 +118,7 @@
             "Y": [ 71 ]
           }
         },
-        "$abc$183$auto$blifparse.cc:519:parse_blif$188": {
+        "$abc$190$auto$blifparse.cc:519:parse_blif$195": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -137,7 +137,7 @@
             "Y": [ 79 ]
           }
         },
-        "$abc$183$auto$blifparse.cc:519:parse_blif$189": {
+        "$abc$190$auto$blifparse.cc:519:parse_blif$196": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -156,7 +156,7 @@
             "Y": [ 80 ]
           }
         },
-        "$abc$183$auto$blifparse.cc:519:parse_blif$192": {
+        "$abc$190$auto$blifparse.cc:519:parse_blif$199": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -175,7 +175,7 @@
             "Y": [ 82 ]
           }
         },
-        "$abc$183$auto$blifparse.cc:519:parse_blif$193": {
+        "$abc$190$auto$blifparse.cc:519:parse_blif$200": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -194,7 +194,7 @@
             "Y": [ 84 ]
           }
         },
-        "$abc$183$auto$blifparse.cc:519:parse_blif$194": {
+        "$abc$190$auto$blifparse.cc:519:parse_blif$201": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -218,9 +218,9 @@
           "type": "v2f_add",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000001",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000001",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
@@ -243,9 +243,9 @@
           "type": "v2f_add",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000001",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000001",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
@@ -268,9 +268,9 @@
           "type": "v2f_add",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000010",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000001",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
@@ -428,7 +428,7 @@
             "Q": [ 74, 75 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$195": {
+        "$auto$flowmap.cc:1414:pack_cells$202": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -493,9 +493,9 @@
           "type": "v2f_ne",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000010",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000010",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
@@ -508,8 +508,8 @@
             "Y": "output"
           },
           "connections": {
-            "A": [ 74, 75 ],
-            "B": [ "0", "1" ],
+            "A": [ 74, 75, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "B": [ "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
             "Y": [ 70 ]
           }
         },
@@ -543,9 +543,9 @@
           "type": "v2f_sub",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000010",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000001",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
@@ -572,71 +572,71 @@
             "src": "../../core/riscv/riscv_lsu_fifo.v:48.1-79.4"
           }
         },
-        "$abc$183$add$../../core/riscv/riscv_lsu_fifo.v:75$19_Y[0]": {
+        "$abc$190$add$../../core/riscv/riscv_lsu_fifo.v:75$19_Y[0]": {
           "hide_name": 1,
           "bits": [ 73 ],
           "attributes": {
           }
         },
-        "$abc$183$add$../../core/riscv/riscv_lsu_fifo.v:75$19_Y[1]": {
+        "$abc$190$add$../../core/riscv/riscv_lsu_fifo.v:75$19_Y[1]": {
           "hide_name": 1,
           "bits": [ 86 ],
           "attributes": {
           }
         },
-        "$abc$183$and$../../core/riscv/riscv_lsu_fifo.v:63$9_Y": {
+        "$abc$190$and$../../core/riscv/riscv_lsu_fifo.v:63$9_Y": {
           "hide_name": 1,
           "bits": [ 77 ],
           "attributes": {
             "src": "../../core/riscv/riscv_lsu_fifo.v:63.9-63.26"
           }
         },
-        "$abc$183$and$../../core/riscv/riscv_lsu_fifo.v:70$13_Y": {
+        "$abc$190$and$../../core/riscv/riscv_lsu_fifo.v:70$13_Y": {
           "hide_name": 1,
           "bits": [ 79 ],
           "attributes": {
             "src": "../../core/riscv/riscv_lsu_fifo.v:70.9-70.24"
           }
         },
-        "$abc$183$auto$blifparse.cc:586:parse_blif$190": {
+        "$abc$190$auto$blifparse.cc:586:parse_blif$197": {
           "hide_name": 1,
           "bits": [ 80 ],
           "attributes": {
           }
         },
-        "$abc$183$auto$opt_dff.cc:194:make_patterns_logic$99": {
+        "$abc$190$auto$opt_dff.cc:194:make_patterns_logic$99": {
           "hide_name": 1,
           "bits": [ 248 ],
           "attributes": {
           }
         },
-        "$abc$183$auto$rtlil.cc:2779:Not$95": {
+        "$abc$190$auto$rtlil.cc:2779:Not$95": {
           "hide_name": 1,
           "bits": [ 82 ],
           "attributes": {
           }
         },
-        "$abc$183$auto$wreduce.cc:514:run$106[0]": {
+        "$abc$190$auto$wreduce.cc:514:run$106[0]": {
           "hide_name": 1,
           "bits": [ 72 ],
           "attributes": {
             "src": "../../core/riscv/riscv_lsu_fifo.v:78.20-78.31"
           }
         },
-        "$abc$183$auto$wreduce.cc:514:run$106[1]": {
+        "$abc$190$auto$wreduce.cc:514:run$106[1]": {
           "hide_name": 1,
           "bits": [ 85 ],
           "attributes": {
             "src": "../../core/riscv/riscv_lsu_fifo.v:78.20-78.31"
           }
         },
-        "$abc$183$new_n22": {
+        "$abc$190$new_n22": {
           "hide_name": 1,
           "bits": [ 78 ],
           "attributes": {
           }
         },
-        "$abc$183$procmux$38_CMP": {
+        "$abc$190$procmux$38_CMP": {
           "hide_name": 1,
           "bits": [ 84 ],
           "attributes": {
@@ -666,7 +666,7 @@
           "attributes": {
           }
         },
-        "$techmap82$sub$../../core/riscv/riscv_lsu_fifo.v:78$24.Y": {
+        "$techmap89$sub$../../core/riscv/riscv_lsu_fifo.v:78$24.Y": {
           "hide_name": 1,
           "bits": [ 279, 280, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278 ],
           "attributes": {
@@ -674,7 +674,7 @@
             "unused_bits": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
           }
         },
-        "$techmap84$add$../../core/riscv/riscv_lsu_fifo.v:75$19.Y": {
+        "$techmap91$add$../../core/riscv/riscv_lsu_fifo.v:75$19.Y": {
           "hide_name": 1,
           "bits": [ 281, 282, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181 ],
           "attributes": {
@@ -682,7 +682,7 @@
             "unused_bits": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
           }
         },
-        "$techmap88$add$../../core/riscv/riscv_lsu_fifo.v:71$14.Y": {
+        "$techmap95$add$../../core/riscv/riscv_lsu_fifo.v:71$14.Y": {
           "hide_name": 1,
           "bits": [ 283, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151 ],
           "attributes": {
@@ -690,7 +690,7 @@
             "unused_bits": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
           }
         },
-        "$techmap89$add$../../core/riscv/riscv_lsu_fifo.v:66$12.Y": {
+        "$techmap96$add$../../core/riscv/riscv_lsu_fifo.v:66$12.Y": {
           "hide_name": 1,
           "bits": [ 284, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119 ],
           "attributes": {

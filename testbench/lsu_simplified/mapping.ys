@@ -12,7 +12,6 @@ abc -fast
 abc -fast -lut 10
 opt -fast
 opt_lut
-opt_share
 opt_clean
 select riscv_lsu_simplified
 write_json -selected riscv_lsu_simplified_rtl_map.json

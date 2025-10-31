@@ -80,9 +80,9 @@ module tb;
 	initial begin
 		seed = 123;
 		$dumpfile(".csr_tb.vcd");
-		$dumpvars(1, tb);
+		$dumpvars(0, tb);
 		clk_i = 0;
-		rst_i = 0;
+		rst_i = 1;
 		intr_i = 0;
 		opcode_valid_i = 0;
 		opcode_opcode_i = 0;
@@ -104,12 +104,8 @@ module tb;
 		interrupt_inhibit_i = 0;
 
 		#1;
-		rst_i = 1;
-		#1;
-		clk_i = 1;
-		#1;
 		rst_i = 0;
-		clk_i = 0;
+		#1;
 
 		for (i = 0; i < 10000; i+= 1) begin
 			intr_i = $random(seed);
@@ -131,7 +127,10 @@ module tb;
 			cpu_id_i = $random(seed);
 			reset_vector_i = $random(seed);
 			interrupt_inhibit_i = $random(seed);
-			clk_i = ~clk_i;
+			clk_i = 0;
+
+			#1;
+			clk_i = 1;
 			#1;
 		end
 	end

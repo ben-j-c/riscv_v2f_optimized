@@ -2,7 +2,7 @@ name = "csr"
 module = "riscv_" .. name
 module_file = "../../core/riscv/" .. module .. ".v"
 vcd_file = "." .. name .. "_tb.vcd"
-delay = 5
+delay = 20
 
 rtl = yosys_load_rtl(module_file, module, "../../core/riscv")
 logd = yosys_map_rtl(rtl)
@@ -15,7 +15,7 @@ end
 
 outputs = {}
 for index, value in pairs(logd:out_ports()) do
-	outputs["tb." .. index] = value
+	outputs["tb.dut." .. index] = value
 end
 
 if not os.execute("../makevcd") then
@@ -26,7 +26,7 @@ if not sim:apply_vcd(vcd_file, inputs, outputs, delay, true) then
 	sim:inspect()
 	error("apply vcd failed")
 end
-print("csr_regfile sim matches VCD")
+print(name .. " sim matches VCD")
 
 logd:make_svg()
 return logd

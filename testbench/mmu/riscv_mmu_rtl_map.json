@@ -229,7 +229,7 @@
         }
       },
       "cells": {
-        "$abc$359$auto$blifparse.cc:519:parse_blif$360": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$401": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -248,7 +248,7 @@
             "Y": [ 339 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$361": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$402": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -267,7 +267,7 @@
             "Y": [ 342 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$362": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$403": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -286,7 +286,7 @@
             "Y": [ 346 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$363": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$404": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -305,7 +305,7 @@
             "Y": [ 352 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$366": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$407": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -324,7 +324,7 @@
             "Y": [ 354 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$367": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$408": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -343,7 +343,7 @@
             "Y": [ 356 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$368": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$409": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -362,7 +362,7 @@
             "Y": [ 359 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$369": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$410": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -381,7 +381,7 @@
             "Y": [ 360 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$372": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$413": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -400,7 +400,7 @@
             "Y": [ 361 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$373": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$414": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -419,7 +419,7 @@
             "Y": [ 363 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$374": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$415": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -438,7 +438,7 @@
             "Y": [ 364 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$375": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$416": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -457,7 +457,7 @@
             "Y": [ 365 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$376": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$417": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -476,7 +476,7 @@
             "Y": [ 366 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$377": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$418": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -495,7 +495,7 @@
             "Y": [ 245 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$378": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$419": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -514,7 +514,7 @@
             "Y": [ 367 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$379": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$420": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -533,7 +533,7 @@
             "Y": [ 372 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$380": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$421": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -552,7 +552,7 @@
             "Y": [ 373 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$381": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$422": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -571,7 +571,7 @@
             "Y": [ 374 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$382": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$423": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -590,7 +590,7 @@
             "Y": [ 378 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$383": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$424": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -609,7 +609,7 @@
             "Y": [ 379 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$384": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$425": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -628,7 +628,7 @@
             "Y": [ 380 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$385": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$426": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -647,7 +647,7 @@
             "Y": [ 381 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$388": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$429": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -666,7 +666,7 @@
             "Y": [ 382 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$389": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$430": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -685,7 +685,7 @@
             "Y": [ 383 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$392": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$433": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -704,7 +704,7 @@
             "Y": [ 384 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$395": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$436": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -723,7 +723,7 @@
             "Y": [ 385 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$396": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$437": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -742,7 +742,7 @@
             "Y": [ 386 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$399": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$440": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -761,7 +761,7 @@
             "Y": [ 387 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$400": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$441": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -780,7 +780,7 @@
             "Y": [ 388 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$403": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$444": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -799,7 +799,7 @@
             "Y": [ 389 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$404": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$445": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -818,7 +818,7 @@
             "Y": [ 390 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$405": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$446": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -837,7 +837,7 @@
             "Y": [ 391 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$406": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$447": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -856,7 +856,7 @@
             "Y": [ 392 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$407": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$448": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -875,7 +875,7 @@
             "Y": [ 394 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$408": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$449": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -894,7 +894,7 @@
             "Y": [ 396 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$409": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$450": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -913,7 +913,7 @@
             "Y": [ 397 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$412": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$453": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -932,7 +932,7 @@
             "Y": [ 398 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$413": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$454": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -951,7 +951,7 @@
             "Y": [ 399 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$414": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$455": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -970,7 +970,7 @@
             "Y": [ 400 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$415": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$456": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -989,7 +989,7 @@
             "Y": [ 401 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$416": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$457": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1008,7 +1008,7 @@
             "Y": [ 402 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$417": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$458": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1027,7 +1027,7 @@
             "Y": [ 246 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$418": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$459": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1046,7 +1046,7 @@
             "Y": [ 406 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$419": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$460": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1065,7 +1065,7 @@
             "Y": [ 315 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$420": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$461": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1084,7 +1084,7 @@
             "Y": [ 407 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$423": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$464": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1103,7 +1103,7 @@
             "Y": [ 409 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$426": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$467": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1122,7 +1122,7 @@
             "Y": [ 280 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$427": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$468": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1141,7 +1141,7 @@
             "Y": [ 411 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$428": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$469": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1160,7 +1160,7 @@
             "Y": [ 412 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$429": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$470": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1179,7 +1179,7 @@
             "Y": [ 413 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$430": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$471": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1198,7 +1198,7 @@
             "Y": [ 243 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$431": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$472": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1217,7 +1217,7 @@
             "Y": [ 414 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$434": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$475": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1236,7 +1236,7 @@
             "Y": [ 415 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$437": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$478": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1255,7 +1255,7 @@
             "Y": [ 416 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$440": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$481": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1274,7 +1274,7 @@
             "Y": [ 417 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$441": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$482": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1293,7 +1293,7 @@
             "Y": [ 418 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$442": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$483": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1312,7 +1312,7 @@
             "Y": [ 419 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$443": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$484": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1331,7 +1331,7 @@
             "Y": [ 420 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$444": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$485": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1350,7 +1350,7 @@
             "Y": [ 421 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$445": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$486": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1369,7 +1369,7 @@
             "Y": [ 332 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$446": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$487": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1388,7 +1388,7 @@
             "Y": [ 333 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$447": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$488": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1407,7 +1407,7 @@
             "Y": [ 424 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$450": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$491": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1426,7 +1426,7 @@
             "Y": [ 334 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$451": {
+        "$abc$400$auto$blifparse.cc:519:parse_blif$492": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -1452,7 +1452,7 @@
             "A_SIGNED": "00000000000000000000000000000000",
             "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000001100",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
@@ -1477,7 +1477,7 @@
             "A_SIGNED": "00000000000000000000000000000000",
             "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000001100",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
@@ -1500,9 +1500,9 @@
           "type": "v2f_and",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000100",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000100",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000000100"
           },
           "attributes": {
@@ -1912,7 +1912,7 @@
             "Q": [ 708, 709, 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737 ]
           }
         },
-        "$auto$ff.cc:266:slice$480": {
+        "$auto$ff.cc:266:slice$521": {
           "hide_name": 1,
           "type": "$adffe",
           "parameters": {
@@ -1940,7 +1940,7 @@
             "Q": [ 738, 739, 740, 403, 404, 741, 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764, 765 ]
           }
         },
-        "$auto$ff.cc:266:slice$481": {
+        "$auto$ff.cc:266:slice$522": {
           "hide_name": 1,
           "type": "$adffe",
           "parameters": {
@@ -1968,7 +1968,7 @@
             "Q": [ 766, 369, 370, 393, 368, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$452": {
+        "$auto$flowmap.cc:1414:pack_cells$493": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -1986,7 +1986,7 @@
             "Y": [ 320 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$453": {
+        "$auto$flowmap.cc:1414:pack_cells$494": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -2004,7 +2004,7 @@
             "Y": [ 282 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$454": {
+        "$auto$flowmap.cc:1414:pack_cells$495": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -2022,7 +2022,7 @@
             "Y": [ 281 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$455": {
+        "$auto$flowmap.cc:1414:pack_cells$496": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -2040,7 +2040,7 @@
             "Y": [ 244 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$456": {
+        "$auto$flowmap.cc:1414:pack_cells$497": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -2058,7 +2058,7 @@
             "Y": [ 410 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$457": {
+        "$auto$flowmap.cc:1414:pack_cells$498": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -2076,7 +2076,7 @@
             "Y": [ 408 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$458": {
+        "$auto$flowmap.cc:1414:pack_cells$499": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -2094,7 +2094,7 @@
             "Y": [ 615 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$459": {
+        "$auto$flowmap.cc:1414:pack_cells$500": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -2112,7 +2112,7 @@
             "Y": [ 614 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$460": {
+        "$auto$flowmap.cc:1414:pack_cells$501": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -2130,7 +2130,7 @@
             "Y": [ 593 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$461": {
+        "$auto$flowmap.cc:1414:pack_cells$502": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -2148,7 +2148,7 @@
             "Y": [ 572 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$462": {
+        "$auto$flowmap.cc:1414:pack_cells$503": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -2166,7 +2166,7 @@
             "Y": [ 571 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$463": {
+        "$auto$flowmap.cc:1414:pack_cells$504": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -2184,7 +2184,7 @@
             "Y": [ 792 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$464": {
+        "$auto$flowmap.cc:1414:pack_cells$505": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -2202,7 +2202,7 @@
             "Y": [ 362 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$465": {
+        "$auto$flowmap.cc:1414:pack_cells$506": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -2225,9 +2225,9 @@
           "type": "v2f_ne",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000011",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000001",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
@@ -2240,8 +2240,8 @@
             "Y": "output"
           },
           "connections": {
-            "A": [ 356, 402, 400 ],
-            "B": [ "1" ],
+            "A": [ 356, 402, 400, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "B": [ "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
             "Y": [ 793 ]
           }
         },
@@ -2250,9 +2250,9 @@
           "type": "v2f_ne",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000100",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000100",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
@@ -2265,8 +2265,8 @@
             "Y": "output"
           },
           "connections": {
-            "A": [ 354, 356, 402, 400 ],
-            "B": [ "0", "1", "0", "1" ],
+            "A": [ 354, 356, 402, 400, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "B": [ "0", "1", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
             "Y": [ 794 ]
           }
         },
@@ -2275,9 +2275,9 @@
           "type": "v2f_ne",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000011",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000011",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
@@ -2290,8 +2290,8 @@
             "Y": "output"
           },
           "connections": {
-            "A": [ 354, 356, 402 ],
-            "B": [ "0", "1", "1" ],
+            "A": [ 354, 356, 402, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "B": [ "0", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
             "Y": [ 795 ]
           }
         },
@@ -2342,9 +2342,9 @@
           "type": "v2f_eq",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000011",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000011",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
@@ -2357,8 +2357,8 @@
             "Y": "output"
           },
           "connections": {
-            "A": [ 239, 240, 241 ],
-            "B": [ "1", "1", "1" ],
+            "A": [ 239, 240, 241, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "B": [ "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
             "Y": [ 337 ]
           }
         },
@@ -2367,9 +2367,9 @@
           "type": "v2f_eq",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000010",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000001",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
@@ -2382,8 +2382,8 @@
             "Y": "output"
           },
           "connections": {
-            "A": [ 76, 77 ],
-            "B": [ "1" ],
+            "A": [ 76, 77, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "B": [ "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
             "Y": [ 405 ]
           }
         },
@@ -2392,9 +2392,9 @@
           "type": "v2f_eq",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000010",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000001",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
@@ -2407,8 +2407,8 @@
             "Y": "output"
           },
           "connections": {
-            "A": [ 4, 5 ],
-            "B": [ "1" ],
+            "A": [ 4, 5, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "B": [ "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
             "Y": [ 371 ]
           }
         },
@@ -2417,9 +2417,9 @@
           "type": "v2f_eq",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000010",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000001",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
@@ -2432,8 +2432,8 @@
             "Y": "output"
           },
           "connections": {
-            "A": [ 340, 341 ],
-            "B": [ "1" ],
+            "A": [ 340, 341, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "B": [ "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
             "Y": [ 355 ]
           }
         },
@@ -2442,9 +2442,9 @@
           "type": "v2f_eq",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000010",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000010",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
@@ -2457,8 +2457,8 @@
             "Y": "output"
           },
           "connections": {
-            "A": [ 340, 341 ],
-            "B": [ "0", "1" ],
+            "A": [ 340, 341, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "B": [ "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
             "Y": [ 338 ]
           }
         },
@@ -2467,9 +2467,9 @@
           "type": "v2f_eq",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000010",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000010",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
@@ -2482,8 +2482,8 @@
             "Y": "output"
           },
           "connections": {
-            "A": [ 340, 341 ],
-            "B": [ "1", "1" ],
+            "A": [ 340, 341, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "B": [ "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
             "Y": [ 357 ]
           }
         },
@@ -2492,9 +2492,9 @@
           "type": "v2f_eq",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000010100",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000010100",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
@@ -2507,8 +2507,8 @@
             "Y": "output"
           },
           "connections": {
-            "A": [ 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592 ],
-            "B": [ 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75 ],
+            "A": [ 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "B": [ 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
             "Y": [ 345 ]
           }
         },
@@ -2517,9 +2517,9 @@
           "type": "v2f_eq",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000010100",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000010100",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
@@ -2532,8 +2532,8 @@
             "Y": "output"
           },
           "connections": {
-            "A": [ 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613 ],
-            "B": [ 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815 ],
+            "A": [ 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "B": [ 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
             "Y": [ 349 ]
           }
         },
@@ -2549,7 +2549,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_mmu.v:465.36-465.72|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:166.3-166.47|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:314.3-314.41"
+            "src": "../../core/riscv/riscv_mmu.v:465.36-465.72|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:163.3-163.47|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:314.3-314.41"
           },
           "port_directions": {
             "A": "input",
@@ -2574,7 +2574,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_mmu.v:465.76-465.112|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:143.3-143.47|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:334.3-334.41"
+            "src": "../../core/riscv/riscv_mmu.v:465.76-465.112|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:140.3-140.47|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:334.3-334.41"
           },
           "port_directions": {
             "A": "input",
@@ -2592,9 +2592,9 @@
           "type": "v2f_ne",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000010",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000010",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
@@ -2607,8 +2607,8 @@
             "Y": "output"
           },
           "connections": {
-            "A": [ 76, 77 ],
-            "B": [ "1", "1" ],
+            "A": [ 76, 77, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "B": [ "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
             "Y": [ 343 ]
           }
         },
@@ -2617,9 +2617,9 @@
           "type": "v2f_ne",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000010",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000010",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
@@ -2632,8 +2632,8 @@
             "Y": "output"
           },
           "connections": {
-            "A": [ 4, 5 ],
-            "B": [ "1", "1" ],
+            "A": [ 4, 5, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "B": [ "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
             "Y": [ 347 ]
           }
         },
@@ -2642,9 +2642,9 @@
           "type": "v2f_or",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000000100",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000000100",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000000100"
           },
           "attributes": {
@@ -2667,9 +2667,9 @@
           "type": "v2f_or",
           "parameters": {
             "A_SIGNED": "00000000000000000000000000000000",
-            "A_WIDTH": "00000000000000000000000000010100",
+            "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000001010",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000010100"
           },
           "attributes": {
@@ -2694,7 +2694,7 @@
             "A_SIGNED": "00000000000000000000000000000000",
             "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000001010",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
@@ -2719,7 +2719,7 @@
             "A_SIGNED": "00000000000000000000000000000000",
             "A_WIDTH": "00000000000000000000000000100000",
             "B_SIGNED": "00000000000000000000000000000000",
-            "B_WIDTH": "00000000000000000000000000001010",
+            "B_WIDTH": "00000000000000000000000000100000",
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
@@ -3139,7 +3139,7 @@
             "Y": [ 395 ]
           }
         },
-        "$techmap$techmap68$le$../../core/riscv/riscv_mmu.v:465$139.$add$/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:138$66": {
+        "$techmap$techmap85$le$../../core/riscv/riscv_mmu.v:465$139.$add$/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:135$83": {
           "hide_name": 1,
           "type": "v2f_add",
           "parameters": {
@@ -3151,7 +3151,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_mmu.v:465.76-465.112|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:138.16-138.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:67.3-67.41"
+            "src": "../../core/riscv/riscv_mmu.v:465.76-465.112|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:135.16-135.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:67.3-67.41"
           },
           "port_directions": {
             "A": "input",
@@ -3164,7 +3164,7 @@
             "Y": [ 880, 881, 882, 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909, 910, 911 ]
           }
         },
-        "$techmap$techmap68$le$../../core/riscv/riscv_mmu.v:465$139.$add$/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:139$67": {
+        "$techmap$techmap85$le$../../core/riscv/riscv_mmu.v:465$139.$add$/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:136$84": {
           "hide_name": 1,
           "type": "v2f_add",
           "parameters": {
@@ -3176,7 +3176,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_mmu.v:465.76-465.112|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:139.16-139.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:67.3-67.41"
+            "src": "../../core/riscv/riscv_mmu.v:465.76-465.112|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:136.16-136.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:67.3-67.41"
           },
           "port_directions": {
             "A": "input",
@@ -3189,7 +3189,7 @@
             "Y": [ 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943 ]
           }
         },
-        "$techmap$techmap71$ge$../../core/riscv/riscv_mmu.v:465$138.$add$/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:161$69": {
+        "$techmap$techmap88$ge$../../core/riscv/riscv_mmu.v:465$138.$add$/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:158$86": {
           "hide_name": 1,
           "type": "v2f_add",
           "parameters": {
@@ -3201,7 +3201,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_mmu.v:465.36-465.72|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:161.16-161.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:67.3-67.41"
+            "src": "../../core/riscv/riscv_mmu.v:465.36-465.72|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:158.16-158.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:67.3-67.41"
           },
           "port_directions": {
             "A": "input",
@@ -3214,7 +3214,7 @@
             "Y": [ 816, 817, 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847 ]
           }
         },
-        "$techmap$techmap71$ge$../../core/riscv/riscv_mmu.v:465$138.$add$/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:162$70": {
+        "$techmap$techmap88$ge$../../core/riscv/riscv_mmu.v:465$138.$add$/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:159$87": {
           "hide_name": 1,
           "type": "v2f_add",
           "parameters": {
@@ -3226,7 +3226,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_mmu.v:465.36-465.72|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:162.16-162.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:67.3-67.41"
+            "src": "../../core/riscv/riscv_mmu.v:465.36-465.72|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:159.16-159.32|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:67.3-67.41"
           },
           "port_directions": {
             "A": "input",
@@ -3243,7 +3243,7 @@
           "hide_name": 1,
           "type": "v2f_mux",
           "parameters": {
-            "WIDTH": "00000000000000000000000000000100"
+            "WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -3358,7 +3358,7 @@
           "hide_name": 1,
           "type": "v2f_mux",
           "parameters": {
-            "WIDTH": "00000000000000000000000000000100"
+            "WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -3404,7 +3404,7 @@
           "hide_name": 1,
           "type": "v2f_mux",
           "parameters": {
-            "WIDTH": "00000000000000000000000000000100"
+            "WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -3450,7 +3450,7 @@
           "hide_name": 1,
           "type": "v2f_mux",
           "parameters": {
-            "WIDTH": "00000000000000000000000000001011"
+            "WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -3514,392 +3514,392 @@
             "src": "../../core/riscv/riscv_mmu.v:220.5-282.8"
           }
         },
-        "$abc$359$and$../../core/riscv/riscv_mmu.v:450$131_Y": {
+        "$abc$400$and$../../core/riscv/riscv_mmu.v:450$131_Y": {
           "hide_name": 1,
           "bits": [ 374 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:450.70-450.97"
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$364": {
+        "$abc$400$auto$blifparse.cc:586:parse_blif$405": {
           "hide_name": 1,
           "bits": [ 352 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$370": {
+        "$abc$400$auto$blifparse.cc:586:parse_blif$411": {
           "hide_name": 1,
           "bits": [ 360 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$386": {
+        "$abc$400$auto$blifparse.cc:586:parse_blif$427": {
           "hide_name": 1,
           "bits": [ 381 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$390": {
+        "$abc$400$auto$blifparse.cc:586:parse_blif$431": {
           "hide_name": 1,
           "bits": [ 383 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$393": {
+        "$abc$400$auto$blifparse.cc:586:parse_blif$434": {
           "hide_name": 1,
           "bits": [ 384 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$397": {
+        "$abc$400$auto$blifparse.cc:586:parse_blif$438": {
           "hide_name": 1,
           "bits": [ 386 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$401": {
+        "$abc$400$auto$blifparse.cc:586:parse_blif$442": {
           "hide_name": 1,
           "bits": [ 388 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$410": {
+        "$abc$400$auto$blifparse.cc:586:parse_blif$451": {
           "hide_name": 1,
           "bits": [ 397 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$421": {
+        "$abc$400$auto$blifparse.cc:586:parse_blif$462": {
           "hide_name": 1,
           "bits": [ 407 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$424": {
+        "$abc$400$auto$blifparse.cc:586:parse_blif$465": {
           "hide_name": 1,
           "bits": [ 409 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$432": {
+        "$abc$400$auto$blifparse.cc:586:parse_blif$473": {
           "hide_name": 1,
           "bits": [ 414 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$435": {
+        "$abc$400$auto$blifparse.cc:586:parse_blif$476": {
           "hide_name": 1,
           "bits": [ 415 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$438": {
+        "$abc$400$auto$blifparse.cc:586:parse_blif$479": {
           "hide_name": 1,
           "bits": [ 416 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$448": {
+        "$abc$400$auto$blifparse.cc:586:parse_blif$489": {
           "hide_name": 1,
           "bits": [ 424 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$opt_dff.cc:194:make_patterns_logic$411": {
+        "$abc$400$auto$opt_dff.cc:194:make_patterns_logic$411": {
           "hide_name": 1,
           "bits": [ 380 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$opt_dff.cc:194:make_patterns_logic$420": {
+        "$abc$400$auto$opt_dff.cc:194:make_patterns_logic$420": {
           "hide_name": 1,
           "bits": [ 792 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$opt_dff.cc:194:make_patterns_logic$430": {
+        "$abc$400$auto$opt_dff.cc:194:make_patterns_logic$430": {
           "hide_name": 1,
           "bits": [ 571 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$opt_dff.cc:194:make_patterns_logic$433": {
+        "$abc$400$auto$opt_dff.cc:194:make_patterns_logic$433": {
           "hide_name": 1,
           "bits": [ 572 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$opt_dff.cc:194:make_patterns_logic$438": {
+        "$abc$400$auto$opt_dff.cc:194:make_patterns_logic$438": {
           "hide_name": 1,
           "bits": [ 593 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$opt_dff.cc:194:make_patterns_logic$443": {
+        "$abc$400$auto$opt_dff.cc:194:make_patterns_logic$443": {
           "hide_name": 1,
           "bits": [ 614 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$opt_dff.cc:194:make_patterns_logic$447": {
+        "$abc$400$auto$opt_dff.cc:194:make_patterns_logic$447": {
           "hide_name": 1,
           "bits": [ 615 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$rtlil.cc:2779:Not$416": {
+        "$abc$400$auto$rtlil.cc:2779:Not$416": {
           "hide_name": 1,
           "bits": [ 398 ],
           "attributes": {
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_mmu.v:241$39_Y": {
+        "$abc$400$eq$../../core/riscv/riscv_mmu.v:241$39_Y": {
           "hide_name": 1,
           "bits": [ 355 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:241.18-241.46"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_mmu.v:263$50_Y": {
+        "$abc$400$eq$../../core/riscv/riscv_mmu.v:263$50_Y": {
           "hide_name": 1,
           "bits": [ 338 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:263.18-263.47"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_mmu.v:278$54_Y": {
+        "$abc$400$eq$../../core/riscv/riscv_mmu.v:278$54_Y": {
           "hide_name": 1,
           "bits": [ 357 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:278.18-278.41"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_mmu.v:297$59_Y": {
+        "$abc$400$eq$../../core/riscv/riscv_mmu.v:297$59_Y": {
           "hide_name": 1,
           "bits": [ 345 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:297.26-297.64"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_mmu.v:386$97_Y": {
+        "$abc$400$eq$../../core/riscv/riscv_mmu.v:386$97_Y": {
           "hide_name": 1,
           "bits": [ 349 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:386.43-386.78"
           }
         },
-        "$abc$359$ge$../../core/riscv/riscv_mmu.v:465$138_Y": {
+        "$abc$400$ge$../../core/riscv/riscv_mmu.v:465$138_Y": {
           "hide_name": 1,
           "bits": [ 422 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:465.36-465.72"
           }
         },
-        "$abc$359$le$../../core/riscv/riscv_mmu.v:465$139_Y": {
+        "$abc$400$le$../../core/riscv/riscv_mmu.v:465$139_Y": {
           "hide_name": 1,
           "bits": [ 423 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:465.76-465.112"
           }
         },
-        "$abc$359$logic_and$../../core/riscv/riscv_mmu.v:232$37_Y": {
+        "$abc$400$logic_and$../../core/riscv/riscv_mmu.v:232$37_Y": {
           "hide_name": 1,
           "bits": [ 354 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:232.13-232.66"
           }
         },
-        "$abc$359$logic_and$../../core/riscv/riscv_mmu.v:241$40_Y": {
+        "$abc$400$logic_and$../../core/riscv/riscv_mmu.v:241$40_Y": {
           "hide_name": 1,
           "bits": [ 356 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:241.18-241.62"
           }
         },
-        "$abc$359$logic_and$../../core/riscv/riscv_mmu.v:263$51_Y": {
+        "$abc$400$logic_and$../../core/riscv/riscv_mmu.v:263$51_Y": {
           "hide_name": 1,
           "bits": [ 339 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:263.18-263.63"
           }
         },
-        "$abc$359$logic_and$../../core/riscv/riscv_mmu.v:296$58_Y": {
+        "$abc$400$logic_and$../../core/riscv/riscv_mmu.v:296$58_Y": {
           "hide_name": 1,
           "bits": [ 359 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:296.14-296.52"
           }
         },
-        "$abc$359$logic_and$../../core/riscv/riscv_mmu.v:370$93_Y": {
+        "$abc$400$logic_and$../../core/riscv/riscv_mmu.v:370$93_Y": {
           "hide_name": 1,
           "bits": [ 385 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:370.14-370.51"
           }
         },
-        "$abc$359$logic_and$../../core/riscv/riscv_mmu.v:511$174_Y": {
+        "$abc$400$logic_and$../../core/riscv/riscv_mmu.v:511$174_Y": {
           "hide_name": 1,
           "bits": [ 396 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:511.14-511.68"
           }
         },
-        "$abc$359$logic_or$../../core/riscv/riscv_mmu.v:178$14_Y": {
+        "$abc$400$logic_or$../../core/riscv/riscv_mmu.v:178$14_Y": {
           "hide_name": 1,
           "bits": [ 366 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:178.14-178.34"
           }
         },
-        "$abc$359$logic_or$../../core/riscv/riscv_mmu.v:244$42_Y": {
+        "$abc$400$logic_or$../../core/riscv/riscv_mmu.v:244$42_Y": {
           "hide_name": 1,
           "bits": [ 402 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:244.17-244.48"
           }
         },
-        "$abc$359$logic_or$../../core/riscv/riscv_mmu.v:250$44_Y": {
+        "$abc$400$logic_or$../../core/riscv/riscv_mmu.v:250$44_Y": {
           "hide_name": 1,
           "bits": [ 400 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:250.24-250.74"
           }
         },
-        "$abc$359$new_n103": {
+        "$abc$400$new_n103": {
           "hide_name": 1,
           "bits": [ 362 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n104": {
+        "$abc$400$new_n104": {
           "hide_name": 1,
           "bits": [ 361 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n107": {
+        "$abc$400$new_n107": {
           "hide_name": 1,
           "bits": [ 365 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n110": {
+        "$abc$400$new_n110": {
           "hide_name": 1,
           "bits": [ 367 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n111": {
+        "$abc$400$new_n111": {
           "hide_name": 1,
           "bits": [ 372 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n112": {
+        "$abc$400$new_n112": {
           "hide_name": 1,
           "bits": [ 373 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n114": {
+        "$abc$400$new_n114": {
           "hide_name": 1,
           "bits": [ 378 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n118": {
+        "$abc$400$new_n118": {
           "hide_name": 1,
           "bits": [ 382 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n123": {
+        "$abc$400$new_n123": {
           "hide_name": 1,
           "bits": [ 387 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n125": {
+        "$abc$400$new_n125": {
           "hide_name": 1,
           "bits": [ 389 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n126": {
+        "$abc$400$new_n126": {
           "hide_name": 1,
           "bits": [ 390 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n127": {
+        "$abc$400$new_n127": {
           "hide_name": 1,
           "bits": [ 391 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n128": {
+        "$abc$400$new_n128": {
           "hide_name": 1,
           "bits": [ 392 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n129": {
+        "$abc$400$new_n129": {
           "hide_name": 1,
           "bits": [ 394 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n133": {
+        "$abc$400$new_n133": {
           "hide_name": 1,
           "bits": [ 399 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n135": {
+        "$abc$400$new_n135": {
           "hide_name": 1,
           "bits": [ 401 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n138": {
+        "$abc$400$new_n138": {
           "hide_name": 1,
           "bits": [ 406 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n140": {
+        "$abc$400$new_n140": {
           "hide_name": 1,
           "bits": [ 408 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n150": {
+        "$abc$400$new_n150": {
           "hide_name": 1,
           "bits": [ 417 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n98": {
+        "$abc$400$new_n98": {
           "hide_name": 1,
           "bits": [ 346 ],
           "attributes": {
           }
         },
-        "$abc$359$not$../../core/riscv/riscv_mmu.v:162$6_Y": {
+        "$abc$400$not$../../core/riscv/riscv_mmu.v:162$6_Y": {
           "hide_name": 1,
           "bits": [ 410 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:162.19-162.35"
           }
         },
-        "$abc$359$reduce_or$../../core/riscv/riscv_mmu.v:178$13_Y": {
+        "$abc$400$reduce_or$../../core/riscv/riscv_mmu.v:178$13_Y": {
           "hide_name": 1,
           "bits": [ 350 ],
           "attributes": {
             "src": "../../core/riscv/riscv_mmu.v:178.25-178.33"
           }
         },
-        "$abc$359$reduce_or$../../core/riscv/riscv_mmu.v:511$171_Y": {
+        "$abc$400$reduce_or$../../core/riscv/riscv_mmu.v:511$171_Y": {
           "hide_name": 1,
           "bits": [ 395 ],
           "attributes": {
@@ -4034,32 +4034,32 @@
           "attributes": {
           }
         },
-        "$techmap$techmap68$le$../../core/riscv/riscv_mmu.v:465$139.$add$/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:138$66_Y": {
+        "$techmap$techmap85$le$../../core/riscv/riscv_mmu.v:465$139.$add$/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:135$83_Y": {
           "hide_name": 1,
           "bits": [ 880, 881, 882, 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909, 910, 911 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_mmu.v:465.76-465.112|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:138.16-138.32"
+            "src": "../../core/riscv/riscv_mmu.v:465.76-465.112|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:135.16-135.32"
           }
         },
-        "$techmap$techmap68$le$../../core/riscv/riscv_mmu.v:465$139.$add$/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:139$67_Y": {
+        "$techmap$techmap85$le$../../core/riscv/riscv_mmu.v:465$139.$add$/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:136$84_Y": {
           "hide_name": 1,
           "bits": [ 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_mmu.v:465.76-465.112|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:139.16-139.32"
+            "src": "../../core/riscv/riscv_mmu.v:465.76-465.112|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:136.16-136.32"
           }
         },
-        "$techmap$techmap71$ge$../../core/riscv/riscv_mmu.v:465$138.$add$/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:161$69_Y": {
+        "$techmap$techmap88$ge$../../core/riscv/riscv_mmu.v:465$138.$add$/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:158$86_Y": {
           "hide_name": 1,
           "bits": [ 816, 817, 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_mmu.v:465.36-465.72|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:161.16-161.32"
+            "src": "../../core/riscv/riscv_mmu.v:465.36-465.72|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:158.16-158.32"
           }
         },
-        "$techmap$techmap71$ge$../../core/riscv/riscv_mmu.v:465$138.$add$/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:162$70_Y": {
+        "$techmap$techmap88$ge$../../core/riscv/riscv_mmu.v:465$138.$add$/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:159$87_Y": {
           "hide_name": 1,
           "bits": [ 848, 849, 850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_mmu.v:465.36-465.72|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:162.16-162.32"
+            "src": "../../core/riscv/riscv_mmu.v:465.36-465.72|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:159.16-159.32"
           }
         },
         "$ternary$../../core/riscv/riscv_mmu.v:168$9_Y": {

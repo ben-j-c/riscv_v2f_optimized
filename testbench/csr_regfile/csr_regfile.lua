@@ -1,6 +1,6 @@
 rtl = yosys_load_rtl("../../core/riscv/riscv_csr_regfile.v", "riscv_csr_regfile")
 logd = yosys_map_rtl(rtl)
-delay = 5
+delay = 20
 
 
 inputs = {}
@@ -10,7 +10,7 @@ end
 
 outputs = {}
 for index, value in pairs(logd:out_ports()) do
-	outputs["tb." .. index] = value
+	outputs["tb.dut." .. index] = value
 end
 
 if not os.execute("../makevcd") then
@@ -18,7 +18,7 @@ if not os.execute("../makevcd") then
 end
 sim = logd:new_simulation()
 --sim:inspect()
-if not sim:apply_vcd(".csr_regfile_tb.vcd", inputs, outputs, 5, true) then
+if not sim:apply_vcd(".csr_regfile_tb.vcd", inputs, outputs, delay, true) then
 	sim:inspect()
 	error("apply vcd failed")
 end

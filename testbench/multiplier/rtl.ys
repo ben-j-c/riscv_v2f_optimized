@@ -1,7 +1,7 @@
 read_verilog ../../core/riscv/riscv_multiplier.v
 
 read_verilog -lib /home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v
-hierarchy -libdir /home/ben/repo/verilog2factorio/v2flib  -check -top riscv_multiplier
+hierarchy -libdir /home/ben/repo/verilog2factorio/v2flib  -libdir ../../core/riscv  -check -top riscv_multiplier
 
 #coarse
 proc

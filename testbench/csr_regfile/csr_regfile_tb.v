@@ -51,9 +51,9 @@ module tb;
 
 	initial begin
 		$dumpfile(".csr_regfile_tb.vcd");
-		$dumpvars(1, tb);
+		$dumpvars(0, tb);
 		clk_i = 0;
-		rst_i = 0;
+		rst_i = 1;
 		ext_intr_i = 0;
 		timer_intr_i = 0;
 		cpu_id_i = 0;
@@ -66,16 +66,11 @@ module tb;
 		csr_waddr_i = 0;
 		csr_wdata_i = 0;
 		#1;
-		rst_i = 1;
-		#1;
 		rst_i = 0;
+		#1;
 
-		clk_i = 0;
-		#1;
-		clk_i = 1;
-		#1;
 		seed = 123;
-		for (i = 0; i < 4000; i += 1) begin
+		for (i = 0; i < 2000; i += 1) begin
 			clk_i = 0;
 			ext_intr_i = $random(seed);
 			timer_intr_i = $random(seed);

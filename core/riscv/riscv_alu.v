@@ -59,11 +59,11 @@ module riscv_alu
 //-----------------------------------------------------------------
 reg [31:0]      result_r;
 
-reg [31:16]     shift_right_fill_r;
-reg [31:0]      shift_right_1_r;
-reg [31:0]      shift_right_2_r;
-reg [31:0]      shift_right_4_r;
-reg [31:0]      shift_right_8_r;
+(*keep*)reg [31:16]     shift_right_fill_r;
+(*keep*)reg [31:0]      shift_right_1_r;
+(*keep*)reg [31:0]      shift_right_2_r;
+(*keep*)reg [31:0]      shift_right_4_r;
+(*keep*)reg [31:0]      shift_right_8_r;
 
 reg [31:0]      shift_left_1_r;
 reg [31:0]      shift_left_2_r;
