@@ -142,13 +142,13 @@ module tb;
 	integer seed;
 	initial begin
 		seed = 123;
-		$dumpfile(".pipe_ctrl_tb.vcd");
+		$dumpfile("pipe_ctrl_tb.vcd");
 		$dumpvars(0, tb);
 		clk_i = 0;
 		rst_i = 1;
 		#1;
 		clk_i = 1;
-		for (i = 0; i < 10000 ; i += 1 ) begin
+		for (i = 0; i < 10000 ; i = i + 1 ) begin
 			// For all reg, $random(seed)
 			issue_valid_i = $random(seed);
 			issue_accept_i = $random(seed);

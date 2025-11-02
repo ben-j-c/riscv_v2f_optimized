@@ -1,28 +1,31 @@
 name = "pipe_ctrl"
 module = "riscv_" .. name
 module_file = "../../core/riscv/" .. module .. ".v"
-vcd_file = "." .. name .. "_tb.vcd"
+yosys_vcd_file = name .. "_yosys_sim.vcd"
+tb_vcd_file = name .. "_tb.vcd"
 delay = 40
-
-rtl = yosys_load_rtl(module_file, module, "../../core/riscv")
-logd = yosys_map_rtl(rtl)
-
-
-inputs = {}
-for index, value in pairs(logd:in_ports()) do
-	inputs["tb." .. index] = value
-end
-
-outputs = {}
-for index, value in pairs(logd:out_ports()) do
-	outputs["tb.dut." .. index] = value
-end
 
 if not os.execute("../makevcd") then
 	error("makevcd failed")
 end
+
+rtl = yosys_load_rtl(module_file, module, "../../core/riscv")
+rtl:set_net_promotion(true)
+rtl:yosys_sim(tb_vcd_file, yosys_vcd_file)
+logd = yosys_map_rtl(rtl)
+
+inputs = {}
+for index, value in pairs(logd:in_ports()) do
+	inputs[module .. "." .. index] = value
+end
+
+outputs = {}
+for index, value in pairs(logd:out_ports()) do
+	outputs[module .. "." .. index] = value
+end
+
 sim = logd:new_simulation()
-if not sim:apply_vcd(vcd_file, inputs, outputs, delay, true) then
+if not sim:apply_vcd(yosys_vcd_file, inputs, outputs, delay, true) then
 	sim:inspect()
 	error("apply vcd failed")
 end

@@ -1,0 +1,2 @@
+script rtl.ys
+sim -scope tb -a -q -r pipe_ctrl_tb.vcd -vcd pipe_ctrl_yosys_sim.vcd

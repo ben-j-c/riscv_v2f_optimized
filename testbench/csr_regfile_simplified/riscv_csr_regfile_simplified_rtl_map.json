@@ -65,7 +65,7 @@
         }
       },
       "cells": {
-        "$abc$211$auto$blifparse.cc:519:parse_blif$212": {
+        "$abc$215$auto$blifparse.cc:519:parse_blif$216": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -84,7 +84,7 @@
             "Y": [ 200 ]
           }
         },
-        "$abc$211$auto$blifparse.cc:519:parse_blif$213": {
+        "$abc$215$auto$blifparse.cc:519:parse_blif$217": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -103,7 +103,7 @@
             "Y": [ 204 ]
           }
         },
-        "$abc$211$auto$blifparse.cc:519:parse_blif$216": {
+        "$abc$215$auto$blifparse.cc:519:parse_blif$220": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -122,7 +122,7 @@
             "Y": [ 207 ]
           }
         },
-        "$abc$211$auto$blifparse.cc:519:parse_blif$219": {
+        "$abc$215$auto$blifparse.cc:519:parse_blif$223": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -141,7 +141,7 @@
             "Y": [ 208 ]
           }
         },
-        "$abc$211$auto$blifparse.cc:519:parse_blif$220": {
+        "$abc$215$auto$blifparse.cc:519:parse_blif$224": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -160,7 +160,7 @@
             "Y": [ 209 ]
           }
         },
-        "$abc$211$auto$blifparse.cc:519:parse_blif$221": {
+        "$abc$215$auto$blifparse.cc:519:parse_blif$225": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -179,7 +179,7 @@
             "Y": [ 210 ]
           }
         },
-        "$abc$211$auto$blifparse.cc:519:parse_blif$222": {
+        "$abc$215$auto$blifparse.cc:519:parse_blif$226": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -198,7 +198,7 @@
             "Y": [ 211 ]
           }
         },
-        "$abc$211$auto$blifparse.cc:519:parse_blif$223": {
+        "$abc$215$auto$blifparse.cc:519:parse_blif$227": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -217,7 +217,7 @@
             "Y": [ 212 ]
           }
         },
-        "$abc$211$auto$blifparse.cc:519:parse_blif$224": {
+        "$abc$215$auto$blifparse.cc:519:parse_blif$228": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -236,7 +236,7 @@
             "Y": [ 214 ]
           }
         },
-        "$abc$211$auto$blifparse.cc:519:parse_blif$227": {
+        "$abc$215$auto$blifparse.cc:519:parse_blif$231": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -255,7 +255,7 @@
             "Y": [ 218 ]
           }
         },
-        "$abc$211$auto$blifparse.cc:519:parse_blif$230": {
+        "$abc$215$auto$blifparse.cc:519:parse_blif$234": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -274,7 +274,7 @@
             "Y": [ 221 ]
           }
         },
-        "$abc$211$auto$blifparse.cc:519:parse_blif$233": {
+        "$abc$215$auto$blifparse.cc:519:parse_blif$237": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -374,7 +374,7 @@
             "Q": [ 219 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$234": {
+        "$auto$flowmap.cc:1414:pack_cells$238": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -392,7 +392,7 @@
             "Y": [ 197 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$235": {
+        "$auto$flowmap.cc:1414:pack_cells$239": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -410,7 +410,7 @@
             "Y": [ 225 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$236": {
+        "$auto$flowmap.cc:1414:pack_cells$240": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -428,7 +428,7 @@
             "Y": [ 227 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$237": {
+        "$auto$flowmap.cc:1414:pack_cells$241": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -446,7 +446,7 @@
             "Y": [ 282 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$238": {
+        "$auto$flowmap.cc:1414:pack_cells$242": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -768,114 +768,114 @@
             "unused_bits": "1 8"
           }
         },
-        "$abc$211$auto$blifparse.cc:586:parse_blif$214": {
+        "$abc$215$auto$blifparse.cc:586:parse_blif$218": {
           "hide_name": 1,
           "bits": [ 204 ],
           "attributes": {
           }
         },
-        "$abc$211$auto$blifparse.cc:586:parse_blif$217": {
+        "$abc$215$auto$blifparse.cc:586:parse_blif$221": {
           "hide_name": 1,
           "bits": [ 207 ],
           "attributes": {
           }
         },
-        "$abc$211$auto$blifparse.cc:586:parse_blif$225": {
+        "$abc$215$auto$blifparse.cc:586:parse_blif$229": {
           "hide_name": 1,
           "bits": [ 214 ],
           "attributes": {
           }
         },
-        "$abc$211$auto$blifparse.cc:586:parse_blif$228": {
+        "$abc$215$auto$blifparse.cc:586:parse_blif$232": {
           "hide_name": 1,
           "bits": [ 218 ],
           "attributes": {
           }
         },
-        "$abc$211$auto$blifparse.cc:586:parse_blif$231": {
+        "$abc$215$auto$blifparse.cc:586:parse_blif$235": {
           "hide_name": 1,
           "bits": [ 221 ],
           "attributes": {
           }
         },
-        "$abc$211$auto$opt_dff.cc:194:make_patterns_logic$1847": {
+        "$abc$215$auto$opt_dff.cc:194:make_patterns_logic$1847": {
           "hide_name": 1,
           "bits": [ 282 ],
           "attributes": {
           }
         },
-        "$abc$211$auto$opt_dff.cc:194:make_patterns_logic$1867": {
+        "$abc$215$auto$opt_dff.cc:194:make_patterns_logic$1867": {
           "hide_name": 1,
           "bits": [ 209 ],
           "attributes": {
           }
         },
-        "$abc$211$auto$rtlil.cc:2779:Not$1870": {
+        "$abc$215$auto$rtlil.cc:2779:Not$1870": {
           "hide_name": 1,
           "bits": [ 210 ],
           "attributes": {
           }
         },
-        "$abc$211$auto$rtlil.cc:2779:Not$1872": {
+        "$abc$215$auto$rtlil.cc:2779:Not$1872": {
           "hide_name": 1,
           "bits": [ 211 ],
           "attributes": {
           }
         },
-        "$abc$211$auto$rtlil.cc:2779:Not$1874": {
+        "$abc$215$auto$rtlil.cc:2779:Not$1874": {
           "hide_name": 1,
           "bits": [ 212 ],
           "attributes": {
           }
         },
-        "$abc$211$eq$../../core/riscv/riscv_csr_regfile_simplified.v:282$37_Y": {
+        "$abc$215$eq$../../core/riscv/riscv_csr_regfile_simplified.v:282$37_Y": {
           "hide_name": 1,
           "bits": [ 202 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile_simplified.v:282.9-282.39"
           }
         },
-        "$abc$211$eq$../../core/riscv/riscv_csr_regfile_simplified.v:339$43_Y": {
+        "$abc$215$eq$../../core/riscv/riscv_csr_regfile_simplified.v:339$43_Y": {
           "hide_name": 1,
           "bits": [ 215 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile_simplified.v:339.13-339.37"
           }
         },
-        "$abc$211$ge$../../core/riscv/riscv_csr_regfile_simplified.v:336$40_Y": {
+        "$abc$215$ge$../../core/riscv/riscv_csr_regfile_simplified.v:336$40_Y": {
           "hide_name": 1,
           "bits": [ 198 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile_simplified.v:336.14-336.34"
           }
         },
-        "$abc$211$le$../../core/riscv/riscv_csr_regfile_simplified.v:336$41_Y": {
+        "$abc$215$le$../../core/riscv/riscv_csr_regfile_simplified.v:336$41_Y": {
           "hide_name": 1,
           "bits": [ 199 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile_simplified.v:336.38-336.58"
           }
         },
-        "$abc$211$logic_and$../../core/riscv/riscv_csr_regfile_simplified.v:336$42_Y": {
+        "$abc$215$logic_and$../../core/riscv/riscv_csr_regfile_simplified.v:336$42_Y": {
           "hide_name": 1,
           "bits": [ 200 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_regfile_simplified.v:336.14-336.58"
           }
         },
-        "$abc$211$new_n32": {
+        "$abc$215$new_n32": {
           "hide_name": 1,
           "bits": [ 208 ],
           "attributes": {
           }
         },
-        "$abc$211$procmux$570_CMP": {
+        "$abc$215$procmux$570_CMP": {
           "hide_name": 1,
           "bits": [ 205 ],
           "attributes": {
           }
         },
-        "$abc$211$procmux$571_CMP": {
+        "$abc$215$procmux$571_CMP": {
           "hide_name": 1,
           "bits": [ 206 ],
           "attributes": {
