@@ -51,8 +51,8 @@ module riscv_core
     ,parameter SUPPORT_MUL_BYPASS = 1
     ,parameter SUPPORT_REGFILE_XILINX = 0
     ,parameter EXTRA_DECODE_STAGE = 0
-    ,parameter MEM_CACHE_ADDR_MIN = 32'h80000000
-    ,parameter MEM_CACHE_ADDR_MAX = 32'h8fffffff
+    ,parameter MEM_CACHE_ADDR_MIN = 32'h00000000
+    ,parameter MEM_CACHE_ADDR_MAX = 32'hffffffff
 )
 //-----------------------------------------------------------------
 // Ports
