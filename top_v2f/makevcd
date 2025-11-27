@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Making vcd."
+rm *tb.vcd 2> /dev/null
+rm tb_obj 2> /dev/null
+iverilog -o tb_obj *tb.v \
+	-y ../core/riscv \
+	-y ../../../v2flib/ \
+	-y . \
+	-I ../core/riscv \
+	-I ../../../v2flib/ \
+		&& vvp tb_obj
