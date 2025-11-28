@@ -1,6 +1,6 @@
-AS=/opt/riscv/bin/riscv32-unknown-linux-gnu-as
-LD=/opt/riscv/bin/riscv32-unknown-linux-gnu-ld
-OBJCOPY=/opt/riscv/bin/riscv32-unknown-linux-gnu-objcopy
+AS=/opt/riscv/bin/riscv32-unknown-elf-as
+LD=/opt/riscv/bin/riscv32-unknown-elf-ld
+OBJCOPY=/opt/riscv/bin/riscv32-unknown-elf-objcopy
 V2F=../../../../target/release/v2f
 
 LD_FLAGS = --no-relax
