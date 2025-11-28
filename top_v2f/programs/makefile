@@ -3,9 +3,12 @@ LD=/opt/riscv/bin/riscv32-unknown-linux-gnu-ld
 OBJCOPY=/opt/riscv/bin/riscv32-unknown-linux-gnu-objcopy
 V2F=../../../../target/release/v2f
 
+LD_FLAGS = --no-relax
+LD_FLAGS += -Tlink.ld
+
 .PHONY: all clean assemble link objcopy program
 
-all: objcopy
+all: program
 
 clean:
 	rm -f *.o *.elf *.bin *.mem
@@ -14,7 +17,7 @@ clean:
 	$(AS) -march=rv32im -mabi=ilp32 -o $@ $<
 
 %.elf: %.o
-	$(LD) -Ttext=0x0000 -o $@ $<
+	$(LD) $(LD_FLAGS) -o $@ $<
 
 %.bin: %.elf
 	$(OBJCOPY) -O binary $< $@

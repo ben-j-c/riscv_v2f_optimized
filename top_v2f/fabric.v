@@ -34,29 +34,8 @@ module fabric
 	output vram_en
 );
 	localparam ABITS = 16;
-	localparam BEGIN_VRAM = 32'h00010000;
-	localparam END_VRAM = 32'h00020000;
-	v2f_programmable_ram #(
-			.SIZE(1 << ABITS),
-			.PROGRAM_FILE("program.mem"),
-			.ABITS(ABITS),
-			.RD_PORTS(3),
-			.RD_CLK_ENABLE(3'b110),
-			.RD_CLK_POLARITY(3'b110)
-		) dut(
-		.RD_CLK({clk, clk, 1'b0}),
-		.RD_EN({instr_en, data_en, 1'b0}),
-		.RD_ARST(3'b0),
-		.RD_SRST(3'b0),
-		.RD_ADDR({instr_addr[17:2], data_addr[17:2], inspect_addr[17:2]}),
-		.RD_DATA({instr_q, data_q, inspect_q}),
-		.WR_CLK(clk),
-		.WR_EN(|wr_bs && data_dst),
-		.WR_ADDR(data_addr[15:0]),
-		.WR_DATA(wr_data),
-		.BYTE_SELECT(wr_bs),
-		.ARST(arst)
-	);
+	localparam BEGIN_VRAM = 32'h00040000;
+	localparam END_VRAM = 32'h00080000;
 
 	assign instr_accept = 1'b1;
 	wire instr_valid_internal = instr_addr < (4 << ABITS);
@@ -75,7 +54,7 @@ module fabric
 	wire vram_dst = data_addr >= BEGIN_VRAM && data_addr < END_VRAM;
 	wire rd_wr_en = |wr_bs || data_en;
 	assign data_accept = 1'b1;
-	assign data_valid_internal = data_dst || vram_dst;
+	wire data_valid_internal = data_dst || vram_dst;
 	always @ (posedge clk, posedge arst) begin
 		if (arst) begin
 			data_valid <= 0;
@@ -95,4 +74,26 @@ module fabric
 	assign vram_data = wr_data;
 	assign vram_bs = wr_bs;
 	assign vram_en = vram_dst;
+
+	v2f_programmable_ram #(
+			.SIZE(1 << ABITS),
+			.PROGRAM_FILE("program.mem"),
+			.ABITS(ABITS),
+			.RD_PORTS(3),
+			.RD_CLK_ENABLE(3'b110),
+			.RD_CLK_POLARITY(3'b110)
+		) dut(
+		.RD_CLK({clk, clk, 1'b0}),
+		.RD_EN({instr_en, data_en, 1'b0}),
+		.RD_ARST(3'b0),
+		.RD_SRST(3'b0),
+		.RD_ADDR({instr_addr[17:2], data_addr[17:2], inspect_addr[15:0]}),
+		.RD_DATA({instr_q, data_q, inspect_q}),
+		.WR_CLK(clk),
+		.WR_EN(|wr_bs && data_dst),
+		.WR_ADDR(data_addr[17:2]),
+		.WR_DATA(wr_data),
+		.BYTE_SELECT(wr_bs),
+		.ARST(arst)
+	);
 endmodule

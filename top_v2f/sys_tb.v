@@ -3,7 +3,7 @@
 module sys_tb;
 	reg clk;
 	reg arst;
-	reg [15:0] inspect_addr;
+	reg [31:0] inspect_addr;
 	wire [31:0] vram_addr;
 	wire [31:0] vram_data;
 	wire [3:0] vram_bs;
@@ -13,7 +13,7 @@ module sys_tb;
 	sys dut (
 		.clk(clk),
 		.arst(arst),
-		.inspect_addr(inspect_addr),
+		.inspect_addr(inspect_addr[15:0]),
 		.vram_addr(vram_addr),
 		.vram_data(vram_data),
 		.vram_bs(vram_bs),
@@ -29,13 +29,18 @@ module sys_tb;
 		$dumpvars(0, sys_tb);
 		clk = 0;
 		arst = 1;
-		inspect_addr = 0;
+		inspect_addr = 32'h8824;
 		#1;
 		arst = 0;
 		#1;
 
-		for (i = 0 ; i < 300; i += 1) begin
+		for (i = 0 ; i < 30*2; i += 1) begin
 			clk = ~clk;
+			#1;
+		end
+
+		for (i = 0; i < 32'h10000; i += 1) begin
+			inspect_addr = i;
 			#1;
 		end
 	end

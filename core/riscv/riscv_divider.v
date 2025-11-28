@@ -104,7 +104,7 @@ always @ (posedge clk_i or posedge rst_i) begin
     if (rst_i) begin
         valid_q <= 0;
         wb_result_q <= 0;
-    end else begin
+    end else if (div_rem_inst_w) begin
         valid_q <= valid_q_s1 && div_rem_inst_w;
         if (div_operation_w) begin
             if (signed_operation_w) begin

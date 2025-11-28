@@ -86,7 +86,8 @@ module sys(
 	wire data_valid;
 	wire data_error;
 	wire data_ack;
-	wire [2:0] wr_addr;
+	wire [10:0] data_tag_d;
+	wire [10:0] data_tag_q;
 	wire [31:0] wr_data;
 	wire [3:0] wr_bs;
 
@@ -108,6 +109,8 @@ module sys(
 		.data_valid(data_valid),
 		.data_error(data_error),
 		.data_ack(data_ack),
+		.data_tag_d(data_tag_d),
+		.data_tag_q(data_tag_q),
 		.inspect_addr(inspect_addr),
 		.inspect_q(inspect_q),
 		.wr_data(wr_data),
@@ -120,15 +123,16 @@ module sys(
 	assign clk_i = clk;
 	assign rst_i = arst;
 
-	assign wr_addr = mem_d_addr_o;
+	assign data_addr = mem_d_addr_o;
 	assign wr_data = mem_d_data_wr_o;
 	assign data_en = mem_d_rd_o;
 	assign wr_bs = mem_d_wr_o;
-	assign mem_d_data_rd_i = data_en;
+	assign mem_d_data_rd_i = data_q;
 	assign mem_d_accept_i = data_accept;
 	assign mem_d_ack_i = data_ack;
 	assign mem_d_error_i = data_error;
-	assign mem_d_resp_tag_i = mem_d_req_tag_o;
+	assign mem_d_resp_tag_i = data_tag_q;
+	assign data_tag_d = mem_d_req_tag_o;
 
 	assign intr_i = 1'b0;
 	assign reset_vector_i = 1'b0;

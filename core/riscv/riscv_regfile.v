@@ -161,7 +161,7 @@ begin: REGFILE
     //-----------------------------------------------------------------
 
     // Synchronous register write back
-    always @ (posedge clk_i )
+    always @ (posedge clk_i, posedge rst_i)
     if (rst_i)
     begin
         reg_r1_q       <= 32'h00000000;
