@@ -5,8 +5,13 @@
 ---@param vcd_file string
 ---@param delay integer
 ---@return LogicalDesignAPI
-function basic_test(name, module, module_file, vcd_file, delay)
-	rtl = yosys_load_rtl(module_file, module, "../core/riscv")
+function basic_test(name, module, module_file, vcd_file, delay, use_json_rtl)
+	rtl = nil
+	if use_json then
+		rtl = yosys_load_rtl(module_file, module, "../core/riscv")
+	else
+		rtl = yosys_load_rtl(module .. "_rtl.json", module, "../core/riscv")
+	end
 	logd = yosys_map_rtl(rtl)
 
 	inputs = {}
