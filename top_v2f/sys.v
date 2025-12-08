@@ -12,32 +12,32 @@ module sys(
 	output vram_en
 );
 	wire          clk_i;
-	wire          rst_i;
-	wire [ 31:0]  mem_d_data_rd_i; // port
-	wire          mem_d_accept_i;// constant 1
-	wire          mem_d_ack_i; // enable piped
-	wire          mem_d_error_i; // constant 0
-	wire [ 10:0]  mem_d_resp_tag_i; // need to be piped
-	wire          mem_i_accept_i; // constant 1
-	wire          mem_i_valid_i; // constant 1
-	wire          mem_i_error_i; // constant 0
-	wire [ 31:0]  mem_i_inst_i; // port
-	wire          intr_i; // constant 0
-	wire [ 31:0]  reset_vector_i; // constant 0
-	wire [ 31:0]  cpu_id_i; // constant 0
-	wire [ 31:0]  mem_d_addr_o; // port
-	wire [ 31:0]  mem_d_data_wr_o; // port
-	wire          mem_d_rd_o; // enable
-	wire [  3:0]  mem_d_wr_o; // important
-	wire          mem_d_cacheable_o; // dont care
-	wire [ 10:0]  mem_d_req_tag_o; // need to be piped
-	wire          mem_d_invalidate_o; // dont care
-	wire          mem_d_writeback_o;
-	wire          mem_d_flush_o; // dont care
-	wire          mem_i_rd_o;
-	wire          mem_i_flush_o; // dont care
-	wire          mem_i_invalidate_o; // dont care
-	wire [ 31:0]  mem_i_pc_o;
+	(*keep*)wire          rst_i;
+	(*keep*)wire [ 31:0]  mem_d_data_rd_i; // port
+	(*keep*)wire          mem_d_accept_i;// constant 1
+	(*keep*)wire          mem_d_ack_i; // enable piped
+	(*keep*)wire          mem_d_error_i; // constant 0
+	(*keep*)wire [ 10:0]  mem_d_resp_tag_i; // need to be piped
+	(*keep*)wire          mem_i_accept_i; // constant 1
+	(*keep*)wire          mem_i_valid_i; // constant 1
+	(*keep*)wire          mem_i_error_i; // constant 0
+	(*keep*)wire [ 31:0]  mem_i_inst_i; // port
+	(*keep*)wire          intr_i; // constant 0
+	(*keep*)wire [ 31:0]  reset_vector_i; // constant 0
+	(*keep*)wire [ 31:0]  cpu_id_i; // constant 0
+	(*keep*)wire [ 31:0]  mem_d_addr_o; // port
+	(*keep*)wire [ 31:0]  mem_d_data_wr_o; // port
+	(*keep*)wire          mem_d_rd_o; // enable
+	(*keep*)wire [  3:0]  mem_d_wr_o; // important
+	(*keep*)wire          mem_d_cacheable_o; // dont care
+	(*keep*)wire [ 10:0]  mem_d_req_tag_o; // need to be piped
+	(*keep*)wire          mem_d_invalidate_o; // dont care
+	(*keep*)wire          mem_d_writeback_o;
+	(*keep*)wire          mem_d_flush_o; // dont care
+	(*keep*)wire          mem_i_rd_o;
+	(*keep*)wire          mem_i_flush_o; // dont care
+	(*keep*)wire          mem_i_invalidate_o; // dont care
+	(*keep*)wire [ 31:0]  mem_i_pc_o;
 
 	riscv_core core(
 		.clk_i(clk_i),
@@ -69,27 +69,27 @@ module sys(
 		.mem_i_pc_o(mem_i_pc_o)
 	);
 
-	wire instr_en;
-	wire instr_flush;
-	wire instr_invalidate;
-	wire [31:0] instr_addr;
-	wire [31:0] instr_q;
-	wire instr_accept;
-	wire instr_valid;
-	wire instr_error;
-	wire data_en;
-	wire data_flush;
-	wire data_invalidate;
-	wire [31:0] data_addr;
-	wire [31:0] data_q;
-	wire data_accept;
-	wire data_valid;
-	wire data_error;
-	wire data_ack;
-	wire [10:0] data_tag_d;
-	wire [10:0] data_tag_q;
-	wire [31:0] wr_data;
-	wire [3:0] wr_bs;
+	(*keep*)wire instr_en;
+	(*keep*)wire instr_flush;
+	(*keep*)wire instr_invalidate;
+	(*keep*)wire [31:0] instr_addr;
+	(*keep*)wire [31:0] instr_q;
+	(*keep*)wire instr_accept;
+	(*keep*)wire instr_valid;
+	(*keep*)wire instr_error;
+	(*keep*)wire data_en;
+	(*keep*)wire data_flush;
+	(*keep*)wire data_invalidate;
+	(*keep*)wire [31:0] data_addr;
+	(*keep*)wire [31:0] data_q;
+	(*keep*)wire data_accept;
+	(*keep*)wire data_valid;
+	(*keep*)wire data_error;
+	(*keep*)wire data_ack;
+	(*keep*)wire [10:0] data_tag_d;
+	(*keep*)wire [10:0] data_tag_q;
+	(*keep*)wire [31:0] wr_data;
+	(*keep*)wire [3:0] wr_bs;
 
 	fabric fab (
 		.clk(clk),

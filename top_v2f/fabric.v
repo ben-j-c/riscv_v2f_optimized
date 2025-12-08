@@ -38,7 +38,7 @@ module fabric
 	localparam END_VRAM = 32'h00080000;
 
 	assign instr_accept = 1'b1;
-	wire instr_valid_internal = instr_addr < (4 << ABITS);
+	(*keep*) wire instr_valid_internal = instr_addr < (4 << ABITS);
 	always @(posedge clk, posedge arst) begin 
 		if (arst) begin
 			instr_valid <= 0;
@@ -50,11 +50,11 @@ module fabric
 		end
 	end
 
-	wire data_dst = data_addr < (4 << ABITS);
-	wire vram_dst = data_addr >= BEGIN_VRAM && data_addr < END_VRAM;
-	wire rd_wr_en = |wr_bs || data_en;
+	(*keep*)wire data_dst = data_addr < (4 << ABITS);
+	(*keep*)wire vram_dst = data_addr >= BEGIN_VRAM && data_addr < END_VRAM;
+	(*keep*)wire rd_wr_en = |wr_bs || data_en;
 	assign data_accept = 1'b1;
-	wire data_valid_internal = data_dst || vram_dst;
+	(*keep*)wire data_valid_internal = data_dst || vram_dst;
 	always @ (posedge clk, posedge arst) begin
 		if (arst) begin
 			data_valid <= 0;
@@ -82,10 +82,10 @@ module fabric
 			.RD_PORTS(3),
 			.RD_CLK_ENABLE(3'b110),
 			.RD_CLK_POLARITY(3'b110)
-		) dut(
+		) ram (
 		.RD_CLK({clk, clk, 1'b0}),
 		.RD_EN({instr_en, data_en, 1'b0}),
-		.RD_ARST(3'b0),
+		.RD_ARST({arst, arst, 1'b0}),
 		.RD_SRST(3'b0),
 		.RD_ADDR({instr_addr[17:2], data_addr[17:2], inspect_addr[15:0]}),
 		.RD_DATA({instr_q, data_q, inspect_q}),

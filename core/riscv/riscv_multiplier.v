@@ -73,11 +73,11 @@ localparam MULT_STAGES = 2; // 2 or 3
 //-------------------------------------------------------------
 // Stage 1
 
-(*keep*) reg mult_sel;
-(*keep*) reg [31:0] a_low;
-(*keep*) reg [31:0] a_high;
-(*keep*) reg [31:0] b_low;
-(*keep*) reg [31:0] b_high;
+reg mult_sel;
+reg [31:0] a_low;
+reg [31:0] a_high;
+reg [31:0] b_low;
+reg [31:0] b_high;
 
 always @(posedge clk_i or posedge rst_i) begin
     if (rst_i) begin 

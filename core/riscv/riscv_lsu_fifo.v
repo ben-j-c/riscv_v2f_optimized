@@ -33,11 +33,8 @@ localparam COUNT_W = ADDR_W + 1;
 // Registers
 //-----------------------------------------------------------------
 reg [WIDTH-1:0]   ram_q[DEPTH-1:0];
-(*keep*)
 reg [ADDR_W-1:0]  rd_ptr_q;
-(*keep*)
 reg [ADDR_W-1:0]  wr_ptr_q;
-(*keep*)
 reg [COUNT_W-1:0] count_q;
 
 integer i;

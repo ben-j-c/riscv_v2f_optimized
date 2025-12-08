@@ -7,24 +7,28 @@
 ---@return LogicalDesignAPI
 function basic_test(name, module, module_file, vcd_file, delay, use_json_rtl)
 	rtl = nil
-	if use_json then
-		rtl = yosys_load_rtl(module_file, module, "../core/riscv")
-	else
+	if use_json_rtl then
+		if not os.execute("yosys -s rtl.ys") then
+			error("rtl compile failed")
+		end
 		rtl = yosys_load_rtl(module .. "_rtl.json", module, "../core/riscv")
+	else
+		rtl = yosys_load_rtl(module_file, module, "../core/riscv")
 	end
 	logd = yosys_map_rtl(rtl)
 
 	inputs = {}
 	for index, value in pairs(logd:in_ports()) do
-		inputs["tb." .. index] = value
+		inputs["sys_tb." .. index] = value
 	end
 
 	outputs = {}
 	for index, value in pairs(logd:out_ports()) do
-		outputs["tb.dut." .. index] = value
+		outputs["sys_tb.dut." .. index] = value
+		print(index)
 	end
 
-	if not os.execute("makevcd") then
+	if not os.execute("./makevcd") then
 		error("makevcd failed")
 	end
 	sim = logd:new_simulation()
@@ -42,6 +46,6 @@ name = "sys"
 module = name
 module_file = module .. ".v"
 vcd_file = name .. "_tb.vcd"
-delay = 60
+delay = 45
 
-return basic_test(name, module, module_file, vcd_file, delay)
+return basic_test(name, module, module_file, vcd_file, delay, true)

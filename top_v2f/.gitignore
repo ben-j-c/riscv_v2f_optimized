@@ -3,3 +3,5 @@
 *.o
 *.mem
 *.vcd
+flamegraph.svg
+perf.*
