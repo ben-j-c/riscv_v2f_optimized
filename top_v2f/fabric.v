@@ -50,11 +50,11 @@ module fabric
 		end
 	end
 
-	(*keep*)wire data_dst = data_addr < (4 << ABITS);
-	(*keep*)wire vram_dst = data_addr >= BEGIN_VRAM && data_addr < END_VRAM;
-	(*keep*)wire rd_wr_en = |wr_bs || data_en;
+	wire data_dst = data_addr < (4 << ABITS);
+	wire vram_dst = data_addr >= BEGIN_VRAM && data_addr < END_VRAM;
+	wire rd_wr_en = |wr_bs || data_en;
 	assign data_accept = 1'b1;
-	(*keep*)wire data_valid_internal = data_dst || vram_dst;
+	(*keep*)wire data_valid_internal = data_dst || vram_dst; // BUG: This seems to be needed as keep
 	always @ (posedge clk, posedge arst) begin
 		if (arst) begin
 			data_valid <= 0;

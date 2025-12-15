@@ -1,6 +1,7 @@
 read_verilog sys.v
 
 read_verilog -lib /home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v
+read_verilog -lib /home/ben/repo/verilog2factorio/v2flib/v2f_programmable_ram.v
 hierarchy -libdir /home/ben/repo/verilog2factorio/v2flib  -libdir ../core/riscv  -check -top sys
 
 #coarse

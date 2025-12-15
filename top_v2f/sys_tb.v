@@ -40,7 +40,7 @@ module sys_tb;
 			#1;
 		end
 
-		for (i = 0; i < 32'h10000; i += 1) begin
+		for (i = 0; i < 32'h0010; i += 1) begin
 			inspect_addr = i;
 			#1;
 			$display("0x%04x %02x %02x %02x %02x", inspect_addr[15:0],

@@ -39,6 +39,7 @@ function basic_test(name, module, module_file, vcd_file, delay, use_json_rtl)
 	print(name .. " sim matches VCD")
 
 	logd:make_svg()
+	logd:group_io()
 	return logd
 end
 
@@ -46,6 +47,6 @@ name = "sys"
 module = name
 module_file = module .. ".v"
 vcd_file = name .. "_tb.vcd"
-delay = 45
+delay = 30
 
 return basic_test(name, module, module_file, vcd_file, delay, true)
