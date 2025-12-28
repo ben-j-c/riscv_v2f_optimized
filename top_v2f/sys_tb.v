@@ -35,7 +35,7 @@ module sys_tb;
 		arst = 0;
 		#1;
 
-		for (i = 0 ; i < 30*2; i += 1) begin
+		for (i = 0 ; i < 500*2; i += 1) begin
 			clk = ~clk;
 			#1;
 		end

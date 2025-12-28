@@ -1,3 +1,29 @@
+`include "hex_display_panel_mm.v"
+
+`define CONNECT_DISP(ID, ADDR) \
+    (* keep *) wire [3:0] disp_``ID``_signal_0; \
+    (* keep *) wire [3:0] disp_``ID``_signal_1; \
+    (* keep *) wire [3:0] disp_``ID``_signal_2; \
+    (* keep *) wire [3:0] disp_``ID``_signal_3; \
+    (* keep *) wire [3:0] disp_``ID``_signal_4; \
+    (* keep *) wire [3:0] disp_``ID``_signal_5; \
+    (* keep *) wire [3:0] disp_``ID``_signal_6; \
+    (* keep *) wire [3:0] disp_``ID``_signal_7; \
+    hex_display_panel_mm #(.ADDR_SET(ADDR)) at_``ID ( \
+        .clk(clk), \
+        .arst(arst), \
+        .en(vram_en), \
+        .addr(vram_addr), \
+        .data_in_signal_D(vram_data), \
+        .data_out_signal_0(disp_``ID``_signal_0), \
+        .data_out_signal_1(disp_``ID``_signal_1), \
+        .data_out_signal_2(disp_``ID``_signal_2), \
+        .data_out_signal_3(disp_``ID``_signal_3), \
+        .data_out_signal_4(disp_``ID``_signal_4), \
+        .data_out_signal_5(disp_``ID``_signal_5), \
+        .data_out_signal_6(disp_``ID``_signal_6), \
+        .data_out_signal_7(disp_``ID``_signal_7) \
+    );
 
 module fabric
 	(
@@ -96,4 +122,13 @@ module fabric
 		.BYTE_SELECT(wr_bs),
 		.ARST(arst)
 	);
+
+	`CONNECT_DISP(0, 0);
+	`CONNECT_DISP(1, 4);
+	`CONNECT_DISP(2, 8);
+	`CONNECT_DISP(3, 12);
+	`CONNECT_DISP(4, 16);
+	`CONNECT_DISP(5, 20);
+	`CONNECT_DISP(6, 24);
+	`CONNECT_DISP(7, 28);
 endmodule

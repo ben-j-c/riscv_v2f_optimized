@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -e
+
+if [ $# -neq 1 ]; then
+	echo "Usage: $0 <program_name>"
+	exit 1
+fi
+
+cd programs
+make clean program
+cp $1.mem ../program.mem
+cd ..
+./makevcd

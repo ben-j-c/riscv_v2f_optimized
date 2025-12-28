@@ -46,7 +46,7 @@ module riscv_mmu
 #(
      parameter MEM_CACHE_ADDR_MIN = 32'h80000000
     ,parameter MEM_CACHE_ADDR_MAX = 32'h8fffffff
-    ,parameter SUPPORT_MMU      = 1
+    ,parameter SUPPORT_MMU      = 0
 )
 //-----------------------------------------------------------------
 // Ports

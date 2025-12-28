@@ -94,67 +94,19 @@ begin
        //----------------------------------------------   
        `ALU_SHIFTL :
        begin
-            if (alu_b_i[0] == 1'b1)
-                shift_left_1_r = {alu_a_i[30:0],1'b0};
-            else
-                shift_left_1_r = alu_a_i;
-
-            if (alu_b_i[1] == 1'b1)
-                shift_left_2_r = {shift_left_1_r[29:0],2'b00};
-            else
-                shift_left_2_r = shift_left_1_r;
-
-            if (alu_b_i[2] == 1'b1)
-                shift_left_4_r = {shift_left_2_r[27:0],4'b0000};
-            else
-                shift_left_4_r = shift_left_2_r;
-
-            if (alu_b_i[3] == 1'b1)
-                shift_left_8_r = {shift_left_4_r[23:0],8'b00000000};
-            else
-                shift_left_8_r = shift_left_4_r;
-
-            if (alu_b_i[4] == 1'b1)
-                result_r = {shift_left_8_r[15:0],16'b0000000000000000};
-            else
-                result_r = shift_left_8_r;
+        result_r = alu_a_i << alu_b_i[4:0];
        end
        //----------------------------------------------
        // Shift Right
        //----------------------------------------------
-       `ALU_SHIFTR, `ALU_SHIFTR_ARITH:
+       `ALU_SHIFTR:
        begin
-            // Arithmetic shift? Fill with 1's if MSB set
-            if (alu_a_i[31] == 1'b1 && alu_op_i == `ALU_SHIFTR_ARITH)
-                shift_right_fill_r = 16'b1111111111111111;
-            else
-                shift_right_fill_r = 16'b0000000000000000;
-
-            if (alu_b_i[0] == 1'b1)
-                shift_right_1_r = {shift_right_fill_r[31], alu_a_i[31:1]};
-            else
-                shift_right_1_r = alu_a_i;
-
-            if (alu_b_i[1] == 1'b1)
-                shift_right_2_r = {shift_right_fill_r[31:30], shift_right_1_r[31:2]};
-            else
-                shift_right_2_r = shift_right_1_r;
-
-            if (alu_b_i[2] == 1'b1)
-                shift_right_4_r = {shift_right_fill_r[31:28], shift_right_2_r[31:4]};
-            else
-                shift_right_4_r = shift_right_2_r;
-
-            if (alu_b_i[3] == 1'b1)
-                shift_right_8_r = {shift_right_fill_r[31:24], shift_right_4_r[31:8]};
-            else
-                shift_right_8_r = shift_right_4_r;
-
-            if (alu_b_i[4] == 1'b1)
-                result_r = {shift_right_fill_r[31:16], shift_right_8_r[31:16]};
-            else
-                result_r = shift_right_8_r;
-       end       
+            result_r = alu_a_i >> alu_b_i[4:0];
+       end
+       `ALU_SHIFTR_ARITH:
+       begin
+            result_r = $signed(alu_a_i) >>> alu_b_i[4:0];
+       end
        //----------------------------------------------
        // Arithmetic
        //----------------------------------------------
