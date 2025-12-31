@@ -1,12 +1,8 @@
-.section(vram)
-vram_x0: .word 0
-vram_x1: .word 0
-vram_x2: .word 0
-vram_x3: .word 0
-vram_x4: .word 0
-vram_x5: .word 0
-vram_x6: .word 0
-vram_x7: .word 0
+.section .vram
+vram_display_panels:
+.fill 8, 4, 0
+vram_pixel_array:
+.fill 256, 4, 0
 
 .data
 val_a: .word 3
@@ -22,7 +18,7 @@ _start:
 	add x4, x2, x3
 	sb x4, 8(x1)
 
-	la x1, vram_x0
+	la x1, vram_display_panels
 	li x10, 100
 loop:
 	sb x4, 0(x1)

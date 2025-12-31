@@ -9,7 +9,7 @@
     (* keep *) wire [3:0] disp_``ID``_signal_5; \
     (* keep *) wire [3:0] disp_``ID``_signal_6; \
     (* keep *) wire [3:0] disp_``ID``_signal_7; \
-    hex_display_panel_mm #(.ADDR_SET(ADDR)) at_``ID ( \
+    hex_display_panel_mm #(.ADDR_SET(ADDR+32'h40000)) at_``ID ( \
         .clk(clk), \
         .arst(arst), \
         .en(vram_en), \

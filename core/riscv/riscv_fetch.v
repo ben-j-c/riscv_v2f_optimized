@@ -233,34 +233,47 @@ assign icache_busy_w       =  icache_fetch_q && !icache_valid_i;
 //-------------------------------------------------------------
 // Response Buffer
 //-------------------------------------------------------------
-reg [65:0]  skid_buffer_q;
 reg         skid_valid_q;
+
+reg fetch_fault_page_q;
+reg fetch_fault_fetch_q;
+reg [31:0] fetch_pc_q;
+reg [31:0] fetch_instr_q;
 
 always @ (posedge clk_i or posedge rst_i)
 if (rst_i)
 begin
-    skid_buffer_q  <= 66'b0;
-    skid_valid_q   <= 1'b0;
+    skid_valid_q <= 1'b0;
+    fetch_fault_page_q <= 0;
+    fetch_fault_fetch_q <= 0;
+    fetch_pc_q <= 0;
+    fetch_instr_q <= 0;
 end 
 // Instruction output back-pressured - hold in skid buffer
 else if (fetch_valid_o && !fetch_accept_i)
 begin
-    skid_valid_q  <= 1'b1;
-    skid_buffer_q <= {fetch_fault_page_o, fetch_fault_fetch_o, fetch_pc_o, fetch_instr_o};
+    skid_valid_q <= 1'b1;
+    fetch_fault_page_q <= fetch_fault_page_o;
+    fetch_fault_fetch_q <= fetch_fault_fetch_o;
+    fetch_pc_q <= fetch_pc_o;
+    fetch_instr_q <= fetch_instr_o;
 end
 else
 begin
-    skid_valid_q  <= 1'b0;
-    skid_buffer_q <= 66'b0;
+    skid_valid_q <= 1'b0;
+    fetch_fault_page_q <= 0;
+    fetch_fault_fetch_q <= 0;
+    fetch_pc_q <= 0;
+    fetch_instr_q <= 0;
 end
 
 assign fetch_valid_o       = (icache_valid_i || skid_valid_q) & !fetch_resp_drop_w;
-assign fetch_pc_o          = skid_valid_q ? skid_buffer_q[63:32] : {pc_d_q[31:2],2'b0};
-assign fetch_instr_o       = skid_valid_q ? skid_buffer_q[31:0]  : icache_inst_i;
+assign fetch_pc_o          = skid_valid_q ? fetch_pc_q : {pc_d_q[31:2],2'b0};
+assign fetch_instr_o       = skid_valid_q ? fetch_instr_q : icache_inst_i;
 
 // Faults
-assign fetch_fault_fetch_o = skid_valid_q ? skid_buffer_q[64] : icache_error_i;
-assign fetch_fault_page_o  = skid_valid_q ? skid_buffer_q[65] : icache_page_fault_i;
+assign fetch_fault_fetch_o = skid_valid_q ? fetch_fault_fetch_q : icache_error_i;
+assign fetch_fault_page_o  = skid_valid_q ? fetch_fault_page_q : icache_page_fault_i;
 
 
 

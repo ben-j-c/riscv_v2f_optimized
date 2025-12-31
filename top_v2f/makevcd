@@ -2,6 +2,9 @@
 echo "Making vcd."
 rm tb_obj 2> /dev/null
 rm *.vcd 2> /dev/null
+
+set -e
+
 iverilog -o tb_obj *tb.v -Wall \
 	-y ../core/riscv \
 	-y ../../../v2flib/ \
