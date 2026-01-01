@@ -19,6 +19,7 @@ _start:
 	sb x4, 8(x1)
 
 	la x1, vram_display_panels
+	la x1, vram_display_panels
 	li x10, 100
 loop:
 	sb x4, 0(x1)

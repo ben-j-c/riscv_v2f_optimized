@@ -122,7 +122,7 @@ end
 ---@return Arithmetic
 function add_hex_driver_and_display(computer, x, y, sig)
 	driver_in, driver_out = add_hex_driver(computer, x, y, sig)
-	disp = add_hex_display(computer, x + 16, y)
+	disp = add_hex_display(computer, x + 18, y)
 	computer:connect(driver_out.output.red, disp.input)
 	return driver_in
 end
@@ -145,6 +145,11 @@ name = "sys"
 module = name
 module_file = module .. ".v"
 delay = 60
+program = "check_vram"
+
+if not os.execute("./build_mem " .. program) then
+	error("build_mem failed")
+end
 
 logd = compile(module, module_file, true, true)
 
@@ -236,6 +241,18 @@ for name, sink in pairs(indicator_ports_sinks) do
 	computer:connect(port.input.red, sink)
 end
 
+
+-- pull out the clock and reset to a more convenient location
+
+clk = computer:find_in_port(name .. ".clk") or error()
+rst = computer:find_in_port(name .. ".arst") or error()
+
+clk_user = computer:add_constant(width + 40, 0, { clk.signals[1] }, { 1 }) or error()
+clk_user:set_enabled(false)
+rst_user = computer:add_constant(width + 40, 1, { rst.signals[1] }, { 1 }) or error()
+
+computer:connect(clk_user.output.red, clk.output)
+computer:connect(rst_user.output.red, rst.output)
 
 
 computer:make_svg("final.svg")
