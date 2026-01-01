@@ -57,7 +57,7 @@
         }
       },
       "cells": {
-        "$abc$359$auto$blifparse.cc:519:parse_blif$360": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$362": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -76,7 +76,7 @@
             "Y": [ 49 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$363": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$365": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -95,7 +95,7 @@
             "Y": [ 54 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$366": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$368": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -114,7 +114,7 @@
             "Y": [ 61 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$367": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$369": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -133,7 +133,7 @@
             "Y": [ 70 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$368": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$370": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -152,7 +152,7 @@
             "Y": [ 78 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$369": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$371": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -171,7 +171,7 @@
             "Y": [ 79 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$370": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$372": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -190,7 +190,7 @@
             "Y": [ 80 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$371": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$373": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -209,7 +209,7 @@
             "Y": [ 89 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$372": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$374": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -228,7 +228,7 @@
             "Y": [ 96 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$373": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$375": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -247,7 +247,7 @@
             "Y": [ 100 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$374": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$376": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -266,7 +266,7 @@
             "Y": [ 107 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$375": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$377": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -285,7 +285,7 @@
             "Y": [ 115 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$376": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$378": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -304,7 +304,7 @@
             "Y": [ 116 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$377": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$379": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -323,7 +323,7 @@
             "Y": [ 37 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$378": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$380": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -342,7 +342,7 @@
             "Y": [ 117 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$379": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$381": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -361,7 +361,7 @@
             "Y": [ 118 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$380": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$382": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -380,7 +380,7 @@
             "Y": [ 119 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$383": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$385": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -399,7 +399,7 @@
             "Y": [ 38 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$384": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$386": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -418,7 +418,7 @@
             "Y": [ 120 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$385": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$387": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -437,7 +437,7 @@
             "Y": [ 39 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$386": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$388": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -456,7 +456,7 @@
             "Y": [ 40 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$387": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$389": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -475,7 +475,7 @@
             "Y": [ 121 ]
           }
         },
-        "$abc$359$auto$blifparse.cc:519:parse_blif$388": {
+        "$abc$361$auto$blifparse.cc:519:parse_blif$390": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -494,7 +494,7 @@
             "Y": [ 122 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$391": {
+        "$auto$flowmap.cc:1414:pack_cells$393": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -512,7 +512,7 @@
             "Y": [ 43 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$392": {
+        "$auto$flowmap.cc:1414:pack_cells$394": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -530,7 +530,7 @@
             "Y": [ 44 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$393": {
+        "$auto$flowmap.cc:1414:pack_cells$395": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -548,7 +548,7 @@
             "Y": [ 42 ]
           }
         },
-        "$auto$flowmap.cc:1414:pack_cells$394": {
+        "$auto$flowmap.cc:1414:pack_cells$396": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -578,7 +578,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:100.22-100.57|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:100.22-100.57|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -603,7 +603,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:101.22-101.61|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:101.22-101.61|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -628,7 +628,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:102.22-102.61|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:102.22-102.61|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -653,7 +653,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:103.22-103.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:103.22-103.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -678,7 +678,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:104.22-104.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:104.22-104.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -703,7 +703,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:105.22-105.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:105.22-105.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -728,7 +728,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:106.22-106.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:106.22-106.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -753,7 +753,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:107.22-107.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:107.22-107.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -778,7 +778,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:108.22-108.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:108.22-108.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -803,7 +803,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:109.22-109.63|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:109.22-109.63|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -828,7 +828,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:110.22-110.52|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:110.22-110.52|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -853,7 +853,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:111.22-111.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:111.22-111.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -878,7 +878,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:112.22-112.63|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:112.22-112.63|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -903,7 +903,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:113.41-113.81|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:113.41-113.81|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -928,7 +928,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:114.41-114.81|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:114.41-114.81|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -953,7 +953,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:115.41-115.81|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:115.41-115.81|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -978,7 +978,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:116.41-116.81|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:116.41-116.81|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1003,7 +1003,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:117.41-117.81|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:117.41-117.81|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1028,7 +1028,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:118.41-118.81|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:118.41-118.81|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1053,7 +1053,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:119.41-119.81|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:119.41-119.81|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1078,7 +1078,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:120.41-120.81|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:120.41-120.81|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1103,7 +1103,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:124.22-124.53|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:124.22-124.53|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1128,7 +1128,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:125.22-125.51|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:125.22-125.51|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1153,7 +1153,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:126.22-126.51|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:126.22-126.51|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1178,7 +1178,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:127.22-127.51|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:127.22-127.51|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1203,7 +1203,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:128.22-128.53|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:128.22-128.53|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1228,7 +1228,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:129.22-129.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:129.22-129.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1253,7 +1253,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:130.22-130.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:130.22-130.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1278,7 +1278,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:131.22-131.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:131.22-131.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1303,7 +1303,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:132.22-132.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:132.22-132.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1328,7 +1328,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:133.22-133.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:133.22-133.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1353,7 +1353,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:134.22-134.63|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:134.22-134.63|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1378,7 +1378,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:135.22-135.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:135.22-135.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1403,7 +1403,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:136.22-136.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:136.22-136.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1428,7 +1428,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:137.22-137.57|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:137.22-137.57|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1453,7 +1453,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:138.22-138.63|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:138.22-138.63|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1478,7 +1478,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:139.22-139.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:139.22-139.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1503,7 +1503,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:140.22-140.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:140.22-140.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1528,7 +1528,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:141.22-141.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:141.22-141.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1553,7 +1553,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:142.22-142.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:142.22-142.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1578,7 +1578,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:143.22-143.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:143.22-143.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1603,7 +1603,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:144.22-144.63|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:144.22-144.63|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1628,7 +1628,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:145.22-145.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:145.22-145.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1653,7 +1653,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:146.22-146.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:146.22-146.59|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1678,7 +1678,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:147.22-147.52|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:147.22-147.52|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1703,7 +1703,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:148.22-148.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:148.22-148.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1728,7 +1728,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:149.22-149.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:149.22-149.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1753,7 +1753,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:150.22-150.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:150.22-150.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1778,7 +1778,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:151.22-151.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:151.22-151.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1803,7 +1803,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:152.22-152.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:152.22-152.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1828,7 +1828,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:196.22-196.53|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:196.22-196.53|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1853,7 +1853,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:197.22-197.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:197.22-197.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1878,7 +1878,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:198.22-198.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:198.22-198.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1903,7 +1903,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:202.22-202.53|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:202.22-202.53|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1928,7 +1928,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:203.22-203.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:203.22-203.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1953,7 +1953,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:204.22-204.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:204.22-204.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -1978,7 +1978,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:205.22-205.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:205.22-205.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -2003,7 +2003,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:206.22-206.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:206.22-206.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -2028,7 +2028,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decoder.v:207.22-207.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:368.3-368.41"
+            "src": "../../core/riscv/riscv_decoder.v:207.22-207.55|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:376.3-376.41"
           },
           "port_directions": {
             "A": "input",
@@ -2043,528 +2043,528 @@
         }
       },
       "netnames": {
-        "$abc$359$auto$blifparse.cc:586:parse_blif$361": {
+        "$abc$361$auto$blifparse.cc:586:parse_blif$363": {
           "hide_name": 1,
           "bits": [ 49 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$364": {
+        "$abc$361$auto$blifparse.cc:586:parse_blif$366": {
           "hide_name": 1,
           "bits": [ 54 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$381": {
+        "$abc$361$auto$blifparse.cc:586:parse_blif$383": {
           "hide_name": 1,
           "bits": [ 119 ],
           "attributes": {
           }
         },
-        "$abc$359$auto$blifparse.cc:586:parse_blif$389": {
+        "$abc$361$auto$blifparse.cc:586:parse_blif$391": {
           "hide_name": 1,
           "bits": [ 122 ],
           "attributes": {
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:100$115_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:100$115_Y": {
           "hide_name": 1,
           "bits": [ 108 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:100.22-100.57"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:101$118_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:101$118_Y": {
           "hide_name": 1,
           "bits": [ 109 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:101.22-101.61"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:102$121_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:102$121_Y": {
           "hide_name": 1,
           "bits": [ 110 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:102.22-102.61"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:103$124_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:103$124_Y": {
           "hide_name": 1,
           "bits": [ 101 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:103.22-103.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:104$127_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:104$127_Y": {
           "hide_name": 1,
           "bits": [ 102 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:104.22-104.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:105$130_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:105$130_Y": {
           "hide_name": 1,
           "bits": [ 103 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:105.22-105.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:106$133_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:106$133_Y": {
           "hide_name": 1,
           "bits": [ 104 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:106.22-106.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:107$136_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:107$136_Y": {
           "hide_name": 1,
           "bits": [ 105 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:107.22-107.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:108$139_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:108$139_Y": {
           "hide_name": 1,
           "bits": [ 106 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:108.22-108.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:109$142_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:109$142_Y": {
           "hide_name": 1,
           "bits": [ 111 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:109.22-109.63"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:110$145_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:110$145_Y": {
           "hide_name": 1,
           "bits": [ 112 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:110.22-110.52"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:111$148_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:111$148_Y": {
           "hide_name": 1,
           "bits": [ 113 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:111.22-111.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:112$151_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:112$151_Y": {
           "hide_name": 1,
           "bits": [ 114 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:112.22-112.63"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:113$154_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:113$154_Y": {
           "hide_name": 1,
           "bits": [ 45 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:113.41-113.81"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:114$158_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:114$158_Y": {
           "hide_name": 1,
           "bits": [ 46 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:114.41-114.81"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:115$162_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:115$162_Y": {
           "hide_name": 1,
           "bits": [ 47 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:115.41-115.81"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:116$166_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:116$166_Y": {
           "hide_name": 1,
           "bits": [ 48 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:116.41-116.81"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:117$170_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:117$170_Y": {
           "hide_name": 1,
           "bits": [ 50 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:117.41-117.81"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:118$174_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:118$174_Y": {
           "hide_name": 1,
           "bits": [ 51 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:118.41-118.81"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:119$178_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:119$178_Y": {
           "hide_name": 1,
           "bits": [ 52 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:119.41-119.81"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:120$182_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:120$182_Y": {
           "hide_name": 1,
           "bits": [ 53 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:120.41-120.81"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:124$188_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:124$188_Y": {
           "hide_name": 1,
           "bits": [ 81 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:124.22-124.53"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:125$190_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:125$190_Y": {
           "hide_name": 1,
           "bits": [ 82 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:125.22-125.51"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:126$193_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:126$193_Y": {
           "hide_name": 1,
           "bits": [ 55 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:126.22-126.51"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:127$196_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:127$196_Y": {
           "hide_name": 1,
           "bits": [ 56 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:127.22-127.51"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:128$199_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:128$199_Y": {
           "hide_name": 1,
           "bits": [ 57 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:128.22-128.53"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:129$202_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:129$202_Y": {
           "hide_name": 1,
           "bits": [ 58 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:129.22-129.59"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:130$205_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:130$205_Y": {
           "hide_name": 1,
           "bits": [ 59 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:130.22-130.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:131$208_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:131$208_Y": {
           "hide_name": 1,
           "bits": [ 60 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:131.22-131.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:132$211_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:132$211_Y": {
           "hide_name": 1,
           "bits": [ 62 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:132.22-132.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:133$214_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:133$214_Y": {
           "hide_name": 1,
           "bits": [ 63 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:133.22-133.59"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:134$217_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:134$217_Y": {
           "hide_name": 1,
           "bits": [ 64 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:134.22-134.63"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:135$220_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:135$220_Y": {
           "hide_name": 1,
           "bits": [ 65 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:135.22-135.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:136$223_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:136$223_Y": {
           "hide_name": 1,
           "bits": [ 66 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:136.22-136.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:137$226_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:137$226_Y": {
           "hide_name": 1,
           "bits": [ 67 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:137.22-137.57"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:138$229_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:138$229_Y": {
           "hide_name": 1,
           "bits": [ 68 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:138.22-138.63"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:139$232_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:139$232_Y": {
           "hide_name": 1,
           "bits": [ 69 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:139.22-139.59"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:140$235_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:140$235_Y": {
           "hide_name": 1,
           "bits": [ 71 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:140.22-140.59"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:141$238_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:141$238_Y": {
           "hide_name": 1,
           "bits": [ 72 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:141.22-141.59"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:142$241_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:142$241_Y": {
           "hide_name": 1,
           "bits": [ 73 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:142.22-142.59"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:143$244_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:143$244_Y": {
           "hide_name": 1,
           "bits": [ 74 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:143.22-143.59"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:144$247_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:144$247_Y": {
           "hide_name": 1,
           "bits": [ 75 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:144.22-144.63"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:145$250_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:145$250_Y": {
           "hide_name": 1,
           "bits": [ 76 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:145.22-145.59"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:146$253_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:146$253_Y": {
           "hide_name": 1,
           "bits": [ 77 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:146.22-146.59"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:147$256_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:147$256_Y": {
           "hide_name": 1,
           "bits": [ 90 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:147.22-147.52"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:148$259_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:148$259_Y": {
           "hide_name": 1,
           "bits": [ 91 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:148.22-148.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:149$262_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:149$262_Y": {
           "hide_name": 1,
           "bits": [ 92 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:149.22-149.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:150$265_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:150$265_Y": {
           "hide_name": 1,
           "bits": [ 93 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:150.22-150.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:151$268_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:151$268_Y": {
           "hide_name": 1,
           "bits": [ 94 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:151.22-151.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:152$271_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:152$271_Y": {
           "hide_name": 1,
           "bits": [ 95 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:152.22-152.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:196$395_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:196$395_Y": {
           "hide_name": 1,
           "bits": [ 97 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:196.22-196.53"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:197$398_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:197$398_Y": {
           "hide_name": 1,
           "bits": [ 98 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:197.22-197.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:198$401_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:198$401_Y": {
           "hide_name": 1,
           "bits": [ 99 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:198.22-198.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:202$409_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:202$409_Y": {
           "hide_name": 1,
           "bits": [ 83 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:202.22-202.53"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:203$412_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:203$412_Y": {
           "hide_name": 1,
           "bits": [ 84 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:203.22-203.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:204$415_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:204$415_Y": {
           "hide_name": 1,
           "bits": [ 85 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:204.22-204.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:205$418_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:205$418_Y": {
           "hide_name": 1,
           "bits": [ 86 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:205.22-205.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:206$421_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:206$421_Y": {
           "hide_name": 1,
           "bits": [ 87 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:206.22-206.55"
           }
         },
-        "$abc$359$eq$../../core/riscv/riscv_decoder.v:207$424_Y": {
+        "$abc$361$eq$../../core/riscv/riscv_decoder.v:207$424_Y": {
           "hide_name": 1,
           "bits": [ 88 ],
           "attributes": {
             "src": "../../core/riscv/riscv_decoder.v:207.22-207.55"
           }
         },
-        "$abc$359$new_n73": {
+        "$abc$361$new_n73": {
           "hide_name": 1,
           "bits": [ 61 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n74": {
+        "$abc$361$new_n74": {
           "hide_name": 1,
           "bits": [ 70 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n75": {
+        "$abc$361$new_n75": {
           "hide_name": 1,
           "bits": [ 78 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n76": {
+        "$abc$361$new_n76": {
           "hide_name": 1,
           "bits": [ 79 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n77": {
+        "$abc$361$new_n77": {
           "hide_name": 1,
           "bits": [ 80 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n78": {
+        "$abc$361$new_n78": {
           "hide_name": 1,
           "bits": [ 89 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n79": {
+        "$abc$361$new_n79": {
           "hide_name": 1,
           "bits": [ 96 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n80": {
+        "$abc$361$new_n80": {
           "hide_name": 1,
           "bits": [ 100 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n81": {
+        "$abc$361$new_n81": {
           "hide_name": 1,
           "bits": [ 107 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n82": {
+        "$abc$361$new_n82": {
           "hide_name": 1,
           "bits": [ 115 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n83": {
+        "$abc$361$new_n83": {
           "hide_name": 1,
           "bits": [ 116 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n85": {
+        "$abc$361$new_n85": {
           "hide_name": 1,
           "bits": [ 117 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n86": {
+        "$abc$361$new_n86": {
           "hide_name": 1,
           "bits": [ 118 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n89": {
+        "$abc$361$new_n89": {
           "hide_name": 1,
           "bits": [ 120 ],
           "attributes": {
           }
         },
-        "$abc$359$new_n92": {
+        "$abc$361$new_n92": {
           "hide_name": 1,
           "bits": [ 121 ],
           "attributes": {

@@ -17,8 +17,6 @@ _start:
 	lb x3, 4(x1)
 	add x4, x2, x3
 	sb x4, 8(x1)
-
-	la x1, vram_display_panels
 	la x1, vram_display_panels
 	li x10, 100
 loop:

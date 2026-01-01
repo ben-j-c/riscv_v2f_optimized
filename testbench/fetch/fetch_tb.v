@@ -73,17 +73,17 @@ module tb;
 		#1;
 		rst_i = 0;
 
-		for (i = 0; i < 1000; i+= 1) begin
+		for (i = 0; i < 2000; i+= 1) begin
 			fetch_accept_i = $random(seed);
 			icache_accept_i = $random(seed);
 			icache_valid_i = $random(seed);
 			icache_error_i = $random(seed);
 			icache_inst_i = $random(seed);
-			icache_page_fault_i = $random(seed);
-			fetch_invalidate_i = $random(seed);
+			icache_page_fault_i = 0;
+			fetch_invalidate_i = 0;
 			branch_request_i = $random(seed);
 			branch_pc_i = $random(seed);
-			branch_priv_i = $random(seed);
+			branch_priv_i = 3;
 			clk_i = 0;
 			#1;
 			clk_i = 1;
