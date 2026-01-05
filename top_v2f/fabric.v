@@ -1,4 +1,5 @@
 `include "hex_display_panel_mm.v"
+`include "reg_vram_mm.v"
 
 `define CONNECT_DISP(ID, ADDR) \
     (* keep *) wire [3:0] disp_``ID``_signal_0; \
@@ -24,6 +25,15 @@
         .data_out_signal_6(disp_``ID``_signal_6), \
         .data_out_signal_7(disp_``ID``_signal_7) \
     );
+
+`define VRAM_REG(ID, ADDR) \
+    reg_vram_mm #(.ADDR_SET(ADDR+32'h40000)) vram_reg_``ID ( \
+        .clk(clk), \
+        .arst(arst), \
+        .en(vram_en), \
+        .addr(vram_addr), \
+        .data(vram_data) \
+    )
 
 module fabric
 	(
@@ -123,12 +133,12 @@ module fabric
 		.ARST(arst)
 	);
 
-	`CONNECT_DISP(0, 0);
-	`CONNECT_DISP(1, 4);
-	`CONNECT_DISP(2, 8);
-	`CONNECT_DISP(3, 12);
-	`CONNECT_DISP(4, 16);
-	`CONNECT_DISP(5, 20);
-	`CONNECT_DISP(6, 24);
-	`CONNECT_DISP(7, 28);
+	`VRAM_REG(0, 0);
+	`VRAM_REG(1, 4);
+	`VRAM_REG(2, 8);
+	`VRAM_REG(3, 12);
+	`VRAM_REG(4, 16);
+	`VRAM_REG(5, 20);
+	`VRAM_REG(6, 24);
+	`VRAM_REG(7, 28);
 endmodule

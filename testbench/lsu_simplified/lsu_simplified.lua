@@ -1,7 +1,7 @@
 name = "lsu_simplified"
 module = "riscv_" .. name
 module_file = "../../core/riscv/" .. module .. ".v"
-vcd_file = "." .. name .. "_tb.vcd"
+vcd_file = name .. "_tb.vcd"
 delay = 40
 
 rtl = yosys_load_rtl(module_file, module, "../../core/riscv")

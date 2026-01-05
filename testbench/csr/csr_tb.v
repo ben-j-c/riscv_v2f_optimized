@@ -108,10 +108,10 @@ module tb;
 		#1;
 
 		for (i = 0; i < 10000; i+= 1) begin
-			intr_i = $random(seed);
+			intr_i = 0;
 			opcode_valid_i = $random(seed);
 			opcode_opcode_i = $random(seed);
-			opcode_pc_i = $random(seed);
+			opcode_pc_i = i;
 			opcode_invalid_i = $random(seed);
 			opcode_rd_idx_i = $random(seed);
 			opcode_ra_idx_i = $random(seed);

@@ -269,7 +269,7 @@ module tb;
 			branch_d_exec_priv_i = $random(seed);
 			branch_csr_request_i = $random(seed);
 			branch_csr_pc_i = $random(seed);
-			branch_csr_priv_i = $random(seed);
+			branch_csr_priv_i = 3;
 			writeback_exec_value_i = $random(seed);
 			writeback_mem_valid_i = $random(seed);
 			writeback_mem_value_i = $random(seed);

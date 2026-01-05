@@ -134,9 +134,9 @@ end
 ---@param name string
 ---@return Arithmetic
 function add_lamp_indicator(computer, x, y, sig, name)
-	ret = computer:add_arithmetic(x, y, sig + 0, sig) or error()
+	ret = computer:add_arithmetic(x, y, sig + 0, sig) or error("failed to place")
 	ret:set_description(name)
-	lamp = computer:add_lamp(x + 2, y, Expr(sig, "!=", 0)) or error()
+	lamp = computer:add_lamp(x + 2, y, Expr(sig, "!=", 0)) or error("failed to place")
 	computer:connect(ret.output.red, lamp.input)
 	return ret
 end
@@ -151,7 +151,7 @@ if not os.execute("./build_mem " .. program) then
 	error("build_mem failed")
 end
 
-logd = compile(module, module_file, true, true)
+logd = compile(module, module_file, true, false)
 
 computer = make_ensemble()
 computer:freeze_and_place(name, logd:make_phy(), 0, 0)
@@ -159,24 +159,24 @@ computer:freeze_and_place(name, logd:make_phy(), 0, 0)
 width = computer.width
 height = computer.height
 
-
--- first place all displays because routing can take up space
-disp_prefix = name .. ".fab.disp_"
-displays = {}
-for i = 0, 7 do
-	disp = add_hex_display(computer, width + 20, 2 + i * 2)
-	displays[i] = disp
-end
-
 -- Hex ports for 32 bit values
 hex_ports = {
+	name .. ".fab.vram_reg_0.q",
+	name .. ".fab.vram_reg_1.q",
+	name .. ".fab.vram_reg_2.q",
+	name .. ".fab.vram_reg_3.q",
+	name .. ".fab.vram_reg_4.q",
+	name .. ".fab.vram_reg_5.q",
+	name .. ".fab.vram_reg_6.q",
+	name .. ".fab.vram_reg_7.q",
+	"",
 	name .. ".instr_addr",
 	name .. ".instr_q",
 	name .. ".mem_d_addr_o",
 	name .. ".mem_d_data_rd_i",
 	name .. ".mem_d_wr_o",
 	name .. ".mem_d_data_wr_o",
-
+	"",
 	name .. ".core.u_issue.u_regfile.REGFILE.x1_ra_w",
 	name .. ".core.u_issue.u_regfile.REGFILE.x2_sp_w",
 	name .. ".core.u_issue.u_regfile.REGFILE.x3_gp_w",
@@ -198,10 +198,14 @@ hex_ports = {
 }
 hex_ports_sinks = {}
 for idx, name in pairs(hex_ports) do
+	if name == "" then
+		goto continue
+	end
 	port = computer:find_out_port(name) or error()
-	driver = add_hex_driver_and_display(computer, width + 20, 20 + (idx - 1) * 2, port.signals[1])
+	driver = add_hex_driver_and_display(computer, width + 20, (idx - 1) * 2, port.signals[1])
 	driver:set_description(name)
 	hex_ports_sinks[name] = driver.input
+	::continue::
 end
 
 -- Lamps for single bit values
@@ -220,17 +224,6 @@ for idx, name in pairs(indicator_ports) do
 end
 
 -- connect displays
-for i = 0, 7 do
-	for j = 0, 6 do
-		first = computer:find_out_port(disp_prefix .. i .. "_signal_" .. j) or error()
-		second = computer:find_out_port(disp_prefix .. i .. "_signal_" .. (j + 1)) or error()
-		computer:connect(first.input.red, second.input)
-	end
-	first = computer:find_out_port(disp_prefix .. i .. "_signal_0") or error()
-	disp = displays[i]
-	computer:connect(first.input.red, disp.input)
-end
-
 for name, sink in pairs(hex_ports_sinks) do
 	port = computer:find_out_port(name) or error()
 	computer:connect(port.input.red, sink)
@@ -247,9 +240,11 @@ end
 clk = computer:find_in_port(name .. ".clk") or error()
 rst = computer:find_in_port(name .. ".arst") or error()
 
-clk_user = computer:add_constant(width + 40, 0, { clk.signals[1] }, { 1 }) or error()
+clk_user = computer:add_constant(width + 60, 0, { clk.signals[1] }, { 1 }) or error()
 clk_user:set_enabled(false)
-rst_user = computer:add_constant(width + 40, 1, { rst.signals[1] }, { 1 }) or error()
+rst_user = computer:add_constant(width + 60, 1, { rst.signals[1] }, { 1 }) or error()
+clk_user:set_description("clk")
+rst_user:set_description("rst")
 
 computer:connect(clk_user.output.red, clk.output)
 computer:connect(rst_user.output.red, rst.output)

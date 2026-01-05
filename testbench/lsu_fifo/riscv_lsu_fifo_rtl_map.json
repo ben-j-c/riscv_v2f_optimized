@@ -5,7 +5,7 @@
       "attributes": {
         "dynports": "00000000000000000000000000000001",
         "top": "00000000000000000000000000000001",
-        "src": "../../core/riscv/riscv_lsu_fifo.v:1.1-93.10"
+        "src": "../../core/riscv/riscv_lsu_fifo.v:1.1-90.10"
       },
       "ports": {
         "clk_i": {
@@ -42,7 +42,7 @@
         }
       },
       "cells": {
-        "$abc$190$auto$blifparse.cc:519:parse_blif$191": {
+        "$abc$224$auto$blifparse.cc:519:parse_blif$225": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -61,7 +61,7 @@
             "Y": [ 76 ]
           }
         },
-        "$abc$190$auto$blifparse.cc:519:parse_blif$192": {
+        "$abc$224$auto$blifparse.cc:519:parse_blif$226": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -80,7 +80,7 @@
             "Y": [ 77 ]
           }
         },
-        "$abc$190$auto$blifparse.cc:519:parse_blif$193": {
+        "$abc$224$auto$blifparse.cc:519:parse_blif$227": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -99,7 +99,7 @@
             "Y": [ 78 ]
           }
         },
-        "$abc$190$auto$blifparse.cc:519:parse_blif$194": {
+        "$abc$224$auto$blifparse.cc:519:parse_blif$228": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -118,7 +118,7 @@
             "Y": [ 71 ]
           }
         },
-        "$abc$190$auto$blifparse.cc:519:parse_blif$195": {
+        "$abc$224$auto$blifparse.cc:519:parse_blif$229": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -137,7 +137,7 @@
             "Y": [ 79 ]
           }
         },
-        "$abc$190$auto$blifparse.cc:519:parse_blif$196": {
+        "$abc$224$auto$blifparse.cc:519:parse_blif$230": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -156,7 +156,7 @@
             "Y": [ 80 ]
           }
         },
-        "$abc$190$auto$blifparse.cc:519:parse_blif$199": {
+        "$abc$224$auto$blifparse.cc:519:parse_blif$233": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -175,7 +175,7 @@
             "Y": [ 82 ]
           }
         },
-        "$abc$190$auto$blifparse.cc:519:parse_blif$200": {
+        "$abc$224$auto$blifparse.cc:519:parse_blif$234": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -194,7 +194,7 @@
             "Y": [ 84 ]
           }
         },
-        "$abc$190$auto$blifparse.cc:519:parse_blif$201": {
+        "$abc$224$auto$blifparse.cc:519:parse_blif$235": {
           "hide_name": 1,
           "type": "$sop",
           "parameters": {
@@ -213,7 +213,7 @@
             "Y": [ 87 ]
           }
         },
-        "$add$../../core/riscv/riscv_lsu_fifo.v:66$12": {
+        "$add$../../core/riscv/riscv_lsu_fifo.v:63$12": {
           "hide_name": 1,
           "type": "v2f_add",
           "parameters": {
@@ -225,7 +225,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_lsu_fifo.v:66.28-66.40|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:67.3-67.41"
+            "src": "../../core/riscv/riscv_lsu_fifo.v:63.28-63.40|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:67.3-67.41"
           },
           "port_directions": {
             "A": "input",
@@ -238,7 +238,7 @@
             "Y": [ 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119 ]
           }
         },
-        "$add$../../core/riscv/riscv_lsu_fifo.v:71$14": {
+        "$add$../../core/riscv/riscv_lsu_fifo.v:68$14": {
           "hide_name": 1,
           "type": "v2f_add",
           "parameters": {
@@ -250,7 +250,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_lsu_fifo.v:71.26-71.38|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:67.3-67.41"
+            "src": "../../core/riscv/riscv_lsu_fifo.v:68.26-68.38|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:67.3-67.41"
           },
           "port_directions": {
             "A": "input",
@@ -263,7 +263,7 @@
             "Y": [ 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151 ]
           }
         },
-        "$add$../../core/riscv/riscv_lsu_fifo.v:75$19": {
+        "$add$../../core/riscv/riscv_lsu_fifo.v:72$19": {
           "hide_name": 1,
           "type": "v2f_add",
           "parameters": {
@@ -275,7 +275,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_lsu_fifo.v:75.20-75.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:67.3-67.41"
+            "src": "../../core/riscv/riscv_lsu_fifo.v:72.20-72.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:67.3-67.41"
           },
           "port_directions": {
             "A": "input",
@@ -286,62 +286,6 @@
             "A": [ 74, 75 ],
             "B": [ "1" ],
             "Y": [ 73, 86, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181 ]
-          }
-        },
-        "$auto$ff.cc:266:slice$101": {
-          "hide_name": 1,
-          "type": "$adffe",
-          "parameters": {
-            "ARST_POLARITY": "00000000000000000000000000000001",
-            "ARST_VALUE": "0",
-            "CLK_POLARITY": "00000000000000000000000000000001",
-            "EN_POLARITY": "00000000000000000000000000000001",
-            "WIDTH": "00000000000000000000000000000001"
-          },
-          "attributes": {
-            "src": "../../core/riscv/riscv_lsu_fifo.v:48.1-79.4"
-          },
-          "port_directions": {
-            "ARST": "input",
-            "CLK": "input",
-            "D": "input",
-            "EN": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "ARST": [ 3 ],
-            "CLK": [ 2 ],
-            "D": [ 88 ],
-            "EN": [ 77 ],
-            "Q": [ 81 ]
-          }
-        },
-        "$auto$ff.cc:266:slice$102": {
-          "hide_name": 1,
-          "type": "$adffe",
-          "parameters": {
-            "ARST_POLARITY": "00000000000000000000000000000001",
-            "ARST_VALUE": "0",
-            "CLK_POLARITY": "00000000000000000000000000000001",
-            "EN_POLARITY": "00000000000000000000000000000001",
-            "WIDTH": "00000000000000000000000000000001"
-          },
-          "attributes": {
-            "src": "../../core/riscv/riscv_lsu_fifo.v:48.1-79.4"
-          },
-          "port_directions": {
-            "ARST": "input",
-            "CLK": "input",
-            "D": "input",
-            "EN": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "ARST": [ 3 ],
-            "CLK": [ 2 ],
-            "D": [ 120 ],
-            "EN": [ 79 ],
-            "Q": [ 83 ]
           }
         },
         "$auto$ff.cc:266:slice$90": {
@@ -355,7 +299,7 @@
             "WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_lsu_fifo.v:48.1-79.4"
+            "src": "../../core/riscv/riscv_lsu_fifo.v:45.1-76.4"
           },
           "port_directions": {
             "ARST": "input",
@@ -383,7 +327,7 @@
             "WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_lsu_fifo.v:48.1-79.4"
+            "src": "../../core/riscv/riscv_lsu_fifo.v:45.1-76.4"
           },
           "port_directions": {
             "ARST": "input",
@@ -400,35 +344,7 @@
             "Q": [ 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247 ]
           }
         },
-        "$auto$ff.cc:266:slice$98": {
-          "hide_name": 1,
-          "type": "$adffe",
-          "parameters": {
-            "ARST_POLARITY": "00000000000000000000000000000001",
-            "ARST_VALUE": "00",
-            "CLK_POLARITY": "00000000000000000000000000000001",
-            "EN_POLARITY": "00000000000000000000000000000001",
-            "WIDTH": "00000000000000000000000000000010"
-          },
-          "attributes": {
-            "src": "../../core/riscv/riscv_lsu_fifo.v:48.1-79.4"
-          },
-          "port_directions": {
-            "ARST": "input",
-            "CLK": "input",
-            "D": "input",
-            "EN": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "ARST": [ 3 ],
-            "CLK": [ 2 ],
-            "D": [ 76, 87 ],
-            "EN": [ 248 ],
-            "Q": [ 74, 75 ]
-          }
-        },
-        "$auto$flowmap.cc:1414:pack_cells$202": {
+        "$auto$flowmap.cc:1414:pack_cells$236": {
           "hide_name": 1,
           "type": "$lut",
           "parameters": {
@@ -488,7 +404,7 @@
             "Y": [ 215 ]
           }
         },
-        "$ne$../../core/riscv/riscv_lsu_fifo.v:86$26": {
+        "$ne$../../core/riscv/riscv_lsu_fifo.v:83$26": {
           "hide_name": 1,
           "type": "v2f_ne",
           "parameters": {
@@ -500,7 +416,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_lsu_fifo.v:86.25-86.41|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:351.3-351.41"
+            "src": "../../core/riscv/riscv_lsu_fifo.v:83.25-83.41|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:359.3-359.41"
           },
           "port_directions": {
             "A": "input",
@@ -523,7 +439,7 @@
           "attributes": {
             "full_case": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_lsu_fifo.v:0.0-0.0|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:382.3-382.48"
+            "src": "../../core/riscv/riscv_lsu_fifo.v:0.0-0.0|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:390.3-390.48"
           },
           "port_directions": {
             "A": "input",
@@ -538,7 +454,7 @@
             "Y": [ 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69 ]
           }
         },
-        "$sub$../../core/riscv/riscv_lsu_fifo.v:78$24": {
+        "$sub$../../core/riscv/riscv_lsu_fifo.v:75$24": {
           "hide_name": 1,
           "type": "v2f_sub",
           "parameters": {
@@ -550,7 +466,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_lsu_fifo.v:78.20-78.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:84.3-84.41"
+            "src": "../../core/riscv/riscv_lsu_fifo.v:75.20-75.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:84.3-84.41"
           },
           "port_directions": {
             "A": "input",
@@ -562,6 +478,150 @@
             "B": [ "1" ],
             "Y": [ 72, 85, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278 ]
           }
+        },
+        "$techmap$auto$ff.cc:266:slice$101.$procdff$116": {
+          "hide_name": 1,
+          "type": "$adff",
+          "parameters": {
+            "ARST_POLARITY": "1",
+            "ARST_VALUE": "00000000000000000000000000000000",
+            "CLK_POLARITY": "1",
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_lsu_fifo.v:45.1-76.4|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:522.2-527.5"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310 ],
+            "Q": [ 81, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341 ]
+          }
+        },
+        "$techmap$auto$ff.cc:266:slice$101.$procmux$112": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_lsu_fifo.v:45.1-76.4|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:525.8-526.32|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:525.12-525.29|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:404.3-404.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 81, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341 ],
+            "B": [ 88, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "S": [ 77 ],
+            "Y": [ 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310 ]
+          }
+        },
+        "$techmap$auto$ff.cc:266:slice$102.$procdff$116": {
+          "hide_name": 1,
+          "type": "$adff",
+          "parameters": {
+            "ARST_POLARITY": "1",
+            "ARST_VALUE": "00000000000000000000000000000000",
+            "CLK_POLARITY": "1",
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_lsu_fifo.v:45.1-76.4|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:522.2-527.5"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373 ],
+            "Q": [ 83, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404 ]
+          }
+        },
+        "$techmap$auto$ff.cc:266:slice$102.$procmux$112": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_lsu_fifo.v:45.1-76.4|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:525.8-526.32|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:525.12-525.29|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:404.3-404.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 83, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404 ],
+            "B": [ 120, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "S": [ 79 ],
+            "Y": [ 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373 ]
+          }
+        },
+        "$techmap$auto$ff.cc:266:slice$98.$procdff$95": {
+          "hide_name": 1,
+          "type": "$adff",
+          "parameters": {
+            "ARST_POLARITY": "1",
+            "ARST_VALUE": "00000000000000000000000000000000",
+            "CLK_POLARITY": "1",
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_lsu_fifo.v:45.1-76.4|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:522.2-527.5"
+          },
+          "port_directions": {
+            "ARST": "input",
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "ARST": [ 3 ],
+            "CLK": [ 2 ],
+            "D": [ 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436 ],
+            "Q": [ 74, 75, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466 ]
+          }
+        },
+        "$techmap$auto$ff.cc:266:slice$98.$procmux$91": {
+          "hide_name": 1,
+          "type": "v2f_mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "../../core/riscv/riscv_lsu_fifo.v:45.1-76.4|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:525.8-526.32|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:525.12-525.29|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:404.3-404.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 74, 75, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466 ],
+            "B": [ 76, 87, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "S": [ 248 ],
+            "Y": [ 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436 ]
+          }
         }
       },
       "netnames": {
@@ -569,89 +629,113 @@
           "hide_name": 1,
           "bits": [ 76, 87 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_lsu_fifo.v:48.1-79.4"
+            "src": "../../core/riscv/riscv_lsu_fifo.v:45.1-76.4"
           }
         },
-        "$abc$190$add$../../core/riscv/riscv_lsu_fifo.v:75$19_Y[0]": {
+        "$abc$224$add$../../core/riscv/riscv_lsu_fifo.v:72$19_Y[0]": {
           "hide_name": 1,
           "bits": [ 73 ],
           "attributes": {
           }
         },
-        "$abc$190$add$../../core/riscv/riscv_lsu_fifo.v:75$19_Y[1]": {
+        "$abc$224$add$../../core/riscv/riscv_lsu_fifo.v:72$19_Y[1]": {
           "hide_name": 1,
           "bits": [ 86 ],
           "attributes": {
           }
         },
-        "$abc$190$and$../../core/riscv/riscv_lsu_fifo.v:63$9_Y": {
+        "$abc$224$and$../../core/riscv/riscv_lsu_fifo.v:60$9_Y": {
           "hide_name": 1,
           "bits": [ 77 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_lsu_fifo.v:63.9-63.26"
+            "src": "../../core/riscv/riscv_lsu_fifo.v:60.9-60.26"
           }
         },
-        "$abc$190$and$../../core/riscv/riscv_lsu_fifo.v:70$13_Y": {
+        "$abc$224$and$../../core/riscv/riscv_lsu_fifo.v:67$13_Y": {
           "hide_name": 1,
           "bits": [ 79 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_lsu_fifo.v:70.9-70.24"
+            "src": "../../core/riscv/riscv_lsu_fifo.v:67.9-67.24"
           }
         },
-        "$abc$190$auto$blifparse.cc:586:parse_blif$197": {
+        "$abc$224$auto$blifparse.cc:586:parse_blif$231": {
           "hide_name": 1,
           "bits": [ 80 ],
           "attributes": {
           }
         },
-        "$abc$190$auto$opt_dff.cc:194:make_patterns_logic$99": {
+        "$abc$224$auto$opt_dff.cc:194:make_patterns_logic$99": {
           "hide_name": 1,
           "bits": [ 248 ],
           "attributes": {
           }
         },
-        "$abc$190$auto$rtlil.cc:2779:Not$95": {
+        "$abc$224$auto$rtlil.cc:2779:Not$95": {
           "hide_name": 1,
           "bits": [ 82 ],
           "attributes": {
           }
         },
-        "$abc$190$auto$wreduce.cc:514:run$106[0]": {
+        "$abc$224$auto$wreduce.cc:514:run$106[0]": {
           "hide_name": 1,
           "bits": [ 72 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_lsu_fifo.v:78.20-78.31"
+            "src": "../../core/riscv/riscv_lsu_fifo.v:75.20-75.31"
           }
         },
-        "$abc$190$auto$wreduce.cc:514:run$106[1]": {
+        "$abc$224$auto$wreduce.cc:514:run$106[1]": {
           "hide_name": 1,
           "bits": [ 85 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_lsu_fifo.v:78.20-78.31"
+            "src": "../../core/riscv/riscv_lsu_fifo.v:75.20-75.31"
           }
         },
-        "$abc$190$new_n22": {
+        "$abc$224$new_n22": {
           "hide_name": 1,
           "bits": [ 78 ],
           "attributes": {
           }
         },
-        "$abc$190$procmux$38_CMP": {
+        "$abc$224$procmux$38_CMP": {
           "hide_name": 1,
           "bits": [ 84 ],
           "attributes": {
           }
         },
-        "$add$../../core/riscv/riscv_lsu_fifo.v:66$12_Y": {
+        "$add$../../core/riscv/riscv_lsu_fifo.v:63$12_Y": {
           "hide_name": 1,
           "bits": [ 88 ],
           "attributes": {
           }
         },
-        "$add$../../core/riscv/riscv_lsu_fifo.v:71$14_Y": {
+        "$add$../../core/riscv/riscv_lsu_fifo.v:68$14_Y": {
           "hide_name": 1,
           "bits": [ 120 ],
           "attributes": {
+          }
+        },
+        "$auto$ff.cc:266:slice$101.Q": {
+          "hide_name": 1,
+          "bits": [ 467, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_lsu_fifo.v:45.1-76.4|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:518.20-518.21",
+            "unused_bits": "0 "
+          }
+        },
+        "$auto$ff.cc:266:slice$102.Q": {
+          "hide_name": 1,
+          "bits": [ 468, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_lsu_fifo.v:45.1-76.4|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:518.20-518.21",
+            "unused_bits": "0 "
+          }
+        },
+        "$auto$ff.cc:266:slice$98.Q": {
+          "hide_name": 1,
+          "bits": [ 469, 470, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_lsu_fifo.v:45.1-76.4|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:518.20-518.21",
+            "unused_bits": "0 1"
           }
         },
         "$auto$opt_dff.cc:219:make_patterns_logic$91": {
@@ -666,35 +750,56 @@
           "attributes": {
           }
         },
-        "$techmap89$sub$../../core/riscv/riscv_lsu_fifo.v:78$24.Y": {
+        "$techmap$auto$ff.cc:266:slice$101.$0\\Q[31:0]": {
           "hide_name": 1,
-          "bits": [ 279, 280, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278 ],
+          "bits": [ 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_lsu_fifo.v:78.20-78.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:80.16-80.17",
+            "src": "../../core/riscv/riscv_lsu_fifo.v:45.1-76.4|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:522.2-527.5"
+          }
+        },
+        "$techmap$auto$ff.cc:266:slice$102.$0\\Q[31:0]": {
+          "hide_name": 1,
+          "bits": [ 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_lsu_fifo.v:45.1-76.4|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:522.2-527.5"
+          }
+        },
+        "$techmap$auto$ff.cc:266:slice$98.$0\\Q[31:0]": {
+          "hide_name": 1,
+          "bits": [ 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_lsu_fifo.v:45.1-76.4|/home/ben/repo/verilog2factorio/techmap/v2f_simplify.v:522.2-527.5"
+          }
+        },
+        "$techmap120$sub$../../core/riscv/riscv_lsu_fifo.v:75$24.Y": {
+          "hide_name": 1,
+          "bits": [ 471, 472, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_lsu_fifo.v:75.20-75.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:80.16-80.17",
             "unused_bits": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
           }
         },
-        "$techmap91$add$../../core/riscv/riscv_lsu_fifo.v:75$19.Y": {
+        "$techmap122$add$../../core/riscv/riscv_lsu_fifo.v:72$19.Y": {
           "hide_name": 1,
-          "bits": [ 281, 282, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181 ],
+          "bits": [ 473, 474, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_lsu_fifo.v:75.20-75.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:63.16-63.17",
+            "src": "../../core/riscv/riscv_lsu_fifo.v:72.20-72.31|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:63.16-63.17",
             "unused_bits": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
           }
         },
-        "$techmap95$add$../../core/riscv/riscv_lsu_fifo.v:71$14.Y": {
+        "$techmap126$add$../../core/riscv/riscv_lsu_fifo.v:68$14.Y": {
           "hide_name": 1,
-          "bits": [ 283, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151 ],
+          "bits": [ 475, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_lsu_fifo.v:71.26-71.38|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:63.16-63.17",
+            "src": "../../core/riscv/riscv_lsu_fifo.v:68.26-68.38|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:63.16-63.17",
             "unused_bits": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
           }
         },
-        "$techmap96$add$../../core/riscv/riscv_lsu_fifo.v:66$12.Y": {
+        "$techmap127$add$../../core/riscv/riscv_lsu_fifo.v:63$12.Y": {
           "hide_name": 1,
-          "bits": [ 284, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119 ],
+          "bits": [ 476, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_lsu_fifo.v:66.28-66.40|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:63.16-63.17",
+            "src": "../../core/riscv/riscv_lsu_fifo.v:63.28-63.40|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:63.16-63.17",
             "unused_bits": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
           }
         },
@@ -716,8 +821,7 @@
           "hide_name": 0,
           "bits": [ 74, 75 ],
           "attributes": {
-            "keep": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_lsu_fifo.v:41.19-41.26"
+            "src": "../../core/riscv/riscv_lsu_fifo.v:38.19-38.26"
           }
         },
         "data_in_i": {
@@ -766,8 +870,7 @@
           "hide_name": 0,
           "bits": [ 83 ],
           "attributes": {
-            "keep": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_lsu_fifo.v:37.19-37.27"
+            "src": "../../core/riscv/riscv_lsu_fifo.v:36.19-36.27"
           }
         },
         "rst_i": {
@@ -788,8 +891,7 @@
           "hide_name": 0,
           "bits": [ 81 ],
           "attributes": {
-            "keep": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_lsu_fifo.v:39.19-39.27"
+            "src": "../../core/riscv/riscv_lsu_fifo.v:37.19-37.27"
           }
         }
       }

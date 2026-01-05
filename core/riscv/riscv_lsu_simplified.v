@@ -72,34 +72,22 @@ module riscv_lsu_simplified
     ,input           mem_store_fault_i
 
     // Outputs
-    //,output [ 31:0]  mem_addr_o
-    //,output [ 31:0]  mem_data_wr_o
-    //,output          mem_rd_o
-    //,output [  3:0]  mem_wr_o
-    //,output          mem_cacheable_o
-    //,output [ 10:0]  mem_req_tag_o
-    //,output          mem_invalidate_o
-    //,output          mem_writeback_o
-    //,output          mem_flush_o
-    //,output          writeback_valid_o
+    ,output [ 31:0]  mem_addr_o
+    ,output [ 31:0]  mem_data_wr_o
+    ,output          mem_rd_o
+    ,output [  3:0]  mem_wr_o
+    ,output          mem_cacheable_o
+    ,output [ 10:0]  mem_req_tag_o
+    ,output          mem_invalidate_o
+    ,output          mem_writeback_o
+    ,output          mem_flush_o
+    ,output          writeback_valid_o
     ,output [ 31:0]  writeback_value_o
-    //,output [  5:0]  writeback_exception_o
-    //,output          stall_o
+    ,output [  5:0]  writeback_exception_o
+    ,output          stall_o
 );
 
-wire [ 31:0]  mem_addr_o;
-wire [ 31:0]  mem_data_wr_o;
-wire          mem_rd_o;
-wire [  3:0]  mem_wr_o;
-wire          mem_cacheable_o;
-wire [ 10:0]  mem_req_tag_o;
-wire          mem_invalidate_o;
-wire          mem_writeback_o;
-wire          mem_flush_o;
-wire          writeback_valid_o;
-//wire [ 31:0]  writeback_value_o;
-wire [  5:0]  writeback_exception_o;
-wire          stall_o;
+
 
 //-----------------------------------------------------------------
 // Includes
@@ -109,46 +97,29 @@ wire          stall_o;
 //-----------------------------------------------------------------
 // Registers / Wires
 //-----------------------------------------------------------------
-(*keep*)
 reg [ 31:0]  mem_addr_q;
-(*keep*)
 reg [ 31:0]  mem_data_wr_q;
-(*keep*)
 reg          mem_rd_q;
-(*keep*)
 reg [  3:0]  mem_wr_q;
-(*keep*)
 reg          mem_cacheable_q;
-(*keep*)
 reg          mem_invalidate_q;
-(*keep*)
 reg          mem_writeback_q;
-(*keep*)
 reg          mem_flush_q;
-(*keep*)
 reg          mem_unaligned_e1_q;
-(*keep*)
 reg          mem_unaligned_e2_q;
 
-(*keep*)
 reg          mem_load_q;
-(*keep*)
 reg          mem_xb_q;
-(*keep*)
 reg          mem_xh_q;
-(*keep*)
 reg          mem_ls_q;
 
 //-----------------------------------------------------------------
 // Outstanding Access Tracking
 //-----------------------------------------------------------------
-(*keep*)
 reg pending_lsu_e2_q;
-(*keep*)
+
 wire issue_lsu_e1_w    = (mem_rd_o || (|mem_wr_o) || mem_writeback_o || mem_invalidate_o || mem_flush_o) && mem_accept_i;
-(*keep*)
 wire complete_ok_e2_w  = mem_ack_i & ~mem_error_i;
-(*keep*)
 wire complete_err_e2_w = mem_ack_i & mem_error_i;
 
 always @ (posedge clk_i or posedge rst_i)
@@ -175,7 +146,6 @@ else
 // Opcode decode
 //-----------------------------------------------------------------
 
-(*keep*)
 wire load_inst_w = (((opcode_opcode_i & `INST_LB_MASK) == `INST_LB)  || 
                     ((opcode_opcode_i & `INST_LH_MASK) == `INST_LH)  || 
                     ((opcode_opcode_i & `INST_LW_MASK) == `INST_LW)  || 
@@ -183,12 +153,10 @@ wire load_inst_w = (((opcode_opcode_i & `INST_LB_MASK) == `INST_LB)  ||
                     ((opcode_opcode_i & `INST_LHU_MASK) == `INST_LHU) || 
                     ((opcode_opcode_i & `INST_LWU_MASK) == `INST_LWU));
 
-(*keep*)
 wire load_signed_inst_w = (((opcode_opcode_i & `INST_LB_MASK) == `INST_LB)  || 
                            ((opcode_opcode_i & `INST_LH_MASK) == `INST_LH)  || 
                            ((opcode_opcode_i & `INST_LW_MASK) == `INST_LW));
 
-(*keep*)
 wire store_inst_w = (((opcode_opcode_i & `INST_SB_MASK) == `INST_SB)  || 
                      ((opcode_opcode_i & `INST_SH_MASK) == `INST_SH)  || 
                      ((opcode_opcode_i & `INST_SW_MASK) == `INST_SW));
@@ -203,15 +171,10 @@ wire req_sw_w = ((opcode_opcode_i & `INST_LW_MASK) == `INST_SW);
 wire req_sw_lw_w = ((opcode_opcode_i & `INST_SW_MASK) == `INST_SW) || ((opcode_opcode_i & `INST_LW_MASK) == `INST_LW) || ((opcode_opcode_i & `INST_LWU_MASK) == `INST_LWU);
 wire req_sh_lh_w = ((opcode_opcode_i & `INST_SH_MASK) == `INST_SH) || ((opcode_opcode_i & `INST_LH_MASK) == `INST_LH) || ((opcode_opcode_i & `INST_LHU_MASK) == `INST_LHU);
 
-(*keep*)
 reg [31:0]  mem_addr_r;
-(*keep*)
 reg         mem_unaligned_r;
-(*keep*)
 reg [31:0]  mem_data_r;
-(*keep*)
 reg         mem_rd_r;
-(*keep*)
 reg [3:0]   mem_wr_r;
 
 always @ *
@@ -373,15 +336,10 @@ assign mem_flush_o      = mem_flush_q;
 // Stall upstream if cache is busy
 assign stall_o          = ((mem_writeback_o || mem_invalidate_o || mem_flush_o || mem_rd_o || mem_wr_o != 4'b0) && !mem_accept_i) || delay_lsu_e2_w || mem_unaligned_e1_q;
 
-(*keep*)
 wire        resp_load_w;
-(*keep*)
 wire [31:0] resp_addr_w;
-(*keep*)
 wire        resp_byte_w;
-(*keep*)
 wire        resp_half_w;
-(*keep*)
 wire        resp_signed_w;
 
 riscv_lsu_fifo
@@ -407,15 +365,10 @@ u_lsu_request
 //-----------------------------------------------------------------
 // Load response
 //-----------------------------------------------------------------
-(*keep*)
 reg [1:0]  addr_lsb_r;
-(*keep*)
 reg        load_byte_r;
-(*keep*)
 reg        load_half_r;
-(*keep*)
 reg        load_signed_r;
-(*keep*)
 reg [31:0] wb_result_r;
 
 always @ *
@@ -487,9 +440,9 @@ module riscv_lsu_fifo
 // Params
 //-----------------------------------------------------------------
 #(
-    parameter WIDTH   = 36,
-    parameter DEPTH   = 2,
-    parameter ADDR_W  = 1
+    parameter WIDTH   = 8,
+    parameter DEPTH   = 4,
+    parameter ADDR_W  = 2
 )
 //-----------------------------------------------------------------
 // Ports
@@ -517,21 +470,9 @@ localparam COUNT_W = ADDR_W + 1;
 // Registers
 //-----------------------------------------------------------------
 reg [WIDTH-1:0]   ram_q[DEPTH-1:0];
-(*keep*)
 reg [ADDR_W-1:0]  rd_ptr_q;
-(*keep*)
 reg [ADDR_W-1:0]  wr_ptr_q;
-(*keep*)
 reg [COUNT_W-1:0] count_q;
-
-//(*keep*)
-//wire [31:0] ram_q_w0 = ram_q[0][31:0];
-//(*keep*)
-//wire [31:0] ram_q_w1 = ram_q[1][31:0];
-//(*keep*)
-//wire [3:0]ram_q_w2 = ram_q[0][35:32];
-//(*keep*)
-//wire [3:0]ram_q_w3 = ram_q[1][35:32];
 
 integer i;
 
