@@ -136,7 +136,7 @@
             "WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:165.1-171.27"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:164.1-170.27"
           },
           "port_directions": {
             "ARST": "input",
@@ -163,7 +163,7 @@
             "WIDTH": "00000000000000000000000000000100"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:499.1-579.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:497.1-577.4"
           },
           "port_directions": {
             "ARST": "input",
@@ -189,7 +189,7 @@
             "WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:499.1-579.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:497.1-577.4"
           },
           "port_directions": {
             "ARST": "input",
@@ -217,7 +217,7 @@
             "WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:499.1-579.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:497.1-577.4"
           },
           "port_directions": {
             "ARST": "input",
@@ -245,7 +245,7 @@
             "WIDTH": "00000000000000000000000000000010"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:499.1-579.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:497.1-577.4"
           },
           "port_directions": {
             "ARST": "input",
@@ -273,7 +273,7 @@
             "WIDTH": "00000000000000000000000000000100"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:499.1-579.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:497.1-577.4"
           },
           "port_directions": {
             "ARST": "input",
@@ -301,7 +301,7 @@
             "WIDTH": "00000000000000000000000000000011"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:499.1-579.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:497.1-577.4"
           },
           "port_directions": {
             "ARST": "input",
@@ -329,7 +329,7 @@
             "WIDTH": "00000000000000000000000000011001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:499.1-579.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:497.1-577.4"
           },
           "port_directions": {
             "ARST": "input",
@@ -357,7 +357,7 @@
             "WIDTH": "00000000000000000000000000010000"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:499.1-579.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:497.1-577.4"
           },
           "port_directions": {
             "ARST": "input",
@@ -385,7 +385,7 @@
             "WIDTH": "00000000000000000000000000010000"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:499.1-579.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:497.1-577.4"
           },
           "port_directions": {
             "ARST": "input",
@@ -413,7 +413,7 @@
             "WIDTH": "00000000000000000000000000000110"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:499.1-579.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:497.1-577.4"
           },
           "port_directions": {
             "ARST": "input",
@@ -440,7 +440,7 @@
             "WIDTH": "00000000000000000000000000000110"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:499.1-579.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:497.1-577.4"
           },
           "port_directions": {
             "ARST": "input",
@@ -1200,7 +1200,7 @@
             "Y": [ 470 ]
           }
         },
-        "$flatten\\u_csrfile.$add$../../core/riscv/riscv_csr_regfile.v:268$266": {
+        "$flatten\\u_csrfile.$add$../../core/riscv/riscv_csr_regfile.v:266$266": {
           "hide_name": 1,
           "type": "$add",
           "parameters": {
@@ -1211,7 +1211,7 @@
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:268.23-268.43"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:266.23-266.43"
           },
           "port_directions": {
             "A": "input",
@@ -1224,7 +1224,7 @@
             "Y": [ 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618 ]
           }
         },
-        "$flatten\\u_csrfile.$and$../../core/riscv/riscv_csr_regfile.v:137$202": {
+        "$flatten\\u_csrfile.$and$../../core/riscv/riscv_csr_regfile.v:136$202": {
           "hide_name": 1,
           "type": "$and",
           "parameters": {
@@ -1235,7 +1235,7 @@
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:137.28-137.49"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:136.28-136.49"
           },
           "port_directions": {
             "A": "input",
@@ -1248,7 +1248,7 @@
             "Y": [ 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650 ]
           }
         },
-        "$flatten\\u_csrfile.$and$../../core/riscv/riscv_csr_regfile.v:140$212": {
+        "$flatten\\u_csrfile.$and$../../core/riscv/riscv_csr_regfile.v:139$212": {
           "hide_name": 1,
           "type": "$and",
           "parameters": {
@@ -1259,7 +1259,7 @@
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:140.45-140.75"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:139.45-139.75"
           },
           "port_directions": {
             "A": "input",
@@ -1272,7 +1272,7 @@
             "Y": [ 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714 ]
           }
         },
-        "$flatten\\u_csrfile.$and$../../core/riscv/riscv_csr_regfile.v:141$214": {
+        "$flatten\\u_csrfile.$and$../../core/riscv/riscv_csr_regfile.v:140$214": {
           "hide_name": 1,
           "type": "$and",
           "parameters": {
@@ -1283,7 +1283,7 @@
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:141.45-141.75"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:140.45-140.75"
           },
           "port_directions": {
             "A": "input",
@@ -1296,7 +1296,7 @@
             "Y": [ 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745, 746 ]
           }
         },
-        "$flatten\\u_csrfile.$and$../../core/riscv/riscv_csr_regfile.v:253$262": {
+        "$flatten\\u_csrfile.$and$../../core/riscv/riscv_csr_regfile.v:251$262": {
           "hide_name": 1,
           "type": "$and",
           "parameters": {
@@ -1307,7 +1307,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.40-253.78"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:251.40-251.78"
           },
           "port_directions": {
             "A": "input",
@@ -1320,7 +1320,7 @@
             "Y": [ 748 ]
           }
         },
-        "$flatten\\u_csrfile.$and$../../core/riscv/riscv_csr_regfile.v:253$264": {
+        "$flatten\\u_csrfile.$and$../../core/riscv/riscv_csr_regfile.v:251$264": {
           "hide_name": 1,
           "type": "$and",
           "parameters": {
@@ -1331,7 +1331,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.40-253.120"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:251.40-251.120"
           },
           "port_directions": {
             "A": "input",
@@ -1344,7 +1344,7 @@
             "Y": [ 750 ]
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:138$204": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:137$204": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -1355,7 +1355,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:138.52-138.71"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:137.52-137.71"
           },
           "port_directions": {
             "A": "input",
@@ -1368,7 +1368,7 @@
             "Y": [ 751 ]
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:139$208": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:138$208": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -1379,7 +1379,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:139.54-139.73"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:138.54-138.73"
           },
           "port_directions": {
             "A": "input",
@@ -1392,7 +1392,7 @@
             "Y": [ 752 ]
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:168$223": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:167$223": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -1403,7 +1403,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:168.24-168.46"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:167.24-167.46"
           },
           "port_directions": {
             "A": "input",
@@ -1416,7 +1416,7 @@
             "Y": [ 753 ]
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:168$225": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:167$225": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -1427,7 +1427,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:168.65-168.87"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:167.65-167.87"
           },
           "port_directions": {
             "A": "input",
@@ -1440,7 +1440,7 @@
             "Y": [ 754 ]
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:170$228": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:169$228": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -1451,7 +1451,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:170.10-170.32"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:169.10-169.32"
           },
           "port_directions": {
             "A": "input",
@@ -1464,7 +1464,7 @@
             "Y": [ 767 ]
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:170$229": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:169$229": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -1475,7 +1475,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:170.36-170.58"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:169.36-169.58"
           },
           "port_directions": {
             "A": "input",
@@ -1488,7 +1488,7 @@
             "Y": [ 768 ]
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:252$260": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:250$260": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -1499,7 +1499,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:252.24-252.54"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:250.24-250.54"
           },
           "port_directions": {
             "A": "input",
@@ -1512,7 +1512,7 @@
             "Y": [ 529 ]
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:283$268": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:281$268": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -1523,7 +1523,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:283.9-283.39"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:281.9-281.39"
           },
           "port_directions": {
             "A": "input",
@@ -1536,7 +1536,7 @@
             "Y": [ 528 ]
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:340$274": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:338$274": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -1547,7 +1547,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:340.13-340.37"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:338.13-338.37"
           },
           "port_directions": {
             "A": "input",
@@ -1560,7 +1560,7 @@
             "Y": [ 543 ]
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:477$310": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:475$310": {
           "hide_name": 1,
           "type": "$eq",
           "parameters": {
@@ -1571,7 +1571,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:477.29-477.59"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:475.29-475.59"
           },
           "port_directions": {
             "A": "input",
@@ -1584,7 +1584,7 @@
             "Y": [ 769 ]
           }
         },
-        "$flatten\\u_csrfile.$ge$../../core/riscv/riscv_csr_regfile.v:337$271": {
+        "$flatten\\u_csrfile.$ge$../../core/riscv/riscv_csr_regfile.v:335$271": {
           "hide_name": 1,
           "type": "$ge",
           "parameters": {
@@ -1595,7 +1595,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:337.14-337.34"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:335.14-335.34"
           },
           "port_directions": {
             "A": "input",
@@ -1608,7 +1608,7 @@
             "Y": [ 770 ]
           }
         },
-        "$flatten\\u_csrfile.$le$../../core/riscv/riscv_csr_regfile.v:253$261": {
+        "$flatten\\u_csrfile.$le$../../core/riscv/riscv_csr_regfile.v:251$261": {
           "hide_name": 1,
           "type": "$le",
           "parameters": {
@@ -1619,7 +1619,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.41-253.60"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:251.41-251.60"
           },
           "port_directions": {
             "A": "input",
@@ -1632,7 +1632,7 @@
             "Y": [ 747 ]
           }
         },
-        "$flatten\\u_csrfile.$le$../../core/riscv/riscv_csr_regfile.v:337$272": {
+        "$flatten\\u_csrfile.$le$../../core/riscv/riscv_csr_regfile.v:335$272": {
           "hide_name": 1,
           "type": "$le",
           "parameters": {
@@ -1643,7 +1643,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:337.38-337.58"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:335.38-335.58"
           },
           "port_directions": {
             "A": "input",
@@ -1656,7 +1656,7 @@
             "Y": [ 771 ]
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:138$205": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:137$205": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -1667,7 +1667,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:138.52-138.86"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:137.52-137.86"
           },
           "port_directions": {
             "A": "input",
@@ -1680,7 +1680,7 @@
             "Y": [ 772 ]
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:139$209": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:138$209": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -1691,7 +1691,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:139.54-139.90"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:138.54-138.90"
           },
           "port_directions": {
             "A": "input",
@@ -1704,7 +1704,7 @@
             "Y": [ 773 ]
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:168$224": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:167$224": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -1715,7 +1715,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:168.11-168.46"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:167.11-167.46"
           },
           "port_directions": {
             "A": "input",
@@ -1728,7 +1728,7 @@
             "Y": [ 774 ]
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:168$226": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:167$226": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -1739,7 +1739,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:168.52-168.87"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:167.52-167.87"
           },
           "port_directions": {
             "A": "input",
@@ -1752,7 +1752,7 @@
             "Y": [ 775 ]
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:337$273": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:335$273": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -1763,7 +1763,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:337.14-337.58"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:335.14-335.58"
           },
           "port_directions": {
             "A": "input",
@@ -1776,7 +1776,7 @@
             "Y": [ 527 ]
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:367$276": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:365$276": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -1787,7 +1787,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:367.14-367.45"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:365.14-365.45"
           },
           "port_directions": {
             "A": "input",
@@ -1800,7 +1800,7 @@
             "Y": [ 526 ]
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:471$304": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:469$304": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -1811,7 +1811,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:471.9-471.43"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:469.9-469.43"
           },
           "port_directions": {
             "A": "input",
@@ -1824,7 +1824,7 @@
             "Y": [ 776 ]
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:472$306": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:470$306": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -1835,7 +1835,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:472.9-472.43"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:470.9-470.43"
           },
           "port_directions": {
             "A": "input",
@@ -1848,7 +1848,7 @@
             "Y": [ 778 ]
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:477$311": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:475$311": {
           "hide_name": 1,
           "type": "$logic_and",
           "parameters": {
@@ -1859,7 +1859,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:477.9-477.59"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:475.9-475.59"
           },
           "port_directions": {
             "A": "input",
@@ -1872,7 +1872,7 @@
             "Y": [ 525 ]
           }
         },
-        "$flatten\\u_csrfile.$logic_or$../../core/riscv/riscv_csr_regfile.v:138$206": {
+        "$flatten\\u_csrfile.$logic_or$../../core/riscv/riscv_csr_regfile.v:137$206": {
           "hide_name": 1,
           "type": "$logic_or",
           "parameters": {
@@ -1883,7 +1883,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:138.27-138.87"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:137.27-137.87"
           },
           "port_directions": {
             "A": "input",
@@ -1896,7 +1896,7 @@
             "Y": [ 780 ]
           }
         },
-        "$flatten\\u_csrfile.$logic_or$../../core/riscv/riscv_csr_regfile.v:139$210": {
+        "$flatten\\u_csrfile.$logic_or$../../core/riscv/riscv_csr_regfile.v:138$210": {
           "hide_name": 1,
           "type": "$logic_or",
           "parameters": {
@@ -1907,7 +1907,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:139.27-139.91"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:138.27-138.91"
           },
           "port_directions": {
             "A": "input",
@@ -1920,7 +1920,7 @@
             "Y": [ 782 ]
           }
         },
-        "$flatten\\u_csrfile.$logic_or$../../core/riscv/riscv_csr_regfile.v:168$227": {
+        "$flatten\\u_csrfile.$logic_or$../../core/riscv/riscv_csr_regfile.v:167$227": {
           "hide_name": 1,
           "type": "$logic_or",
           "parameters": {
@@ -1931,7 +1931,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:168.10-168.88"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:167.10-167.88"
           },
           "port_directions": {
             "A": "input",
@@ -1944,7 +1944,7 @@
             "Y": [ 523 ]
           }
         },
-        "$flatten\\u_csrfile.$logic_or$../../core/riscv/riscv_csr_regfile.v:170$230": {
+        "$flatten\\u_csrfile.$logic_or$../../core/riscv/riscv_csr_regfile.v:169$230": {
           "hide_name": 1,
           "type": "$logic_or",
           "parameters": {
@@ -1955,7 +1955,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:170.10-170.58"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:169.10-169.58"
           },
           "port_directions": {
             "A": "input",
@@ -1968,7 +1968,7 @@
             "Y": [ 783 ]
           }
         },
-        "$flatten\\u_csrfile.$logic_or$../../core/riscv/riscv_csr_regfile.v:170$232": {
+        "$flatten\\u_csrfile.$logic_or$../../core/riscv/riscv_csr_regfile.v:169$232": {
           "hide_name": 1,
           "type": "$logic_or",
           "parameters": {
@@ -1979,7 +1979,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:170.10-170.76"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:169.10-169.76"
           },
           "port_directions": {
             "A": "input",
@@ -1992,7 +1992,7 @@
             "Y": [ 522 ]
           }
         },
-        "$flatten\\u_csrfile.$lt$../../core/riscv/riscv_csr_regfile.v:138$203": {
+        "$flatten\\u_csrfile.$lt$../../core/riscv/riscv_csr_regfile.v:137$203": {
           "hide_name": 1,
           "type": "$lt",
           "parameters": {
@@ -2003,7 +2003,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:138.28-138.46"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:137.28-137.46"
           },
           "port_directions": {
             "A": "input",
@@ -2016,7 +2016,7 @@
             "Y": [ 779 ]
           }
         },
-        "$flatten\\u_csrfile.$lt$../../core/riscv/riscv_csr_regfile.v:139$207": {
+        "$flatten\\u_csrfile.$lt$../../core/riscv/riscv_csr_regfile.v:138$207": {
           "hide_name": 1,
           "type": "$lt",
           "parameters": {
@@ -2027,7 +2027,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:139.28-139.46"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:138.28-138.46"
           },
           "port_directions": {
             "A": "input",
@@ -2040,7 +2040,7 @@
             "Y": [ 781 ]
           }
         },
-        "$flatten\\u_csrfile.$not$../../core/riscv/riscv_csr_regfile.v:140$211": {
+        "$flatten\\u_csrfile.$not$../../core/riscv/riscv_csr_regfile.v:139$211": {
           "hide_name": 1,
           "type": "$not",
           "parameters": {
@@ -2049,7 +2049,7 @@
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:140.61-140.75"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:139.61-139.75"
           },
           "port_directions": {
             "A": "input",
@@ -2060,7 +2060,7 @@
             "Y": [ 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682 ]
           }
         },
-        "$flatten\\u_csrfile.$not$../../core/riscv/riscv_csr_regfile.v:472$305": {
+        "$flatten\\u_csrfile.$not$../../core/riscv/riscv_csr_regfile.v:470$305": {
           "hide_name": 1,
           "type": "$not",
           "parameters": {
@@ -2069,7 +2069,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:472.25-472.43"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:470.25-470.43"
           },
           "port_directions": {
             "A": "input",
@@ -2080,7 +2080,7 @@
             "Y": [ 777 ]
           }
         },
-        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:173$237": {
+        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:172$237": {
           "hide_name": 1,
           "type": "$or",
           "parameters": {
@@ -2091,7 +2091,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:173.21-173.98"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:172.21-172.98"
           },
           "port_directions": {
             "A": "input",
@@ -2104,7 +2104,7 @@
             "Y": [ 785 ]
           }
         },
-        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:173$238": {
+        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:172$238": {
           "hide_name": 1,
           "type": "$or",
           "parameters": {
@@ -2115,7 +2115,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:173.21-173.114"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:172.21-172.114"
           },
           "port_directions": {
             "A": "input",
@@ -2128,7 +2128,7 @@
             "Y": [ 786 ]
           }
         },
-        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:461$297": {
+        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:459$297": {
           "hide_name": 1,
           "type": "$or",
           "parameters": {
@@ -2139,7 +2139,7 @@
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:461.36-461.201"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:459.36-459.201"
           },
           "port_directions": {
             "A": "input",
@@ -2152,7 +2152,7 @@
             "Y": [ 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818 ]
           }
         },
-        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:462$300": {
+        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:460$300": {
           "hide_name": 1,
           "type": "$or",
           "parameters": {
@@ -2163,7 +2163,7 @@
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:462.40-462.138"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:460.40-460.138"
           },
           "port_directions": {
             "A": "input",
@@ -2176,7 +2176,7 @@
             "Y": [ 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850 ]
           }
         },
-        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:463$303": {
+        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:461$303": {
           "hide_name": 1,
           "type": "$or",
           "parameters": {
@@ -2187,7 +2187,7 @@
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:463.40-463.138"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:461.40-461.138"
           },
           "port_directions": {
             "A": "input",
@@ -2200,7 +2200,7 @@
             "Y": [ 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881, 882 ]
           }
         },
-        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:486$312": {
+        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:484$312": {
           "hide_name": 1,
           "type": "$or",
           "parameters": {
@@ -2211,7 +2211,7 @@
             "Y_WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:486.17-486.43"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:484.17-484.43"
           },
           "port_directions": {
             "A": "input",
@@ -2234,7 +2234,7 @@
             "WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:499.1-579.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:497.1-577.4"
           },
           "port_directions": {
             "ARST": "input",
@@ -2257,7 +2257,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:401.10-467.8|../../core/riscv/riscv_csr_regfile.v:401.14-401.28"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:399.10-465.8|../../core/riscv/riscv_csr_regfile.v:399.14-399.28"
           },
           "port_directions": {
             "A": "input",
@@ -2280,7 +2280,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:401.10-467.8|../../core/riscv/riscv_csr_regfile.v:401.14-401.28"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:399.10-465.8|../../core/riscv/riscv_csr_regfile.v:399.14-399.28"
           },
           "port_directions": {
             "A": "input",
@@ -2303,7 +2303,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:401.10-467.8|../../core/riscv/riscv_csr_regfile.v:401.14-401.28"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:399.10-465.8|../../core/riscv/riscv_csr_regfile.v:399.14-399.28"
           },
           "port_directions": {
             "A": "input",
@@ -2326,7 +2326,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:401.10-467.8|../../core/riscv/riscv_csr_regfile.v:401.14-401.28"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:399.10-465.8|../../core/riscv/riscv_csr_regfile.v:399.14-399.28"
           },
           "port_directions": {
             "A": "input",
@@ -2349,7 +2349,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:401.10-467.8|../../core/riscv/riscv_csr_regfile.v:401.14-401.28"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:399.10-465.8|../../core/riscv/riscv_csr_regfile.v:399.14-399.28"
           },
           "port_directions": {
             "A": "input",
@@ -2372,7 +2372,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:401.10-467.8|../../core/riscv/riscv_csr_regfile.v:401.14-401.28"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:399.10-465.8|../../core/riscv/riscv_csr_regfile.v:399.14-399.28"
           },
           "port_directions": {
             "A": "input",
@@ -2395,7 +2395,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:367.10-467.8|../../core/riscv/riscv_csr_regfile.v:367.14-367.45"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:365.10-465.8|../../core/riscv/riscv_csr_regfile.v:365.14-365.45"
           },
           "port_directions": {
             "A": "input",
@@ -2418,7 +2418,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:367.10-467.8|../../core/riscv/riscv_csr_regfile.v:367.14-367.45"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:365.10-465.8|../../core/riscv/riscv_csr_regfile.v:365.14-365.45"
           },
           "port_directions": {
             "A": "input",
@@ -2441,7 +2441,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:367.10-467.8|../../core/riscv/riscv_csr_regfile.v:367.14-367.45"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:365.10-465.8|../../core/riscv/riscv_csr_regfile.v:365.14-365.45"
           },
           "port_directions": {
             "A": "input",
@@ -2464,7 +2464,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:367.10-467.8|../../core/riscv/riscv_csr_regfile.v:367.14-367.45"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:365.10-465.8|../../core/riscv/riscv_csr_regfile.v:365.14-365.45"
           },
           "port_directions": {
             "A": "input",
@@ -2487,7 +2487,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:367.10-467.8|../../core/riscv/riscv_csr_regfile.v:367.14-367.45"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:365.10-465.8|../../core/riscv/riscv_csr_regfile.v:365.14-365.45"
           },
           "port_directions": {
             "A": "input",
@@ -2510,7 +2510,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:367.10-467.8|../../core/riscv/riscv_csr_regfile.v:367.14-367.45"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:365.10-465.8|../../core/riscv/riscv_csr_regfile.v:365.14-365.45"
           },
           "port_directions": {
             "A": "input",
@@ -2533,7 +2533,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:367.10-467.8|../../core/riscv/riscv_csr_regfile.v:367.14-367.45"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:365.10-465.8|../../core/riscv/riscv_csr_regfile.v:365.14-365.45"
           },
           "port_directions": {
             "A": "input",
@@ -2556,7 +2556,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:367.10-467.8|../../core/riscv/riscv_csr_regfile.v:367.14-367.45"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:365.10-465.8|../../core/riscv/riscv_csr_regfile.v:365.14-365.45"
           },
           "port_directions": {
             "A": "input",
@@ -2579,7 +2579,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:367.10-467.8|../../core/riscv/riscv_csr_regfile.v:367.14-367.45"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:365.10-465.8|../../core/riscv/riscv_csr_regfile.v:365.14-365.45"
           },
           "port_directions": {
             "A": "input",
@@ -2602,7 +2602,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:340.9-364.12|../../core/riscv/riscv_csr_regfile.v:340.13-340.37"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:338.9-362.12|../../core/riscv/riscv_csr_regfile.v:338.13-338.37"
           },
           "port_directions": {
             "A": "input",
@@ -2625,7 +2625,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:340.9-364.12|../../core/riscv/riscv_csr_regfile.v:340.13-340.37"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:338.9-362.12|../../core/riscv/riscv_csr_regfile.v:338.13-338.37"
           },
           "port_directions": {
             "A": "input",
@@ -2648,7 +2648,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:340.9-364.12|../../core/riscv/riscv_csr_regfile.v:340.13-340.37"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:338.9-362.12|../../core/riscv/riscv_csr_regfile.v:338.13-338.37"
           },
           "port_directions": {
             "A": "input",
@@ -2671,7 +2671,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:340.9-364.12|../../core/riscv/riscv_csr_regfile.v:340.13-340.37"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:338.9-362.12|../../core/riscv/riscv_csr_regfile.v:338.13-338.37"
           },
           "port_directions": {
             "A": "input",
@@ -2694,7 +2694,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:340.9-364.12|../../core/riscv/riscv_csr_regfile.v:340.13-340.37"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:338.9-362.12|../../core/riscv/riscv_csr_regfile.v:338.13-338.37"
           },
           "port_directions": {
             "A": "input",
@@ -2717,7 +2717,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:340.9-364.12|../../core/riscv/riscv_csr_regfile.v:340.13-340.37"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:338.9-362.12|../../core/riscv/riscv_csr_regfile.v:338.13-338.37"
           },
           "port_directions": {
             "A": "input",
@@ -2740,7 +2740,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:337.10-467.8|../../core/riscv/riscv_csr_regfile.v:337.14-337.58"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:335.10-465.8|../../core/riscv/riscv_csr_regfile.v:335.14-335.58"
           },
           "port_directions": {
             "A": "input",
@@ -2763,7 +2763,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:337.10-467.8|../../core/riscv/riscv_csr_regfile.v:337.14-337.58"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:335.10-465.8|../../core/riscv/riscv_csr_regfile.v:335.14-335.58"
           },
           "port_directions": {
             "A": "input",
@@ -2786,7 +2786,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:337.10-467.8|../../core/riscv/riscv_csr_regfile.v:337.14-337.58"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:335.10-465.8|../../core/riscv/riscv_csr_regfile.v:335.14-335.58"
           },
           "port_directions": {
             "A": "input",
@@ -2809,7 +2809,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:337.10-467.8|../../core/riscv/riscv_csr_regfile.v:337.14-337.58"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:335.10-465.8|../../core/riscv/riscv_csr_regfile.v:335.14-335.58"
           },
           "port_directions": {
             "A": "input",
@@ -2832,7 +2832,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:337.10-467.8|../../core/riscv/riscv_csr_regfile.v:337.14-337.58"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:335.10-465.8|../../core/riscv/riscv_csr_regfile.v:335.14-335.58"
           },
           "port_directions": {
             "A": "input",
@@ -2855,7 +2855,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:337.10-467.8|../../core/riscv/riscv_csr_regfile.v:337.14-337.58"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:335.10-465.8|../../core/riscv/riscv_csr_regfile.v:335.14-335.58"
           },
           "port_directions": {
             "A": "input",
@@ -2878,7 +2878,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:337.10-467.8|../../core/riscv/riscv_csr_regfile.v:337.14-337.58"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:335.10-465.8|../../core/riscv/riscv_csr_regfile.v:335.14-335.58"
           },
           "port_directions": {
             "A": "input",
@@ -2901,7 +2901,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:337.10-467.8|../../core/riscv/riscv_csr_regfile.v:337.14-337.58"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:335.10-465.8|../../core/riscv/riscv_csr_regfile.v:335.14-335.58"
           },
           "port_directions": {
             "A": "input",
@@ -2924,7 +2924,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:340.9-364.12|../../core/riscv/riscv_csr_regfile.v:340.13-340.37"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:338.9-362.12|../../core/riscv/riscv_csr_regfile.v:338.13-338.37"
           },
           "port_directions": {
             "A": "input",
@@ -2947,7 +2947,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:286.9-334.12|../../core/riscv/riscv_csr_regfile.v:286.13-286.31"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:284.9-332.12|../../core/riscv/riscv_csr_regfile.v:284.13-284.31"
           },
           "port_directions": {
             "A": "input",
@@ -2970,7 +2970,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:286.9-334.12|../../core/riscv/riscv_csr_regfile.v:286.13-286.31"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:284.9-332.12|../../core/riscv/riscv_csr_regfile.v:284.13-284.31"
           },
           "port_directions": {
             "A": "input",
@@ -2993,7 +2993,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:286.9-334.12|../../core/riscv/riscv_csr_regfile.v:286.13-286.31"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:284.9-332.12|../../core/riscv/riscv_csr_regfile.v:284.13-284.31"
           },
           "port_directions": {
             "A": "input",
@@ -3016,7 +3016,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:286.9-334.12|../../core/riscv/riscv_csr_regfile.v:286.13-286.31"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:284.9-332.12|../../core/riscv/riscv_csr_regfile.v:284.13-284.31"
           },
           "port_directions": {
             "A": "input",
@@ -3039,7 +3039,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:286.9-334.12|../../core/riscv/riscv_csr_regfile.v:286.13-286.31"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:284.9-332.12|../../core/riscv/riscv_csr_regfile.v:284.13-284.31"
           },
           "port_directions": {
             "A": "input",
@@ -3062,7 +3062,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:286.9-334.12|../../core/riscv/riscv_csr_regfile.v:286.13-286.31"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:284.9-332.12|../../core/riscv/riscv_csr_regfile.v:284.13-284.31"
           },
           "port_directions": {
             "A": "input",
@@ -3085,7 +3085,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:286.9-334.12|../../core/riscv/riscv_csr_regfile.v:286.13-286.31"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:284.9-332.12|../../core/riscv/riscv_csr_regfile.v:284.13-284.31"
           },
           "port_directions": {
             "A": "input",
@@ -3108,7 +3108,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:283.5-467.8|../../core/riscv/riscv_csr_regfile.v:283.9-283.39"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:281.5-465.8|../../core/riscv/riscv_csr_regfile.v:281.9-281.39"
           },
           "port_directions": {
             "A": "input",
@@ -3131,7 +3131,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:283.5-467.8|../../core/riscv/riscv_csr_regfile.v:283.9-283.39"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:281.5-465.8|../../core/riscv/riscv_csr_regfile.v:281.9-281.39"
           },
           "port_directions": {
             "A": "input",
@@ -3154,7 +3154,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:283.5-467.8|../../core/riscv/riscv_csr_regfile.v:283.9-283.39"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:281.5-465.8|../../core/riscv/riscv_csr_regfile.v:281.9-281.39"
           },
           "port_directions": {
             "A": "input",
@@ -3177,7 +3177,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:283.5-467.8|../../core/riscv/riscv_csr_regfile.v:283.9-283.39"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:281.5-465.8|../../core/riscv/riscv_csr_regfile.v:281.9-281.39"
           },
           "port_directions": {
             "A": "input",
@@ -3200,7 +3200,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:283.5-467.8|../../core/riscv/riscv_csr_regfile.v:283.9-283.39"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:281.5-465.8|../../core/riscv/riscv_csr_regfile.v:281.9-281.39"
           },
           "port_directions": {
             "A": "input",
@@ -3223,7 +3223,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:283.5-467.8|../../core/riscv/riscv_csr_regfile.v:283.9-283.39"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:281.5-465.8|../../core/riscv/riscv_csr_regfile.v:281.9-281.39"
           },
           "port_directions": {
             "A": "input",
@@ -3246,7 +3246,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:283.5-467.8|../../core/riscv/riscv_csr_regfile.v:283.9-283.39"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:281.5-465.8|../../core/riscv/riscv_csr_regfile.v:281.9-281.39"
           },
           "port_directions": {
             "A": "input",
@@ -3269,7 +3269,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:283.5-467.8|../../core/riscv/riscv_csr_regfile.v:283.9-283.39"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:281.5-465.8|../../core/riscv/riscv_csr_regfile.v:281.9-281.39"
           },
           "port_directions": {
             "A": "input",
@@ -3291,7 +3291,7 @@
             "WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:170.6-171.27|../../core/riscv/riscv_csr_regfile.v:170.10-170.76"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:169.6-170.27|../../core/riscv/riscv_csr_regfile.v:169.10-169.76"
           },
           "port_directions": {
             "A": "input",
@@ -3314,7 +3314,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:168.6-171.27|../../core/riscv/riscv_csr_regfile.v:168.10-168.88"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:167.6-170.27|../../core/riscv/riscv_csr_regfile.v:167.10-167.88"
           },
           "port_directions": {
             "A": "input",
@@ -3337,7 +3337,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:479.9-482.48|../../core/riscv/riscv_csr_regfile.v:479.13-479.29"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:477.9-480.48|../../core/riscv/riscv_csr_regfile.v:477.13-477.29"
           },
           "port_directions": {
             "A": "input",
@@ -3360,7 +3360,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:479.9-482.48|../../core/riscv/riscv_csr_regfile.v:479.13-479.29"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:477.9-480.48|../../core/riscv/riscv_csr_regfile.v:477.13-477.29"
           },
           "port_directions": {
             "A": "input",
@@ -3383,7 +3383,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:477.5-484.8|../../core/riscv/riscv_csr_regfile.v:477.9-477.59"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:475.5-482.8|../../core/riscv/riscv_csr_regfile.v:475.9-475.59"
           },
           "port_directions": {
             "A": "input",
@@ -3406,7 +3406,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:477.5-484.8|../../core/riscv/riscv_csr_regfile.v:477.9-477.59"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:475.5-482.8|../../core/riscv/riscv_csr_regfile.v:475.9-475.59"
           },
           "port_directions": {
             "A": "input",
@@ -3429,7 +3429,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:477.5-484.8|../../core/riscv/riscv_csr_regfile.v:477.9-477.59"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:475.5-482.8|../../core/riscv/riscv_csr_regfile.v:475.9-475.59"
           },
           "port_directions": {
             "A": "input",
@@ -3452,7 +3452,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:472.5-472.71|../../core/riscv/riscv_csr_regfile.v:472.9-472.43"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:470.5-470.71|../../core/riscv/riscv_csr_regfile.v:470.9-470.43"
           },
           "port_directions": {
             "A": "input",
@@ -3475,7 +3475,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:471.5-471.70|../../core/riscv/riscv_csr_regfile.v:471.9-471.43"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:469.5-469.70|../../core/riscv/riscv_csr_regfile.v:469.9-469.43"
           },
           "port_directions": {
             "A": "input",
@@ -3502,7 +3502,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:436.9-466.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:434.9-464.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
           },
           "port_directions": {
             "A": "input",
@@ -3527,7 +3527,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:436.9-466.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:434.9-464.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
           },
           "port_directions": {
             "A": "input",
@@ -3548,7 +3548,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:436.9-466.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:434.9-464.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
           },
           "port_directions": {
             "A": "input",
@@ -3575,7 +3575,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:436.9-466.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:434.9-464.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
           },
           "port_directions": {
             "A": "input",
@@ -3597,7 +3597,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:436.9-466.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:434.9-464.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
           },
           "port_directions": {
             "A": "input",
@@ -3624,7 +3624,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:436.9-466.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:434.9-464.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
           },
           "port_directions": {
             "A": "input",
@@ -3649,7 +3649,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:436.9-466.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:434.9-464.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
           },
           "port_directions": {
             "A": "input",
@@ -3671,7 +3671,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:436.9-466.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:434.9-464.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
           },
           "port_directions": {
             "A": "input",
@@ -3695,7 +3695,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:436.9-466.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:434.9-464.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
           },
           "port_directions": {
             "A": "input",
@@ -3722,7 +3722,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:436.9-466.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:434.9-464.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
           },
           "port_directions": {
             "A": "input",
@@ -3747,7 +3747,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:436.9-466.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:434.9-464.16|../../core/riscv/riscv_csr_regfile.v:0.0-0.0"
           },
           "port_directions": {
             "A": "input",
@@ -3768,7 +3768,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:401.10-467.8|../../core/riscv/riscv_csr_regfile.v:401.14-401.28"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:399.10-465.8|../../core/riscv/riscv_csr_regfile.v:399.14-399.28"
           },
           "port_directions": {
             "A": "input",
@@ -3791,7 +3791,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:401.10-467.8|../../core/riscv/riscv_csr_regfile.v:401.14-401.28"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:399.10-465.8|../../core/riscv/riscv_csr_regfile.v:399.14-399.28"
           },
           "port_directions": {
             "A": "input",
@@ -3814,7 +3814,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:401.10-467.8|../../core/riscv/riscv_csr_regfile.v:401.14-401.28"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:399.10-465.8|../../core/riscv/riscv_csr_regfile.v:399.14-399.28"
           },
           "port_directions": {
             "A": "input",
@@ -3829,7 +3829,7 @@
             "Y": [ 1169, 1035, 1030 ]
           }
         },
-        "$flatten\\u_csrfile.$reduce_or$../../core/riscv/riscv_csr_regfile.v:142$216": {
+        "$flatten\\u_csrfile.$reduce_or$../../core/riscv/riscv_csr_regfile.v:141$216": {
           "hide_name": 1,
           "type": "$reduce_or",
           "parameters": {
@@ -3838,7 +3838,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:142.28-142.43"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:141.28-141.43"
           },
           "port_directions": {
             "A": "input",
@@ -3849,7 +3849,7 @@
             "Y": [ 521 ]
           }
         },
-        "$flatten\\u_csrfile.$reduce_or$../../core/riscv/riscv_csr_regfile.v:157$221": {
+        "$flatten\\u_csrfile.$reduce_or$../../core/riscv/riscv_csr_regfile.v:156$221": {
           "hide_name": 1,
           "type": "$reduce_or",
           "parameters": {
@@ -3858,7 +3858,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:157.10-157.23"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:156.10-156.23"
           },
           "port_directions": {
             "A": "input",
@@ -3869,7 +3869,7 @@
             "Y": [ 331 ]
           }
         },
-        "$flatten\\u_csrfile.$reduce_or$../../core/riscv/riscv_csr_regfile.v:170$231": {
+        "$flatten\\u_csrfile.$reduce_or$../../core/riscv/riscv_csr_regfile.v:169$231": {
           "hide_name": 1,
           "type": "$reduce_or",
           "parameters": {
@@ -3878,7 +3878,7 @@
             "Y_WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:170.63-170.75"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:169.63-169.75"
           },
           "port_directions": {
             "A": "input",
@@ -3913,7 +3913,29 @@
             "Y": [ 749 ]
           }
         },
-        "$flatten\\u_csrfile.$ternary$../../core/riscv/riscv_csr_regfile.v:140$213": {
+        "$flatten\\u_csrfile.$ternary$../../core/riscv/riscv_csr_regfile.v:139$213": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:139.27-139.84"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "B": [ 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714 ],
+            "S": [ 780 ],
+            "Y": [ 1170, 1171, 1172, 1173, 1174, 1175, 1176, 1177, 1178, 1179, 1180, 1181, 1182, 1183, 1184, 1185, 1186, 1187, 1188, 1189, 1190, 1191, 1192, 1193, 1194, 1195, 1196, 1197, 1198, 1199, 1200, 1201 ]
+          }
+        },
+        "$flatten\\u_csrfile.$ternary$../../core/riscv/riscv_csr_regfile.v:140$215": {
           "hide_name": 1,
           "type": "$mux",
           "parameters": {
@@ -3930,41 +3952,19 @@
           },
           "connections": {
             "A": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
-            "B": [ 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714 ],
-            "S": [ 780 ],
-            "Y": [ 1170, 1171, 1172, 1173, 1174, 1175, 1176, 1177, 1178, 1179, 1180, 1181, 1182, 1183, 1184, 1185, 1186, 1187, 1188, 1189, 1190, 1191, 1192, 1193, 1194, 1195, 1196, 1197, 1198, 1199, 1200, 1201 ]
-          }
-        },
-        "$flatten\\u_csrfile.$ternary$../../core/riscv/riscv_csr_regfile.v:141$215": {
-          "hide_name": 1,
-          "type": "$mux",
-          "parameters": {
-            "WIDTH": "00000000000000000000000000100000"
-          },
-          "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:141.27-141.84"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "S": "input",
-            "Y": "output"
-          },
-          "connections": {
-            "A": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
             "B": [ 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745, 746 ],
             "S": [ 782 ],
             "Y": [ 1234, 1235, 1236, 1237, 1238, 1239, 1240, 1241, 1242, 1243, 1244, 1245, 1246, 1247, 1248, 1249, 1250, 1251, 1252, 1253, 1254, 1255, 1256, 1257, 1258, 1259, 1260, 1261, 1262, 1263, 1264, 1265 ]
           }
         },
-        "$flatten\\u_csrfile.$ternary$../../core/riscv/riscv_csr_regfile.v:142$217": {
+        "$flatten\\u_csrfile.$ternary$../../core/riscv/riscv_csr_regfile.v:141$217": {
           "hide_name": 1,
           "type": "$mux",
           "parameters": {
             "WIDTH": "00000000000000000000000000100000"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:142.27-142.78"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:141.27-141.78"
           },
           "port_directions": {
             "A": "input",
@@ -3979,14 +3979,14 @@
             "Y": [ 1202, 1203, 1204, 1205, 1206, 1207, 1208, 1209, 1210, 1211, 1212, 1213, 1214, 1215, 1216, 1217, 1218, 1219, 1220, 1221, 1222, 1223, 1224, 1225, 1226, 1227, 1228, 1229, 1230, 1231, 1232, 1233 ]
           }
         },
-        "$flatten\\u_csrfile.$ternary$../../core/riscv/riscv_csr_regfile.v:356$275": {
+        "$flatten\\u_csrfile.$ternary$../../core/riscv/riscv_csr_regfile.v:354$275": {
           "hide_name": 1,
           "type": "$mux",
           "parameters": {
             "WIDTH": "00000000000000000000000000000001"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:356.36-356.61"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:354.36-354.61"
           },
           "port_directions": {
             "A": "input",
@@ -4001,14 +4001,14 @@
             "Y": [ 1076 ]
           }
         },
-        "$flatten\\u_csrfile.$ternary$../../core/riscv/riscv_csr_regfile.v:555$322": {
+        "$flatten\\u_csrfile.$ternary$../../core/riscv/riscv_csr_regfile.v:553$322": {
           "hide_name": 1,
           "type": "$mux",
           "parameters": {
             "WIDTH": "00000000000000000000000000001100"
           },
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:555.27-555.64"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:553.27-553.64"
           },
           "port_directions": {
             "A": "input",
@@ -4307,7 +4307,7 @@
           "hide_name": 1,
           "bits": [ 1266, 1267, 1268, 1269, 1270, 337, 1271, 338, 1272, 339, 1273, 340, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:499.1-579.4",
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:497.1-577.4",
             "unused_bits": "0 1 2 3 4 6 8 10"
           }
         },
@@ -4315,7 +4315,7 @@
           "hide_name": 1,
           "bits": [ 1274, 1036, 1031, 1032, "x", 1040, 1028, 1029, 1038, 1023, 1024, 1025, 1026, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4",
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4",
             "unused_bits": "0 2 6 9 10"
           }
         },
@@ -4323,7 +4323,7 @@
           "hide_name": 1,
           "bits": [ 1169, 1035, 1030, 948, 1168, 1039, 1027, 954, 1037, 1021, 1022, 951, 952, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4",
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4",
             "unused_bits": "0 4"
           }
         },
@@ -4331,21 +4331,21 @@
           "hide_name": 1,
           "bits": [ 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049, 1050, 1051, 1052, 1053, 1054, 1055, 1056, 1057, 1058, 1059, 1060, 1061, 1062, 1063, 1064, 1065, 1066, 1067, 1068, 1069, 1070, 1071, 1072, 1073 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$auto$wreduce.cc:514:run$2253": {
           "hide_name": 1,
           "bits": [ 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$auto$wreduce.cc:514:run$2254": {
           "hide_name": 1,
           "bits": [ 1275, 1092, 1276, 1091, 1277, 1090, 1278, 1088, 1089, 1279, 1280, 1086, 1087, 1281, 1282, 1283, 1284, 1285, 1286, 1287, 1288, 1289, 1290, 1291, 1292, 1293, 1294, 1295, 1296, 1297, 1298, 1299 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4",
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4",
             "unused_bits": "0 2 4 6 9 10 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
           }
         },
@@ -4353,133 +4353,133 @@
           "hide_name": 1,
           "bits": [ 1076, "0" ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:356.36-356.61"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:354.36-354.61"
           }
         },
         "$flatten\\u_csrfile.$0\\csr_mip_upd_q[0:0]": {
           "hide_name": 1,
           "bits": [ 334 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:165.1-171.27"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:164.1-170.27"
           }
         },
         "$flatten\\u_csrfile.$10\\csr_sr_r[5:5]": {
           "hide_name": 1,
           "bits": [ 1080 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$11\\csr_sr_r[8:7]": {
           "hide_name": 1,
           "bits": [ 1074, 1079 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$12\\csr_sr_r[12:11]": {
           "hide_name": 1,
           "bits": [ 1084, 1085 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$15\\csr_sr_r[31:0]": {
           "hide_name": 1,
           "bits": [ 402, 1165, 403, 947, 404, 1166, 405, 953, 1167, 406, 407, 949, 950, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$1\\csr_mip_r[31:0]": {
           "hide_name": 1,
           "bits": [ 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909, 910, 911, 912, 913, 914 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$1\\csr_mtime_ie_r[0:0]": {
           "hide_name": 1,
           "bits": [ 1135 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$2\\csr_mip_r[31:0]": {
           "hide_name": 1,
           "bits": [ 1094, 1095, 1096, 1097, 1098, 1099, 1100, 1101, 1102, 1103, 1104, 1105, 1106, 1107, 1108, 1109, 1110, 1111, 1112, 1113, 1114, 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1125 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$2\\csr_mpriv_r[1:0]": {
           "hide_name": 1,
           "bits": [ 1126, 1127 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$2\\csr_mtime_ie_r[0:0]": {
           "hide_name": 1,
           "bits": [ 1093 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$2\\csr_sr_r[1:1]": {
           "hide_name": 1,
           "bits": [ 1134 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$3\\csr_mpriv_r[1:0]": {
           "hide_name": 1,
           "bits": [ 1082, 1083 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$3\\csr_mtime_ie_r[0:0]": {
           "hide_name": 1,
           "bits": [ 1041 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$3\\csr_sr_r[3:3]": {
           "hide_name": 1,
           "bits": [ 1128 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$4\\csr_mpriv_r[1:0]": {
           "hide_name": 1,
           "bits": [ 1077, 1078 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$4\\csr_mtime_ie_r[0:0]": {
           "hide_name": 1,
           "bits": [ 956 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$4\\csr_sr_r[5:5]": {
           "hide_name": 1,
           "bits": [ 1133 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$5\\csr_mie_r[31:0]": {
           "hide_name": 1,
           "bits": [ 1139, 487, 1140, 488, 1141, 489, 1142, 490, 1143, 491, 1144, 492, 1145, 1146, 1147, 1148, 1149, 1150, 1151, 1152, 1153, 1154, 1155, 1156, 1157, 1158, 1159, 1160, 1161, 1162, 1163, 1164 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4",
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4",
             "unused_bits": "0 2 4 6 8 10 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
           }
         },
@@ -4487,315 +4487,315 @@
           "hide_name": 1,
           "bits": [ 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 976, 977, 978, 979, 980, 981, 982, 983, 984, 985, 986, 987, 988 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$5\\csr_mpriv_r[1:0]": {
           "hide_name": 1,
           "bits": [ 1033, 1034 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$5\\csr_mtime_ie_r[0:0]": {
           "hide_name": 1,
           "bits": [ 955 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$5\\csr_sr_r[8:7]": {
           "hide_name": 1,
           "bits": [ 1131, 1132 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$6\\csr_mpriv_r[1:0]": {
           "hide_name": 1,
           "bits": [ 945, 946 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$6\\csr_sr_r[12:11]": {
           "hide_name": 1,
           "bits": [ 1129, 1130 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$7\\csr_mip_next_r[5:5]": {
           "hide_name": 1,
           "bits": [ 1137 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$8\\csr_mip_next_r[7:7]": {
           "hide_name": 1,
           "bits": [ 1138 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$8\\csr_sr_r[1:1]": {
           "hide_name": 1,
           "bits": [ 1081 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
         "$flatten\\u_csrfile.$9\\csr_sr_r[3:3]": {
           "hide_name": 1,
           "bits": [ 1075 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:255.1-487.4"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.1-485.4"
           }
         },
-        "$flatten\\u_csrfile.$and$../../core/riscv/riscv_csr_regfile.v:140$212_Y": {
+        "$flatten\\u_csrfile.$and$../../core/riscv/riscv_csr_regfile.v:139$212_Y": {
           "hide_name": 1,
           "bits": [ 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:139.45-139.75"
+          }
+        },
+        "$flatten\\u_csrfile.$and$../../core/riscv/riscv_csr_regfile.v:140$214_Y": {
+          "hide_name": 1,
+          "bits": [ 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745, 746 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:140.45-140.75"
           }
         },
-        "$flatten\\u_csrfile.$and$../../core/riscv/riscv_csr_regfile.v:141$214_Y": {
-          "hide_name": 1,
-          "bits": [ 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745, 746 ],
-          "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:141.45-141.75"
-          }
-        },
-        "$flatten\\u_csrfile.$and$../../core/riscv/riscv_csr_regfile.v:253$262_Y": {
+        "$flatten\\u_csrfile.$and$../../core/riscv/riscv_csr_regfile.v:251$262_Y": {
           "hide_name": 1,
           "bits": [ 748 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.40-253.78"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:251.40-251.78"
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:138$204_Y": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:137$204_Y": {
           "hide_name": 1,
           "bits": [ 751 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:138.52-138.71"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:137.52-137.71"
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:139$208_Y": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:138$208_Y": {
           "hide_name": 1,
           "bits": [ 752 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:139.54-139.73"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:138.54-138.73"
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:168$223_Y": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:167$223_Y": {
           "hide_name": 1,
           "bits": [ 753 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:168.24-168.46"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:167.24-167.46"
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:168$225_Y": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:167$225_Y": {
           "hide_name": 1,
           "bits": [ 754 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:168.65-168.87"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:167.65-167.87"
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:170$228_Y": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:169$228_Y": {
           "hide_name": 1,
           "bits": [ 767 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:170.10-170.32"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:169.10-169.32"
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:170$229_Y": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:169$229_Y": {
           "hide_name": 1,
           "bits": [ 768 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:170.36-170.58"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:169.36-169.58"
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:283$268_Y": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:281$268_Y": {
           "hide_name": 1,
           "bits": [ 528 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:283.9-283.39"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:281.9-281.39"
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:340$274_Y": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:338$274_Y": {
           "hide_name": 1,
           "bits": [ 543 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:340.13-340.37"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:338.13-338.37"
           }
         },
-        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:477$310_Y": {
+        "$flatten\\u_csrfile.$eq$../../core/riscv/riscv_csr_regfile.v:475$310_Y": {
           "hide_name": 1,
           "bits": [ 769 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:477.29-477.59"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:475.29-475.59"
           }
         },
-        "$flatten\\u_csrfile.$ge$../../core/riscv/riscv_csr_regfile.v:337$271_Y": {
+        "$flatten\\u_csrfile.$ge$../../core/riscv/riscv_csr_regfile.v:335$271_Y": {
           "hide_name": 1,
           "bits": [ 770 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:337.14-337.34"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:335.14-335.34"
           }
         },
-        "$flatten\\u_csrfile.$le$../../core/riscv/riscv_csr_regfile.v:253$261_Y": {
+        "$flatten\\u_csrfile.$le$../../core/riscv/riscv_csr_regfile.v:251$261_Y": {
           "hide_name": 1,
           "bits": [ 747 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.41-253.60"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:251.41-251.60"
           }
         },
-        "$flatten\\u_csrfile.$le$../../core/riscv/riscv_csr_regfile.v:337$272_Y": {
+        "$flatten\\u_csrfile.$le$../../core/riscv/riscv_csr_regfile.v:335$272_Y": {
           "hide_name": 1,
           "bits": [ 771 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:337.38-337.58"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:335.38-335.58"
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:138$205_Y": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:137$205_Y": {
           "hide_name": 1,
           "bits": [ 772 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:138.52-138.86"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:137.52-137.86"
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:139$209_Y": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:138$209_Y": {
           "hide_name": 1,
           "bits": [ 773 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:139.54-139.90"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:138.54-138.90"
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:168$224_Y": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:167$224_Y": {
           "hide_name": 1,
           "bits": [ 774 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:168.11-168.46"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:167.11-167.46"
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:168$226_Y": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:167$226_Y": {
           "hide_name": 1,
           "bits": [ 775 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:168.52-168.87"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:167.52-167.87"
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:337$273_Y": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:335$273_Y": {
           "hide_name": 1,
           "bits": [ 527 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:337.14-337.58"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:335.14-335.58"
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:367$276_Y": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:365$276_Y": {
           "hide_name": 1,
           "bits": [ 526 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:367.14-367.45"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:365.14-365.45"
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:471$304_Y": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:469$304_Y": {
           "hide_name": 1,
           "bits": [ 776 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:471.9-471.43"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:469.9-469.43"
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:472$306_Y": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:470$306_Y": {
           "hide_name": 1,
           "bits": [ 778 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:472.9-472.43"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:470.9-470.43"
           }
         },
-        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:477$311_Y": {
+        "$flatten\\u_csrfile.$logic_and$../../core/riscv/riscv_csr_regfile.v:475$311_Y": {
           "hide_name": 1,
           "bits": [ 525 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:477.9-477.59"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:475.9-475.59"
           }
         },
-        "$flatten\\u_csrfile.$logic_or$../../core/riscv/riscv_csr_regfile.v:168$227_Y": {
+        "$flatten\\u_csrfile.$logic_or$../../core/riscv/riscv_csr_regfile.v:167$227_Y": {
           "hide_name": 1,
           "bits": [ 523 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:168.10-168.88"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:167.10-167.88"
           }
         },
-        "$flatten\\u_csrfile.$logic_or$../../core/riscv/riscv_csr_regfile.v:170$230_Y": {
+        "$flatten\\u_csrfile.$logic_or$../../core/riscv/riscv_csr_regfile.v:169$230_Y": {
           "hide_name": 1,
           "bits": [ 783 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:170.10-170.58"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:169.10-169.58"
           }
         },
-        "$flatten\\u_csrfile.$logic_or$../../core/riscv/riscv_csr_regfile.v:170$232_Y": {
+        "$flatten\\u_csrfile.$logic_or$../../core/riscv/riscv_csr_regfile.v:169$232_Y": {
           "hide_name": 1,
           "bits": [ 522 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:170.10-170.76"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:169.10-169.76"
           }
         },
-        "$flatten\\u_csrfile.$lt$../../core/riscv/riscv_csr_regfile.v:138$203_Y": {
+        "$flatten\\u_csrfile.$lt$../../core/riscv/riscv_csr_regfile.v:137$203_Y": {
           "hide_name": 1,
           "bits": [ 779 ],
+          "attributes": {
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:137.28-137.46"
+          }
+        },
+        "$flatten\\u_csrfile.$lt$../../core/riscv/riscv_csr_regfile.v:138$207_Y": {
+          "hide_name": 1,
+          "bits": [ 781 ],
           "attributes": {
             "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:138.28-138.46"
           }
         },
-        "$flatten\\u_csrfile.$lt$../../core/riscv/riscv_csr_regfile.v:139$207_Y": {
-          "hide_name": 1,
-          "bits": [ 781 ],
-          "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:139.28-139.46"
-          }
-        },
-        "$flatten\\u_csrfile.$not$../../core/riscv/riscv_csr_regfile.v:140$211_Y": {
+        "$flatten\\u_csrfile.$not$../../core/riscv/riscv_csr_regfile.v:139$211_Y": {
           "hide_name": 1,
           "bits": [ 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:140.61-140.75"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:139.61-139.75"
           }
         },
-        "$flatten\\u_csrfile.$not$../../core/riscv/riscv_csr_regfile.v:472$305_Y": {
+        "$flatten\\u_csrfile.$not$../../core/riscv/riscv_csr_regfile.v:470$305_Y": {
           "hide_name": 1,
           "bits": [ 777 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:472.25-472.43"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:470.25-470.43"
           }
         },
-        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:173$237_Y": {
+        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:172$237_Y": {
           "hide_name": 1,
           "bits": [ 785 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:173.21-173.98"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:172.21-172.98"
           }
         },
-        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:461$297_Y": {
+        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:459$297_Y": {
           "hide_name": 1,
           "bits": [ 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:461.36-461.201"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:459.36-459.201"
           }
         },
-        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:462$300_Y": {
+        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:460$300_Y": {
           "hide_name": 1,
           "bits": [ 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:462.40-462.138"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:460.40-460.138"
           }
         },
-        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:463$303_Y": {
+        "$flatten\\u_csrfile.$or$../../core/riscv/riscv_csr_regfile.v:461$303_Y": {
           "hide_name": 1,
           "bits": [ 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881, 882 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:463.40-463.138"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:461.40-461.138"
           }
         },
         "$flatten\\u_csrfile.$procmux$2015_Y": {
@@ -4852,18 +4852,18 @@
           "attributes": {
           }
         },
-        "$flatten\\u_csrfile.$reduce_or$../../core/riscv/riscv_csr_regfile.v:142$216_Y": {
+        "$flatten\\u_csrfile.$reduce_or$../../core/riscv/riscv_csr_regfile.v:141$216_Y": {
           "hide_name": 1,
           "bits": [ 521 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:142.28-142.43"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:141.28-141.43"
           }
         },
-        "$flatten\\u_csrfile.$reduce_or$../../core/riscv/riscv_csr_regfile.v:170$231_Y": {
+        "$flatten\\u_csrfile.$reduce_or$../../core/riscv/riscv_csr_regfile.v:169$231_Y": {
           "hide_name": 1,
           "bits": [ 784 ],
           "attributes": {
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:170.63-170.75"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:169.63-169.75"
           }
         },
         "$flatten\\u_csrfile.$shiftx$../../core/riscv/riscv_csr_regfile.v:0$263_Y": {
@@ -5111,7 +5111,7 @@
           "bits": [ 786 ],
           "attributes": {
             "hdlname": "u_csrfile buffer_mip_w",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:173.6-173.18"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:172.6-172.18"
           }
         },
         "u_csrfile.clk_i": {
@@ -5136,8 +5136,7 @@
           "bits": [ 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586 ],
           "attributes": {
             "hdlname": "u_csrfile csr_mcycle_q",
-            "keep": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:104.13-104.25"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:103.13-103.25"
           }
         },
         "u_csrfile.csr_mcycle_r": {
@@ -5145,8 +5144,7 @@
           "bits": [ 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618 ],
           "attributes": {
             "hdlname": "u_csrfile csr_mcycle_r",
-            "keep": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:234.13-234.25"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:232.13-232.25"
           }
         },
         "u_csrfile.csr_medeleg_q": {
@@ -5154,7 +5152,7 @@
           "bits": [ 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
           "attributes": {
             "hdlname": "u_csrfile csr_medeleg_q",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:110.13-110.26"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:109.13-109.26"
           }
         },
         "u_csrfile.csr_mideleg_q": {
@@ -5162,7 +5160,7 @@
           "bits": [ 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
           "attributes": {
             "hdlname": "u_csrfile csr_mideleg_q",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:111.13-111.26"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:110.13-110.26"
           }
         },
         "u_csrfile.csr_mie_q": {
@@ -5178,7 +5176,7 @@
           "bits": [ "0", "0", "0", "0", "0", 341, "0", 342, "0", 343, "0", 344, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
           "attributes": {
             "hdlname": "u_csrfile csr_mip_next_q",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:241.13-241.27"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:239.13-239.27"
           }
         },
         "u_csrfile.csr_mip_next_r": {
@@ -5186,7 +5184,7 @@
           "bits": [ "0", "0", "0", "0", "0", 915, "0", 916, "0", 917, "0", 918, "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
           "attributes": {
             "hdlname": "u_csrfile csr_mip_next_r",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:242.13-242.27"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:240.13-240.27"
           }
         },
         "u_csrfile.csr_mip_q": {
@@ -5202,7 +5200,7 @@
           "bits": [ 919, 500, 920, 501, 921, 502, 922, 503, 923, 504, 924, 505, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 944 ],
           "attributes": {
             "hdlname": "u_csrfile csr_mip_r",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:230.13-230.22",
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:229.13-229.22",
             "unused_bits": "0 2 4 6 8 10 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
           }
         },
@@ -5211,7 +5209,7 @@
           "bits": [ 336 ],
           "attributes": {
             "hdlname": "u_csrfile csr_mip_upd_q",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:163.5-163.18"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:162.5-162.18"
           }
         },
         "u_csrfile.csr_mpriv_q": {
@@ -5227,7 +5225,7 @@
           "bits": [ 381, 382 ],
           "attributes": {
             "hdlname": "u_csrfile csr_mpriv_r",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:232.13-232.24"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:231.13-231.24"
           }
         },
         "u_csrfile.csr_mtime_ie_q": {
@@ -5235,7 +5233,7 @@
           "bits": [ 347 ],
           "attributes": {
             "hdlname": "u_csrfile csr_mtime_ie_q",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:109.13-109.27"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:108.13-108.27"
           }
         },
         "u_csrfile.csr_mtime_ie_r": {
@@ -5243,7 +5241,7 @@
           "bits": [ 345 ],
           "attributes": {
             "hdlname": "u_csrfile csr_mtime_ie_r",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:237.13-237.27"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:235.13-235.27"
           }
         },
         "u_csrfile.csr_mtimecmp_q": {
@@ -5251,7 +5249,7 @@
           "bits": [ 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380 ],
           "attributes": {
             "hdlname": "u_csrfile csr_mtimecmp_q",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:108.13-108.27"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:107.13-107.27"
           }
         },
         "u_csrfile.csr_raddr_i": {
@@ -5284,7 +5282,7 @@
           "bits": [ 1300, 395, 1301, 386, 1302, 396, 1303, 387, 397, 1304, 1305, 388, 389, 1306, 1307, 1308, 1309, 1310, 1311, 1312, 1313, 1314, 1315, 1316, 1317, 1318, 1319, 1320, 1321, 1322, 1323, 1324 ],
           "attributes": {
             "hdlname": "u_csrfile csr_sr_r",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:228.13-228.21",
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:227.13-227.21",
             "unused_bits": "0 2 4 6 9 10 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"
           }
         },
@@ -5335,7 +5333,7 @@
           "bits": [ 750 ],
           "attributes": {
             "hdlname": "u_csrfile exception_s_w",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:253.6-253.19"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:251.6-251.19"
           }
         },
         "u_csrfile.ext_intr_i": {
@@ -5359,7 +5357,7 @@
           "bits": [ 1202, 1203, 1204, 1205, 1206, 1207, 1208, 1209, 1210, 1211, 1212, 1213, 1214, 1215, 1216, 1217, 1218, 1219, 1220, 1221, 1222, 1223, 1224, 1225, 1226, 1227, 1228, 1229, 1230, 1231, 1232, 1233 ],
           "attributes": {
             "hdlname": "u_csrfile irq_masked_r",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:125.12-125.24"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:124.12-124.24"
           }
         },
         "u_csrfile.irq_pending_r": {
@@ -5367,7 +5365,7 @@
           "bits": [ 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650 ],
           "attributes": {
             "hdlname": "u_csrfile irq_pending_r",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:124.12-124.25"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:123.12-123.25"
           }
         },
         "u_csrfile.irq_priv_q": {
@@ -5382,7 +5380,7 @@
           "bits": [ 529 ],
           "attributes": {
             "hdlname": "u_csrfile is_exception_w",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:252.6-252.20"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:250.6-250.20"
           }
         },
         "u_csrfile.m_enabled_r": {
@@ -5390,7 +5388,7 @@
           "bits": [ 780 ],
           "attributes": {
             "hdlname": "u_csrfile m_enabled_r",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:128.12-128.23"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:127.12-127.23"
           }
         },
         "u_csrfile.m_interrupts_r": {
@@ -5398,7 +5396,7 @@
           "bits": [ 1170, 1171, 1172, 1173, 1174, 1175, 1176, 1177, 1178, 1179, 1180, 1181, 1182, 1183, 1184, 1185, 1186, 1187, 1188, 1189, 1190, 1191, 1192, 1193, 1194, 1195, 1196, 1197, 1198, 1199, 1200, 1201 ],
           "attributes": {
             "hdlname": "u_csrfile m_interrupts_r",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:129.12-129.26"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:128.12-128.26"
           }
         },
         "u_csrfile.misa_i": {
@@ -5430,7 +5428,7 @@
           "bits": [ 782 ],
           "attributes": {
             "hdlname": "u_csrfile s_enabled_r",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:130.12-130.23"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:129.12-129.23"
           }
         },
         "u_csrfile.s_interrupts_r": {
@@ -5438,7 +5436,7 @@
           "bits": [ 1234, 1235, 1236, 1237, 1238, 1239, 1240, 1241, 1242, 1243, 1244, 1245, 1246, 1247, 1248, 1249, 1250, 1251, 1252, 1253, 1254, 1255, 1256, 1257, 1258, 1259, 1260, 1261, 1262, 1263, 1264, 1265 ],
           "attributes": {
             "hdlname": "u_csrfile s_interrupts_r",
-            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:131.12-131.26"
+            "src": "../../core/riscv/riscv_csr_simplified.v:185.1-220.2|../../core/riscv/riscv_csr_regfile.v:130.12-130.26"
           }
         },
         "u_csrfile.status_o": {
@@ -5726,7 +5724,6 @@
     },
     "v2f_ge": {
       "attributes": {
-        "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
         "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:222.1-233.10"
@@ -5741,21 +5738,15 @@
       "ports": {
         "A": {
           "direction": "input",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 2, 3 ]
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 ]
         },
         "B": {
           "direction": "input",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 4, 5 ]
+          "bits": [ 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65 ]
         },
         "Y": {
           "direction": "output",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 6, 7 ]
+          "bits": [ 66 ]
         }
       },
       "cells": {
@@ -5763,36 +5754,29 @@
       "netnames": {
         "A": {
           "hide_name": 0,
-          "bits": [ 2, 3 ],
-          "offset": -1,
-          "upto": 1,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:229.22-229.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:229.15-229.16"
           }
         },
         "B": {
           "hide_name": 0,
-          "bits": [ 4, 5 ],
-          "offset": -1,
-          "upto": 1,
+          "bits": [ 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:230.22-230.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:230.15-230.16"
           }
         },
         "Y": {
           "hide_name": 0,
-          "bits": [ 6, 7 ],
-          "offset": -1,
-          "upto": 1,
+          "bits": [ 66 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:231.23-231.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:231.9-231.10"
           }
         }
       }
     },
     "v2f_gt": {
       "attributes": {
-        "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
         "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:196.1-207.10"
@@ -5807,21 +5791,15 @@
       "ports": {
         "A": {
           "direction": "input",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 2, 3 ]
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 ]
         },
         "B": {
           "direction": "input",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 4, 5 ]
+          "bits": [ 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65 ]
         },
         "Y": {
           "direction": "output",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 6, 7 ]
+          "bits": [ 66 ]
         }
       },
       "cells": {
@@ -5829,36 +5807,29 @@
       "netnames": {
         "A": {
           "hide_name": 0,
-          "bits": [ 2, 3 ],
-          "offset": -1,
-          "upto": 1,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:203.22-203.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:203.15-203.16"
           }
         },
         "B": {
           "hide_name": 0,
-          "bits": [ 4, 5 ],
-          "offset": -1,
-          "upto": 1,
+          "bits": [ 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:204.22-204.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:204.15-204.16"
           }
         },
         "Y": {
           "hide_name": 0,
-          "bits": [ 6, 7 ],
-          "offset": -1,
-          "upto": 1,
+          "bits": [ 66 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:205.23-205.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:205.9-205.10"
           }
         }
       }
     },
     "v2f_le": {
       "attributes": {
-        "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
         "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:235.1-246.10"
@@ -5873,21 +5844,15 @@
       "ports": {
         "A": {
           "direction": "input",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 2, 3 ]
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 ]
         },
         "B": {
           "direction": "input",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 4, 5 ]
+          "bits": [ 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65 ]
         },
         "Y": {
           "direction": "output",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 6, 7 ]
+          "bits": [ 66 ]
         }
       },
       "cells": {
@@ -5895,36 +5860,29 @@
       "netnames": {
         "A": {
           "hide_name": 0,
-          "bits": [ 2, 3 ],
-          "offset": -1,
-          "upto": 1,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:242.22-242.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:242.15-242.16"
           }
         },
         "B": {
           "hide_name": 0,
-          "bits": [ 4, 5 ],
-          "offset": -1,
-          "upto": 1,
+          "bits": [ 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:243.22-243.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:243.15-243.16"
           }
         },
         "Y": {
           "hide_name": 0,
-          "bits": [ 6, 7 ],
-          "offset": -1,
-          "upto": 1,
+          "bits": [ 66 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:244.23-244.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:244.9-244.10"
           }
         }
       }
     },
     "v2f_lt": {
       "attributes": {
-        "dynports": "00000000000000000000000000000001",
         "blackbox": "00000000000000000000000000000001",
         "cells_not_processed": "00000000000000000000000000000001",
         "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:209.1-220.10"
@@ -5939,21 +5897,15 @@
       "ports": {
         "A": {
           "direction": "input",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 2, 3 ]
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 ]
         },
         "B": {
           "direction": "input",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 4, 5 ]
+          "bits": [ 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65 ]
         },
         "Y": {
           "direction": "output",
-          "offset": -1,
-          "upto": 1,
-          "bits": [ 6, 7 ]
+          "bits": [ 66 ]
         }
       },
       "cells": {
@@ -5961,29 +5913,23 @@
       "netnames": {
         "A": {
           "hide_name": 0,
-          "bits": [ 2, 3 ],
-          "offset": -1,
-          "upto": 1,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:216.22-216.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:216.15-216.16"
           }
         },
         "B": {
           "hide_name": 0,
-          "bits": [ 4, 5 ],
-          "offset": -1,
-          "upto": 1,
+          "bits": [ 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:217.22-217.23"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:217.15-217.16"
           }
         },
         "Y": {
           "hide_name": 0,
-          "bits": [ 6, 7 ],
-          "offset": -1,
-          "upto": 1,
+          "bits": [ 66 ],
           "attributes": {
-            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:218.23-218.24"
+            "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:218.9-218.10"
           }
         }
       }

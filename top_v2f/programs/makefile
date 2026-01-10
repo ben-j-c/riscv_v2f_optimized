@@ -1,37 +1,50 @@
 AS=/opt/riscv/bin/riscv32-unknown-elf-as
+CC=/opt/riscv/bin/riscv32-unknown-elf-gcc
 LD=/opt/riscv/bin/riscv32-unknown-elf-ld
 OBJCOPY=/opt/riscv/bin/riscv32-unknown-elf-objcopy
 V2F=../../../../target/release/v2f
 
-LD_FLAGS = --no-relax
-LD_FLAGS += -Tlink.ld
+ARCH = -march=rv32im -mabi=ilp32
+CFLAGS = $(ARCH) -ffreestanding -nostdlib -O2 -Wall
+ASFLAGS = $(ARCH)
+LD_FLAGS = --no-relax -Tlink.ld
 
-.PHONY: all clean assemble link objcopy program
+STARTUP := start.o
+C_SRCS := $(wildcard *.c)
+S_SRCS := $(wildcard *.s)
+C_OBJS := $(C_SRCS:.c=.o)
+S_OBJS := $(S_SRCS:.s=.o)
+S_OBJS := $(filter-out $(STARTUP), $(S_OBJS))
+
+
+C_MEMS := $(C_SRCS:.c=.mem)
+S_MEMS := $(S_OBJS:.o=.mem)
+
+.PHONY: all clean program
 
 all: program
+
+program: $(C_MEMS) $(S_MEMS)
 
 clean:
 	rm -f *.o *.elf *.bin *.mem
 
-%.o: %.s
-	$(AS) -march=rv32im -mabi=ilp32 -o $@ $<
+$(C_OBJS): %.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
 
-%.elf: %.o
+$(S_OBJS) $(STARTUP): %.o: %.s
+	$(AS) $(ASFLAGS) -o $@ $<
+
+$(C_SRCS:.c=.elf): %.elf: %.o $(STARTUP)
+	$(LD) $(LD_FLAGS) -o $@ $(STARTUP) $<
+
+$(S_OBJS:.o=.elf): %.elf: %.o
 	$(LD) $(LD_FLAGS) -o $@ $<
+
+# Binaries
 
 %.bin: %.elf
 	$(OBJCOPY) -O binary $< $@
 
 %.mem: %.bin
 	$(V2F) --convert-to-memh -i $< -o $@
-
-assemble: $(patsubst %.s, %.o, $(wildcard *.s))
-	
-
-link: $(patsubst %.s, %.elf, $(wildcard *.s))
-	
-
-objcopy: $(patsubst %.s, %.bin, $(wildcard *.s))
-	
-
-program: $(patsubst %.s, %.mem, $(wildcard *.s))

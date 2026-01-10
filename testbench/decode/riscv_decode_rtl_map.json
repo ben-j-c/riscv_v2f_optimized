@@ -2114,7 +2114,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decode.v:135.45-135.120|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:404.3-404.48"
+            "src": "../../core/riscv/riscv_decode.v:135.36-135.111|/home/ben/repo/verilog2factorio/techmap/v2f_techmap.v:404.3-404.48"
           },
           "port_directions": {
             "A": "input",
@@ -2816,8 +2816,7 @@
           "hide_name": 0,
           "bits": [ 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104 ],
           "attributes": {
-            "keep": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_decode.v:135.26-135.42"
+            "src": "../../core/riscv/riscv_decode.v:135.17-135.33"
           }
         },
         "genblk1.u_dec.branch_o": {
