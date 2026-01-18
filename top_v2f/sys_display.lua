@@ -144,8 +144,8 @@ end
 name = "sys"
 module = name
 module_file = module .. ".v"
-delay = 60
-program = "check_vram"
+delay = 45
+program = "verify_high_level"
 
 if not os.execute("./build_mem " .. program) then
 	error("build_mem failed")

@@ -46,6 +46,6 @@ name = "sys"
 module = name
 module_file = module .. ".v"
 vcd_file = name .. "_tb.vcd"
-delay = 60
+delay = 45
 
 return basic_test(name, module, module_file, vcd_file, delay, true)
