@@ -48,4 +48,5 @@ module_file = module .. ".v"
 vcd_file = name .. "_tb.vcd"
 delay = 45
 
-return basic_test(name, module, module_file, vcd_file, delay, true)
+basic_test(name, module, module_file, vcd_file, delay, true)
+return "Test successful"

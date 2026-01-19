@@ -5,7 +5,7 @@ OBJCOPY=/opt/riscv/bin/riscv32-unknown-elf-objcopy
 V2F=../../../../target/release/v2f
 
 ARCH = -march=rv32im -mabi=ilp32
-CFLAGS = $(ARCH) -ffreestanding -nostdlib -O2 -Wall
+CFLAGS = $(ARCH) -ffreestanding -nostdlib -O3 -Wall
 ASFLAGS = $(ARCH)
 LD_FLAGS = --no-relax -Tlink.ld
 

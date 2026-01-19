@@ -36,7 +36,7 @@ opt_muxtree
 opt_reduce
 opt_merge -share_all
 #opt_share
-#opt_dff -sat
+opt_dff -sat
 opt_clean
 opt_expr
 muxpack
