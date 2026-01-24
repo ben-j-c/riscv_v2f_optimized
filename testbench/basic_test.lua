@@ -24,7 +24,7 @@ function basic_test(name, module, module_file, vcd_file, delay)
 	end
 	sim = logd:new_simulation()
 	if not sim:apply_vcd(vcd_file, inputs, outputs, delay, true) then
-		sim:inspect()
+		--sim:inspect()
 		error("apply vcd failed")
 	end
 	print(name .. " sim matches VCD")

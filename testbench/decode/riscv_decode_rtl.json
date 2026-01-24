@@ -1,5 +1,5 @@
 {
-  "creator": "Yosys 0.52 (git sha1 fee39a328, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)",
+  "creator": "Yosys 0.61 (git sha1 5ae48ee25, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)",
   "modules": {
     "riscv_decode": {
       "attributes": {
@@ -7027,6 +7027,7 @@
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:39.22-39.23"
           }
         },
@@ -7034,6 +7035,7 @@
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:40.22-40.23"
           }
         },
@@ -7041,6 +7043,7 @@
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:41.23-41.24"
           }
         }
@@ -7429,6 +7432,7 @@
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:280.29-280.30"
           }
         },
@@ -7682,6 +7686,7 @@
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:154.22-154.23"
           }
         },
@@ -7689,6 +7694,7 @@
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:155.22-155.23"
           }
         },
@@ -7696,6 +7702,7 @@
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:156.23-156.24"
           }
         }
@@ -7767,6 +7774,7 @@
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:187.22-187.23"
           }
         },
@@ -7774,6 +7782,7 @@
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:188.22-188.23"
           }
         },
@@ -7781,6 +7790,7 @@
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:189.23-189.24"
           }
         }
@@ -7852,6 +7862,7 @@
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:165.22-165.23"
           }
         },
@@ -7859,6 +7870,7 @@
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:166.22-166.23"
           }
         },
@@ -7866,6 +7878,7 @@
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:167.23-167.24"
           }
         }
@@ -7937,6 +7950,7 @@
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:176.22-176.23"
           }
         },
@@ -7944,6 +7958,7 @@
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:177.22-177.23"
           }
         },
@@ -7951,6 +7966,7 @@
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:178.23-178.24"
           }
         }

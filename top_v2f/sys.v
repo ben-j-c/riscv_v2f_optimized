@@ -13,31 +13,31 @@ module sys(
 );
 	wire          clk_i;
 	wire          rst_i;
-	(*keep*)wire [ 31:0]  mem_d_data_rd_i; // port
-	(*keep*)wire          mem_d_accept_i;// constant 1
-	(*keep*)wire          mem_d_ack_i; // enable piped
-	(*keep*)wire          mem_d_error_i; // constant 0
-	(*keep*)wire [ 10:0]  mem_d_resp_tag_i; // need to be piped
-	(*keep*)wire          mem_i_accept_i; // constant 1
-	(*keep*)wire          mem_i_valid_i; // constant 1
-	(*keep*)wire          mem_i_error_i; // constant 0
-	(*keep*)wire [ 31:0]  mem_i_inst_i; // port
+	wire [ 31:0]  mem_d_data_rd_i; // port
+	wire          mem_d_accept_i;// constant 1
+	wire          mem_d_ack_i; // enable piped
+	wire          mem_d_error_i; // constant 0
+	wire [ 10:0]  mem_d_resp_tag_i; // need to be piped
+	wire          mem_i_accept_i; // constant 1
+	wire          mem_i_valid_i; // constant 1
+	wire          mem_i_error_i; // constant 0
+	wire [ 31:0]  mem_i_inst_i; // port
 	wire          intr_i; // constant 0
 	wire [ 31:0]  reset_vector_i; // constant 0
 	wire [ 31:0]  cpu_id_i; // constant 0
-	(*keep*)wire [ 31:0]  mem_d_addr_o; // port
-	(*keep*)wire [ 31:0]  mem_d_data_wr_o; // port
-	(*keep*)wire          mem_d_rd_o; // enable
-	(*keep*)wire [  3:0]  mem_d_wr_o; // important
-	(*keep*)wire          mem_d_cacheable_o; // dont care
-	(*keep*)wire [ 10:0]  mem_d_req_tag_o; // need to be piped
-	(*keep*)wire          mem_d_invalidate_o; // dont care
-	(*keep*)wire          mem_d_writeback_o;
-	(*keep*)wire          mem_d_flush_o; // dont care
-	(*keep*)wire          mem_i_rd_o;
-	(*keep*)wire          mem_i_flush_o; // dont care
-	(*keep*)wire          mem_i_invalidate_o; // dont care
-	(*keep*) wire [ 31:0]  mem_i_pc_o;
+	wire [ 31:0]  mem_d_addr_o; // port
+	wire [ 31:0]  mem_d_data_wr_o; // port
+	wire          mem_d_rd_o; // enable
+	wire [  3:0]  mem_d_wr_o; // important
+	wire          mem_d_cacheable_o; // dont care
+	wire [ 10:0]  mem_d_req_tag_o; // need to be piped
+	wire          mem_d_invalidate_o; // dont care
+	wire          mem_d_writeback_o;
+	wire          mem_d_flush_o; // dont care
+	wire          mem_i_rd_o;
+	wire          mem_i_flush_o; // dont care
+	wire          mem_i_invalidate_o; // dont care
+	wire [ 31:0]  mem_i_pc_o;
 
 	riscv_core core(
 		.clk_i(clk_i),

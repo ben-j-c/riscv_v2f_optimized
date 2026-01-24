@@ -1,5 +1,5 @@
 {
-  "creator": "Yosys 0.52 (git sha1 fee39a328, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)",
+  "creator": "Yosys 0.61 (git sha1 5ae48ee25, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)",
   "modules": {
     "riscv_exec": {
       "attributes": {
@@ -249,7 +249,7 @@
             "Y": [ 416 ]
           }
         },
-        "$auto$ff.cc:266:slice$3248": {
+        "$auto$ff.cc:337:slice$3248": {
           "hide_name": 1,
           "type": "$adffe",
           "parameters": {
@@ -277,7 +277,7 @@
             "Q": [ 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284 ]
           }
         },
-        "$auto$ff.cc:266:slice$3249": {
+        "$auto$ff.cc:337:slice$3249": {
           "hide_name": 1,
           "type": "$adffe",
           "parameters": {
@@ -305,7 +305,7 @@
             "Q": [ 187 ]
           }
         },
-        "$auto$ff.cc:266:slice$3250": {
+        "$auto$ff.cc:337:slice$3250": {
           "hide_name": 1,
           "type": "$adffe",
           "parameters": {
@@ -333,7 +333,7 @@
             "Q": [ 186 ]
           }
         },
-        "$auto$ff.cc:266:slice$3251": {
+        "$auto$ff.cc:337:slice$3251": {
           "hide_name": 1,
           "type": "$adffe",
           "parameters": {
@@ -361,7 +361,7 @@
             "Q": [ 185 ]
           }
         },
-        "$auto$ff.cc:266:slice$3252": {
+        "$auto$ff.cc:337:slice$3252": {
           "hide_name": 1,
           "type": "$adffe",
           "parameters": {
@@ -389,7 +389,7 @@
             "Q": [ 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184 ]
           }
         },
-        "$auto$ff.cc:266:slice$3253": {
+        "$auto$ff.cc:337:slice$3253": {
           "hide_name": 1,
           "type": "$adffe",
           "parameters": {
@@ -417,7 +417,7 @@
             "Q": [ 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219 ]
           }
         },
-        "$auto$ff.cc:266:slice$3254": {
+        "$auto$ff.cc:337:slice$3254": {
           "hide_name": 1,
           "type": "$adffe",
           "parameters": {
@@ -445,7 +445,7 @@
             "Q": [ 152 ]
           }
         },
-        "$auto$ff.cc:266:slice$3255": {
+        "$auto$ff.cc:337:slice$3255": {
           "hide_name": 1,
           "type": "$adffe",
           "parameters": {
@@ -1416,7 +1416,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:142.11-142.11"
           },
           "port_directions": {
             "A": "input",
@@ -1438,7 +1438,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:142.11-142.11"
           },
           "port_directions": {
             "A": "input",
@@ -1465,7 +1465,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:135.11-135.11"
           },
           "port_directions": {
             "A": "input",
@@ -1490,7 +1490,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:131.11-131.11"
           },
           "port_directions": {
             "A": "input",
@@ -1515,7 +1515,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:127.11-127.11"
           },
           "port_directions": {
             "A": "input",
@@ -1540,7 +1540,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:120.11-120.11"
           },
           "port_directions": {
             "A": "input",
@@ -1565,7 +1565,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:116.11-116.11"
           },
           "port_directions": {
             "A": "input",
@@ -1590,7 +1590,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:109.11-109.11"
           },
           "port_directions": {
             "A": "input",
@@ -1615,7 +1615,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:105.11-105.11"
           },
           "port_directions": {
             "A": "input",
@@ -1640,7 +1640,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:98.11-98.11"
           },
           "port_directions": {
             "A": "input",
@@ -1665,7 +1665,7 @@
           },
           "attributes": {
             "full_case": "00000000000000000000000000000001",
-            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:0.0-0.0"
+            "src": "../../core/riscv/riscv_exec.v:249.1-255.2|../../core/riscv/riscv_alu.v:91.5-154.12|../../core/riscv/riscv_alu.v:91.20-91.20"
           },
           "port_directions": {
             "A": "input",
@@ -5167,6 +5167,7 @@
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:39.22-39.23"
           }
         },
@@ -5174,6 +5175,7 @@
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:40.22-40.23"
           }
         },
@@ -5181,6 +5183,7 @@
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:41.23-41.24"
           }
         }
@@ -5569,6 +5572,7 @@
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:280.29-280.30"
           }
         },
@@ -5822,6 +5826,7 @@
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:154.22-154.23"
           }
         },
@@ -5829,6 +5834,7 @@
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:155.22-155.23"
           }
         },
@@ -5836,6 +5842,7 @@
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:156.23-156.24"
           }
         }
@@ -5907,6 +5914,7 @@
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:187.22-187.23"
           }
         },
@@ -5914,6 +5922,7 @@
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:188.22-188.23"
           }
         },
@@ -5921,6 +5930,7 @@
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:189.23-189.24"
           }
         }
@@ -5992,6 +6002,7 @@
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:165.22-165.23"
           }
         },
@@ -5999,6 +6010,7 @@
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:166.22-166.23"
           }
         },
@@ -6006,6 +6018,7 @@
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:167.23-167.24"
           }
         }
@@ -6077,6 +6090,7 @@
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:176.22-176.23"
           }
         },
@@ -6084,6 +6098,7 @@
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:177.22-177.23"
           }
         },
@@ -6091,6 +6106,7 @@
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
             "src": "/home/ben/repo/verilog2factorio/v2flib/v2f_primitives.v:178.23-178.24"
           }
         }
