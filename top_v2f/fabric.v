@@ -1,5 +1,6 @@
 `include "hex_display_panel_mm.v"
 `include "reg_vram_mm.v"
+`include "char_display/char_display.v"
 
 `define CONNECT_DISP(ID, ADDR) \
     (* keep *) wire [3:0] disp_``ID``_signal_0; \
@@ -141,4 +142,12 @@ module fabric
 	`VRAM_REG(5, 20);
 	`VRAM_REG(6, 24);
 	`VRAM_REG(7, 28);
+
+	char_display #(.ADDR_SET(BEGIN_VRAM + 32'h40)) char_d0(
+						.clk(clk),
+						.arst(arst),
+						.data_addr(data_addr),
+						.wr_data(wr_data),
+						.wr_bs(wr_bs));
+	
 endmodule

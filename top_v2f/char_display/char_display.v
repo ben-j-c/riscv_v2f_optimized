@@ -1,3 +1,4 @@
+`include "char_font_decoder_8x8.v"
 
 module char_display(
 	input clk,
@@ -13,22 +14,22 @@ module char_display(
 	wire en_wr = data_addr == ADDR_SET && |wr_bs;
 	wire en_clear = data_addr == (ADDR_SET + 4) && |wr_bs;
 
-	(*keep*) wire[7:0] char_00 = data[00];
-	(*keep*) wire[7:0] char_01 = data[01];
-	(*keep*) wire[7:0] char_02 = data[02];
-	(*keep*) wire[7:0] char_03 = data[03];
-	(*keep*) wire[7:0] char_04 = data[04];
-	(*keep*) wire[7:0] char_05 = data[05];
-	(*keep*) wire[7:0] char_06 = data[06];
-	(*keep*) wire[7:0] char_07 = data[07];
-	(*keep*) wire[7:0] char_08 = data[08];
-	(*keep*) wire[7:0] char_09 = data[09];
-	(*keep*) wire[7:0] char_10 = data[10];
-	(*keep*) wire[7:0] char_11 = data[11];
-	(*keep*) wire[7:0] char_12 = data[12];
-	(*keep*) wire[7:0] char_13 = data[13];
-	(*keep*) wire[7:0] char_14 = data[14];
-	(*keep*) wire[7:0] char_15 = data[15];
+	wire[7:0] char_00 = data[00];
+	wire[7:0] char_01 = data[01];
+	wire[7:0] char_02 = data[02];
+	wire[7:0] char_03 = data[03];
+	wire[7:0] char_04 = data[04];
+	wire[7:0] char_05 = data[05];
+	wire[7:0] char_06 = data[06];
+	wire[7:0] char_07 = data[07];
+	wire[7:0] char_08 = data[08];
+	wire[7:0] char_09 = data[09];
+	wire[7:0] char_10 = data[10];
+	wire[7:0] char_11 = data[11];
+	wire[7:0] char_12 = data[12];
+	wire[7:0] char_13 = data[13];
+	wire[7:0] char_14 = data[14];
+	wire[7:0] char_15 = data[15];
 
 	integer i;
 	always @(posedge clk or posedge arst) begin
@@ -49,4 +50,20 @@ module char_display(
 			end
 		end
 	end
+	char_font_decoder_8x8 d0(.char_in(char_00));
+	char_font_decoder_8x8 d1(.char_in(char_01));
+	char_font_decoder_8x8 d2(.char_in(char_02));
+	char_font_decoder_8x8 d3(.char_in(char_03));
+	char_font_decoder_8x8 d4(.char_in(char_04));
+	char_font_decoder_8x8 d5(.char_in(char_05));
+	char_font_decoder_8x8 d6(.char_in(char_06));
+	char_font_decoder_8x8 d7(.char_in(char_07));
+	char_font_decoder_8x8 d8(.char_in(char_08));
+	char_font_decoder_8x8 d9(.char_in(char_09));
+	char_font_decoder_8x8 d10(.char_in(char_10));
+	char_font_decoder_8x8 d11(.char_in(char_11));
+	char_font_decoder_8x8 d12(.char_in(char_12));
+	char_font_decoder_8x8 d13(.char_in(char_13));
+	char_font_decoder_8x8 d14(.char_in(char_14));
+	char_font_decoder_8x8 d15(.char_in(char_15));
 endmodule
