@@ -2,23 +2,15 @@
 module char_font_decoder_8x8(
 	input [7:0] char_in
 );
-	reg[7:0] row0;
-	reg[7:0] row1;
-	reg[7:0] row2;
-	reg[7:0] row3;
-	reg[7:0] row4;
-	reg[7:0] row5;
-	reg[7:0] row6;
-	reg[7:0] row7;
+	(*keep, v2f_signal="signal_0"*)reg[7:0] row0;
+	(*keep, v2f_signal="signal_1"*)reg[7:0] row1;
+	(*keep, v2f_signal="signal_2"*)reg[7:0] row2;
+	(*keep, v2f_signal="signal_3"*)reg[7:0] row3;
+	(*keep, v2f_signal="signal_4"*)reg[7:0] row4;
+	(*keep, v2f_signal="signal_5"*)reg[7:0] row5;
+	(*keep, v2f_signal="signal_6"*)reg[7:0] row6;
+	(*keep, v2f_signal="signal_7"*)reg[7:0] row7;
 
-	(*keep*)wire[7:0] signal_0_row0 = row0;
-	(*keep*)wire[7:0] signal_1_row1 = row1;
-	(*keep*)wire[7:0] signal_2_row2 = row2;
-	(*keep*)wire[7:0] signal_3_row3 = row3;
-	(*keep*)wire[7:0] signal_4_row4 = row4;
-	(*keep*)wire[7:0] signal_5_row5 = row5;
-	(*keep*)wire[7:0] signal_6_row6 = row6;
-	(*keep*)wire[7:0] signal_7_row7 = row7;
 	always @(char_in) begin
 		case (char_in)
 			32: begin // space

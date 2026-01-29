@@ -10,5 +10,6 @@ iverilog -o tb_obj *tb.v -Wall \
 	-y ../../../v2flib/ \
 	-y . \
 	-I ../core/riscv \
+	-I ./char_display \
 	-I ../../../v2flib/ \
 		&& vvp tb_obj
