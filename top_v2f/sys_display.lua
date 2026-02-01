@@ -141,6 +141,32 @@ function add_lamp_indicator(computer, x, y, sig, name)
 	return ret
 end
 
+---@param computer EnsembleAPI
+---@param x integer
+---@param y integer
+---@param sig Signal
+function add_ascii_display_and_driver(computer, x, y, sig)
+	local last_px_row = nil
+	local last_px_prev_row = nil
+	for row = 0, 7 do
+		last_px_row = nil
+		for col = 0, 7 do
+			local sig_pixel = SignalId(row * 8 + col)
+			local px = computer:add_lamp(x + col, y + row, Expr(sig_pixel, "!=", 0)) or error("occupied")
+			if last_px_row ~= nil then
+				computer:connect(last_px_row.input.red, px.input)
+			end
+			last_px_row = px
+		end
+		if last_px_prev_row ~= nil then
+			computer:connect(last_px_prev_row.input.red, last_px_row.input)
+		end
+		last_px_prev_row = last_px_row
+	end
+
+	local font = require("char_display.font")
+end
+
 name = "sys"
 module = name
 module_file = module .. ".v"

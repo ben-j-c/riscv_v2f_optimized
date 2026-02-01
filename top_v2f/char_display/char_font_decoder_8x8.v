@@ -11,8 +11,8 @@ module char_font_decoder_8x8(
 	(*keep, v2f_signal="signal_6"*)reg[7:0] row6;
 	(*keep, v2f_signal="signal_7"*)reg[7:0] row7;
 
-	always @(char_in) begin
-		case (char_in)
+	always @(*) begin
+		case (char_in[6:0])
 			32: begin // space
 				row0 <= 8'b00000000;
 				row1 <= 8'b00000000;
