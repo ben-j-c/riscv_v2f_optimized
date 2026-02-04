@@ -25,7 +25,6 @@ function basic_test(name, module, module_file, vcd_file, delay, use_json_rtl)
 	outputs = {}
 	for index, value in pairs(logd:out_ports()) do
 		outputs["sys_tb.dut." .. index] = value
-		print(index)
 	end
 
 	if not os.execute("./makevcd") then
@@ -46,7 +45,7 @@ name = "sys"
 module = name
 module_file = module .. ".v"
 vcd_file = name .. "_tb.vcd"
-delay = 31
+delay = 50
 
 basic_test(name, module, module_file, vcd_file, delay, false)
 return "Test successful"
