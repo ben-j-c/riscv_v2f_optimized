@@ -15,11 +15,13 @@
 #define VRAM_DISPLAY_7                 (VRAM_DISPLAY(7))
 #define VRAM_DISPLAY_SET(INDEX, VALUE) (*VRAM_DISPLAY(INDEX) = (int) (VALUE))
 
-#define VRAM_LINE_DEVICE_BEGIN      (VRAM_BEGIN + 0x40)
+#define VRAM_LINE_DEVICE_BEGIN      (VRAM_BEGIN + 0x40 / sizeof(int))
 #define VRAM_LINE_DEVICE_CHAR_ADDR  (VRAM_LINE_DEVICE_BEGIN)
 #define VRAM_LINE_DEVICE_CLEAR_ADDR (VRAM_LINE_DEVICE_BEGIN + 1)
+#define VRAM_LINE_DEVICE_PUTC(C)    (*VRAM_LINE_DEVICE_CHAR_ADDR = (int) (C))
+#define VRAM_LINE_DEVICE_CLEAR      (*VRAM_LINE_DEVICE_CLEAR_ADDR = 1)
 
-#define VRAM_PX_BEGIN               (VRAM_BEGIN + 0x100)
+#define VRAM_PX_BEGIN               (VRAM_BEGIN + 0x40 / sizeof(int))
 #define VRAM_PX_WIDTH               (32)
 #define VRAM_PX_HEIGHT              (32)
 #define VRAM_PX_N                   (VRAM_PX_DEVICE_WIDTH * VRAM_PX_DEVICE_HEIGHT)

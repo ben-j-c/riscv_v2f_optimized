@@ -142,36 +142,76 @@ function add_lamp_indicator(computer, x, y, sig, name)
 end
 
 ---@param computer EnsembleAPI
----@param x integer
----@param y integer
----@param sig Signal
+---@param x integer top left corner
+---@param y integer top left corner
+---@param sig Signal input signal
+---@return Decider -- input combinator
 function add_ascii_display_and_driver(computer, x, y, sig)
-	local last_px_row = nil
-	local last_px_prev_row = nil
+	-- add pixel array.
+	local pixels = {}
 	for row = 0, 7 do
-		last_px_row = nil
+		pixels[row] = {}
 		for col = 0, 7 do
 			local sig_pixel = SignalId(row * 8 + col)
 			local px = computer:add_lamp(x + col, y + row, Expr(sig_pixel, "!=", 0)) or error("occupied")
-			if last_px_row ~= nil then
-				computer:connect(last_px_row.input.red, px.input)
-			end
-			last_px_row = px
+			pixels[row][col] = px
 		end
-		if last_px_prev_row ~= nil then
-			computer:connect(last_px_prev_row.input.red, last_px_row.input)
-		end
-		last_px_prev_row = last_px_row
 	end
 
 	local font = require("char_display.font")
+
+	-- make the pixel drivers
+	local drivers = {}
+	for row = 0, 15 do
+		drivers[row] = {}
+		local px_row = row >> 1
+		for col = 0, 3 do
+			local driver = computer:add_decider(x + col * 2, y + row + 10) or error("occupied")
+			drivers[row][col] = driver
+			local px_col = col * 2 + row % 2
+			driver:add_output(SignalId(px_row * 8 + px_col), 1, NET_NONE)
+			for char_idx = 0, 127 do
+				local char = font[char_idx]
+				local char_row = char[px_row + 1]
+				local char_px = char_row:sub(px_col + 1, px_col + 1)
+				if char_px == "1" then
+					driver:add_condition(OR, Expr(sig, "==", char_idx), NET_RED, NET_NONE)
+				end
+			end
+		end
+	end
+
+	-- hook up all drivers in parallel
+	for i = 0, 2 do
+		computer:connect(drivers[15][i].input.red, drivers[15][i + 1].input)
+		computer:connect(drivers[15][i].output.red, drivers[15][i + 1].output)
+	end
+	for i = 0, 3 do
+		for j = 0, 14 do
+			computer:connect(drivers[j][i].input.red, drivers[j + 1][i].input)
+			computer:connect(drivers[j][i].output.red, drivers[j + 1][i].output)
+		end
+	end
+	-- hook up all pixels in parallel
+	for i = 0, 6 do
+		computer:connect(pixels[i][0].input.red, pixels[i + 1][0].input)
+	end
+	for i = 0, 7 do
+		for j = 0, 6 do
+			computer:connect(pixels[i][j].input.red, pixels[i][j + 1].input)
+		end
+	end
+	-- finally connect the driver array to the pixel array
+	computer:connect(drivers[0][0].output.red, pixels[7][0].input)
+
+	return drivers[15][0]
 end
 
 name = "sys"
 module = name
 module_file = module .. ".v"
-delay = 45
-program = "verify_high_level"
+delay = 40
+program = "hello_world"
 
 if not os.execute("./build_mem " .. program) then
 	error("build_mem failed")
@@ -227,7 +267,7 @@ for idx, name in pairs(hex_ports) do
 	if name == "" then
 		goto continue
 	end
-	port = computer:find_out_port(name) or error()
+	port = computer:find_out_port(name) or error("can't find " .. name)
 	driver = add_hex_driver_and_display(computer, width + 20, (idx - 1) * 2, port.signals[1])
 	driver:set_description(name)
 	hex_ports_sinks[name] = driver.input
@@ -236,17 +276,41 @@ end
 
 -- Lamps for single bit values
 indicator_ports = {
-	name .. ".mem_d_error_i",
-	name .. ".mem_i_error_i",
-	name .. ".vram_en",
-	name .. ".mem_d_rd_o",
-	name .. ".mem_i_rd_o",
+	-- name .. ".mem_d_error_i",
+	-- name .. ".mem_i_error_i",
+	-- name .. ".vram_en",
+	-- name .. ".mem_d_rd_o",
+	-- name .. ".mem_i_rd_o",
 }
 indicator_ports_sinks = {}
 for idx, name in pairs(indicator_ports) do
-	port = computer:find_out_port(name) or error()
+	port = computer:find_out_port(name) or error("cant find " .. name)
 	indicator = add_lamp_indicator(computer, width + 20, 80 + idx - 1, port.signals[1], name)
 	indicator_ports_sinks[name] = indicator.input
+end
+
+-- ascii displays
+ascii_displays = {}
+ascii_ports = {
+	{ name = name .. ".fab.char_d0.char_00", signal = "signal-0" },
+	{ name = name .. ".fab.char_d0.char_01", signal = "signal-1" },
+	{ name = name .. ".fab.char_d0.char_02", signal = "signal-2" },
+	{ name = name .. ".fab.char_d0.char_03", signal = "signal-3" },
+	{ name = name .. ".fab.char_d0.char_04", signal = "signal-4" },
+	{ name = name .. ".fab.char_d0.char_05", signal = "signal-5" },
+	{ name = name .. ".fab.char_d0.char_06", signal = "signal-6" },
+	{ name = name .. ".fab.char_d0.char_07", signal = "signal-7" },
+	{ name = name .. ".fab.char_d0.char_08", signal = "signal-8" },
+	{ name = name .. ".fab.char_d0.char_09", signal = "signal-9" },
+	{ name = name .. ".fab.char_d0.char_10", signal = "signal-a" },
+	{ name = name .. ".fab.char_d0.char_11", signal = "signal-b" },
+	{ name = name .. ".fab.char_d0.char_12", signal = "signal-c" },
+	{ name = name .. ".fab.char_d0.char_13", signal = "signal-d" },
+	{ name = name .. ".fab.char_d0.char_14", signal = "signal-e" },
+	{ name = name .. ".fab.char_d0.char_15", signal = "signal-f" },
+}
+for idx, port in pairs(ascii_ports) do
+	ascii_displays[idx] = add_ascii_display_and_driver(computer, width + 60 + (idx - 1) * 10, 40, Signal(port.signal))
 end
 
 -- connect displays
@@ -258,6 +322,15 @@ end
 for name, sink in pairs(indicator_ports_sinks) do
 	port = computer:find_out_port(name) or error()
 	computer:connect(port.input.red, sink)
+end
+
+for i = 1, 15 do
+	computer:connect(ascii_displays[i].input.red, ascii_displays[i + 1].input)
+end
+
+for idx, ascii_port in pairs(ascii_ports) do
+	port = computer:find_out_port(ascii_port.name) or error("cant find " .. ascii_port.name)
+	computer:connect(port.input.red, ascii_displays[idx].input)
 end
 
 

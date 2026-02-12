@@ -13,7 +13,7 @@ module sys(
 );
 	wire          clk_i;
 	wire          rst_i;
-	wire [ 31:0]  mem_d_data_rd_i; // port
+	(*keep*) wire [ 31:0]  mem_d_data_rd_i; // port
 	wire          mem_d_accept_i;// constant 1
 	wire          mem_d_ack_i; // enable piped
 	wire          mem_d_error_i; // constant 0
@@ -25,10 +25,10 @@ module sys(
 	wire          intr_i; // constant 0
 	wire [ 31:0]  reset_vector_i; // constant 0
 	wire [ 31:0]  cpu_id_i; // constant 0
-	wire [ 31:0]  mem_d_addr_o; // port
-	wire [ 31:0]  mem_d_data_wr_o; // port
+	(*keep*) wire [ 31:0]  mem_d_addr_o; // port
+	(*keep*) wire [ 31:0]  mem_d_data_wr_o; // port
 	wire          mem_d_rd_o; // enable
-	wire [  3:0]  mem_d_wr_o; // important
+	(*keep*) wire [  3:0]  mem_d_wr_o; // important
 	wire          mem_d_cacheable_o; // dont care
 	wire [ 10:0]  mem_d_req_tag_o; // need to be piped
 	wire          mem_d_invalidate_o; // dont care
