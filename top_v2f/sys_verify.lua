@@ -46,6 +46,11 @@ module = name
 module_file = module .. ".v"
 vcd_file = name .. "_tb.vcd"
 delay = 40
+program = "simple_counter"
+
+if not os.execute("./build_mem " .. program) then
+	error("build_mem failed")
+end
 
 basic_test(name, module, module_file, vcd_file, delay, true)
 return "Test successful"

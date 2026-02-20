@@ -1,3 +1,9 @@
+name = "sys"
+module = name
+module_file = module .. ".v"
+delay = 40
+program = "simple_counter"
+
 ---comment
 ---@param module string
 ---@param module_file string
@@ -206,12 +212,6 @@ function add_ascii_display_and_driver(computer, x, y, sig)
 
 	return drivers[15][0]
 end
-
-name = "sys"
-module = name
-module_file = module .. ".v"
-delay = 40
-program = "hello_world"
 
 if not os.execute("./build_mem " .. program) then
 	error("build_mem failed")

@@ -70,21 +70,21 @@ module riscv_csr_regfile_simplified
     //,output [31:0]   status_o
     //,output [31:0]   satp_o
     //,output [31:0]   interrupt_o
-    //,output reg [31:0]  csr_mcycle_q
-    ,output tmp
 );
-wire [31:0] csr_rdata_o;
-wire csr_branch_o;
-wire [31:0] csr_target_o;
-wire [1:0] priv_o;
-wire [31:0] status_o;
-wire [31:0] satp_o;
-wire [31:0] interrupt_o;
 
 //-----------------------------------------------------------------
 // Includes
 //-----------------------------------------------------------------
 `include "riscv_defs.v"
+
+
+wire [31:0]   csr_rdata_o;
+wire          csr_branch_o;
+wire [31:0]   csr_target_o;
+wire [1:0]    priv_o;
+wire [31:0]   status_o;
+wire [31:0]   satp_o;
+wire [31:0]   interrupt_o;
 
 //-----------------------------------------------------------------
 // Registers / Wires
@@ -93,6 +93,8 @@ wire [31:0] interrupt_o;
 reg [31:0]  csr_mepc_q;
 reg [31:0]  csr_mcause_q;
 reg [31:0]  csr_sr_q;
+(*keep*) wire tmp_1 = csr_sr_r[1];
+(*keep*) wire tmp_5 = csr_sr_q[5];
 reg [31:0]  csr_mtvec_q;
 reg [31:0]  csr_mip_q;
 reg [31:0]  csr_mie_q;
@@ -247,9 +249,6 @@ reg [31:0]  csr_sscratch_r;
 
 wire is_exception_w = ((exception_i & `EXCEPTION_TYPE_MASK) == `EXCEPTION_EXCEPTION);
 wire exception_s_w  = SUPPORT_SUPER ? ((csr_mpriv_q <= `PRIV_SUPER) & is_exception_w & csr_medeleg_q[{1'b0, exception_i[`EXCEPTION_SUBTYPE_R]}]) : 1'b0;
-
-
-assign tmp = csr_sr_r[`SR_SPIE_R];
 
 always @ *
 begin
