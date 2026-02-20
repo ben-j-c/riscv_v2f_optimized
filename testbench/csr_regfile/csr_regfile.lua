@@ -1,6 +1,6 @@
 rtl = yosys_load_rtl("../../core/riscv/riscv_csr_regfile.v", "riscv_csr_regfile")
 logd = yosys_map_rtl(rtl)
-delay = 20
+delay = 50
 
 
 inputs = {}

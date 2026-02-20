@@ -22,8 +22,6 @@ module tb;
 	wire [31:0] status_o;
 	wire [31:0] satp_o;
 	wire [31:0] interrupt_o;
-	wire [31:0] csr_mcycle_q;
-	wire tmp; 
 
 	riscv_csr_regfile_simplified dut (
 		.clk_i(clk_i),
@@ -38,16 +36,14 @@ module tb;
 		.csr_ren_i(csr_ren_i),
 		.csr_raddr_i(csr_raddr_i),
 		.csr_waddr_i(csr_waddr_i),
-		.csr_wdata_i(csr_wdata_i),
+		.csr_wdata_i(csr_wdata_i)//,
 		//.csr_rdata_o(csr_rdata_o),
 		//.csr_branch_o(csr_branch_o),
 		//.csr_target_o(csr_target_o),
 		//.priv_o(priv_o),
 		//.status_o(status_o),
-		//.satp_o(satp_o)
+		//.satp_o(satp_o),
 		//.interrupt_o(interrupt_o)
-		//csr_mcycle_q(csr_mcycle_q)
-		.tmp(tmp)
 	);
 
 	integer i;
