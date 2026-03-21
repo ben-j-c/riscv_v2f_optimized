@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.4.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.0">
   <diagram name="Page-1" id="8tMiZ2iZtzXyoRwdGS_Y">
-    <mxGraphModel dx="1425" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2296" dy="1208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,7 +78,7 @@
         <mxCell id="mwrcRj_gNHAAUkLUHhGO-31" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Lua Scripted Flow (CLI only)&lt;/h1&gt;&lt;p&gt;Designs that want to leverage Verilog must use the scripted Lua flow. The orange to blue path describes all the steps necessary.&lt;/p&gt;&lt;p&gt;Each block and ellipse can be manipulated in your script.&lt;/p&gt;" vertex="1">
           <mxGeometry height="120" width="440" x="40" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="mwrcRj_gNHAAUkLUHhGO-32" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;GUI Flow (available anywhere)&lt;/h1&gt;&lt;p&gt;Designs that want to omit the scripting in favour of a more interactive tool can use the web GUI.&lt;/p&gt;&lt;p&gt;If using a native installation, then Lua scripting and Verilog can be used.&lt;/p&gt;" vertex="1">
+        <mxCell id="mwrcRj_gNHAAUkLUHhGO-32" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;GUI Flow (available anywhere)&lt;/h1&gt;&lt;p&gt;Designs that want to omit the scripting in favour of a more interactive tool can use the web GUI.&lt;/p&gt;&lt;p&gt;If using a native installation, then Lua scripting and Verilog can be used (not currently supported).&lt;/p&gt;" vertex="1">
           <mxGeometry height="120" width="440" x="40" y="650" as="geometry" />
         </mxCell>
         <mxCell id="mwrcRj_gNHAAUkLUHhGO-36" edge="1" parent="1" source="mwrcRj_gNHAAUkLUHhGO-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;dashed=1;" target="mwrcRj_gNHAAUkLUHhGO-35">
